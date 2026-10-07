@@ -1,0 +1,37 @@
+<!doctype html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 提示詞工作台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root{--ink:#1c1a17;--body:#3a3630;--muted:#6b6660;--faint:#9a938a;--paper:#f7f6f4;--surface:#fff;--line:#e3dfd9;--line2:#d2ccc2;
+--img:#b8651a;--vid:#157c7c;--neu:#5d574f;
+--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;--sans:"Noto Sans TC",system-ui,-apple-system,"PingFang TC",sans-serif}
+@media(prefers-color-scheme:dark){:root{--ink:#f4f1ec;--body:#d8d2c9;--muted:#a09992;--faint:#746d65;--paper:#161513;--surface:#201e1b;--line:#332f2a;--line2:#453f38;--img:#e08b3a;--vid:#3fb0ae;--neu:#9c948a}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);line-height:1.7}
+.wrap{max-width:780px;margin:0 auto;padding:72px 22px 90px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:14px}
+h1{margin:0;font-size:clamp(30px,6vw,44px);font-weight:900;color:var(--ink);letter-spacing:-.02em}
+.lede{margin:16px 0 0;font-size:16px;max-width:56ch}
+.cards{margin-top:42px;display:grid;gap:14px}
+a.card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--c);border-radius:14px;padding:20px 22px;transition:.15s}
+a.card:hover{border-color:var(--c);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+a.card h2{margin:0;font-size:19px;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:9px}
+a.card .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);padding:2px 7px;border-radius:4px}
+a.card p{margin:9px 0 0;font-size:13.5px;color:var(--muted)}
+.c1{--c:var(--img)}.c2{--c:var(--vid)}.c3{--c:var(--neu)}
+footer{margin-top:52px;font-size:12px;color:var(--faint);border-top:1px solid var(--line);padding-top:20px}
+</style></head><body><div class="wrap">
+<div class="eyebrow">Prompt Workbench</div>
+<h1>AI 提示詞工作台</h1>
+<p class="lede">一整套給設計師的 AI 生圖／生影工具：學原理、組提示詞、排分鏡、查診斷。全部離線可用，不需安裝。</p>
+<div class="cards">
+  <a class="card c1" href="builder.html"><h2>提示詞組裝台 <span class="k">tool</span></h2>
+    <p>填一次欄位，自動組裝成 Krea 2、GPT Image 2、MiniMax H3、標籤式 SD、標籤分區版與人物設定表六種語法。內建 2000＋ 組中英對照詞庫，可自訂詞彙。</p></a>
+  <a class="card c2" href="storyboard.html"><h2>分鏡台 <span class="k">tool</span></h2>
+    <p>規劃多鏡頭敘事，每顆鏡頭各自產出一段影片提示詞，共用設定自動帶入以維持角色一致。</p></a>
+  <a class="card c3" href="handbook.html"><h2>圖影提示詞手冊 <span class="k">guide</span></h2>
+    <p>五章教學與四張模板卡，附 39 組可搜尋的失敗診斷表：症狀 → 真正原因 → 怎麼改。</p></a>
+</div>
+<footer>單一檔案靜態網頁，不需要後端。詞庫資料整理自個人提示詞資料庫。</footer>
+</div></body></html>

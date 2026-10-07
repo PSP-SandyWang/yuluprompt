@@ -1,0 +1,310 @@
+<title>分鏡台</title>
+<meta name="description" content="規劃多鏡頭敘事，自動產出每一顆鏡頭各自的影片提示詞，並維持角色與場景一致。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root{
+  --ink:#1c1a17;--body:#3a3630;--muted:#6b6660;--faint:#9a938a;
+  --paper:#f7f6f4;--surface:#ffffff;--surface-2:#f1efea;--field:#ffffff;
+  --line:#e3dfd9;--line-2:#d2ccc2;
+  --vid:#157c7c;--vid-soft:#e2f2f1;--img:#b8651a;--warn:#b23b2e;
+  --shadow:0 1px 2px rgba(28,26,23,.05),0 10px 28px rgba(28,26,23,.07);
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --sans:"Noto Sans TC",system-ui,-apple-system,"PingFang TC",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#f4f1ec;--body:#d8d2c9;--muted:#a09992;--faint:#746d65;
+  --paper:#161513;--surface:#201e1b;--surface-2:#282521;--field:#1a1816;
+  --line:#332f2a;--line-2:#453f38;
+  --vid:#3fb0ae;--vid-soft:#152a2a;--img:#e08b3a;--warn:#e8705f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.4);}}
+:root[data-theme="dark"]{
+  --ink:#f4f1ec;--body:#d8d2c9;--muted:#a09992;--faint:#746d65;
+  --paper:#161513;--surface:#201e1b;--surface-2:#282521;--field:#1a1816;
+  --line:#332f2a;--line-2:#453f38;
+  --vid:#3fb0ae;--vid-soft:#152a2a;--img:#e08b3a;--warn:#e8705f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.4);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,p{margin:0}
+button,input,textarea,select{font-family:inherit;font-size:inherit}
+
+.top{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1180px;margin:0 auto;padding:13px 20px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:9px}
+.brand .mk{width:11px;height:11px;border-radius:3px;background:var(--vid)}
+.brand h1{font-size:15px;font-weight:900;color:var(--ink)}
+.brand .sub{font-family:var(--mono);font-size:10.5px;color:var(--faint);letter-spacing:.05em}
+.spacer{flex:1}
+.seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px}
+.seg button{border:0;background:transparent;color:var(--muted);font-size:12px;font-weight:700;padding:6px 13px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.seg button:hover{color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--vid);color:#fff}
+
+.main{max-width:1180px;margin:0 auto;padding:22px 20px 80px;display:grid;gap:20px;grid-template-columns:1fr}
+@media(min-width:1000px){.main{grid-template-columns:1fr 420px;align-items:start}}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+.card > h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.card > .note{font-size:12px;color:var(--faint);margin-bottom:12px}
+.f{margin-top:13px}
+.f label{display:flex;align-items:baseline;gap:8px;font-size:12.5px;font-weight:700;color:var(--ink);margin-bottom:5px}
+.f label .tip{font-weight:400;font-size:11px;color:var(--faint)}
+.f input,.f textarea{width:100%;background:var(--field);border:1px solid var(--line-2);border-radius:8px;padding:8px 11px;color:var(--ink);outline:none}
+.f input:focus,.f textarea:focus{border-color:var(--vid);box-shadow:0 0 0 3px color-mix(in srgb,var(--vid) 15%,transparent)}
+.f textarea{resize:vertical;min-height:54px;line-height:1.6}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.chip{font-family:var(--mono);font-size:10.5px;padding:3px 8px;border-radius:5px;border:1px solid var(--line);background:var(--surface-2);color:var(--muted);cursor:pointer}
+.chip:hover{border-color:var(--vid);color:var(--vid);background:transparent}
+
+/* shots */
+.shot{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--vid);border-radius:12px;padding:15px 16px;margin-bottom:12px}
+.shot-h{display:flex;align-items:center;gap:9px;margin-bottom:4px}
+.shot-n{font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;background:var(--vid);width:23px;height:23px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex:none}
+.shot-t{font-weight:700;color:var(--ink);font-size:13.5px}
+.shot-acts{margin-left:auto;display:flex;gap:4px}
+.ic{width:26px;height:26px;border-radius:7px;border:1px solid var(--line-2);background:transparent;color:var(--muted);cursor:pointer;font-size:12px;display:flex;align-items:center;justify-content:center;padding:0}
+.ic:hover{border-color:var(--vid);color:var(--vid)}
+.ic.del:hover{border-color:var(--warn);color:var(--warn)}
+.grid2{display:grid;gap:10px;grid-template-columns:1fr}
+@media(min-width:620px){.grid2{grid-template-columns:1fr 1fr}}
+.addshot{width:100%;padding:12px;border-radius:12px;border:1.5px dashed var(--line-2);background:transparent;color:var(--muted);font-weight:700;cursor:pointer}
+.addshot:hover{border-color:var(--vid);color:var(--vid)}
+
+/* out */
+.out-wrap{position:sticky;top:74px}
+.out{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.out-h{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.out-h .dot{width:9px;height:9px;border-radius:50%;background:var(--vid)}
+.out-h .name{font-weight:700;color:var(--ink);font-size:13px}
+.out-h .count{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+.out-b{padding:14px;max-height:58vh;overflow:auto}
+.shotout{border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin-bottom:10px;background:var(--surface-2)}
+.shotout .sh{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.shotout .sh b{font-family:var(--mono);font-size:10.5px;color:var(--vid)}
+.shotout .sh .cp{margin-left:auto;font-family:var(--mono);font-size:10px;padding:3px 9px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--muted);cursor:pointer}
+.shotout .sh .cp:hover{border-color:var(--vid);color:var(--vid)}
+.shotout pre{font-family:var(--mono);font-size:11.5px;line-height:1.8;white-space:pre-wrap;word-break:break-word;color:var(--ink);margin:0}
+#tableout{font-family:var(--mono);font-size:11px;line-height:1.9;white-space:pre;overflow-x:auto;color:var(--ink);margin:0}
+.out-f{display:flex;gap:8px;padding:0 14px 14px;flex-wrap:wrap}
+.btn{font-size:12px;font-weight:700;padding:8px 15px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--muted);cursor:pointer}
+.btn:hover{border-color:var(--ink);color:var(--ink)}
+.btn.pri{background:var(--vid);border-color:var(--vid);color:#fff}
+.tipbox{margin-top:13px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+.tipbox .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--vid);margin-bottom:5px}
+.tipbox p{font-size:12px;color:var(--muted);line-height:1.65}
+:focus-visible{outline:2px solid var(--vid);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="top">
+  <div class="top-in">
+    <div class="brand"><span class="mk"></span>
+      <div><h1>分鏡台</h1><div class="sub">one prompt per shot</div></div></div>
+    <div class="spacer"></div>
+    <div class="seg" id="viewTabs" role="group" aria-label="輸出模式">
+      <button data-v="shots" aria-pressed="true">逐鏡提示詞</button>
+      <button data-v="table" aria-pressed="false">分鏡表</button>
+      <button data-v="one" aria-pressed="false">單段連續</button>
+    </div>
+    <div class="seg" id="langTabs" role="group" aria-label="語言">
+      <button data-l="cn" aria-pressed="true">中</button>
+      <button data-l="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div>
+    <div class="card">
+      <h2>共用設定 — 一致性基底</h2>
+      <div class="note">這幾項會自動帶進<strong>每一顆鏡頭</strong>，是維持角色與場景不跑掉的關鍵。</div>
+      <div class="f"><label>角色 <span class="tip">越固定越好，每鏡原樣重複</span></label>
+        <textarea id="g_char" placeholder="二十多歲女性，深色風衣、及肩黑髮"></textarea></div>
+      <div class="f"><label>場景</label>
+        <input id="g_scene" placeholder="雨後的台北街頭，濕柏油路反射霓虹"></div>
+      <div class="f"><label>光線與氛圍</label>
+        <input id="g_light" placeholder="霓虹側光、低光、孤獨感">
+        <div class="chips" data-for="g_light">
+          <span class="chip">霓虹側光</span><span class="chip">柔和擴散光</span><span class="chip">逆光輪廓光</span><span class="chip">黃金時刻</span><span class="chip">低光孤獨感</span>
+        </div></div>
+      <div class="f"><label>風格</label>
+        <input id="g_style" placeholder="電影劇照感、冷色調低飽和">
+        <div class="chips" data-for="g_style">
+          <span class="chip">電影劇照感</span><span class="chip">紀實手持感</span><span class="chip">日系清新</span><span class="chip">賽博龐克</span><span class="chip">冷色調低飽和</span>
+        </div></div>
+    </div>
+
+    <div class="card">
+      <h2>鏡頭</h2>
+      <div class="note">影片模型一次只生一顆鏡頭。每顆都會獨立產出一段提示詞。</div>
+      <div id="shots"></div>
+      <button class="addshot" id="add">＋ 新增一顆鏡頭</button>
+    </div>
+  </div>
+
+  <div class="out-wrap">
+    <div class="out">
+      <div class="out-h"><span class="dot"></span><span class="name" id="outName">逐鏡提示詞</span><span class="count" id="count"></span></div>
+      <div class="out-b" id="outBody"></div>
+      <div class="out-f">
+        <button class="btn pri" id="copyAll">複製全部</button>
+        <button class="btn" id="demo">填入範例</button>
+        <button class="btn" id="clear">清空</button>
+      </div>
+    </div>
+    <div class="tipbox"><div class="lbl">為什麼要一鏡一個提示詞</div>
+      <p>影片模型（MiniMax H3、Kling、Sora…）一次只能生成<strong>一顆鏡頭</strong>。所謂「分鏡」就是：先把敘事拆成幾顆，每顆各自生成，再到剪輯軟體接起來。共用設定重複出現，是為了讓每顆鏡頭裡的人<strong>還是同一個人</strong>。</p></div>
+    <div class="tipbox"><div class="lbl">接戲三原則</div>
+      <p>① <strong>視線方向</strong>要連貫，左看右看不能亂跳。② <strong>光源方向</strong>每顆要一致。③ 相鄰鏡頭<strong>景別要有差異</strong>（中景接中景會像跳接失誤）。</p></div>
+  </div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+let lang='cn', view='shots', shots=[];
+
+const SHOTLEN=['3 秒','5 秒','8 秒','10 秒'];
+const SHOTSIZE=[['大遠景','extreme long shot'],['遠景','long shot'],['中景','medium shot'],['腰上中景','waist-up medium shot'],['胸上特寫','chest-up close-up'],['臉部特寫','facial close-up']];
+const MOVES=[['固定不動','a static locked-off shot'],['緩慢推近','slowly pushes in'],['緩慢拉遠','slowly pulls out'],['左橫搖','pans left'],['右橫搖','pans right'],['橫移跟拍','tracks sideways with the subject'],['弧形環繞','arcs around the subject'],['上升','rises on a pedestal move'],['輕微手持晃動','holds with subtle handheld drift']];
+const TRANS=[['硬切','a hard cut'],['疊化','a cross dissolve'],['淡出','fade out to black'],['甩鏡轉場','a whip pan transition'],['匹配剪接','a match cut'],['遮擋轉場','a wipe-by transition']];
+const EN=()=>lang==='en';
+const J=(a,s)=>a.filter(x=>x&&String(x).trim()).join(s);
+
+function newShot(d){return Object.assign({len:'5 秒',size:'中景',move:'緩慢推近',act:'',trans:'硬切',note:''},d||{});}
+
+function render(){
+  $('shots').innerHTML=shots.map((s,i)=>`
+   <div class="shot" data-i="${i}">
+     <div class="shot-h"><span class="shot-n">${i+1}</span><span class="shot-t">鏡頭 ${i+1}</span>
+       <span class="shot-acts">
+         <button class="ic" data-up="${i}" title="上移">↑</button>
+         <button class="ic" data-down="${i}" title="下移">↓</button>
+         <button class="ic" data-dup="${i}" title="複製">⧉</button>
+         <button class="ic del" data-del="${i}" title="刪除">✕</button>
+       </span></div>
+     <div class="f"><label>這顆鏡頭發生什麼 <span class="tip">只給一個主要動作</span></label>
+       <textarea data-k="act" placeholder="她緩緩轉頭看向窗外">${esc(s.act)}</textarea></div>
+     <div class="grid2">
+       <div class="f"><label>時長</label><input data-k="len" value="${esc(s.len)}" list="dl-len"></div>
+       <div class="f"><label>景別</label><input data-k="size" value="${esc(s.size)}" list="dl-size"></div>
+       <div class="f"><label>運鏡</label><input data-k="move" value="${esc(s.move)}" list="dl-move"></div>
+       <div class="f"><label>接下一鏡的轉場</label><input data-k="trans" value="${esc(s.trans)}" list="dl-trans"></div>
+     </div>
+     <div class="f"><label>備註 <span class="tip">不會寫進提示詞，只給妳自己看</span></label>
+       <input data-k="note" value="${esc(s.note)}" placeholder="例：這顆要接上一鏡的視線方向"></div>
+   </div>`).join('');
+  bindShots(); renderOut(); save();
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function bindShots(){
+  document.querySelectorAll('.shot').forEach(el=>{
+    const i=+el.dataset.i;
+    el.querySelectorAll('[data-k]').forEach(inp=>inp.addEventListener('input',()=>{shots[i][inp.dataset.k]=inp.value;renderOut();save();}));
+  });
+  document.querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click',()=>{shots.splice(+b.dataset.del,1);render();}));
+  document.querySelectorAll('[data-dup]').forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.dup;shots.splice(i+1,0,Object.assign({},shots[i]));render();}));
+  document.querySelectorAll('[data-up]').forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.up;if(i>0){[shots[i-1],shots[i]]=[shots[i],shots[i-1]];render();}}));
+  document.querySelectorAll('[data-down]').forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.down;if(i<shots.length-1){[shots[i+1],shots[i]]=[shots[i],shots[i+1]];render();}}));
+}
+
+function tr(cn,pairs){const p=pairs.find(x=>x[0]===cn);return p?p[1]:cn;}
+function shotPrompt(s,i){
+  const ch=$('g_char').value.trim(), sc=$('g_scene').value.trim(),
+        li=$('g_light').value.trim(), st=$('g_style').value.trim();
+  if(EN()){
+    const L=[];
+    L.push((s.len||'').replace(/\s*秒/,'')+'-second shot.');
+    L.push(J([ch,s.act],', ')+'.');
+    L.push('The camera '+tr(s.move,MOVES)+(s.size?(', maintaining a '+tr(s.size,SHOTSIZE)):'')+'.');
+    const env=J([sc,li,st],', '); if(env)L.push(env+'.');
+    L.push('Keep the same character, costume and lighting as the other shots.');
+    return L.join('\n');
+  }
+  const L=[];
+  L.push(s.len+'。');
+  L.push(J([ch,s.act],'，')+'。');
+  L.push('鏡頭'+s.move+(s.size?('，維持'+s.size):'')+'。');
+  const env=J([sc,li,st],'，'); if(env)L.push(env+'。');
+  L.push('與其他鏡頭維持同一個角色、同一套服裝、同一光線方向。');
+  return L.join('\n');
+}
+function renderOut(){
+  const body=$('outBody');
+  $('outName').textContent=view==='shots'?'逐鏡提示詞':(view==='table'?'分鏡表':'單段連續');
+  $('count').textContent=shots.length+' 顆鏡頭';
+  if(!shots.length){body.innerHTML='<p style="color:var(--faint);font-size:12.5px">還沒有鏡頭。按左邊「＋ 新增一顆鏡頭」開始。</p>';return;}
+  if(view==='shots'){
+    body.innerHTML=shots.map((s,i)=>`<div class="shotout"><div class="sh"><b>SHOT ${i+1}</b>
+      <span style="font-size:11px;color:var(--faint)">${esc(s.len)} · ${esc(s.size)}</span>
+      <button class="cp" data-cpi="${i}">複製</button></div><pre>${esc(shotPrompt(s,i))}</pre>
+      ${s.trans?`<div style="font-size:11px;color:var(--faint);margin-top:7px">→ 轉場：${esc(s.trans)}</div>`:''}</div>`).join('');
+    body.querySelectorAll('[data-cpi]').forEach(b=>b.addEventListener('click',()=>cp(shotPrompt(shots[+b.dataset.cpi]),b)));
+  } else if(view==='table'){
+    const rows=[['#','時長','景別','運鏡','內容','轉場','備註'],
+      ...shots.map((s,i)=>[String(i+1),s.len,s.size,s.move,(s.act||'').replace(/\n/g,' '),s.trans,s.note])];
+    const w=rows[0].map((_,c)=>Math.max(...rows.map(r=>[...String(r[c]||'')].reduce((n,ch)=>n+(ch.charCodeAt(0)>255?2:1),0))));
+    const pad=(t,n)=>{t=String(t||'');const len=[...t].reduce((n2,ch)=>n2+(ch.charCodeAt(0)>255?2:1),0);return t+' '.repeat(Math.max(0,n-len));};
+    const line=rows.map((r,ri)=>r.map((c,ci)=>pad(c,w[ci])).join('  ')).join('\n');
+    body.innerHTML='<pre id="tableout">'+esc(line)+'</pre>';
+  } else {
+    body.innerHTML='<div class="shotout"><div class="sh"><b>ONE PROMPT</b><button class="cp" id="cpone">複製</button></div><pre>'+esc(onePrompt())+'</pre></div>';
+    $('cpone').addEventListener('click',e=>cp(onePrompt(),e.target));
+  }
+}
+function onePrompt(){
+  const ch=$('g_char').value.trim(), sc=$('g_scene').value.trim(),
+        li=$('g_light').value.trim(), st=$('g_style').value.trim();
+  if(EN()){
+    const head=J([ch,sc,li,st],', ');
+    const body=shots.map((s,i)=>`Shot ${i+1} (${(s.len||'').replace(/\s*秒/,'')}s): ${s.act}. The camera ${tr(s.move,MOVES)}, ${tr(s.size,SHOTSIZE)}.`+(i<shots.length-1&&s.trans?` Then ${tr(s.trans,TRANS)}.`:'')).join('\n');
+    return head+'\n'+body+'\nSame character, costume and lighting throughout.';
+  }
+  const head=J([ch,sc,li,st],'，');
+  const body=shots.map((s,i)=>`鏡頭 ${i+1}（${s.len}）：${s.act}。鏡頭${s.move}，${s.size}。`+(i<shots.length-1&&s.trans?`接著${s.trans}。`:'')).join('\n');
+  return head+'\n'+body+'\n全片維持同一個角色、服裝與光線。';
+}
+async function cp(t,btn){const o=btn.textContent;
+  try{await navigator.clipboard.writeText(t);btn.textContent='已複製 ✓';}
+  catch(e){btn.textContent='複製失敗';}
+  setTimeout(()=>btn.textContent=o,1600);}
+
+function allText(){
+  if(view==='table'){const p=$('tableout');return p?p.textContent:'';}
+  if(view==='one')return onePrompt();
+  return shots.map((s,i)=>`── SHOT ${i+1} ──\n`+shotPrompt(s,i)+(s.trans?`\n→ 轉場：${s.trans}`:'')).join('\n\n');
+}
+function save(){try{localStorage.setItem('sb',JSON.stringify({shots,g:['g_char','g_scene','g_light','g_style'].map(i=>$(i).value)}));}catch(e){}}
+function load(){try{const d=JSON.parse(localStorage.getItem('sb')||'null');if(d){shots=d.shots||[];['g_char','g_scene','g_light','g_style'].forEach((i,n)=>{if(d.g&&d.g[n])$(i).value=d.g[n];});}}catch(e){}}
+
+document.querySelectorAll('#viewTabs button').forEach(b=>b.addEventListener('click',()=>{
+  view=b.dataset.v;document.querySelectorAll('#viewTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));renderOut();}));
+document.querySelectorAll('#langTabs button').forEach(b=>b.addEventListener('click',()=>{
+  lang=b.dataset.l;document.querySelectorAll('#langTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));renderOut();}));
+document.querySelectorAll('.chips').forEach(box=>box.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
+  const el=$(box.dataset.for);el.value=el.value.trim()?(el.value.trim().replace(/[、,]$/,'')+'、'+c.textContent):c.textContent;renderOut();save();})));
+['g_char','g_scene','g_light','g_style'].forEach(i=>$(i).addEventListener('input',()=>{renderOut();save();}));
+$('add').addEventListener('click',()=>{shots.push(newShot());render();});
+$('copyAll').addEventListener('click',e=>cp(allText(),e.target));
+$('clear').addEventListener('click',()=>{if(confirm('確定清空所有鏡頭與共用設定？')){shots=[];['g_char','g_scene','g_light','g_style'].forEach(i=>$(i).value='');render();}});
+$('demo').addEventListener('click',()=>{
+  $('g_char').value='二十多歲女性，深色風衣、及肩黑髮';
+  $('g_scene').value='雨後的台北街頭，濕柏油路反射霓虹招牌';
+  $('g_light').value='霓虹側光、低光、孤獨感';
+  $('g_style').value='電影劇照感、冷色調低飽和';
+  shots=[newShot({len:'5 秒',size:'大遠景',move:'緩慢推近',act:'她獨自站在空蕩的街口，背對鏡頭',trans:'硬切',note:'開場建立空間'}),
+         newShot({len:'5 秒',size:'腰上中景',move:'橫移跟拍',act:'她開始往前走，雨水在腳邊濺起',trans:'匹配剪接',note:'接上一鏡的行進方向'}),
+         newShot({len:'8 秒',size:'臉部特寫',move:'固定不動',act:'她停下腳步，緩緩抬頭',trans:'淡出',note:'情緒落點，光要從同一側來'})];
+  render();});
+
+const DL=document.createElement('div');
+DL.innerHTML=`<datalist id="dl-len">${SHOTLEN.map(x=>`<option value="${x}">`).join('')}</datalist>
+<datalist id="dl-size">${SHOTSIZE.map(x=>`<option value="${x[0]}">`).join('')}</datalist>
+<datalist id="dl-move">${MOVES.map(x=>`<option value="${x[0]}">`).join('')}</datalist>
+<datalist id="dl-trans">${TRANS.map(x=>`<option value="${x[0]}">`).join('')}</datalist>`;
+document.body.appendChild(DL);
+
+load(); if(!shots.length)shots=[newShot()];
+render();
+</script>
