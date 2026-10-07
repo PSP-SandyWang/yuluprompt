@@ -1,0 +1,496 @@
+<title>圖影提示詞手冊</title>
+<meta name="description" content="給設計師的 AI 圖片與影片提示詞教學，含 Krea 2、MiniMax H3、標籤式模型的填空模板卡。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root{
+  --ink:#1c1a17; --body:#3a3630; --muted:#6b6660; --faint:#9a938a;
+  --paper:#f7f6f4; --surface:#ffffff; --surface-2:#f1efea;
+  --line:#e3dfd9; --line-2:#d2ccc2;
+  --img:#b8651a; --img-soft:#fbefe1;
+  --vid:#157c7c; --vid-soft:#e2f2f1;
+  --warn:#b23b2e;
+  --shadow:0 1px 2px rgba(28,26,23,.05), 0 10px 28px rgba(28,26,23,.07);
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"Noto Sans TC",system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#f4f1ec; --body:#d8d2c9; --muted:#a09992; --faint:#746d65;
+    --paper:#161513; --surface:#201e1b; --surface-2:#282521;
+    --line:#332f2a; --line-2:#453f38;
+    --img:#e08b3a; --img-soft:#2e2318;
+    --vid:#3fb0ae; --vid-soft:#152a2a;
+    --warn:#e8705f;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#f4f1ec; --body:#d8d2c9; --muted:#a09992; --faint:#746d65;
+  --paper:#161513; --surface:#201e1b; --surface-2:#282521;
+  --line:#332f2a; --line-2:#453f38;
+  --img:#e08b3a; --img-soft:#2e2318;
+  --vid:#3fb0ae; --vid-soft:#152a2a;
+  --warn:#e8705f;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,p,ul,ol{margin:0}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:860px;margin:0 auto;padding:11px 22px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.nav a{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;text-decoration:none;color:var(--muted);padding:5px 10px;border-radius:999px;border:1px solid transparent;white-space:nowrap}
+.nav a:hover{color:var(--ink);border-color:var(--line-2)}
+.nav a.i:hover{color:var(--img)} .nav a.v:hover{color:var(--vid)}
+
+/* hero */
+header.hero{padding:62px 0 46px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:16px}
+h1{font-size:clamp(32px,6vw,46px);font-weight:900;color:var(--ink);letter-spacing:-.02em;line-height:1.2;text-wrap:balance}
+.lede{margin-top:16px;font-size:16.5px;max-width:60ch;color:var(--body)}
+.hero .tools{margin-top:24px;display:flex;flex-wrap:wrap;gap:7px}
+.tool{font-family:var(--mono);font-size:11px;padding:5px 11px;border:1px solid var(--line-2);border-radius:999px;color:var(--muted)}
+
+/* sections */
+section{padding:54px 0;border-bottom:1px solid var(--line)}
+.chap{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.chap .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:3px 9px;border-radius:4px;background:var(--surface-2);color:var(--muted)}
+.chap .tag.i{background:var(--img-soft);color:var(--img)}
+.chap .tag.v{background:var(--vid-soft);color:var(--vid)}
+h2{font-size:27px;font-weight:900;color:var(--ink);letter-spacing:-.01em;line-height:1.3;text-wrap:balance}
+.sub{margin-top:10px;color:var(--muted);max-width:62ch}
+h3{margin-top:34px;font-size:18px;font-weight:700;color:var(--ink)}
+h4{margin-top:22px;font-size:15px;font-weight:700;color:var(--ink)}
+p{margin-top:12px;max-width:64ch}
+ul,ol{margin-top:12px;padding-left:20px;max-width:64ch}
+li{margin-top:6px}
+strong{color:var(--ink);font-weight:700}
+.mono{font-family:var(--mono);font-size:.92em}
+
+/* callouts */
+.note{margin-top:20px;border-left:3px solid var(--line-2);background:var(--surface);padding:16px 18px;border-radius:0 10px 10px 0}
+.note.i{border-left-color:var(--img)}
+.note.v{border-left-color:var(--vid)}
+.note.w{border-left-color:var(--warn)}
+.note .lbl{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px}
+.note.i .lbl{color:var(--img)} .note.v .lbl{color:var(--vid)} .note.w .lbl{color:var(--warn)}
+.note p{margin-top:0}
+
+/* compare */
+.cmp{margin-top:20px;display:grid;gap:14px}
+@media(min-width:720px){.cmp{grid-template-columns:1fr 1fr}}
+.cmp-box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.cmp-box.bad{border-color:color-mix(in srgb,var(--warn) 40%,var(--line))}
+.cmp-box.good{border-color:color-mix(in srgb,var(--img) 45%,var(--line))}
+.cmp-box .h{font-family:var(--mono);font-size:11px;letter-spacing:.08em;margin-bottom:9px;color:var(--muted)}
+.cmp-box.bad .h{color:var(--warn)} .cmp-box.good .h{color:var(--img)}
+.cmp-box .t{font-size:13.5px;line-height:1.7}
+.hl{background:var(--img-soft);color:var(--img);padding:1px 4px;border-radius:3px;font-weight:700}
+.hl.v{background:var(--vid-soft);color:var(--vid)}
+
+/* table */
+.tbl-wrap{margin-top:20px;overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;min-width:520px;font-size:13.5px}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:400;background:var(--surface-2)}
+tr:last-child td{border-bottom:0}
+td:first-child{color:var(--ink);font-weight:500}
+
+/* template card */
+.card{margin-top:24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.card-h{display:flex;align-items:center;gap:10px;padding:13px 18px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.card-h .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.card-h.i .dot{background:var(--img)} .card-h.v .dot{background:var(--vid)} .card-h.n .dot{background:var(--muted)}
+.card-h .name{font-weight:700;color:var(--ink);font-size:14px}
+.card-h .kind{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-left:auto}
+.card-b{padding:18px}
+.tpl{font-family:var(--mono);font-size:12.5px;line-height:2.05;white-space:pre-wrap;word-break:break-word;color:var(--body);margin:0}
+.slot{background:var(--surface-2);border:1px dashed var(--line-2);border-radius:4px;padding:1px 6px;color:var(--ink)}
+.card-f{display:flex;gap:10px;align-items:center;padding:0 18px 16px}
+.copy{font-family:var(--mono);font-size:11.5px;padding:7px 14px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--muted);cursor:pointer;transition:.15s}
+.copy:hover{border-color:var(--ink);color:var(--ink)}
+.hint{font-size:11.5px;color:var(--faint)}
+
+/* word bank */
+.bank{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px}
+.w{font-family:var(--mono);font-size:11.5px;padding:4px 10px;border-radius:5px;background:var(--surface);border:1px solid var(--line)}
+.w.v{border-color:color-mix(in srgb,var(--vid) 35%,var(--line));color:var(--vid)}
+.w.i{border-color:color-mix(in srgb,var(--img) 35%,var(--line));color:var(--img)}
+
+footer{padding:42px 0 64px;color:var(--faint);font-size:12.5px}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--img);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<nav class="nav">
+  <div class="nav-in">
+    <a href="#core">00 核心心法</a>
+    <a href="#krea" class="i">01 Krea 2 · 圖</a>
+    <a href="#gpt" class="i">02 GPT Image 2 · 圖</a>
+    <a href="#h3" class="v">03 MiniMax H3 · 影</a>
+    <a href="#tag">04 標籤式 · SD</a>
+    <a href="#fix">05 疑難排解</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Prompt Handbook — for a visual designer</div>
+  <h1>圖影提示詞手冊</h1>
+  <p class="lede">妳卡的不是「不懂視覺」——妳本來就懂構圖、光線、鏡頭。妳缺的是<strong>把這些設計語言翻成提示詞</strong>的那一層轉換。這份手冊就是那層轉換，以及四張可以直接照填的模板卡。</p>
+  <div class="tools">
+    <span class="tool">Krea 2</span><span class="tool">GPT Image 2</span><span class="tool">MiniMax H3</span><span class="tool">Midjourney / Flux</span><span class="tool">Stable Diffusion / ComfyUI</span>
+  </div>
+</header>
+
+<!-- ============ 00 ============ -->
+<section id="core">
+  <div class="chap"><span class="tag">00</span></div>
+  <h2>核心心法：妳沒決定的，AI 會幫妳決定</h2>
+  <p class="sub">這是所有提示詞問題的根源。提示詞不是「描述」，是「做決定」——每一個妳留白的地方，模型都會自己填一個它覺得最可能的答案，而那通常不是妳要的。</p>
+
+  <h3>通用九格結構</h3>
+  <p>不管哪個工具，先照這個順序把腦中的畫面「拆格子」。寫不出來的格子，就是妳還沒決定的地方。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>格子</th><th>要決定什麼</th><th>例</th></tr></thead>
+      <tbody>
+        <tr><td>① 媒材</td><td>這張圖是「用什麼做出來的」</td><td>35mm 底片攝影 / 水彩 / 3D 渲染</td></tr>
+        <tr><td>② 主體</td><td>誰、什麼</td><td>二十多歲女性</td></tr>
+        <tr><td>③ 外觀</td><td>穿著、髮型、特徵</td><td>深色風衣、及肩黑髮</td></tr>
+        <tr><td>④ 動作</td><td>正在做什麼</td><td>低頭看手機</td></tr>
+        <tr><td>⑤ 場景</td><td>在哪、環境細節</td><td>雨後的台北街頭、濕柏油路</td></tr>
+        <tr><td>⑥ 光線</td><td>方向 + 質地 + 色溫</td><td>霓虹側光、低光、冷調帶暖反光</td></tr>
+        <tr><td>⑦ 鏡頭</td><td>景別 + 視角 + 焦段 + 景深</td><td>中景、平視、85mm、f/1.4</td></tr>
+        <tr><td>⑧ 風格</td><td>指名一個美學參照</td><td>1990 年代港片電影感</td></tr>
+        <tr><td>⑨ 色調</td><td>整體顏色傾向</td><td>低飽和、藍綠主調</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note i">
+    <span class="lbl">最常被漏掉，但效果最大</span>
+    <p><strong>⑥ 光線</strong>和 <strong>⑦ 鏡頭</strong>。同一個主體，換個光、換個鏡頭，氣質完全不同——這兩格恰好是妳最熟的領域，卻最少人寫進提示詞。</p>
+  </div>
+
+  <h3>妳的設計語言 → 提示詞怎麼講</h3>
+  <p>妳不需要學新概念，只要換個說法。這張表就是轉換器。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>妳本來就會說的</th><th>提示詞裡這樣寫</th></tr></thead>
+      <tbody>
+        <tr><td>景別</td><td>wide shot 大遠景 / medium shot 中景 / close-up 特寫 / extreme close-up</td></tr>
+        <tr><td>視角</td><td>low angle 仰角 / high angle 俯角 / eye level 平視 / bird's eye 鳥瞰</td></tr>
+        <tr><td>焦段</td><td>24mm 廣角有張力 / 50mm 接近人眼 / 85mm 望遠壓縮、背景糊</td></tr>
+        <tr><td>景深</td><td>shallow depth of field、f/1.4、bokeh ／ deep focus、f/11</td></tr>
+        <tr><td>光的方向</td><td>側光 side light / 逆光 backlit、rim light / 頂光 / 林布蘭光</td></tr>
+        <tr><td>光的質地</td><td>柔光 soft diffused / 硬光 hard direct / 霓虹 neon / 窗光 window light</td></tr>
+        <tr><td>色調</td><td>冷調 cool tones / 暖調 warm / 低飽和 desaturated / 高對比 high contrast</td></tr>
+        <tr><td>氛圍</td><td>用具體的時間與天氣代替形容詞：「黃昏剛過、起霧」勝過「很美」</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>最重要的習慣：一次只改一個變數</h3>
+  <p>很多人卡住，是因為「結果不對 → 整串重寫 → 又不對 → 再重寫」，每次都在賭。</p>
+  <p>正確做法跟妳做設計時比版本一樣：<strong>固定其他，一次只動一項</strong>。先只換光線跑三張、再只換鏡頭跑三張。幾輪之後，妳就會累積出自己的「哪個字會造成什麼」的字典——那才是真正的功力，而且是別人抄不走的。</p>
+</section>
+
+<!-- ============ 01 ============ -->
+<section id="krea">
+  <div class="chap"><span class="tag i">01 · 圖</span></div>
+  <h2>Krea 2：相機參數是指令，不是裝飾</h2>
+  <p class="sub">Krea 2 有三個和其他模型不同的機制，知道了就能從「碰運氣」變成「可控制」。</p>
+
+  <h3>公式</h3>
+  <p class="mono" style="color:var(--img);font-weight:700">〔媒材〕→〔主體與動作〕→〔場景環境〕→〔光線與氛圍〕→〔風格參照〕→〔構圖與相機參數〕</p>
+
+  <h4>關鍵一：媒材一定寫在最前面</h4>
+  <p>Krea 2 會先推測「這是什麼媒材做的」，然後<strong>整張圖都用那個邏輯去詮釋</strong>。開頭沒指定，它就自己猜，風格每次都會飄。先寫死「35mm 底片攝影」「水彩插畫」「3D 渲染」「拍立得」，後面所有描述才會被正確解讀。</p>
+
+  <h4>關鍵二：相機參數它是真的會執行</h4>
+  <p>別的模型寫 <span class="mono">f/1.4</span> 可能只是增加一點「攝影感」；Krea 2 把它<strong>當成指令</strong>：</p>
+  <ul>
+    <li><span class="mono">f/1.4</span> → 真的做出淺景深</li>
+    <li><span class="mono">85mm</span> → 真的出現望遠壓縮</li>
+    <li><span class="mono">ISO 3200</span> → 真的高顆粒、低光感</li>
+  </ul>
+  <div class="note i"><span class="lbl">對妳特別有利</span><p>妳懂鏡頭，等於比別人多一整組精準控制鈕。別只寫「電影感」，直接寫參數。</p></div>
+
+  <h4>關鍵三：要風格一致，用 moodboard 不要用文字</h4>
+  <p>Krea 2 的 moodboard 可以上傳 <strong>3～5 張參考圖</strong>，它會自動抽出這些圖共同的「視覺 DNA」。這比每次用文字描述風格<strong>穩定非常多</strong>——妳說的一致性問題，這招是正解。文字負責「畫什麼」，moodboard 負責「長什麼樣」。</p>
+
+  <h3>弱 vs 強</h3>
+  <div class="cmp">
+    <div class="cmp-box bad">
+      <div class="h">✕ 太抽象 — 九格只填了兩格</div>
+      <div class="t">一個女生站在街上，很漂亮，電影感</div>
+    </div>
+    <div class="cmp-box good">
+      <div class="h">✓ 每一格都做了決定</div>
+      <div class="t"><span class="hl">35mm 底片攝影</span>，二十多歲女性側身站在<span class="hl">雨後的台北街頭</span>低頭看手機，穿深色風衣，<span class="hl">濕柏油路反射霓虹招牌的紅藍光</span>，夜晚低光、冷調帶暖色反光，<span class="hl">1990 年代港片電影感</span>，<span class="hl">中景、平視、85mm、f/1.4</span>，輕微顆粒</div>
+    </div>
+  </div>
+  <p>差別不是字變多，是<strong>模糊的地方都被妳決定了</strong>。</p>
+
+  <div class="card">
+    <div class="card-h i"><span class="dot"></span><span class="name">模板卡 · Krea 2（圖）</span><span class="kind">fill in</span></div>
+    <div class="card-b">
+<pre class="tpl" id="t-krea"><span class="slot">媒材</span>，<span class="slot">主體＋外觀</span><span class="slot">正在做的動作</span>，
+位於<span class="slot">場景＋環境細節</span>，
+<span class="slot">光線：方向＋質地＋色溫</span>，
+<span class="slot">風格參照（指名一個具體的）</span>，
+<span class="slot">景別</span>、<span class="slot">視角</span>、<span class="slot">焦段 mm</span>、<span class="slot">光圈 f/</span>，
+<span class="slot">色調傾向</span></pre>
+    </div>
+    <div class="card-f">
+      <button class="copy" data-t="t-krea">複製</button>
+      <span class="hint">貼到記事本，每次只換角括號內容</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 ============ -->
+<section id="gpt">
+  <div class="chap"><span class="tag i">02 · 圖</span></div>
+  <h2>GPT Image 2：把它當成在「交辦一個製作任務」</h2>
+  <p class="sub">它跟前面幾個最大的不同：它不是「畫畫的」，是「接案的」。最好的提示詞不是在描述風格，而是在<strong>交代一份製作需求</strong>——用途是什麼、要放什麼字、什麼不能動。</p>
+
+  <h3>公式（製作單格式）</h3>
+<pre class="tpl" style="background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin-top:14px">製作一張<span class="slot">圖的類型</span>，用途：<span class="slot">實際用在哪</span>。
+場景：<span class="slot">背景環境</span>
+主體：<span class="slot">主角與可見細節</span>
+文字（照抄）：「<span class="slot">要出現的字</span>」，<span class="slot">位置＋字體風格</span>
+構圖：<span class="slot">比例、框取、主體位置、留白</span>
+光線與風格：<span class="slot">視覺語言、媒材、光的方向</span>
+限制：<span class="slot">最多 2–4 條</span></pre>
+
+  <h4>關鍵一：它會寫字——而且寫得對 ⭐</h4>
+  <p>這是它最大的差異化能力。它能在圖裡生出<strong>清楚、可讀</strong>的標題、標籤、招牌、介面元素，甚至整段文字。Midjourney、SD 在這塊到現在都還很弱。</p>
+  <p><strong>對妳的意義很大</strong>：做社群主視覺、廣告 banner、有字的 key visual、UI 情境圖，這是目前最可靠的工具。</p>
+  <ul>
+    <li>文字要<strong>用引號原封不動寫出來</strong>，標明「照抄 / EXACT TEXT」，模型才會當成字面內容</li>
+    <li>指定<strong>位置</strong>和<strong>字體風格</strong>（用白話講：粗體無襯線、手寫感、復古標題體）</li>
+    <li>加上「<span class="mono">不要多餘文字、不要重複文字</span>」可以大幅減少出錯</li>
+    <li><strong>字要短</strong>——一句標題、一個詞、一個品名。整段句子容易崩</li>
+  </ul>
+
+  <h4>關鍵二：改圖要講「改什麼 / 鎖什麼」</h4>
+  <p>它很擅長修改既有圖片，但<strong>不寫清楚要保留什麼，它會連不該動的地方一起重新詮釋</strong>。官方建議的模式是把三件事分開寫：</p>
+  <ul>
+    <li><strong>要改的</strong>：把天空換成黃昏</li>
+    <li><strong>要鎖的</strong>：<span class="mono">keep X unchanged</span> — 人物、構圖、文字保持不變</li>
+    <li><strong>物理合理性</strong>：光線與陰影要跟著天空一起改</li>
+  </ul>
+  <div class="note i"><span class="lbl">最關鍵的一句話</span><p>「<strong>保持 ◯◯ 不變</strong>」。有寫跟沒寫，重跑次數差非常多。</p></div>
+
+  <h4>關鍵三：負面限制最多 2–4 條</h4>
+  <p>它不像 SD 有獨立的負面欄位，而是寫進提示詞裡。但<strong>列太多反而會分散它的注意力</strong>，挑最重要的兩三條就好（例如「不要浮水印、不要重複文字」）。</p>
+
+  <div class="note w"><span class="lbl">解析度地雷</span><p>不是「4K 一定比較好」。超過 2K 官方標註為<strong>實驗性</strong>。實務上<strong>先用低解析度生、再用專門的放大工具</strong>，通常更穩也更省。</p></div>
+
+  <h3>弱 vs 強</h3>
+  <div class="cmp">
+    <div class="cmp-box bad">
+      <div class="h">✕ 當成「畫畫」在許願</div>
+      <div class="t">做一張很酷的串流平台促銷圖，上面寫限時五折</div>
+    </div>
+    <div class="cmp-box good">
+      <div class="h">✓ 當成「製作單」在交辦</div>
+      <div class="t">製作一張<span class="hl">社群宣傳主視覺</span>，用途：串流平台限時優惠貼文。<br>
+      場景：深色漸層背景，底部柔和霓虹光暈。<br>
+      主體：一台懸浮的電視螢幕，畫面亮著。<br>
+      <span class="hl">文字（照抄，不要多字、不要重複）</span>：標題「限時 5 折」置中偏上，粗體無襯線；下方小字「年繳最超值」。<br>
+      構圖：<span class="hl">1:1 正方形</span>，主體置中、四周留白。<br>
+      光線與風格：冷藍調、高對比、現代科技感。<br>
+      限制：不要浮水印、不要多餘英文字。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h i"><span class="dot"></span><span class="name">模板卡 · GPT Image 2（圖・會寫字）</span><span class="kind">fill in</span></div>
+    <div class="card-b">
+<pre class="tpl" id="t-gpt">製作一張<span class="slot">圖的類型</span>，用途：<span class="slot">實際用途</span>。
+
+場景：<span class="slot">背景環境</span>
+主體：<span class="slot">主角＋可見細節</span>
+文字（照抄，不要多餘文字、不要重複文字）：
+　「<span class="slot">要出現的字</span>」— <span class="slot">位置</span>、<span class="slot">字體風格</span>
+構圖：<span class="slot">比例</span>、<span class="slot">主體位置與留白</span>
+光線與風格：<span class="slot">色調、媒材、光的方向</span>
+限制：<span class="slot">限制一</span>、<span class="slot">限制二</span>
+
+── 要改圖時，改用這段 ──
+請修改這張圖：
+改：<span class="slot">要改的部分</span>
+保持不變：<span class="slot">人物／構圖／文字…要鎖住的</span>
+一併調整：<span class="slot">光影等要合理跟著變的</span></pre>
+    </div>
+    <div class="card-f"><button class="copy" data-t="t-gpt">複製</button><span class="hint">有字的視覺就用它，改圖記得寫「保持不變」</span></div>
+  </div>
+
+  <div class="note"><span class="lbl">什麼時候用哪個</span><p><strong>要寫字、要改圖、要交代用途</strong> → GPT Image 2。<strong>要精準控制鏡頭與光、要風格一致</strong> → Krea 2。兩個搭著用，不是二選一。</p></div>
+</section>
+
+<!-- ============ 03 ============ -->
+<section id="h3">
+  <div class="chap"><span class="tag v">03 · 影</span></div>
+  <h2>MiniMax H3：人在動 和 鏡頭在動，要分開寫</h2>
+  <p class="sub">影片提示詞的失敗，九成是把「主體動作」和「運鏡」攪在一起，或把運鏡詞堆在句尾當標籤。</p>
+
+  <h3>運鏡的三個維度</h3>
+  <p class="mono" style="color:var(--vid);font-weight:700">運動類型 ＋ 幅度 ＋ 速度</p>
+  <p>中等幅度、正常速度<strong>照慣例可以省略不寫</strong>——只有要特別快／慢／大幅度時才標註。</p>
+
+  <h4>可用的運鏡詞</h4>
+  <div class="bank">
+    <span class="w v">Push In 推近</span><span class="w v">Pull Out 拉遠</span><span class="w v">Zoom In/Out 變焦</span>
+    <span class="w v">Pan Left/Right 橫搖</span><span class="w v">Truck Left/Right 橫移</span>
+    <span class="w v">Tilt Up/Down 直搖</span><span class="w v">Pedestal Up/Down 升降</span>
+    <span class="w v">Arc Shot 弧形環繞</span><span class="w v">Tracking Shot 跟拍</span>
+    <span class="w v">Static Shot 固定</span><span class="w v">Shake Slightly/Strongly 晃動</span>
+    <span class="w v">POV 主觀視角</span><span class="w v">Roll 翻滾</span>
+  </div>
+
+  <div class="note w"><span class="lbl">最容易搞混的一組</span><p><strong>Zoom In ≠ Push In。</strong> Zoom 是攝影機<strong>原地改變焦距</strong>（背景壓縮感會變）；Push 是攝影機<strong>實際往前移動</strong>（有空間推進感）。H3 刻意把這兩個分開，用錯會得到完全不同的畫面。</p></div>
+
+  <h4>規則一：主體動作、運鏡，各寫成一句</h4>
+  <div class="cmp">
+    <div class="cmp-box bad"><div class="h">✕ 攪在一起</div><div class="t">她往前走，鏡頭跟著動，中景</div></div>
+    <div class="cmp-box good" style="border-color:color-mix(in srgb,var(--vid) 45%,var(--line))"><div class="h" style="color:var(--vid)">✓ 分開寫</div><div class="t">她以輕鬆的步伐向前走。<span class="hl v">鏡頭以相同速度向後跟移</span>，維持腰上中景。</div></div>
+  </div>
+
+  <h4>規則二：運鏡要寫進畫面描述，別堆在句尾</h4>
+  <div class="cmp">
+    <div class="cmp-box bad"><div class="h">✕ 標籤全塞句尾 → 鏡頭會亂飛</div><div class="t" style="font-family:var(--mono);font-size:12px">cinematic, dolly, zoom, orbit, dynamic camera</div></div>
+    <div class="cmp-box good" style="border-color:color-mix(in srgb,var(--vid) 45%,var(--line))"><div class="h" style="color:var(--vid)">✓ 寫成一件正在發生的事</div><div class="t">鏡頭<span class="hl v">緩緩推近</span>她手中的手錶。</div></div>
+  </div>
+
+  <div class="note v"><span class="lbl">影片的反直覺重點</span><p>圖片可以堆很多細節，<strong>影片不行</strong>。H3 吃不下太多概念——<strong>一次只給 1～2 個主要動作</strong>，塞越多動得越亂。想要複雜，請拆成多個鏡頭分開生成。</p></div>
+
+  <div class="card">
+    <div class="card-h v"><span class="dot"></span><span class="name">模板卡 · MiniMax H3（影）</span><span class="kind">fill in</span></div>
+    <div class="card-b">
+<pre class="tpl" id="t-h3"><span class="slot">主體＋外觀</span><span class="slot">做一個主要動作（只給一個）</span>。
+鏡頭<span class="slot">運鏡類型</span>（<span class="slot">速度：緩慢／快速，可省略</span>），
+維持<span class="slot">景別</span>。
+<span class="slot">場景＋光線（一句話帶過）</span>。</pre>
+    </div>
+    <div class="card-f">
+      <button class="copy" data-t="t-h3">複製</button>
+      <span class="hint">三句話：誰在動 → 鏡頭怎麼動 → 環境長怎樣</span>
+    </div>
+  </div>
+
+  <h4>填好長這樣</h4>
+  <div class="cmp-box good" style="border-color:color-mix(in srgb,var(--vid) 45%,var(--line));margin-top:14px">
+    <div class="t">她緩緩轉頭看向窗外。鏡頭緩慢<span class="hl v">推近（Push In，慢速）</span>，維持胸上中景。雨後夜晚的霓虹光打在她的側臉上。</div>
+  </div>
+</section>
+
+<!-- ============ 04 ============ -->
+<section id="tag">
+  <div class="chap"><span class="tag">04</span></div>
+  <h2>兩種流派：自然語言式 vs 標籤式</h2>
+  <p class="sub">妳兩類工具都在用，寫法其實是相反的。搞混會讓結果莫名其妙。</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th></th><th>自然語言式</th><th>標籤式</th></tr></thead>
+      <tbody>
+        <tr><td>代表工具</td><td>Krea 2、MiniMax H3、Midjourney、Flux、Sora</td><td>Stable Diffusion、ComfyUI</td></tr>
+        <tr><td>寫法</td><td>完整句子，像在跟攝影師說明</td><td>關鍵詞用逗號串，像標籤</td></tr>
+        <tr><td>語序</td><td>照自然語意</td><td><strong>越前面權重越高</strong></td></tr>
+        <tr><td>強調</td><td>把它寫得更具體、講兩次</td><td>括號加權 <span class="mono">(詞:1.3)</span></td></tr>
+        <tr><td>排除</td><td>正面描述想要的東西</td><td>有<strong>負面提示詞</strong>欄位</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note w"><span class="lbl">共通鐵則</span><p>兩派都一樣：<strong>別用「不要…」</strong>。自然語言模型對否定句處理很差，說「不要紅色」常常反而給妳紅色。要排除東西，自然語言式就<strong>正面描述妳要的</strong>，標籤式就<strong>寫進負面提示詞欄</strong>。</p></div>
+
+  <div class="card">
+    <div class="card-h n"><span class="dot"></span><span class="name">模板卡 · 標籤式（SD / ComfyUI）</span><span class="kind">fill in</span></div>
+    <div class="card-b">
+<pre class="tpl" id="t-sd"><span class="slot">品質詞</span>, <span class="slot">媒材/畫風</span>, <span class="slot">主體</span>, <span class="slot">外觀細節</span>,
+<span class="slot">動作</span>, <span class="slot">表情</span>, <span class="slot">服裝</span>, <span class="slot">場景</span>,
+<span class="slot">光線</span>, <span class="slot">鏡頭/景別</span>, <span class="slot">色調</span>, (<span class="slot">想強調的詞</span>:1.3)
+
+── 負面提示詞 ──
+<span class="slot">不想要的元素</span>, <span class="slot">常見崩壞詞</span></pre>
+    </div>
+    <div class="card-f"><button class="copy" data-t="t-sd">複製</button><span class="hint">重要的往前排，權重自然就高</span></div>
+  </div>
+
+  <div class="card">
+    <div class="card-h n"><span class="dot"></span><span class="name">模板卡 · 通用九格（任何工具）</span><span class="kind">fill in</span></div>
+    <div class="card-b">
+<pre class="tpl" id="t-gen">① 媒材　<span class="slot">　　　</span>
+② 主體　<span class="slot">　　　</span>
+③ 外觀　<span class="slot">　　　</span>
+④ 動作　<span class="slot">　　　</span>
+⑤ 場景　<span class="slot">　　　</span>
+⑥ 光線　<span class="slot">　　　</span>
+⑦ 鏡頭　<span class="slot">　　　</span>
+⑧ 風格　<span class="slot">　　　</span>
+⑨ 色調　<span class="slot">　　　</span></pre>
+    </div>
+    <div class="card-f"><button class="copy" data-t="t-gen">複製</button><span class="hint">先填格子，再按工具的語法串起來</span></div>
+  </div>
+</section>
+
+<!-- ============ 05 ============ -->
+<section id="fix">
+  <div class="chap"><span class="tag">05</span></div>
+  <h2>疑難排解：症狀 → 改哪裡</h2>
+  <p class="sub">生出來不對的時候，先對照症狀，不要整串重寫。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>症狀</th><th>真正的原因</th><th>怎麼改</th></tr></thead>
+      <tbody>
+        <tr><td>風格每次都不一樣</td><td>沒指定媒材</td><td>媒材寫在最前面；Krea 2 改用 moodboard 丟 3–5 張參考圖</td></tr>
+        <tr><td>構圖不是我要的</td><td>沒寫景別與視角</td><td>補「中景、低角度、主體偏左」這類具體指示</td></tr>
+        <tr><td>畫面很平、沒氣氛</td><td>完全沒寫光</td><td>補上光的<strong>方向＋質地＋色溫</strong>三件事</td></tr>
+        <tr><td>手、臉、細節崩壞</td><td>主體太遠或同畫面元素太雜</td><td>拉近景別、減少畫面中的元素數量</td></tr>
+        <tr><td>影片動作很亂</td><td>一次塞太多動作</td><td>只留 1–2 個動作；主體與鏡頭分句寫</td></tr>
+        <tr><td>鏡頭亂飛</td><td>運鏡詞堆在句尾當標籤</td><td>把運鏡寫成「鏡頭緩緩推近◯◯」這種句子</td></tr>
+        <tr><td>同一角色換張就變人</td><td>只靠文字描述長相</td><td>用參考圖／moodboard；另外固定一段「外觀描述句」每次原封不動貼上</td></tr>
+        <tr><td>加了字反而更糟</td><td>前後描述互相矛盾</td><td>檢查是否同時要了衝突的東西（如「柔和晨光」＋「高對比霓虹」）</td></tr>
+        <tr><td>圖裡的字拼錯、重複、變亂碼</td><td>用錯工具了</td><td>有字的視覺改用 <strong>GPT Image 2</strong>；文字用引號照抄、加「不要多餘文字、不要重複文字」、字數壓短</td></tr>
+        <tr><td>改圖後連不該動的也變了</td><td>沒說要保留什麼</td><td>明寫「<strong>保持◯◯不變</strong>」，把「要改／要鎖／要跟著合理變動」分三行寫</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note i"><span class="lbl">最後提醒</span><p>這份手冊給的是<strong>起點</strong>，不是標準答案。真正讓妳跟別人拉開距離的，是用「一次只改一個變數」跑出來、只有妳自己知道的那本字典。開始記錄哪個字造成什麼效果吧。</p></div>
+</section>
+
+<footer>
+  資料來源：Krea 2 與 MiniMax H3 官方／社群提示詞指南（2026）。模型版本更新後語法可能微調，以各工具當下文件為準。
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click', async ()=>{
+    const el=document.getElementById(btn.dataset.t);
+    const text=el.innerText;
+    try{
+      await navigator.clipboard.writeText(text);
+      btn.textContent='已複製 ✓';
+    }catch(e){
+      const r=document.createRange(); r.selectNodeContents(el);
+      const s=window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent='請按 ⌘/Ctrl + C';
+    }
+    setTimeout(()=>{btn.textContent='複製';},1900);
+  });
+});
+</script>
