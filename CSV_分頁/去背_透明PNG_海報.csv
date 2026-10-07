@@ -1,0 +1,71 @@
+﻿子分類,中文名稱,English Prompt
+基礎透明背景,透明背景,isolated subject on a fully transparent background
+基礎透明背景,真實 Alpha 通道,true alpha-channel transparency outside the subject silhouette
+基礎透明背景,透明 PNG 輸出,exported as a transparent-background PNG with a clean alpha channel
+基礎透明背景,單一隔離主體,"exactly one isolated subject, no environment or background objects"
+基礎透明背景,完整去背輪廓,background completely removed outside the complete subject silhouette
+基礎透明背景,乾淨剪影素材,clean cutout asset with a clearly readable silhouette
+基礎透明背景,無地板無地平線,"no floor plane, no horizon line, transparency continues behind and beneath the subject"
+基礎透明背景,無投影去背,"no cast shadow, transparent pixels surrounding the subject"
+基礎透明背景,保留接觸陰影,isolated subject with a subtle natural contact shadow preserved on transparent alpha
+邊緣與半透明材質,抗鋸齒邊緣,clean antialiased cutout edges
+邊緣與半透明材質,無白邊,clean edge matte with no white fringe or color halo
+邊緣與半透明材質,保留髮絲,fine individual hair strands preserved against transparency
+邊緣與半透明材質,保留毛髮,fine fur edges preserved with soft alpha transparency
+邊緣與半透明材質,保留薄紗,semi-transparent fabric and veil edges preserved in the alpha channel
+邊緣與半透明材質,保留玻璃,transparent glass material preserved with partial alpha and clean highlights
+邊緣與半透明材質,保留煙霧,soft smoke and translucent effects preserved with graduated alpha
+邊緣與半透明材質,邊緣無殘景,no background-color contamination between fine edge details
+素材構圖與用途,透明留白,centered subject with even transparent padding on all sides
+素材構圖與用途,全身透明立繪,"full-body character completely visible from head to feet, centered on a transparent background with generous margins"
+素材構圖與用途,透明商品去背,"commercial product cutout isolated on a transparent background, clean silhouette, accurate contact edges"
+素材構圖與用途,透明圖示,"single icon-like object isolated on transparent alpha, centered and clearly readable at small size"
+素材構圖與用途,透明貼圖素材,sticker-ready character cutout on transparent alpha with a clean outer contour
+素材構圖與用途,透明遊戲精靈,"game sprite asset isolated on transparent alpha, complete silhouette, consistent scale and centered pivot"
+完整 Prompt 包,通用透明 PNG 包,"exactly one isolated subject on a fully transparent background, true alpha-channel transparency outside the complete silhouette, exported as PNG, clean antialiased edges, no white fringe, centered with even transparent padding"
+完整 Prompt 包,人物立繪透明包,"full-body character completely visible from head to feet, isolated on a fully transparent background, true alpha channel, fine hair strands preserved, clean edge matte, generous transparent margins, no floor and no cast shadow"
+完整 Prompt 包,商品透明包,"single commercial product isolated on true transparent alpha, accurate product silhouette, clean contact edges, physically coherent highlights, subtle contact shadow preserved, exported as a transparent PNG"
+完整 Prompt 包,毛髮透明包,"single furry subject isolated on a fully transparent background, individual fur strands preserved with soft alpha, no hard clipped fur edge, no color contamination, clean transparent PNG output"
+完整 Prompt 包,薄紗特效透明包,"isolated subject on transparent alpha, semi-transparent fabric, veil, glow and soft atmospheric effects preserved with graduated transparency, clean high-quality PNG matte"
+透明背景錯誤排除,避免假透明格紋,"checkerboard pattern, fake transparency grid, transparency checkerboard rendered as pixels"
+透明背景錯誤排除,避免實色背景,"white background, black background, gray background, colored backdrop, gradient backdrop"
+透明背景錯誤排除,避免殘留場景,"background remnants, studio wall, floor plane, horizon line, scenery behind the subject"
+透明背景錯誤排除,避免粗糙邊緣,"jagged cutout edges, hard clipped hair, rough mask, pixelated alpha edge"
+透明背景錯誤排除,避免邊緣光暈,"white halo, dark halo, colored fringe, background color spill"
+透明背景錯誤排除,避免裁切主體,"cropped subject, clipped hair, cropped hands, cropped feet, object touching canvas edges"
+透明背景錯誤排除,避免不透明材質,"opaque veil, opaque glass, solid smoke, lost semi-transparent details"
+網格與版面結構,瑞士網格,"Swiss International Style poster layout, strict modular grid"
+網格與版面結構,模組網格,modular editorial grid layout
+網格與版面結構,非對稱網格,asymmetrical editorial grid
+網格與版面結構,中央軸線,centered axial poster composition
+網格與版面結構,對角線版面,dynamic diagonal poster layout
+網格與版面結構,上下分割,clean horizontal split layout
+網格與版面結構,左右分割,vertical split-screen poster layout
+網格與版面結構,滿版主視覺,full-bleed hero image with restrained typography
+網格與版面結構,圖像視窗,image-window layout surrounded by generous margins
+網格與版面結構,大留白,large negative space reserved for typography
+網格與版面結構,邊框版面,thin framing border with aligned margin typography
+標題與文字配置,超大標題,oversized headline typography dominating the composition
+標題與文字配置,垂直標題,vertical title typography along one edge
+標題與文字配置,人物後方文字,large typography layered behind the subject
+標題與文字配置,人物前方文字,selective typography layered in front of the subject
+標題與文字配置,輪廓環繞文字,typography wrapping around the subject silhouette
+標題與文字配置,透明疊字,translucent typographic overlays
+標題與文字配置,窄體無襯線,condensed sans-serif display typography
+標題與文字配置,高對比襯線,high-contrast editorial serif typography
+標題與文字配置,粗黑體,bold geometric sans-serif headline
+標題與文字配置,手寫標題,expressive handwritten title lettering
+標題與文字配置,字級層級,"clear typographic hierarchy with headline, subhead and small details"
+標題與文字配置,小字資訊列,small aligned metadata and billing text
+海報類型與完整片段,電影海報,"cinematic film-poster composition, one dominant hero image, clear title area, restrained billing block along the bottom"
+海報類型與完整片段,角色主視覺,"premium character key-visual poster, full-bleed character art, dramatic negative space for the title, small restrained credits"
+海報類型與完整片段,雜誌封面,"editorial magazine-cover layout, masthead at the top, layered cover lines around the subject, clear visual hierarchy"
+海報類型與完整片段,藝術展海報,"contemporary exhibition poster, generous margins, asymmetric grid, one conceptual image and refined typographic hierarchy"
+海報類型與完整片段,音樂專輯海報,"experimental music-poster layout, bold typography, layered textures and rhythmic visual repetition"
+海報類型與完整片段,精品海報,"minimal luxury campaign layout, abundant negative space, elegant serif title and restrained brand placement"
+海報類型與完整片段,產品主視覺,"commercial product hero poster, centered product, controlled reflections, concise headline area and clean feature callouts"
+海報類型與完整片段,拼貼海報,"editorial collage poster with torn-paper layers, overlapping photographs and controlled typography"
+海報類型與完整片段,粗獷主義海報,"Brutalist poster design, oversized type, raw alignment, stark contrast and intentionally awkward spacing"
+海報類型與完整片段,包浩斯海報,"Bauhaus poster layout, geometric forms, primary-color accents and functional sans-serif typography"
+海報類型與完整片段,構成主義海報,"Constructivist poster layout, red-black palette, diagonal type and radiating geometric forms"
+海報類型與完整片段,裝飾藝術海報,"Art Deco poster layout, symmetrical geometry, metallic accents and elegant display typography"

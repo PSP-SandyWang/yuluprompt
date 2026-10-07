@@ -1,0 +1,152 @@
+﻿子分類,中文名稱,English Prompt
+光質與方向,柔光,soft diffused light
+光質與方向,硬光,hard directional light
+光質與方向,側光,side lighting
+光質與方向,逆光,backlighting
+光質與方向,輪廓光,subtle rim light
+光質與方向,頂光,overhead lighting
+光質與方向,底光,underlighting
+光質與方向,正面柔光,soft frontal fill light
+光質與方向,窗光,natural window light
+光質與方向,斑駁光,dappled light
+光質與方向,光束,volumetric light rays
+光質與方向,薄霧散射光,soft light diffused through haze
+光質與方向,明暗對照,chiaroscuro lighting
+光質與方向,低調光,low-key lighting
+光質與方向,高調光,high-key lighting
+光質與方向,實景光源,motivated practical lighting
+光質與方向,反射補光,natural bounce light
+光質與方向,接觸陰影,natural contact shadows
+光質與方向,環境遮蔽,subtle ambient occlusion
+光質與方向,黃金時刻,golden-hour lighting
+光質與方向,藍色時刻,blue-hour lighting
+光質與方向,月光,soft natural moonlight
+光質與方向,燭光,flickering candlelight
+光質與方向,螢幕光,soft monitor light as the primary light source
+光質與方向,霓虹環境光,diffused neon ambient light
+電影布光與光源角色,主光,a clearly motivated key light shaping the subject
+電影布光與光源角色,補光,restrained fill light preserving detail without flattening the shadows
+電影布光與光源角色,背光,controlled backlight separating the subject from the environment
+電影布光與光源角色,三點布光,"cinematic three-point lighting with motivated key, restrained fill and subtle backlight"
+電影布光與光源角色,負補光,negative fill deepening the shadow side of the face
+電影布光與光源角色,踢光,subtle kicker light grazing the far cheek and shoulder
+電影布光與光源角色,髮光,soft hair light revealing texture and separating dark hair from the background
+電影布光與光源角色,眼神光,small natural catchlights motivated by the visible light sources
+電影布光與光源角色,交叉布光,cross lighting from opposite diagonal directions
+電影布光與光源角色,包圍式柔光,large soft wraparound key light with gentle tonal falloff
+電影布光與光源角色,側逆光,three-quarter backlight grazing the subject from behind and to one side
+電影布光與光源角色,低亮度實景布光,low-level motivated lighting from practical sources visible within the scene
+人像經典光型,林布蘭光,Rembrandt lighting with a small triangular highlight on the shadow cheek
+人像經典光型,蝴蝶光,butterfly lighting with a small centered shadow beneath the nose
+人像經典光型,迴圈光,loop lighting with a soft nose shadow angled toward the cheek
+人像經典光型,分割光,split lighting dividing the face into illuminated and shadowed halves
+人像經典光型,寬面光,broad lighting illuminating the side of the face turned toward the camera
+人像經典光型,窄面光,short lighting illuminating the side of the face turned away from the camera
+人像經典光型,貝殼光,clamshell beauty lighting with soft frontal key and gentle lower fill
+人像經典光型,書頁反射光,book light producing an exceptionally soft directional source with natural falloff
+人像經典光型,窗邊半面光,soft window light illuminating only the near side of the face while the room falls into shadow
+人像經典光型,美容盤光,focused beauty-dish lighting with crisp facial definition and controlled softness
+聚光燈與舞台燈,單一聚光燈,a single theatrical spotlight isolating the subject within surrounding darkness
+聚光燈與舞台燈,柔邊聚光燈,soft-edged spotlight with gradual falloff around the subject
+聚光燈與舞台燈,硬邊聚光燈,hard-edged spotlight forming a precise circle of light
+聚光燈與舞台燈,頂部聚光燈,narrow overhead spotlight falling vertically onto the subject
+聚光燈與舞台燈,追蹤聚光燈,a moving follow spot tracking the performer across a dark stage
+聚光燈與舞台燈,光池,a localized pool of warm light surrounded by deep shadow
+聚光燈與舞台燈,腳燈,low theatrical footlights casting upward stage illumination
+聚光燈與舞台燈,舞台面光,even theatrical front wash lighting across the performance area
+聚光燈與舞台燈,移動頭燈束,multiple moving-head stage beams cutting through atmospheric haze
+聚光燈與舞台燈,舞台背幕光,soft cyclorama lighting creating a luminous gradient behind the performers
+聚光燈與舞台燈,孤立舞者聚光,one dancer held inside a narrow spotlight while the empty stage disappears into darkness
+聚光燈與舞台燈,雙人交會聚光,two overlapping spotlights meeting where the performers make contact
+逆光、剪影與透光,正逆光,strong frontal backlight directly behind the subject
+逆光、剪影與透光,逆光剪影,silhouette against a luminous backlit background with minimal frontal fill
+逆光、剪影與透光,保留臉部的逆光,strong environmental backlight with restrained reflected fill keeping the face readable
+逆光、剪影與透光,霧中逆光,diffused backlight blooming through mist and outlining the subject softly
+逆光、剪影與透光,雨中逆光,backlight catching individual rain streaks and wet edges around the subject
+逆光、剪影與透光,門框逆光,bright doorway backlight framing the figure against a darker interior
+逆光、剪影與透光,窗簾透光,backlight filtering through translucent curtains and wrapping softly into the room
+逆光、剪影與透光,薄紗透光,transmitted backlight revealing the layered translucency of fabric and veil
+逆光、剪影與透光,葉片透光,"sunlight transmitted through leaves, revealing luminous veins and colored translucency"
+逆光、剪影與透光,邊緣濕亮,wet surfaces catching narrow backlit highlights without forming a neon outline
+逆光、剪影與透光,反日照輪廓,contre-jour lighting with restrained flare and deep atmospheric separation
+遮光、圖案與特殊投影,百葉窗光影,venetian-blind shadows casting controlled horizontal bands across the scene
+遮光、圖案與特殊投影,窗格投影,window-frame shadows projected across the floor and subject
+遮光、圖案與特殊投影,樹影投射,organic branch and leaf shadows projected across the subject
+遮光、圖案與特殊投影,圖案遮光片,gobo-projected patterns shaping the background and selectively crossing the subject
+遮光、圖案與特殊投影,不規則遮光,cookie lighting creating irregular broken patches of illumination
+遮光、圖案與特殊投影,狹縫光,a narrow blade of light cutting diagonally through darkness
+遮光、圖案與特殊投影,投影機光,projector light casting moving imagery and colored patterns across the subject
+遮光、圖案與特殊投影,水波反射光,"moving water-reflected caustic light rippling across skin, fabric and architecture"
+遮光、圖案與特殊投影,水下焦散光,underwater caustic light patterns refracting across submerged forms
+遮光、圖案與特殊投影,彩色玻璃光,"colored stained-glass light projected across the floor, clothing and skin"
+自然與實景動態光源,車頭燈逆光,vehicle headlights backlighting the figures through rain and road mist
+自然與實景動態光源,街燈光池,isolated pools of sodium-vapor streetlight along a dark street
+自然與實景動態光源,壁爐跳光,warm firelight flickering unevenly across the face and surrounding room
+自然與實景動態光源,電視閃光,changing television light softly flickering across the subject in a dark room
+自然與實景動態光源,冰箱門光,cool refrigerator light spilling onto the subject in an otherwise dark kitchen
+自然與實景動態光源,手機螢幕光,dim phone-screen light illuminating the face from below at close range
+自然與實景動態光源,閃電瞬間,a brief lightning flash revealing sharp forms inside deep storm darkness
+自然與實景動態光源,霓虹招牌實景光,motivated neon-sign light spilling naturally across nearby wet surfaces and skin
+自然與實景動態光源,日光反射入室,soft daylight bounced from an exterior wall into the interior
+自然與實景動態光源,多光源混合,coherent mixed lighting from practical sources with distinct color temperatures and physically consistent shadows
+完整燈光 Prompt ,電影人物光包,"cinematic motivated lighting, a soft directional key shaping the face, restrained fill preserving shadow detail, subtle three-quarter backlight separating the hair and shoulders, natural catchlights, physically consistent falloff and contact shadows"
+完整燈光 Prompt ,昏暗環境融合包,"low-key practical lighting from visible sources within the scene, no separate studio light on the character, soft reflected fill keeping the face readable, unified exposure and white balance, deep shadows with preserved detail"
+完整燈光 Prompt ,聚光舞台包,"a single soft-edged theatrical spotlight isolating the performer, subtle atmospheric haze revealing the light cone, controlled falloff into deep stage darkness, delicate reflected fill preserving facial expression"
+完整燈光 Prompt ,夕陽逆光包,"strong golden-hour backlight, translucent hair and fabric edges catching warm light, restrained natural bounce light preserving the face, gentle lens bloom, long coherent shadows and unified environmental exposure"
+完整燈光 Prompt ,雨夜霓虹包,"motivated neon and street lighting diffused through rain, colored reflections wrapping naturally across wet skin and clothing, backlight catching individual rain streaks, unified cinematic exposure, no artificial neon body outline"
+完整燈光 Prompt ,柔窗光肖像包,"large soft window light from one side, gentle wraparound illumination, subtle negative fill on the far cheek, natural catchlights, smooth tonal falloff and quiet shadow detail"
+人物與場景融合,統一光照系統,the character and environment exist under one unified lighting system
+人物與場景融合,環境光自然影響,the character is naturally illuminated by the surrounding environment
+人物與場景融合,材質接收環境光,"skin, hair and clothing naturally receive the surrounding light"
+人物與場景融合,自然環境反射,subtle environmental reflections across the subject
+人物與場景融合,一致曝光,consistent exposure between subject and background
+人物與場景融合,一致白平衡,unified white balance across the entire scene
+人物與場景融合,一致色彩分級,unified cinematic color grading
+人物與場景融合,光線包覆,natural light wrapping around the face and body
+人物與場景融合,陰影內反射色,subtle reflected light remaining within the shadows
+人物與場景融合,光源方向一致,all cast shadows follow the visible light sources
+人物與場景融合,眼中實景反光,eyes reflecting the actual lights present in the scene
+人物與場景融合,自然明暗融入,the face remains readable without being separately spotlighted
+人物與場景融合,共同顆粒質感,matching texture and film grain across subject and background
+人物與場景融合,空氣透視一致,unified atmospheric perspective
+人物與場景融合,物理存在感,the character is physically present within the scene
+人物與場景融合,無獨立棚燈,no separate studio lighting on the character
+光學與光線特效,丁達爾效應,visible Tyndall light scattering through airborne particles
+光學與光線特效,神光,volumetric god rays
+光學與光線特效,體積光,volumetric lighting
+光學與光線特效,光污染,urban light pollution glowing across the night sky
+光學與光線特效,天空輝光,diffuse skyglow above the city
+光學與光線特效,泛光,restrained bloom around bright light sources
+光學與光線特效,光暈,soft luminous glow
+光學與光線特效,鹵化光暈,subtle film halation around highlights
+光學與光線特效,鏡頭光斑,subtle cinematic lens flare
+光學與光線特效,變形寬銀幕光斑,horizontal anamorphic lens flare
+光學與光線特效,星芒,diffraction starburst around point lights
+光學與光線特效,稜鏡折射,prismatic light refraction
+光學與光線特效,色散,subtle chromatic aberration along high-contrast edges
+光學與光線特效,焦散光,moving caustic light patterns
+光學與光線特效,漏光,analog film light leak
+光學與光線特效,雙重曝光,artistic double exposure
+光學與光線特效,重影,subtle ghosting and temporal echo
+光學與光線特效,鏡面碎裂反射,fragmented reflections across broken glass
+空氣與環境特效,薄霧,thin atmospheric mist
+空氣與環境特效,濃霧,dense rolling fog
+空氣與環境特效,煙霧,layered drifting smoke
+空氣與環境特效,塵埃微粒,fine dust motes suspended in the light
+空氣與環境特效,漂浮粒子,subtle floating particles
+空氣與環境特效,火星,flying sparks
+空氣與環境特效,餘燼,slowly drifting embers
+空氣與環境特效,細雨軌跡,fine rain streaks caught by the light
+空氣與環境特效,玻璃水珠,condensation and droplets on foreground glass
+空氣與環境特效,雪霧,windblown snow haze
+空氣與環境特效,熱浪扭曲,heat-haze distortion
+空氣與環境特效,水下漂浮物,suspended particles drifting underwater
+數位與復古影像特效,類比雜訊,fine analog video noise
+數位與復古影像特效,掃描線,subtle CRT scanlines
+數位與復古影像特效,VHS追蹤錯誤,VHS tracking distortion
+數位與復古影像特效,數位故障,controlled digital glitch artifacts
+數位與復古影像特效,資料破碎,datamosh compression artifacts
+數位與復古影像特效,半色調網點,halftone dot texture
+數位與復古影像特效,網版錯位,misregistered screen-print colors
+數位與復古影像特效,底片燒灼,film-burn transition effect
+數位與復古影像特效,暗角,subtle optical vignetting

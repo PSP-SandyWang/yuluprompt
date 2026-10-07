@@ -1,0 +1,2062 @@
+﻿欄位名稱,欄位代碼,子分類,中文名稱,English Prompt
+材質/質感,material,手作工藝,羊毛氈,needle-felted wool with soft fuzzy fibers and gentle handmade imperfections
+材質/質感,material,手作工藝,刺繡,embroidered threads with raised stitching and visible needlework texture
+材質/質感,material,手作工藝,拼布,patchwork quilting with stitched fabric panels and visible seams
+材質/質感,material,手作工藝,鉤織蕾絲,crocheted lace with open looped patterns and delicate yarn texture
+材質/質感,material,手作工藝,繩結編織,macrame knotted cords with thick textured natural fibers
+材質/質感,material,手作工藝,蠟染,batik-dyed fabric with wax-resist crackle patterns
+材質/質感,material,手作工藝,手捏陶土,hand-pinched clay with visible finger marks and an uneven matte surface
+材質/質感,material,手作工藝,吹製玻璃,hand-blown glass with organic bubbles and uneven wall thickness
+材質/質感,material,手作工藝,和紙,washi paper with visible plant fibers and soft translucency
+材質/質感,material,手作工藝,紙黏土,paper clay with a matte porous handmade surface
+材質/質感,material,手作工藝,刺子繡,sashiko stitching with repeating white running-stitch geometry on indigo cloth
+材質/質感,material,手作工藝,木雕,hand-carved wood with visible chisel facets and grain
+材質/質感,material,布料皮革,棉布,soft woven cotton with a natural matte finish
+材質/質感,material,布料皮革,亞麻,natural linen with visible slub fibers and dry matte texture
+材質/質感,material,布料皮革,羊毛,dense wool fabric with a soft fibrous surface
+材質/質感,material,布料皮革,喀什米爾,fine cashmere with an exceptionally soft low-luster surface
+材質/質感,material,布料皮革,絲綢,fine silk with fluid drape and delicate directional sheen
+材質/質感,material,布料皮革,緞面,smooth satin with broad soft specular highlights along the folds
+材質/質感,material,布料皮革,天鵝絨,plush velvet with deep light-absorbing pile and rich directional highlights
+材質/質感,material,布料皮革,雪紡,lightweight semi-sheer chiffon with airy flowing folds
+材質/質感,material,布料皮革,歐根紗,crisp translucent organza with structured luminous folds
+材質/質感,material,布料皮革,薄紗,fine translucent tulle with delicate mesh structure
+材質/質感,material,布料皮革,蕾絲,intricate lace with clearly readable openwork patterns
+材質/質感,material,布料皮革,丹寧,indigo denim with diagonal twill texture and natural wear
+材質/質感,material,布料皮革,燈芯絨,corduroy with evenly spaced raised ribs and soft matte pile
+材質/質感,material,布料皮革,帆布,heavy cotton canvas with coarse visible weave
+材質/質感,material,布料皮革,針織,soft knitted fabric with clearly interlocking loops
+材質/質感,material,布料皮革,真皮,supple full-grain leather with fine pores and restrained natural sheen
+材質/質感,material,布料皮革,麂皮,soft suede with a fine directional nap and matte finish
+材質/質感,material,布料皮革,漆皮,patent leather with a smooth lacquered surface and sharp curved reflections
+材質/質感,material,布料皮革,人造毛皮,dense faux fur with individually readable fibers and soft directional sheen
+材質/質感,material,木石陶瓷紙,拋光木材,polished natural wood with visible grain and a warm satin sheen
+材質/質感,material,木石陶瓷紙,風化木材,"weathered wood with raised grain, faded color and small cracks"
+材質/質感,material,木石陶瓷紙,竹材,natural bamboo with fine longitudinal fibers and segmented nodes
+材質/質感,material,木石陶瓷紙,藤編,handwoven rattan with interlaced natural fibers
+材質/質感,material,木石陶瓷紙,軟木,porous cork with fine granular pits
+材質/質感,material,木石陶瓷紙,大理石,polished marble with natural veining and subtle subsurface depth
+材質/質感,material,木石陶瓷紙,花崗岩,granite with dense crystalline speckles and a hard mineral surface
+材質/質感,material,木石陶瓷紙,石灰岩,pale limestone with fine pores and softly weathered edges
+材質/質感,material,木石陶瓷紙,板岩,layered slate with thin cleaved strata and low sheen
+材質/質感,material,木石陶瓷紙,清水混凝土,smooth cast concrete with subtle pores and formwork traces
+材質/質感,material,木石陶瓷紙,粗糙灰泥,rough mineral plaster with uneven hand-troweled texture
+材質/質感,material,木石陶瓷紙,陶土,unglazed clay with earthy color and porous matte texture
+材質/質感,material,木石陶瓷紙,赤陶,warm terracotta with porous fired-clay texture
+材質/質感,material,木石陶瓷紙,上釉陶瓷,glazed ceramic with smooth reflective glaze over a solid clay body
+材質/質感,material,木石陶瓷紙,細白瓷,fine white porcelain with a smooth cool surface and subtle translucency at thin edges
+材質/質感,material,木石陶瓷紙,手工紙,handmade paper with visible fibers and deckled edges
+材質/質感,material,木石陶瓷紙,羊皮紙,"aged parchment with warm translucency, fine wrinkles and irregular edges"
+材質/質感,material,玻璃塑膠,透明玻璃,"clear glass with accurate refraction, thickness and controlled reflections"
+材質/質感,material,玻璃塑膠,磨砂玻璃,frosted glass with diffuse transmission and softly obscured forms behind it
+材質/質感,material,玻璃塑膠,煙燻玻璃,smoked glass with dark translucent tint and restrained reflections
+材質/質感,material,玻璃塑膠,壓克力,"clear acrylic with clean edges, moderate refraction and polished synthetic clarity"
+材質/質感,material,玻璃塑膠,透明樹脂,clear cast resin with slight internal depth and polished edges
+材質/質感,material,玻璃塑膠,霧面塑膠,matte molded plastic with fine microtexture and broad soft highlights
+材質/質感,material,玻璃塑膠,亮面塑膠,glossy molded plastic with smooth controlled reflections
+材質/質感,material,玻璃塑膠,矽膠,soft silicone with a smooth rubbery matte surface and gentle deformation
+材質/質感,material,玻璃塑膠,橡膠,dense rubber with low sheen and fine grippy texture
+材質/質感,material,玻璃塑膠,霧面表面,matte surface with high roughness and minimal specular reflection
+材質/質感,material,玻璃塑膠,亮面表面,glossy surface with low roughness and clear coherent reflections
+材質/質感,material,玻璃塑膠,絲緞表面,satin surface with medium roughness and soft elongated highlights
+材質/質感,material,玻璃塑膠,粗糙多孔,rough porous surface with irregular micro-pits and diffuse light response
+材質/質感,material,玻璃塑膠,拋光表面,polished surface with smoothed microtexture and clean reflections
+材質/質感,material,玻璃塑膠,濕潤表面,wet surface with a thin irregular film of water and localized reflective highlights
+材質/質感,material,玻璃塑膠,風化表面,"naturally weathered surface with faded color, softened edges and localized wear"
+材質/質感,material,玻璃塑膠,磨損表面,"worn surface with edge abrasion, fine scratches and exposed underlying layers"
+材質/質感,material,珠光虹彩,珠光,pearlescent finish with soft milky highlights and delicate spectral undertones
+材質/質感,material,珠光虹彩,珍珠母貝,mother-of-pearl surface with layered nacre and subtle shifting pastel colors
+材質/質感,material,珠光虹彩,虹彩,iridescent surface whose hue shifts with viewing angle and light direction
+材質/質感,material,珠光虹彩,乳光,opalescent material with cloudy internal color play and soft transmitted light
+材質/質感,material,珠光虹彩,全像光,holographic finish with fine rainbow diffraction and spectral reflections
+材質/質感,material,珠光虹彩,雙色分光,dichroic material shifting between two dominant colors depending on angle
+材質/質感,material,珠光虹彩,油膜虹彩,oil-slick iridescence with dark base tones and fluid rainbow interference
+材質/質感,material,珠光虹彩,干涉顏料,interference pigment producing angle-dependent colored highlights over the base color
+材質/質感,material,珠光虹彩,變色龍塗層,color-shifting chameleon coating transitioning smoothly between jewel tones
+材質/質感,material,珠光虹彩,稜鏡表面,prismatic surface splitting highlights into controlled spectral bands
+材質/質感,material,珠光虹彩,繞射薄膜,microstructured diffraction film with directional rainbow bands
+材質/質感,material,珠光虹彩,偏光薄膜,polarizing film with subtle angle-dependent color gradients
+材質/質感,material,透明發光,水晶,"clear crystal with precise faceted refraction, internal reflections and sharp edge highlights"
+材質/質感,material,透明發光,冰晶,"translucent ice crystal with trapped bubbles, frosted edges and cool internal scattering"
+材質/質感,material,透明發光,液態玻璃,liquid-glass material with flowing transparent volume and smooth refractive curves
+材質/質感,material,透明發光,果凍材質,"translucent jelly material with soft deformation, subsurface color and glossy highlights"
+材質/質感,material,透明發光,透明凝膠,"clear gel with suspended bubbles, soft volume and localized wet highlights"
+材質/質感,material,透明發光,半透明樹脂,translucent colored resin with internal depth and softly glowing edges
+材質/質感,material,透明發光,光纖材質,fiber-optic strands carrying fine points and lines of light through transparent fibers
+材質/質感,material,透明發光,蓄光材質,photoluminescent material emitting a soft afterglow in darkness
+材質/質感,material,透明發光,生物發光,bioluminescent organic tissue glowing from within with soft natural falloff
+材質/質感,material,透明發光,電致發光薄膜,electroluminescent film emitting an even thin-sheet glow
+材質/質感,material,透明發光,螢光材質,fluorescent material reacting vividly under ultraviolet light
+材質/質感,material,透明發光,煙霧封存玻璃,transparent glass containing suspended smoke-like wisps with visible internal depth
+材質/質感,material,奇幻表面,月光石,moonstone-like material with bluish adularescent glow beneath a milky surface
+材質/質感,material,奇幻表面,黑曜石玻璃,polished obsidian glass with deep black translucency and razor-sharp reflections
+材質/質感,material,奇幻表面,星雲玻璃,transparent glass containing layered nebula-like clouds and tiny points of starlight
+材質/質感,material,奇幻表面,星空材質,deep starfield material with distant luminous specks embedded beneath the surface
+材質/質感,material,奇幻表面,魔法冰,"enchanted translucent ice with coherent internal glow, cracks and cold vapor"
+材質/質感,material,奇幻表面,活體水晶,"living crystal with organic growth rings, asymmetrical facets and faint internal pulses"
+材質/質感,material,奇幻表面,流動墨材質,"flowing ink suspended inside a translucent body, forming slow branching plumes"
+材質/質感,material,奇幻表面,裂紋釉,crackle-glazed surface with fine interconnected crazing beneath a glossy glaze
+材質/質感,material,奇幻表面,結晶表面,mineralized surface covered with small naturally clustered crystal growth
+材質/質感,material,奇幻表面,熔岩裂隙,dark cooled crust with glowing molten material visible through coherent cracks
+材質/質感,material,奇幻表面,雲母片層,mica-like layered flakes producing fine directional sparkle
+材質/質感,material,奇幻表面,彩虹晶膜,thin crystalline film creating restrained rainbow interference along edges
+材質/質感,material,金屬,黃金,warm yellow gold metal with rich controlled reflections
+材質/質感,material,金屬,玫瑰金,rose-gold metal with warm copper-pink reflections
+材質/質感,material,金屬,香檳金,champagne-gold metal with pale warm reflections and restrained saturation
+材質/質感,material,金屬,純銀,silver metal with cool neutral reflections and fine natural tarnish variation
+材質/質感,material,金屬,鉑金,platinum metal with dense cool-white luster and restrained reflections
+材質/質感,material,金屬,紅銅,copper metal with warm reddish-orange reflections
+材質/質感,material,金屬,青銅,bronze metal with deep brown-gold body color
+材質/質感,material,金屬,黃銅,brass metal with muted yellow-gold reflections
+材質/質感,material,金屬,鍛鐵,dark wrought iron with low sheen and subtle forged irregularities
+材質/質感,material,金屬,碳鋼,dark carbon steel with cool restrained specular highlights
+材質/質感,material,金屬,不鏽鋼,stainless steel with neutral cool reflections and clean industrial finish
+材質/質感,material,金屬,鋁,lightweight aluminum with pale cool-gray metallic sheen
+材質/質感,material,金屬,鈦,titanium metal with cool gray body color and crisp lightweight sheen
+材質/質感,material,金屬,鎳,nickel metal with slightly warm silvery reflections
+材質/質感,material,金屬,鈷色金屬,cobalt-toned metal with deep cool blue metallic reflections
+材質/質感,material,金屬,槍色／鎗色金屬,dark gunmetal finish with cool graphite-gray reflections
+材質/質感,material,金屬,鉻,bright chrome with sharp mirror-like environmental reflections
+材質/質感,material,金屬,黑鉻,black chrome with dark mirror reflections and crisp edge highlights
+材質/質感,material,金屬處理,鏡面拋光,mirror-polished metal with sharp coherent environmental reflections
+材質/質感,material,金屬處理,高拋光金屬,highly polished metal with clean bright highlights and subtle micro-scratches
+材質/質感,material,金屬處理,拉絲金屬,brushed metal with fine parallel grain and anisotropic reflections
+材質/質感,material,金屬處理,緞面金屬,satin-finished metal with soft elongated highlights
+材質/質感,material,金屬處理,霧面金屬,matte metal with high surface roughness and broad diffused highlights
+材質/質感,material,金屬處理,噴砂金屬,bead-blasted metal with uniform fine-grain matte texture
+材質/質感,material,金屬處理,錘紋金屬,hammered metal with irregular shallow dimples catching broken highlights
+材質/質感,material,金屬處理,雕刻金屬,engraved metal with recessed ornamental lines and crisp edge shadows
+材質/質感,material,金屬處理,蝕刻金屬,etched metal with fine matte patterns contrasting against the base finish
+材質/質感,material,金屬處理,滾花金屬,knurled metal with precise crosshatched grip texture
+材質/質感,material,金屬處理,陽極氧化,anodized aluminum with even colored metallic finish and preserved metal grain
+材質/質感,material,金屬處理,鍍金,gold-plated metal with a thin polished gold surface over a distinct base metal
+材質/質感,material,金屬處理,鍍鉻,chrome-plated surface with bright cool mirror reflections
+材質/質感,material,金屬處理,黑化處理,blackened metal with deep charcoal surface and restrained edge sheen
+材質/質感,material,金屬處理,烤藍鋼,blued steel with deep blue-black oxide tones and subtle cool reflections
+材質/質感,material,金屬處理,鍍鋅金屬,galvanized steel with irregular crystalline zinc spangle
+材質/質感,material,舊化,氧化銅綠,aged copper with localized blue-green verdigris patina
+材質/質感,material,舊化,青銅古銅色,aged bronze with dark brown patina and polished high-contact edges
+材質/質感,material,舊化,銀器氧化,tarnished silver with darkened recesses and brighter rubbed edges
+材質/質感,material,舊化,鐵鏽,oxidized iron with layered orange-brown rust and flaking texture
+材質/質感,material,舊化,熱變色鋼,"heat-treated steel with localized blue, violet and amber temper colors"
+材質/質感,material,舊化,虹彩鈦,"iridescent anodized titanium shifting through blue, violet and gold"
+材質/質感,material,舊化,全像鉻,holographic chrome with mirror reflections overlaid by fine spectral diffraction
+材質/質感,material,舊化,煙燻鉻,smoked chrome with dark translucent mirror finish and softened reflections
+材質/質感,material,舊化,液態金屬,flowing liquid metal with smooth cohesive volume and mirror-like reflections
+材質/質感,material,舊化,水銀鏡面感,mercury-like liquid silver appearance with smooth rounded mirror reflections
+材質/質感,material,舊化,金屬箔,ultrathin metallic foil with delicate crinkles and fragmented highlights
+材質/質感,material,舊化,金屬網,fine woven metal mesh with readable interlaced wires and moire-free spacing
+材質/質感,material,舊化,鎖子甲,"interlocking chainmail rings with consistent scale, weight and metallic reflections"
+材質/質感,material,舊化,金屬花絲,delicate filigree metalwork with fine curling openwork and polished edges
+材質/質感,material,反射,環境一致反射,physically coherent metallic reflections matching the surrounding environment and light sources
+材質/質感,material,反射,方向性金屬反射,anisotropic metallic reflections aligned with the brushed grain direction
+材質/質感,material,反射,菲涅耳邊緣反射,subtle Fresnel reflections strengthening toward grazing angles
+材質/質感,material,反射,金屬邊緣光,controlled edge highlights revealing the metal silhouette without clipping
+材質/質感,material,反射,柔和金屬光,soft metallic sheen with broad restrained highlights
+材質/質感,material,反射,銳利鉻反射,sharp chrome reflections with readable environmental shapes and no blown highlights
+材質/質感,material,反射,彩色環境反射,colored environmental reflections naturally wrapping across the metal surface
+材質/質感,material,反射,粗糙度一致,"coherent surface roughness, reflection sharpness changing naturally across worn and polished areas"
+材質/質感,material,反射,槍色配件完整包,"dark gunmetal accessories, fine brushed grain, cool graphite-gray reflections, controlled edge highlights and coherent environmental reflections"
+材質/質感,material,反射,珠寶金屬完整包,"finely polished precious metal, crisp but controlled specular highlights, subtle micro-scratches, accurate environment reflections and clean gemstone settings"
+材質/質感,material,反射,盔甲金屬完整包,"weighted metal armor with coherent plate thickness, brushed and worn zones, restrained edge highlights, localized scratches and environment-matched reflections"
+材質/質感,material,反射,鉻面產品完整包,"mirror-polished chrome product surface, sharp coherent studio-environment reflections, clean curvature, no blown white highlights and no plastic appearance"
+材質/質感,material,反射,氧化銅完整包,"aged copper with warm reddish metal still visible beneath localized blue-green verdigris, polished contact edges and believable weathering patterns"
+風格/流派,style,古代—18C,古埃及藝術,ancient Egyptian art with rigid profile figures and hierarchical scale
+風格/流派,style,古代—18C,古希臘古典藝術,Classical Greek art with idealized proportion and balanced contrapposto
+風格/流派,style,古代—18C,古羅馬藝術,ancient Roman art with veristic portraiture and monumental architecture
+風格/流派,style,古代—18C,拜占庭藝術,"Byzantine art with gold ground, frontal sacred figures and flattened space"
+風格/流派,style,古代—18C,羅馬式藝術,Romanesque art with monumental simplified figures and dense narrative relief
+風格/流派,style,古代—18C,哥德藝術,"Gothic art with elongated figures, pointed architecture and jewel-like color"
+風格/流派,style,古代—18C,早期文藝復興,Early Renaissance art with clear perspective and restrained naturalism
+風格/流派,style,古代—18C,盛期文藝復興,"High Renaissance harmony, idealized anatomy and pyramidal composition"
+風格/流派,style,古代—18C,矯飾主義,"Mannerist art with elongated anatomy, elegant tension and unusual spatial compression"
+風格/流派,style,古代—18C,巴洛克,"Baroque art with dramatic chiaroscuro, diagonal movement and theatrical depth"
+風格/流派,style,古代—18C,洛可可,"Rococo art with pastel ornament, playful elegance and intimate luxury"
+風格/流派,style,古代—18C,新古典主義,"Neoclassical art with disciplined composition, sculptural figures and moral gravity"
+風格/流派,style,19C—現代,浪漫主義,"Romanticism with sublime nature, emotional drama and atmospheric light"
+風格/流派,style,19C—現代,學院藝術,19th-century Academic art with polished anatomy and historical staging
+風格/流派,style,19C—現代,寫實主義,19th-century Realism focused on ordinary life and unidealized detail
+風格/流派,style,19C—現代,拉斐爾前派,"Pre-Raphaelite art with jewel colors, botanical detail and medieval romanticism"
+風格/流派,style,19C—現代,印象派,"Impressionism with broken color, visible brushwork and transient natural light"
+風格/流派,style,19C—現代,點描派,Pointillism built from optical mixtures of small color dots
+風格/流派,style,19C—現代,後印象派,"Post-Impressionism with expressive structure, intensified color and personal form"
+風格/流派,style,19C—現代,象徵主義,"Symbolism with dreamlike allegory, mystical figures and psychological atmosphere"
+風格/流派,style,19C—現代,新藝術運動,"Art Nouveau with organic whiplash curves, floral ornament and integrated design"
+風格/流派,style,19C—現代,維也納分離派,"Vienna Secession style with geometric ornament, gold accents and flattened figures"
+風格/流派,style,19C—現代,野獸派,Fauvism with liberated non-natural color and bold simplified forms
+風格/流派,style,19C—現代,表現主義,"Expressionism with emotional distortion, forceful color and agitated marks"
+風格/流派,style,19C—現代,立體主義,Cubism with fractured viewpoints and interlocking geometric planes
+風格/流派,style,19C—現代,未來主義,"Futurism with repeated motion, mechanical rhythm and dynamic diagonals"
+風格/流派,style,19C—現代,達達主義,Dadaist anti-art collage logic with absurd juxtapositions
+風格/流派,style,19C—現代,構成主義,"Constructivist graphic art with bold diagonals, limited color and photomontage"
+風格/流派,style,19C—現代,至上主義,Suprematism with floating pure geometric forms and radical spatial simplicity
+風格/流派,style,19C—現代,風格派,"De Stijl abstraction with primary colors, black lines and orthogonal structure"
+風格/流派,style,19C—現代,包浩斯,"Bauhaus visual language with functional geometry, primary color and clean typography"
+風格/流派,style,19C—現代,裝飾藝術,"Art Deco with streamlined geometry, metallic luxury and symmetrical glamour"
+風格/流派,style,19C—現代,超現實主義,"Surrealism with dream logic, symbolic objects and impossible spatial relations"
+風格/流派,style,戰後當代,抽象表現主義,Abstract Expressionism with large gestural marks and energetic color fields
+風格/流派,style,戰後當代,色域繪畫,Color Field painting with expansive atmospheric planes of color
+風格/流派,style,戰後當代,普普藝術,"Pop Art with commercial imagery, flat color and graphic repetition"
+風格/流派,style,戰後當代,歐普藝術,Op Art with optical vibration and systematic geometric pattern
+風格/流派,style,戰後當代,極簡主義,"Minimalism with reduced forms, serial structure and precise negative space"
+風格/流派,style,戰後當代,概念藝術,Conceptual art in which the organizing idea dominates the visual object
+風格/流派,style,戰後當代,照相寫實主義,Photorealism with meticulous optical surface detail and photographic cropping
+風格/流派,style,戰後當代,新表現主義,"Neo-Expressionism with raw figurative marks, intense color and rough emotional energy"
+風格/流派,style,戰後當代,後現代拼貼,Postmodern eclectic collage mixing historical and popular visual codes
+風格/流派,style,戰後當代,低眉藝術,Lowbrow pop surrealism with cartoon imagery and subcultural humor
+風格/流派,style,插畫/CG,韓系乙女遊戲CG,premium Korean otome game CG
+風格/流派,style,插畫/CG,日系女性向遊戲CG,Japanese joseimuke game CG
+風格/流派,style,插畫/CG,高階2.5D插畫,high-end 2.5D character illustration
+風格/流派,style,插畫/CG,精緻二次元厚塗,refined anime-inspired painterly rendering
+風格/流派,style,插畫/CG,視覺小說彩圖,premium visual novel key art
+風格/流派,style,插畫/CG,韓國網漫彩圖,polished Korean webtoon illustration
+風格/流派,style,插畫/CG,少女漫畫美學,refined shoujo manga aesthetics
+風格/流派,style,插畫/CG,概念藝術,cinematic concept art
+風格/流派,style,插畫/CG,電影主視覺,cinematic key art
+風格/流派,style,插畫/CG,繪畫式半寫實,painterly semi-realism
+風格/流派,style,插畫/CG,柔焦厚塗,soft-focus digital painting
+風格/流派,style,插畫/CG,精緻賽璐璐,highly refined cel-shaded illustration
+風格/流派,style,美術媒材,古典油畫,classical oil painting
+風格/流派,style,美術媒材,浪漫主義油畫,Romanticism-inspired oil painting
+風格/流派,style,美術媒材,水彩,luminous watercolor painting
+風格/流派,style,美術媒材,水墨,expressive Chinese ink painting
+風格/流派,style,美術媒材,工筆重彩,meticulous gongbi-style painting
+風格/流派,style,美術媒材,粉彩,soft pastel illustration
+風格/流派,style,美術媒材,炭筆,charcoal drawing
+風格/流派,style,美術媒材,版畫,woodblock print aesthetics
+風格/流派,style,東方地域,中國水墨,expressive Chinese ink-wash painting
+風格/流派,style,東方地域,工筆重彩,meticulous gongbi heavy-color painting
+風格/流派,style,東方地域,青綠山水,blue-and-green Chinese landscape painting
+風格/流派,style,東方地域,浮世繪,ukiyo-e woodblock print
+風格/流派,style,東方地域,日本畫,Nihonga painting
+風格/流派,style,東方地域,韓國民畫,Korean minhwa folk painting
+風格/流派,style,東方地域,東方壁畫,ancient East Asian mural-painting aesthetics
+風格/流派,style,東方地域,印度細密畫,Indian miniature painting
+風格/流派,style,當代幻想,黑暗奇幻,sophisticated dark-fantasy illustration
+風格/流派,style,當代幻想,東方奇幻,luminous oriental fantasy illustration
+風格/流派,style,當代幻想,哥德美學,Gothic romantic aesthetics
+風格/流派,style,當代幻想,賽博龐克,cinematic cyberpunk aesthetics
+風格/流派,style,當代幻想,蒸氣龐克,Victorian steampunk aesthetics
+風格/流派,style,當代幻想,太陽龐克,hopeful solarpunk aesthetics
+風格/流派,style,當代幻想,復古未來主義,retrofuturist illustration
+風格/流派,style,當代幻想,合成波,synthwave aesthetics
+風格/流派,style,當代幻想,蒸氣波,vaporwave aesthetics
+風格/流派,style,當代幻想,Y2K未來感,Y2K futurist aesthetics
+風格/流派,style,當代幻想,韓系乙女CG,premium Korean otome game CG
+風格/流派,style,當代幻想,高階2.5D,high-end 2.5D illustration
+風格/流派,style,年代·戰前,維多利亞時代,"Victorian-era visual aesthetics, ornate interiors, dark wood and formal portraiture"
+風格/流派,style,年代·戰前,美好年代,"Belle Époque elegance with decorative cafés, fashion and luminous urban leisure"
+風格/流派,style,年代·戰前,愛德華時代,"Edwardian-era refined tailoring, airy interiors and restrained luxury"
+風格/流派,style,年代·戰前,咆哮二〇年代,"1920s Jazz Age glamour, Art Deco geometry and energetic nightlife"
+風格/流派,style,年代·戰前,一九三〇年代電影,1930s studio-era glamour with sculpted monochrome lighting
+風格/流派,style,年代·戰前,一九四〇年代黑色電影,"1940s film noir with hard shadows, smoke and urban paranoia"
+風格/流派,style,年代·戰後,一九五〇年代,"1950s mid-century optimism, diner colors and polished domestic design"
+風格/流派,style,年代·戰後,一九六〇年代摩登,"1960s mod aesthetics with graphic geometry, bold color and sleek fashion"
+風格/流派,style,年代·戰後,一九六〇年代迷幻,late-1960s psychedelic aesthetics with warped forms and vibrating color
+風格/流派,style,年代·戰後,一九七〇年代電影,"1970s cinema aesthetics with earthy color, zoom lenses and textured grain"
+風格/流派,style,年代·戰後,一九七〇年代迪斯可,"1970s disco glamour with mirror balls, metallic fabric and saturated club light"
+風格/流派,style,年代·戰後,一九八〇年代霓虹,1980s neon-noir aesthetics with magenta-cyan light and glossy night streets
+風格/流派,style,年代·戰後,一九八〇年代孟菲斯,"1980s Memphis design with playful geometry, squiggles and clashing pastel color"
+風格/流派,style,年代·戰後,一九九〇年代寫真,"1990s editorial photography with direct flash, muted film color and casual styling"
+風格/流派,style,年代·戰後,一九九〇年代數位未來感,1990s techno-futurism with chrome interfaces and early CGI aesthetics
+風格/流派,style,年代·戰後,Y2K千禧美學,"Y2K aesthetics with chrome, translucent plastic, flash photography and playful futurism"
+風格/流派,style,年代·21C,二〇〇〇年代數位相機,2000s compact-digital-camera aesthetics with harsh flash and cool color noise
+風格/流派,style,年代·21C,二〇一〇年代社群美學,early-2010s social-media aesthetics with filtered color and casual square framing
+風格/流派,style,年代·21C,復古未來主義,retrofuturism imagining the future through a past era's design language
+風格/流派,style,年代·21C,原子時代未來感,"Atomic Age futurism with ray-gun curves, starbursts and optimistic space design"
+風格/流派,style,年代·21C,太空時代美學,"Space Age design with white molded forms, chrome and orbital geometry"
+風格/流派,style,年代·21C,卡式未來主義,"cassette futurism with tactile buttons, analog screens and chunky industrial hardware"
+風格/流派,style,年代·21C,新復古浪潮,"modern neo-retro styling that selectively rebuilds vintage color, type and material"
+筆觸/技法,brush,油畫厚塗,厚塗,rich impasto brushwork
+筆觸/技法,brush,油畫厚塗,畫刀,palette-knife painting
+筆觸/技法,brush,油畫厚塗,乾筆,dry-brush texture
+筆觸/技法,brush,油畫厚塗,濕中濕,wet-on-wet blending
+筆觸/技法,brush,油畫厚塗,罩染,transparent glazing layers
+筆觸/技法,brush,油畫厚塗,擦塗,scumbled paint texture
+筆觸/技法,brush,油畫厚塗,斷色筆觸,broken-color brushstrokes
+筆觸/技法,brush,油畫厚塗,寬大筆觸,broad confident brushstrokes
+筆觸/技法,brush,油畫厚塗,細密厚塗,finely rendered painterly brushwork
+筆觸/技法,brush,線描肌理,精細線稿,delicate precise linework
+筆觸/技法,brush,線描肌理,書法線條,expressive calligraphic strokes
+筆觸/技法,brush,線描肌理,交叉排線,cross-hatched shading
+筆觸/技法,brush,線描肌理,平行排線,fine parallel hatching
+筆觸/技法,brush,線描肌理,點描,stippling texture
+筆觸/技法,brush,線描肌理,墨線加淡彩,line-and-wash illustration
+筆觸/技法,brush,線描肌理,飛白,dry calligraphic flying-white strokes
+筆觸/技法,brush,線描肌理,墨點飛濺,controlled ink splatter
+筆觸/技法,brush,線描肌理,紙張顆粒,visible paper grain interacting with the pigment
+筆觸/技法,brush,邊緣完成度,柔和融合,soft blended brushwork
+筆觸/技法,brush,邊緣完成度,硬邊筆觸,crisp hard-edged brushwork
+筆觸/技法,brush,邊緣完成度,虛實邊緣,lost-and-found edges
+筆觸/技法,brush,邊緣完成度,焦點細化,highly refined focal details with looser peripheral brushwork
+筆觸/技法,brush,邊緣完成度,可見筆觸,visible expressive brushstrokes
+筆觸/技法,brush,邊緣完成度,無痕噴繪,seamless airbrushed gradients
+攝影風格/濾鏡,photo,攝影電影,電影劇照,cinematic film still
+攝影風格/濾鏡,photo,攝影電影,藝術電影,art-house cinematography
+攝影風格/濾鏡,photo,攝影電影,紀實攝影,documentary photography
+攝影風格/濾鏡,photo,攝影電影,編輯時尚攝影,cinematic editorial fashion photography
+攝影風格/濾鏡,photo,攝影電影,低調奢華攝影,understated luxury editorial
+攝影風格/濾鏡,photo,攝影電影,黑色電影,film noir cinematography
+攝影風格/濾鏡,photo,攝影電影,新黑色電影,neo-noir cinematography
+攝影風格/濾鏡,photo,攝影電影,底片攝影,analog film photography
+攝影風格/濾鏡,photo,攝影電影,千禧年攝影,Y2K editorial photography
+攝影風格/濾鏡,photo,攝影電影,夢境攝影,surreal dream photography
+攝影風格/濾鏡,photo,電影調色,青橙電影調色,cinematic teal-and-orange color grading
+攝影風格/濾鏡,photo,電影調色,跳漂白,bleach-bypass film look
+攝影風格/濾鏡,photo,電影調色,交叉沖洗,cross-processed film colors
+攝影風格/濾鏡,photo,電影調色,電影式低飽和,cinematic desaturated color grade
+攝影風格/濾鏡,photo,電影調色,柔和黑位,soft lifted blacks with a cinematic matte finish
+攝影風格/濾鏡,photo,電影調色,深黑電影調色,rich deep blacks with preserved shadow detail
+攝影風格/濾鏡,photo,電影調色,冷暖分離調色,cinematic split toning with cool shadows and warm highlights
+攝影風格/濾鏡,photo,電影調色,日落暖調,warm sunset color grade
+攝影風格/濾鏡,photo,電影調色,藍色時刻調色,cool blue-hour color grade
+攝影風格/濾鏡,photo,底片年代,柔和人像負片,soft pastel portrait-film look
+攝影風格/濾鏡,photo,底片年代,電影燈光底片,cinematic tungsten-balanced film look
+攝影風格/濾鏡,photo,底片年代,高飽和正片,vivid slide-film color rendering
+攝影風格/濾鏡,photo,底片年代,即影即有,instant-film photograph with soft color shifts
+攝影風格/濾鏡,photo,底片年代,拍立得褪色,faded instant-photo palette
+攝影風格/濾鏡,photo,底片年代,一次性相機,disposable-camera snapshot aesthetic
+攝影風格/濾鏡,photo,底片年代,九〇年代家庭照,1990s family-photo color palette
+攝影風格/濾鏡,photo,底片年代,千禧年數位相機,early-2000s compact digicam aesthetic
+攝影風格/濾鏡,photo,底片年代,復古暖色負片,warm vintage negative-film look
+攝影風格/濾鏡,photo,底片年代,過期底片,expired-film color shifts
+攝影風格/濾鏡,photo,色彩濾鏡,黑白,neutral monochrome photography
+攝影風格/濾鏡,photo,色彩濾鏡,高反差黑白,high-contrast black-and-white photography
+攝影風格/濾鏡,photo,色彩濾鏡,銀鹽黑白,silver-gelatin monochrome look
+攝影風格/濾鏡,photo,色彩濾鏡,棕褐色,sepia-toned photograph
+攝影風格/濾鏡,photo,色彩濾鏡,青版攝影,cyanotype-blue photographic print
+攝影風格/濾鏡,photo,色彩濾鏡,雙色調,graphic duotone color treatment
+攝影風格/濾鏡,photo,色彩濾鏡,粉霧濾鏡,soft muted pastel color filter
+攝影風格/濾鏡,photo,色彩濾鏡,綠色日光燈偏色,subtle green fluorescent color cast
+攝影風格/濾鏡,photo,色彩濾鏡,鎢絲燈暖黃,warm tungsten color cast
+攝影風格/濾鏡,photo,色彩濾鏡,紅色暗房,deep red darkroom filter
+身體/骨架/比例,body,身高與整體尺度,非常嬌小,very short adult stature with mature proportions
+身體/骨架/比例,body,身高與整體尺度,嬌小身高,petite adult stature with balanced mature proportions
+身體/骨架/比例,body,身高與整體尺度,中等身高,average adult height with balanced proportions
+身體/骨架/比例,body,身高與整體尺度,中高身材,moderately tall adult stature
+身體/骨架/比例,body,身高與整體尺度,高挑身材,tall elegant stature with long vertical lines
+身體/骨架/比例,body,身高與整體尺度,非常高大,very tall adult stature with believable scale relative to the environment
+身體/骨架/比例,body,身高與整體尺度,明確身高數值,an adult approximately 188 centimeters tall
+身體/骨架/比例,body,身高與整體尺度,明顯身高差,a clearly readable height difference between the two adults while both retain mature proportions
+身體/骨架/比例,body,骨架寬窄與厚度,極纖細骨架,very fine-boned adult frame with narrow joints and mature anatomy
+身體/骨架/比例,body,骨架寬窄與厚度,纖細骨架,fine-boned slender frame
+身體/骨架/比例,body,骨架寬窄與厚度,中等骨架,medium skeletal frame with balanced joint width
+身體/骨架/比例,body,骨架寬窄與厚度,寬骨架,broad skeletal frame with wide shoulders and sturdy joints
+身體/骨架/比例,body,骨架寬窄與厚度,厚實骨架,large sturdy frame with substantial ribcage and pelvis
+身體/骨架/比例,body,骨架寬窄與厚度,窄肩骨架,narrow shoulder frame with delicate clavicle width
+身體/骨架/比例,body,骨架寬窄與厚度,寬肩骨架,broad shoulder frame created by wide clavicles rather than exaggerated muscle
+身體/骨架/比例,body,骨架寬窄與厚度,窄胸廓,narrow ribcage with a slim torso depth
+身體/骨架/比例,body,骨架寬窄與厚度,寬胸廓,broad ribcage with substantial torso width
+身體/骨架/比例,body,骨架寬窄與厚度,薄身板,shallow torso depth with a slim side profile
+身體/骨架/比例,body,骨架寬窄與厚度,厚實身板,deep torso with substantial front-to-back body thickness
+身體/骨架/比例,body,骨架寬窄與厚度,關節纖細,"fine wrists, ankles and joint structure"
+身體/骨架/比例,body,骨架寬窄與厚度,關節粗壯,"sturdy wrists, ankles and broad joint structure"
+身體/骨架/比例,body,肩頸、胸廓與骨盆,平肩,level shoulders with a nearly horizontal shoulder line
+身體/骨架/比例,body,肩頸、胸廓與骨盆,斜肩,gently sloped shoulders descending from the neck
+身體/骨架/比例,body,肩頸、胸廓與骨盆,方肩,square structured shoulders with clear clavicle width
+身體/骨架/比例,body,肩頸、胸廓與骨盆,圓肩,softly rounded shoulders with natural forward curvature
+身體/骨架/比例,body,肩頸、胸廓與骨盆,長頸,long elegant neck with believable cervical anatomy
+身體/骨架/比例,body,肩頸、胸廓與骨盆,短頸,shorter sturdy neck with natural proportions
+身體/骨架/比例,body,肩頸、胸廓與骨盆,細頸,slender neck with subtle tendons and mature structure
+身體/骨架/比例,body,肩頸、胸廓與骨盆,粗頸,thick powerful neck integrated naturally into the shoulders
+身體/骨架/比例,body,肩頸、胸廓與骨盆,窄骨盆,narrow pelvis with a straight lower-torso silhouette
+身體/骨架/比例,body,肩頸、胸廓與骨盆,寬骨盆,broad pelvis with a stable hip structure
+身體/骨架/比例,body,肩頸、胸廓與骨盆,高髖骨,high-set iliac crests creating a compact waist-to-hip transition
+身體/骨架/比例,body,肩頸、胸廓與骨盆,低髖骨,lower-set pelvis creating a longer waist-to-hip transition
+身體/骨架/比例,body,軀幹與四肢長度,長軀幹,long torso with proportionally lower-set hips
+身體/骨架/比例,body,軀幹與四肢長度,短軀幹,compact torso with proportionally high-set hips
+身體/骨架/比例,body,軀幹與四肢長度,長四肢,long limbs with elegant mature proportions
+身體/骨架/比例,body,軀幹與四肢長度,短四肢,proportionally shorter limbs with a sturdy mature build
+身體/骨架/比例,body,軀幹與四肢長度,長手臂,long arms reaching naturally toward the upper thighs
+身體/骨架/比例,body,軀幹與四肢長度,長腿,long legs with anatomically believable hip and knee placement
+身體/骨架/比例,body,軀幹與四肢長度,短腿比例,proportionally shorter legs with a mature balanced torso
+身體/骨架/比例,body,軀幹與四肢長度,腿長身短,long-legged proportions with a compact torso
+身體/骨架/比例,body,軀幹與四肢長度,身長腿短,long-torso proportions with comparatively shorter legs
+身體/骨架/比例,body,軀幹與四肢長度,翼展較長,arm span slightly exceeding body height with long forearms and hands
+身體/骨架/比例,body,整體身型,纖瘦身型,slim adult build with low-to-moderate body fat and natural soft tissue
+身體/骨架/比例,body,整體身型,修長身型,slender elongated build with long clean body lines
+身體/骨架/比例,body,整體身型,瘦長身型,lanky adult build with long limbs and a narrow frame
+身體/骨架/比例,body,整體身型,清瘦身型,lean slight build with subtle bony landmarks and restrained softness
+身體/骨架/比例,body,整體身型,勻稱身型,well-proportioned average build with balanced soft tissue and muscle
+身體/骨架/比例,body,整體身型,精實身型,lean fit build with compact muscle and low excess bulk
+身體/骨架/比例,body,整體身型,運動型身材,athletic build with functional muscle and balanced body fat
+身體/骨架/比例,body,整體身型,柔軟身型,soft-bodied build with gentle contours and relaxed tissue definition
+身體/骨架/比例,body,整體身型,豐潤身型,full soft adult figure with abundant natural curves
+身體/骨架/比例,body,整體身型,微肉身型,soft slightly chubby adult build with natural fullness around the torso and limbs
+身體/骨架/比例,body,整體身型,胖身型,"fat adult body with substantial soft tissue, realistic weight distribution and mature proportions"
+身體/骨架/比例,body,整體身型,高大厚實身型,large broad-bodied build with substantial mass and grounded weight
+身體/骨架/比例,body,整體身型,壯碩身型,"powerfully built adult body with broad frame, thick torso and substantial muscle"
+身體/骨架/比例,body,整體身型,矮壯身型,short stocky adult build with a broad frame and compact limbs
+身體/骨架/比例,body,整體身型,高壯身型,tall heavily built adult body with broad shoulders and substantial mass
+身體/骨架/比例,body,輪廓與脂肪分布,直筒型身材,"rectangular body silhouette with similar shoulder, waist and hip widths"
+身體/骨架/比例,body,輪廓與脂肪分布,沙漏型身材,hourglass silhouette with balanced shoulders and hips and a clearly narrower waist
+身體/骨架/比例,body,輪廓與脂肪分布,梨形身材,pear-shaped body with narrower shoulders and fuller hips and thighs
+身體/骨架/比例,body,輪廓與脂肪分布,倒三角身材,inverted-triangle body with broad shoulders tapering toward narrower hips
+身體/骨架/比例,body,輪廓與脂肪分布,蘋果型身材,apple-shaped body with fullness concentrated around the midsection and comparatively slimmer limbs
+身體/骨架/比例,body,輪廓與脂肪分布,圓潤輪廓,rounded body silhouette with continuous soft curves and minimal sharp definition
+身體/骨架/比例,body,輪廓與脂肪分布,上身纖細下身豐潤,"slender upper body with fuller hips, buttocks and thighs"
+身體/骨架/比例,body,輪廓與脂肪分布,上身厚實下身纖細,substantial upper torso with comparatively lean hips and legs
+身體/骨架/比例,body,輪廓與脂肪分布,腰腹柔軟,soft natural fullness around the waist and lower abdomen
+身體/骨架/比例,body,輪廓與脂肪分布,小腹微凸,subtle natural lower-belly curve
+身體/骨架/比例,body,輪廓與脂肪分布,腹部平坦,naturally flat abdomen without exaggerated muscle definition
+身體/骨架/比例,body,輪廓與脂肪分布,腰線不明顯,gently undefined waistline with a straighter torso
+身體/骨架/比例,body,輪廓與脂肪分布,細腰,narrow waist with anatomically believable ribcage and pelvis spacing
+身體/骨架/比例,body,輪廓與脂肪分布,寬腰,broad waist with a sturdy stable torso
+身體/骨架/比例,body,輪廓與脂肪分布,窄胯,narrow hips creating a straight lower-body line
+身體/骨架/比例,body,輪廓與脂肪分布,寬胯,wide hips with a broad mature pelvic silhouette
+身體/骨架/比例,body,輪廓與脂肪分布,臀部平坦,subtle low-projection buttocks with a straight side silhouette
+身體/骨架/比例,body,輪廓與脂肪分布,臀部圓潤,rounded full buttocks with natural gluteal structure and weight
+身體/骨架/比例,body,輪廓與脂肪分布,大腿豐潤,full soft thighs with believable inner-thigh contact and weight
+身體/骨架/比例,body,輪廓與脂肪分布,四肢纖細軀幹豐滿,slender limbs with a fuller soft torso and realistic transitions
+身體/骨架/比例,body,胸腰臀與完整身型包,小胸型,a small natural chest proportional to the ribcage
+身體/骨架/比例,body,胸腰臀與完整身型包,中等胸型,a medium natural chest proportional to the torso
+身體/骨架/比例,body,胸腰臀與完整身型包,豐滿胸型,"a full natural chest with believable weight, support and gravity"
+身體/骨架/比例,body,胸腰臀與完整身型包,胸肌主導胸型,chest volume defined primarily by developed pectoral muscle
+身體/骨架/比例,body,胸腰臀與完整身型包,自然胸部不對稱,subtle natural asymmetry in chest shape and height
+身體/骨架/比例,body,胸腰臀與完整身型包,纖細模特身型包,"tall fine-boned adult, slender elongated build, narrow ribcage, long limbs, low-to-moderate body fat and minimal muscle bulk"
+身體/骨架/比例,body,胸腰臀與完整身型包,柔和日常身型包,"average-height adult with a medium frame, soft natural body contours, moderate body fat, relaxed abdomen and no exaggerated muscle definition"
+身體/骨架/比例,body,胸腰臀與完整身型包,高大厚實身型包,"tall broad-framed adult with wide clavicles, deep ribcage, thick limbs, substantial grounded mass and moderate functional muscle"
+身體/骨架/比例,body,胸腰臀與完整身型包,梨形曲線身型包,"mature pear-shaped figure, fine-to-medium upper frame, defined waist, broad pelvis, full hips and soft powerful thighs"
+身體/骨架/比例,body,胸腰臀與完整身型包,沙漏曲線身型包,"mature hourglass figure with balanced shoulders and hips, anatomically believable narrow waist and softly full chest and thighs"
+身體/骨架/比例,body,胸腰臀與完整身型包,矮壯力量身型包,"short stocky adult with a broad sturdy frame, thick torso, compact limbs, strong joints and grounded body weight"
+身體/骨架/比例,body,胸腰臀與完整身型包,胖身型寫實包,"fat adult body with mature proportions, broad soft torso, natural abdominal folds, substantial arms and thighs, realistic weight distribution and grounded posture"
+身體/骨架/比例,body,肌肉量與清晰度,無明顯肌肉線條,little visible muscle definition with soft natural body contours
+身體/骨架/比例,body,肌肉量與清晰度,輕微緊實,lightly toned body with only subtle muscle contours
+身體/骨架/比例,body,肌肉量與清晰度,薄肌,lean compact musculature with low bulk and delicate definition
+身體/骨架/比例,body,肌肉量與清晰度,精實肌肉,lean defined musculature with functional proportions and restrained bulk
+身體/骨架/比例,body,肌肉量與清晰度,運動型肌肉,balanced athletic musculature developed for movement rather than display
+身體/骨架/比例,body,肌肉量與清晰度,結實肌肉,solid muscular build with moderate size and clear anatomical structure
+身體/骨架/比例,body,肌肉量與清晰度,高肌肉量,high muscularity with substantial but anatomically coherent muscle volume
+身體/骨架/比例,body,肌肉量與清晰度,健美型肌肉,bodybuilder-level hypertrophy with deeply separated muscle groups
+身體/骨架/比例,body,肌肉量與清晰度,乾燥肌肉線條,very low body fat with sharply visible muscle separation and vascularity
+身體/骨架/比例,body,肌肉量與清晰度,覆有柔軟脂肪的肌肉,substantial muscle beneath a natural soft layer of body fat
+身體/骨架/比例,body,肌肉量與清晰度,放鬆狀態肌肉,"muscles relaxed at rest, preserving natural softness and weight"
+身體/骨架/比例,body,肌肉量與清晰度,動作中肌肉用力,localized muscle engagement corresponding precisely to the depicted action
+身體/骨架/比例,body,上半身肌群,纖細肩部肌肉,slender shoulders with lightly defined deltoids
+身體/骨架/比例,body,上半身肌群,圓潤三角肌,rounded developed deltoids with clear separation from the upper arms
+身體/骨架/比例,body,上半身肌群,寬闊背肌,developed latissimus dorsi creating a controlled V-shaped back
+身體/骨架/比例,body,上半身肌群,精實背部線條,lean defined back with visible scapular movement and spinal erectors
+身體/骨架/比例,body,上半身肌群,斜方肌不明顯,restrained upper trapezius development preserving a long neck line
+身體/骨架/比例,body,上半身肌群,厚實斜方肌,thick developed trapezius integrated into the neck and shoulders
+身體/骨架/比例,body,上半身肌群,薄胸肌,lean flat pectoral muscles with subtle lower-edge definition
+身體/骨架/比例,body,上半身肌群,清晰胸肌,defined pectoral muscles with natural attachment and restrained volume
+身體/骨架/比例,body,上半身肌群,厚實胸肌,thick developed pectoral muscles with believable weight and sternum spacing
+身體/骨架/比例,body,上半身肌群,纖細手臂,slender arms with minimal visible muscle bulk
+身體/骨架/比例,body,上半身肌群,緊實手臂,toned arms with subtle biceps and triceps definition
+身體/骨架/比例,body,上半身肌群,粗壯手臂,thick powerful upper arms with developed biceps and triceps
+身體/骨架/比例,body,上半身肌群,精實前臂,lean muscular forearms with visible tendons and natural vein detail
+身體/骨架/比例,body,上半身肌群,握力型前臂,strong developed forearms and hands shaped by repeated gripping work
+身體/骨架/比例,body,核心與下半身肌群,平坦腹部無腹肌,flat abdomen without segmented abdominal definition
+身體/骨架/比例,body,核心與下半身肌群,淡腹肌線,faint abdominal lines visible only under directional light
+身體/骨架/比例,body,核心與下半身肌群,四塊腹肌,subtly defined four-pack abdominal structure with natural asymmetry
+身體/骨架/比例,body,核心與下半身肌群,六塊腹肌,defined six-pack abs with anatomically coherent spacing and natural asymmetry
+身體/骨架/比例,body,核心與下半身肌群,八塊腹肌,highly defined eight-pack abs with very low body fat
+身體/骨架/比例,body,核心與下半身肌群,人魚線,subtle inguinal lines forming a restrained V at the lower abdomen
+身體/骨架/比例,body,核心與下半身肌群,強壯核心,powerful deep core with thick obliques and stable torso control
+身體/骨架/比例,body,核心與下半身肌群,纖細腰腹肌,slender waist with lightly toned obliques and no bulky abdominal blocks
+身體/骨架/比例,body,核心與下半身肌群,長而精實的大腿,long lean thighs with defined quadriceps and restrained bulk
+身體/骨架/比例,body,核心與下半身肌群,強壯股四頭肌,powerful developed quadriceps with clear anatomical heads
+身體/骨架/比例,body,核心與下半身肌群,強壯腿後肌,developed hamstrings with believable tension during hip extension
+身體/骨架/比例,body,核心與下半身肌群,圓潤臀肌,developed rounded gluteal muscles integrated naturally with the pelvis and thighs
+身體/骨架/比例,body,核心與下半身肌群,纖細小腿,slender calves with delicate Achilles definition
+身體/骨架/比例,body,核心與下半身肌群,舞者小腿,elongated dancer's calves with defined but streamlined gastrocnemius muscles
+身體/骨架/比例,body,核心與下半身肌群,粗壯小腿,thick powerful calves with strong ankle support
+身體/骨架/比例,body,功能型身材,芭蕾舞者型,"ballet dancer physique, elongated lean musculature, strong core, lifted posture, powerful streamlined legs and restrained upper-body bulk"
+身體/骨架/比例,body,功能型身材,現代舞者型,"contemporary dancer physique with lean full-body strength, mobile shoulders, powerful core and expressive long limbs"
+身體/骨架/比例,body,功能型身材,游泳選手型,"swimmer physique with broad clavicles, developed lats, long torso and streamlined limbs"
+身體/骨架/比例,body,功能型身材,長跑者型,"distance runner physique with very lean body mass, compact core and long efficient legs"
+身體/骨架/比例,body,功能型身材,短跑者型,"sprinter physique with explosive glutes, powerful thighs, defined core and athletic upper body"
+身體/骨架/比例,body,功能型身材,攀岩者型,"climber physique with lean torso, strong back, highly developed forearms, grip strength and low unnecessary bulk"
+身體/骨架/比例,body,功能型身材,體操選手型,"gymnast physique with compact powerful musculature, broad shoulders, strong core and controlled limbs"
+身體/骨架/比例,body,功能型身材,武術家型,"martial artist physique with balanced functional muscle, stable hips, strong core and relaxed readiness"
+身體/骨架/比例,body,功能型身材,重量級格鬥型,"heavyweight fighter physique with thick neck, broad torso, powerful limbs and muscle beneath natural body fat"
+身體/骨架/比例,body,功能型身材,舉重選手型,"weightlifter physique with dense shoulders, thick torso, powerful hips and thighs and grounded short-range strength"
+身體/骨架/比例,body,功能型身材,工匠勞動型,"work-hardened physique with strong hands, forearms, back and uneven functional muscle developed through labor"
+身體/骨架/比例,body,功能型身材,古典雕塑型,"classically athletic physique with harmonious muscle groups, moderate definition and balanced proportions"
+身體/骨架/比例,body,頭身與整體比例,五頭身成人,approximately five-head-tall adult proportions with a compact stylized body
+身體/骨架/比例,body,頭身與整體比例,六頭身成人,approximately six-head-tall adult proportions
+身體/骨架/比例,body,頭身與整體比例,七頭身,approximately seven-head-tall natural adult proportions
+身體/骨架/比例,body,頭身與整體比例,七點五頭身,approximately seven-and-a-half-head-tall balanced adult proportions
+身體/骨架/比例,body,頭身與整體比例,八頭身,approximately eight-head-tall idealized fashion proportions
+身體/骨架/比例,body,頭身與整體比例,九頭身,approximately nine-head-tall highly elongated runway proportions
+身體/骨架/比例,body,頭身與整體比例,頭部偏小,slightly small head relative to the adult body
+身體/骨架/比例,body,頭身與整體比例,頭部偏大成人比例,slightly larger head while retaining mature adult facial and body proportions
+身體/骨架/比例,body,肩腰胯關係,肩寬大於胯寬,shoulder width clearly greater than hip width
+身體/骨架/比例,body,肩腰胯關係,肩胯同寬,shoulders and hips of approximately equal width
+身體/骨架/比例,body,肩腰胯關係,胯寬大於肩寬,hip width clearly greater than shoulder width
+身體/骨架/比例,body,肩腰胯關係,高腰線,high natural waistline with a short rib-to-pelvis distance
+身體/骨架/比例,body,肩腰胯關係,低腰線,lower natural waistline with a longer midsection
+身體/骨架/比例,body,肩腰胯關係,腰胯落差明顯,clearly defined waist-to-hip contrast with anatomically plausible transitions
+身體/骨架/比例,body,肩腰胯關係,腰胯落差小,minimal waist-to-hip contrast creating a straighter silhouette
+身體/骨架/比例,body,肩腰胯關係,胸腰落差明顯,pronounced but believable chest-to-waist taper
+身體/骨架/比例,body,肩腰胯關係,上下身均衡,balanced upper- and lower-body visual mass
+身體/骨架/比例,body,肩腰胯關係,下半身比重較高,greater visual mass concentrated in the hips and legs
+身體/骨架/比例,body,手臂腿部與局部比例,纖長手指,long slender fingers proportional to the hands
+身體/骨架/比例,body,手臂腿部與局部比例,寬大手掌,broad large hands with sturdy palms and proportional fingers
+身體/骨架/比例,body,手臂腿部與局部比例,小巧手掌,small refined hands proportional to the adult frame
+身體/骨架/比例,body,手臂腿部與局部比例,長前臂,slightly elongated forearms with natural elbow and wrist placement
+身體/骨架/比例,body,手臂腿部與局部比例,長大腿比例,long femur proportions with anatomically correct hip and knee placement
+身體/骨架/比例,body,手臂腿部與局部比例,長小腿比例,long lower-leg proportions with high-set knees and slender ankles
+身體/骨架/比例,body,手臂腿部與局部比例,粗大腿細小腿,full powerful thighs tapering toward comparatively slender calves
+身體/骨架/比例,body,手臂腿部與局部比例,腿部均勻修長,evenly slender long legs with balanced thigh and calf proportions
+身體/骨架/比例,body,手臂腿部與局部比例,手腕纖細,fine wrists creating a delicate transition into the hands
+身體/骨架/比例,body,手臂腿部與局部比例,腳踝纖細,slender ankles with clear but natural bone landmarks
+身體/骨架/比例,body,手臂腿部與局部比例,腳掌修長,long narrow feet proportional to the adult body
+身體/骨架/比例,body,手臂腿部與局部比例,腳掌寬厚,broad sturdy feet with realistic weight-bearing contact
+身體/骨架/比例,body,比例控制完整包,自然成人比例包,"natural seven-to-seven-and-a-half-head-tall adult proportions, balanced torso and leg length, anatomically correct shoulder, waist, hip, elbow and knee placement"
+身體/骨架/比例,body,比例控制完整包,高挑模特比例包,"idealized eight-head-tall adult proportions, slightly small head, high-set hips, compact torso, long limbs, long legs and elegant fine joints"
+身體/骨架/比例,body,比例控制完整包,舞者比例包,"elongated adult dancer proportions, long neck and limbs, compact controlled torso, high-set hips, strong balanced legs and naturally extended lines"
+身體/骨架/比例,body,比例控制完整包,高大男性比例包,"tall mature masculine proportions, broad clavicles, balanced head size, long arms, substantial ribcage and legs scaled coherently to the torso"
+身體/骨架/比例,body,比例控制完整包,嬌小成人比例包,"petite adult stature, approximately six-and-a-half to seven heads tall, compact limbs, mature face, developed adult torso and clearly adult hands and feet"
+身體/骨架/比例,body,比例控制完整包,雙人身高差控制包,"two adults with a clearly specified height difference, consistent head scale, feet sharing the same ground plane and environment providing reliable scale cues"
+臉型五官,face,臉型,橢圓臉,oval face
+臉型五官,face,臉型,長橢圓臉,elongated oval face
+臉型五官,face,臉型,圓臉,round face
+臉型五官,face,臉型,方臉,square face
+臉型五官,face,臉型,長方臉,oblong face
+臉型五官,face,臉型,心形臉,heart-shaped face
+臉型五官,face,臉型,菱形臉,diamond-shaped face
+臉型五官,face,臉型,倒三角臉,inverted-triangle face
+臉型五官,face,臉型,梨形臉,pear-shaped face
+臉型五官,face,臉型,窄臉,narrow face
+臉型五官,face,臉型,柔和臉部輪廓,soft facial contours
+臉型五官,face,臉型,稜角分明,angular facial structure
+臉型五官,face,額頭與顴骨,高額頭,high forehead
+臉型五官,face,額頭與顴骨,低額頭,low forehead
+臉型五官,face,額頭與顴骨,寬額頭,broad forehead
+臉型五官,face,額頭與顴骨,圓潤額頭,gently rounded forehead
+臉型五官,face,額頭與顴骨,高顴骨,high cheekbones
+臉型五官,face,額頭與顴骨,柔和顴骨,softly sculpted cheekbones
+臉型五官,face,額頭與顴骨,寬顴骨,broad cheekbones
+臉型五官,face,額頭與顴骨,飽滿蘋果肌,subtle fullness in the upper cheeks
+臉型五官,face,額頭與顴骨,凹陷臉頰,slightly hollow cheeks
+臉型五官,face,眉骨與眼窩,高眉骨,high-set brow bones
+臉型五官,face,眉骨與眼窩,低眉骨,low-set brow bones
+臉型五官,face,眉骨與眼窩,眉骨突出,prominent brow ridge
+臉型五官,face,眉骨與眼窩,眉骨柔和,subtle smooth brow ridge
+臉型五官,face,眉骨與眼窩,眉骨稜線清楚,clearly defined supraorbital ridge
+臉型五官,face,眉骨與眼窩,深眼窩,deep orbital sockets
+臉型五官,face,眉骨與眼窩,淺眼窩,shallow orbital sockets
+臉型五官,face,眉骨與眼窩,眼窩輪廓清楚,well-defined orbital structure around the eyes
+臉型五官,face,眉骨與眼窩,高位顴骨,high-set cheekbones positioned close beneath the eyes
+臉型五官,face,眉骨與眼窩,低位顴骨,low-set cheekbones with fullness concentrated toward the mid-cheek
+臉型五官,face,眉骨與眼窩,顴骨前突,forward-projecting cheekbones
+臉型五官,face,眉骨與眼窩,顴弓外擴,prominent outward zygomatic arches
+臉型五官,face,眉骨與眼窩,窄顴弓,narrow zygomatic width
+臉型五官,face,眉骨與眼窩,平坦中臉,subtly flat midface projection
+臉型五官,face,眉骨與眼窩,立體中臉,forward-projecting midface with clear cheek and nasal support
+臉型五官,face,眉骨與眼窩,長中庭,slightly elongated midface proportions
+臉型五官,face,眉骨與眼窩,短中庭,compact midface proportions
+臉型五官,face,眉骨與眼窩,太陽穴微凹,subtly hollow temples
+臉型五官,face,眉骨與眼窩,太陽穴飽滿,smooth full temples
+臉型五官,face,眉毛,平眉,straight eyebrows
+臉型五官,face,眉毛,柔和拱眉,softly arched eyebrows
+臉型五官,face,眉毛,高挑眉,high-arched eyebrows
+臉型五官,face,眉毛,劍眉,straight sword-shaped eyebrows
+臉型五官,face,眉毛,上揚眉,upward-slanting eyebrows
+臉型五官,face,眉毛,下垂眉,gently downturned eyebrows
+臉型五官,face,眉毛,濃眉,thick full eyebrows
+臉型五官,face,眉毛,細眉,thin refined eyebrows
+臉型五官,face,眉毛,淡眉,soft low-contrast eyebrows
+臉型五官,face,眉毛,自然雜毛眉,naturally textured eyebrows
+臉型五官,face,眉毛細節,圓弧眉,rounded arched eyebrows
+臉型五官,face,眉毛細節,柔角眉,soft-angled eyebrows
+臉型五官,face,眉毛細節,銳角眉,sharply angled eyebrows
+臉型五官,face,眉毛細節,S形眉,subtle S-shaped eyebrows
+臉型五官,face,眉毛細節,低位眉,low-set eyebrows close to the eyes
+臉型五官,face,眉毛細節,高位眉,high-set eyebrows with generous brow-to-eye spacing
+臉型五官,face,眉毛細節,眉距寬,wide-spaced eyebrows
+臉型五官,face,眉毛細節,眉距窄,close-set eyebrows
+臉型五官,face,眉毛細節,長眉,long eyebrows extending beyond the outer eye corners
+臉型五官,face,眉毛細節,短眉,short compact eyebrows
+臉型五官,face,眉毛細節,細長眉尾,finely tapered eyebrow tails
+臉型五官,face,眉毛細節,濃眉頭淡眉尾,dense inner brows gradually tapering toward the tails
+臉型五官,face,眉毛細節,羽毛眉,soft feathered eyebrows with individually visible hairs
+臉型五官,face,眉毛細節,向上梳眉,brushed-up eyebrows with lifted hair direction
+臉型五官,face,眉毛細節,眉膠定型感,laminated brows with sleek upward-set hairs
+臉型五官,face,眉毛細節,雕塑眉,clean sculpted eyebrows with precise edges
+臉型五官,face,眉毛細節,漸層眉,"soft gradient eyebrows, lighter at the inner corners and defined at the tails"
+臉型五官,face,眉毛細節,稀疏眉,naturally sparse eyebrows with visible skin between hairs
+臉型五官,face,眉毛細節,漂色眉,bleached low-contrast eyebrows
+臉型五官,face,眉毛細節,斷眉,a subtle shaved eyebrow slit
+臉型五官,face,眉毛細節,自然不對稱眉,subtly asymmetrical natural eyebrows
+臉型五官,face,眼型,杏眼,almond-shaped eyes
+臉型五官,face,眼型,狹長杏眼,narrow almond-shaped eyes
+臉型五官,face,眼型,鳳眼,elongated phoenix eyes
+臉型五官,face,眼型,丹鳳眼,slender upturned danfeng eyes
+臉型五官,face,眼型,桃花眼,soft elongated eyes with subtly curved lower lids
+臉型五官,face,眼型,圓眼,large round eyes
+臉型五官,face,眼型,細長眼,slender elongated eyes
+臉型五官,face,眼型,深邃眼,deep-set eyes
+臉型五官,face,眼型,突出眼,slightly prominent eyes
+臉型五官,face,眼型,眼尾上揚,upturned outer eye corners
+臉型五官,face,眼型,眼尾下垂,gently downturned outer eye corners
+臉型五官,face,眼型,內眼角尖,sharp inner eye corners
+臉型五官,face,眼型,眼距較寬,wide-set eyes
+臉型五官,face,眼型,眼距較近,close-set eyes
+臉型五官,face,眼型,半瞇眼,half-lidded eyes
+臉型五官,face,眼型,微瞇眼,gently narrowed eyes
+臉型五官,face,眼型,內雙,subtle inner double eyelids
+臉型五官,face,眼型,外雙,clearly defined double eyelids
+臉型五官,face,眼型,單眼皮,monolid eyes
+臉型五官,face,眼型,平行雙眼皮,parallel double-eyelid creases
+臉型五官,face,眼型,扇形雙眼皮,tapered double-eyelid creases
+臉型五官,face,眼型,臥蠶,subtle natural aegyo-sal beneath the eyes
+臉型五官,face,眼神與眼部細節,直視鏡頭,direct eye contact with the viewer
+臉型五官,face,眼神與眼部細節,視線偏離,gaze directed away from the camera
+臉型五官,face,眼神與眼部細節,低垂視線,downcast gaze
+臉型五官,face,眼神與眼部細節,仰望視線,eyes looking upward
+臉型五官,face,眼神與眼部細節,警戒眼神,watchful guarded gaze
+臉型五官,face,眼神與眼部細節,溫柔眼神,soft affectionate gaze
+臉型五官,face,眼神與眼部細節,空洞眼神,distant unfocused gaze
+臉型五官,face,眼神與眼部細節,濕潤眼眸,faint moisture gathered in the eyes
+臉型五官,face,眼神與眼部細節,虹膜細節,intricately detailed irises
+臉型五官,face,眼神與眼部細節,自然眼中反光,small natural catchlights
+臉型五官,face,眼神與眼部細節,長睫毛,long fine eyelashes growing naturally from the eyelids
+臉型五官,face,眼神與眼部細節,濃密睫毛,dense dark eyelashes
+臉型五官,face,眼神與眼部細節,淺色睫毛,fine pale eyelashes
+臉型五官,face,眼神與眼部細節,柔和下眼瞼,softly defined lower eyelids
+臉型五官,face,瞳孔大小與對光反應,自然圓形瞳孔,natural round pupils
+臉型五官,face,瞳孔大小與對光反應,正常大小瞳孔,medium-sized pupils appropriate to the ambient light
+臉型五官,face,瞳孔大小與對光反應,微縮瞳孔,slightly constricted pupils
+臉型五官,face,瞳孔大小與對光反應,針尖瞳孔,pinpoint pupils
+臉型五官,face,瞳孔大小與對光反應,微放大瞳孔,slightly dilated pupils
+臉型五官,face,瞳孔大小與對光反應,低光放大瞳孔,naturally dilated pupils responding to the dim environment
+臉型五官,face,瞳孔大小與對光反應,強光收縮瞳孔,naturally constricted pupils responding to the bright key light
+臉型五官,face,瞳孔大小與對光反應,雙眼一致對光,both pupils responding consistently to the same light source
+臉型五官,face,瞳孔大小與對光反應,瞳孔大小不等,"intentional anisocoria, one pupil subtly larger than the other"
+臉型五官,face,瞳孔大小與對光反應,瞳孔邊緣清楚,clean well-defined pupil edges within the irises
+臉型五官,face,瞳孔形狀,圓形瞳孔,circular pupils centered naturally within the irises
+臉型五官,face,瞳孔形狀,貓科豎瞳,vertical slit pupils with feline anatomy
+臉型五官,face,瞳孔形狀,蛇類豎瞳,narrow vertical slit pupils with reptilian anatomy
+臉型五官,face,瞳孔形狀,豎橢圓瞳孔,vertical oval pupils
+臉型五官,face,瞳孔形狀,橫橢圓瞳孔,horizontal oval pupils
+臉型五官,face,瞳孔形狀,羊類橫瞳,horizontal rectangular pupils with caprine anatomy
+臉型五官,face,瞳孔形狀,烏賊W形瞳孔,W-shaped cuttlefish pupils
+臉型五官,face,瞳孔形狀,壁虎多裂瞳孔,multiple narrow pinhole slits forming a gecko-like pupil
+臉型五官,face,瞳孔形狀,菱形瞳孔,diamond-shaped pupils
+臉型五官,face,瞳孔形狀,新月瞳孔,crescent-shaped pupils
+臉型五官,face,瞳孔形狀,星形瞳孔,small star-shaped pupils
+臉型五官,face,瞳孔形狀,心形瞳孔,small heart-shaped pupils
+臉型五官,face,瞳孔形狀,十字瞳孔,cross-shaped pupils
+臉型五官,face,瞳孔形狀,環形瞳孔,hollow ring-shaped pupils
+臉型五官,face,瞳孔形狀,鎖孔瞳孔,keyhole-shaped pupils
+臉型五官,face,瞳孔形狀,多重瞳孔,multiple distinct pupils arranged coherently within each iris
+臉型五官,face,瞳孔形狀,機械光圈瞳孔,mechanical aperture pupils with interlocking iris blades
+臉型五官,face,虹膜顏色,深棕虹膜,deep brown irises with subtle tonal variation
+臉型五官,face,虹膜顏色,暖棕虹膜,warm chestnut-brown irises
+臉型五官,face,虹膜顏色,琥珀虹膜,amber irises with golden-brown depth
+臉型五官,face,虹膜顏色,榛果虹膜,hazel irises blending green and warm brown
+臉型五官,face,虹膜顏色,橄欖綠虹膜,muted olive-green irises
+臉型五官,face,虹膜顏色,翠綠虹膜,clear emerald-green irises
+臉型五官,face,虹膜顏色,灰綠虹膜,muted gray-green irises
+臉型五官,face,虹膜顏色,純灰虹膜,soft gray irises with layered tonal detail
+臉型五官,face,虹膜顏色,灰藍虹膜,desaturated blue-gray irises
+臉型五官,face,虹膜顏色,冰藍虹膜,pale ice-blue irises with a darker limbal ring
+臉型五官,face,虹膜顏色,深藍虹膜,deep sapphire-blue irises
+臉型五官,face,虹膜顏色,紫羅蘭虹膜,violet irises with natural layered pigmentation
+臉型五官,face,虹膜顏色,玫紅虹膜,muted rose-magenta irises
+臉型五官,face,虹膜顏色,猩紅虹膜,deep crimson irises surrounding dark pupils
+臉型五官,face,虹膜顏色,金色虹膜,luminous-looking golden irises with non-emissive metallic depth
+臉型五官,face,虹膜顏色,銀色虹膜,pale silver-gray irises with fine radial detail
+臉型五官,face,虹膜顏色,近黑虹膜,near-black irises with visible dark-brown tonal separation from the pupils
+臉型五官,face,虹膜顏色,白化淡色虹膜,very pale translucent blue-gray irises with low pigmentation
+臉型五官,face,虹膜紋理與結構,放射纖維,fine radial iris fibers extending outward from the pupils
+臉型五官,face,虹膜紋理與結構,虹膜隱窩,subtle natural iris crypts and irregular pigment openings
+臉型五官,face,虹膜紋理與結構,深色角膜緣環,a subtle dark limbal ring around each iris
+臉型五官,face,虹膜紋理與結構,柔和角膜緣環,a soft low-contrast limbal ring
+臉型五官,face,虹膜紋理與結構,中央星芒紋,a delicate starburst pattern radiating around the pupils
+臉型五官,face,虹膜紋理與結構,同心環紋,fine concentric rings layered through the irises
+臉型五官,face,虹膜紋理與結構,雙色漸層虹膜,two-tone irises with a smooth inner-to-outer color gradient
+臉型五官,face,虹膜紋理與結構,大理石虹膜,marbled iris pigmentation with controlled organic veining
+臉型五官,face,虹膜紋理與結構,花瓣虹膜,petal-like iris fibers arranged organically around the pupils
+臉型五官,face,虹膜紋理與結構,晶體虹膜,crystalline irises with faceted internal reflections
+臉型五官,face,虹膜紋理與結構,珠光虹膜,pearlescent irises with soft opalescent color shifts
+臉型五官,face,虹膜紋理與結構,虹彩虹膜,iridescent irises shifting hue subtly with the viewing angle
+臉型五官,face,虹膜紋理與結構,銀河虹膜,galaxy-like irises containing restrained nebular color and tiny star-like specks
+臉型五官,face,虹膜紋理與結構,熔金虹膜,molten-gold iris texture flowing around dark pupils
+臉型五官,face,虹膜紋理與結構,裂紋虹膜,fine cracked-glass pattern contained within the irises
+臉型五官,face,虹膜紋理與結構,電路虹膜,microcircuit patterns embedded concentrically within the irises
+臉型五官,face,異色瞳與多色,完全異色瞳,"complete heterochromia, the character's left iris is blue and the right iris is amber"
+臉型五官,face,異色瞳與多色,中央異色虹膜,"central heterochromia, a warm amber ring surrounding each pupil within green irises"
+臉型五官,face,異色瞳與多色,扇區異色虹膜,"sectoral heterochromia, a distinct wedge of a second color within one iris"
+臉型五官,face,異色瞳與多色,雙眼反向配色,intentional mirrored heterochromia with clearly specified left and right iris colors
+臉型五官,face,異色瞳與多色,內暖外冷虹膜,warm-colored inner irises transitioning to cool-colored outer rings
+臉型五官,face,異色瞳與多色,半月雙色虹膜,each iris divided into two clean crescent-shaped color regions
+臉型五官,face,異色瞳與多色,不對稱虹膜紋理,subtly different natural iris patterns in the two eyes while preserving matching anatomy
+臉型五官,face,眼白、反光與發光,自然暖白眼白,natural slightly warm sclera with subtle veins and no pure-white glow
+臉型五官,face,眼白、反光與發光,清澈眼白,clear healthy sclera with restrained natural shading
+臉型五官,face,眼白、反光與發光,深色眼白,dark charcoal sclera surrounding luminous irises
+臉型五官,face,眼白、反光與發光,純黑眼白,matte black sclera with clearly separated irises and pupils
+臉型五官,face,眼白、反光與發光,紅色眼白,blood-red sclera with darker irises and clearly defined pupils
+臉型五官,face,眼白、反光與發光,瞬膜,a translucent nictitating membrane partially crossing the eye
+臉型五官,face,眼白、反光與發光,單一自然反光,one restrained catchlight per eye matching the key-light direction
+臉型五官,face,眼白、反光與發光,螢幕矩形反光,subtle rectangular monitor catchlights reflected consistently in both eyes
+臉型五官,face,眼白、反光與發光,窗戶反光,soft window-shaped catchlights aligned with the visible daylight source
+臉型五官,face,眼白、反光與發光,瞳孔微光,a restrained inner glow limited precisely to the pupils
+臉型五官,face,眼白、反光與發光,虹膜微光,"a restrained emissive glow contained within the irises, with natural falloff onto the eyelids"
+臉型五官,face,眼白、反光與發光,整眼發光,fully luminous eyes with soft light spilling onto the eyelids and upper cheeks
+臉型五官,face,眼白、反光與發光,光源一致的眼部反射,"eye reflections, pupil size and iris highlights all consistent with the scene lighting"
+臉型五官,face,非人與幻想完整包,自然人眼完整包,"natural round pupils, nuanced gray-green irises with fine radial fibers, subtle dark limbal rings, restrained catchlights and both pupils responding consistently to the ambient light"
+臉型五官,face,非人與幻想完整包,夜間螢幕眼完整包,"muted gray-green irises with fine radial fibers, naturally dilated round pupils responding to the dim monitor light, subtle rectangular catchlights aligned in both eyes"
+臉型五官,face,非人與幻想完整包,完整異色瞳包,"complete heterochromia, the character's left iris is desaturated blue-gray and the right iris is warm amber, matching round pupils, consistent limbal rings and catchlights"
+臉型五官,face,非人與幻想完整包,貓系夜行眼包,"vertical slit pupils with feline anatomy, luminous amber irises, dark limbal rings and low-light reflections consistent with the environment"
+臉型五官,face,非人與幻想完整包,山羊牧神眼包,"horizontal rectangular caprine pupils, muted golden-olive irises and wide peripheral-looking gaze"
+臉型五官,face,非人與幻想完整包,深海烏賊眼包,"W-shaped cuttlefish pupils, pearlescent blue-violet irises, dark sclera and subtle underwater caustic reflections"
+臉型五官,face,非人與幻想完整包,龍族熔金眼包,"narrow reptilian slit pupils surrounded by molten-gold irises, dark sclera and restrained heat-like inner luminance"
+臉型五官,face,非人與幻想完整包,仿生機械眼包,"mechanical aperture pupils, concentric silver irises embedded with microcircuit patterns, precise low-intensity cyan indicators and physically coherent reflections"
+臉型五官,face,非人與幻想完整包,星雲神眼包,"small round pupils suspended within galaxy-like irises, restrained nebular color, tiny star-like specks and a soft iris-only glow"
+臉型五官,face,非人與幻想完整包,詛咒裂紋眼包,"pinpoint pupils, pale silver irises containing fine cracked-glass patterns, darkened sclera and faint internal light leaking through the cracks"
+臉型五官,face,鼻型,直鼻,straight nose
+臉型五官,face,鼻型,細直鼻,delicate straight nose with a narrow bridge
+臉型五官,face,鼻型,高鼻樑,high nasal bridge
+臉型五官,face,鼻型,低鼻樑,low nasal bridge
+臉型五官,face,鼻型,寬鼻樑,broad nasal bridge
+臉型五官,face,鼻型,窄鼻樑,narrow nasal bridge
+臉型五官,face,鼻型,希臘鼻,Greek nose with a straight forehead-to-bridge line
+臉型五官,face,鼻型,羅馬鼻,aquiline Roman nose
+臉型五官,face,鼻型,鷹鉤鼻,hooked nose
+臉型五官,face,鼻型,翹鼻,slightly upturned nose
+臉型五官,face,鼻型,圓鼻頭,soft rounded nose tip
+臉型五官,face,鼻型,尖鼻頭,refined pointed nose tip
+臉型五官,face,鼻型,鼻翼窄,narrow delicate nostrils
+臉型五官,face,鼻型,鼻翼寬,naturally broad nostrils
+臉型五官,face,鼻型,短鼻,short nose
+臉型五官,face,鼻型,長鼻,long refined nose
+臉型五官,face,嘴唇與嘴型,薄唇,thin refined lips
+臉型五官,face,嘴唇與嘴型,厚唇,full plush lips
+臉型五官,face,嘴唇與嘴型,上薄下厚,a thinner upper lip and fuller lower lip
+臉型五官,face,嘴唇與嘴型,上下均衡,balanced upper and lower lips
+臉型五官,face,嘴唇與嘴型,丘比特唇峰,a clearly defined cupid's bow
+臉型五官,face,嘴唇與嘴型,柔和唇峰,a softly defined cupid's bow
+臉型五官,face,嘴唇與嘴型,嘴角上揚,naturally upturned mouth corners
+臉型五官,face,嘴唇與嘴型,嘴角下垂,subtly downturned mouth corners
+臉型五官,face,嘴唇與嘴型,寬嘴,wide expressive mouth
+臉型五官,face,嘴唇與嘴型,小嘴,small delicate mouth
+臉型五官,face,嘴唇與嘴型,微張嘴唇,softly parted lips
+臉型五官,face,嘴唇與嘴型,緊閉嘴唇,firmly closed lips
+臉型五官,face,嘴唇與嘴型,不對稱微笑,subtle asymmetric smile
+臉型五官,face,嘴唇與嘴型,抿嘴,gently pursed lips
+臉型五官,face,嘴唇與嘴型,自然唇紋,subtle natural lip texture
+臉型五官,face,嘴唇與嘴型,濕潤下唇,restrained moisture highlight on the lower lip
+臉型五官,face,下顎與下巴,俐落下顎線,clean defined jawline
+臉型五官,face,下顎與下巴,柔和下顎線,soft gently tapered jawline
+臉型五官,face,下顎與下巴,方下顎,broad square jaw
+臉型五官,face,下顎與下巴,窄下顎,narrow lower jaw
+臉型五官,face,下顎與下巴,V形下顎,V-shaped jawline
+臉型五官,face,下顎與下巴,圓下巴,soft rounded chin
+臉型五官,face,下顎與下巴,尖下巴,elegant pointed chin
+臉型五官,face,下顎與下巴,方下巴,broad squared chin
+臉型五官,face,下顎與下巴,短下巴,short chin
+臉型五官,face,下顎與下巴,長下巴,slightly elongated chin
+臉型五官,face,下顎與下巴,下巴凹溝,subtle cleft chin
+臉型五官,face,耳朵與其他特徵,貼耳,ears lying close to the head
+臉型五官,face,耳朵與其他特徵,招風耳,prominent outward-facing ears
+臉型五官,face,耳朵與其他特徵,小耳朵,small refined ears
+臉型五官,face,耳朵與其他特徵,長耳垂,elongated earlobes
+臉型五官,face,耳朵與其他特徵,尖耳,subtly pointed ears
+臉型五官,face,耳朵與其他特徵,長精靈耳,long elegant elf ears
+臉型五官,face,耳朵與其他特徵,酒窩,subtle dimples when smiling
+臉型五官,face,耳朵與其他特徵,虎牙,a small visible canine tooth
+膚色皮膚,skin,皮膚與細節,冷白膚色,pale cool-toned skin
+膚色皮膚,skin,皮膚與細節,暖白膚色,pale warm-toned skin
+膚色皮膚,skin,皮膚與細節,象牙膚色,soft ivory complexion
+膚色皮膚,skin,皮膚與細節,蜜色肌膚,warm honey-toned skin
+膚色皮膚,skin,皮膚與細節,橄欖膚色,olive-toned complexion
+膚色皮膚,skin,皮膚與細節,深棕膚色,deep brown skin with nuanced undertones
+膚色皮膚,skin,皮膚與細節,半透明插畫肌膚,smooth translucent illustrated complexion
+膚色皮膚,skin,皮膚與細節,柔和皮下散射,subtle subsurface scattering
+膚色皮膚,skin,皮膚與細節,自然毛孔,fine natural skin texture
+膚色皮膚,skin,皮膚與細節,雀斑,fine natural freckles across the cheeks and nose
+膚色皮膚,skin,皮膚與細節,痣,a small beauty mark
+膚色皮膚,skin,皮膚與細節,淡黑眼圈,subtle natural under-eye shadows
+膚色皮膚,skin,皮膚與細節,泛紅眼尾,faint redness around the outer eyelids
+膚色皮膚,skin,皮膚與細節,自然紅潤,subtle natural flush across the cheeks and ears
+膚色皮膚,skin,膚色深淺,極白膚色,very fair skin with visible natural undertones and preserved tonal detail
+膚色皮膚,skin,膚色深淺,白皙膚色,fair skin with nuanced natural undertones
+膚色皮膚,skin,膚色深淺,淺膚色,light skin tone with natural tonal variation
+膚色皮膚,skin,膚色深淺,淺中等膚色,light-medium skin tone with balanced tonal depth
+膚色皮膚,skin,膚色深淺,中等膚色,medium skin tone with nuanced undertones
+膚色皮膚,skin,膚色深淺,小麥膚色,warm wheat-toned skin with natural golden-beige depth
+膚色皮膚,skin,膚色深淺,古銅膚色,bronzed tan skin with warm sun-developed depth
+膚色皮膚,skin,膚色深淺,棕色膚色,brown skin with rich midtone variation and natural highlights
+膚色皮膚,skin,膚色深淺,深棕膚色,deep brown skin with rich nuanced undertones and preserved shadow detail
+膚色皮膚,skin,膚色深淺,極深膚色,very deep skin tone with luminous controlled highlights and detailed shadows
+膚色皮膚,skin,膚色底調,冷粉底調,cool pink undertone visible beneath the skin
+膚色皮膚,skin,膚色底調,冷紅底調,cool red undertone with restrained natural warmth
+膚色皮膚,skin,膚色底調,冷藍底調,subtle cool blue undertone enriching very deep skin
+膚色皮膚,skin,膚色底調,中性底調,neutral skin undertone balanced between warm and cool
+膚色皮膚,skin,膚色底調,暖黃底調,warm yellow undertone beneath the skin
+膚色皮膚,skin,膚色底調,暖金底調,warm golden undertone with luminous amber highlights
+膚色皮膚,skin,膚色底調,蜜桃底調,soft peach undertone blending pink and golden warmth
+膚色皮膚,skin,膚色底調,橄欖底調,olive undertone with subtle green-gold depth
+膚色皮膚,skin,膚色底調,紅棕底調,rich red-brown undertone visible in the skin midtones
+膚色皮膚,skin,膚色底調,金棕底調,golden-brown undertone with warm luminous midtones
+膚色皮膚,skin,膚色底調,膚色底調清楚,"clearly preserved skin undertone across highlights, midtones and shadows"
+膚色皮膚,skin,身體皮膚質地與特徵,自然身體肌理,fine natural body skin texture with subtle tonal variation
+膚色皮膚,skin,身體皮膚質地與特徵,柔滑身體肌膚,smooth body skin with delicate tonal transitions and restrained highlights
+膚色皮膚,skin,身體皮膚質地與特徵,運動後微汗,a fine natural sheen of perspiration localized on active areas of the body
+膚色皮膚,skin,身體皮膚質地與特徵,雨水濕潤皮膚,rain-damp skin with irregular droplets and environment-matched reflections
+膚色皮膚,skin,身體皮膚質地與特徵,曬痕,subtle natural tan lines following clothing coverage
+膚色皮膚,skin,身體皮膚質地與特徵,日曬雀斑,"sun freckles scattered naturally across exposed shoulders, chest and arms"
+膚色皮膚,skin,身體皮膚質地與特徵,白斑症膚色,natural vitiligo depigmentation patterns following the body's contours
+膚色皮膚,skin,身體皮膚質地與特徵,白化症特徵,"albinism, very pale skin with low melanin, pale brows and lashes, light-sensitive nuanced eyes"
+膚色皮膚,skin,身體皮膚質地與特徵,局部色素沉著,"subtle natural hyperpigmentation around joints, folds and high-friction areas"
+膚色皮膚,skin,身體皮膚質地與特徵,自然伸展紋,fine natural stretch marks following the skin's tension lines
+膚色皮膚,skin,身體皮膚質地與特徵,自然橘皮組織,subtle natural cellulite texture visible under soft grazing light
+膚色皮膚,skin,身體皮膚質地與特徵,淡疤痕,faint healed scars integrated naturally into the surrounding skin
+膚色皮膚,skin,身體皮膚質地與特徵,手術疤痕,a clean healed surgical scar with realistic placement and tissue tension
+膚色皮膚,skin,身體皮膚質地與特徵,可見靜脈,subtle veins visible beneath thin skin in anatomically plausible areas
+膚色皮膚,skin,身體皮膚質地與特徵,自然體毛,fine natural body hair following anatomical growth direction
+膚色皮膚,skin,身體皮膚質地與特徵,細緻汗毛逆光,fine vellus hair catching soft backlight along the skin silhouette
+膚色皮膚,skin,身體皮膚質地與特徵,雞皮疙瘩,subtle goosebumps across exposed skin in response to cold or emotion
+膚色皮膚,skin,身體皮膚質地與特徵,關節自然泛紅,"subtle natural redness around elbows, knees, knuckles and pressure points"
+膚色皮膚,skin,身體皮膚質地與特徵,深膚色掌心差異,naturally lighter palms and soles with smooth tonal transitions
+膚色皮膚,skin,光線下的膚色表現,環境色落在皮膚上,skin receiving subtle reflected color from the surrounding environment while retaining its natural undertone
+膚色皮膚,skin,光線下的膚色表現,深膚色保留高光,controlled luminous highlights shaping deep skin without gray or ashy overexposure
+膚色皮膚,skin,光線下的膚色表現,白皙皮膚保留暗部,fair skin with rich shadow detail and no blown white areas
+膚色皮膚,skin,光線下的膚色表現,暖光下保留膚色,warm environmental light wrapping across the skin while preserving believable undertones
+膚色皮膚,skin,光線下的膚色表現,冷光下保留血色,cool environmental light with restrained warm reflected fill preserving living skin tones
+膚色皮膚,skin,光線下的膚色表現,膚色與身體一致,"consistent skin tone and undertone across face, neck, chest, hands and legs"
+膚色皮膚,skin,光線下的膚色表現,皮膚反光低於金屬,skin highlights softer and broader than nearby metal reflections
+膚色皮膚,skin,光線下的膚色表現,皮膚與布料接觸色,subtle color bounce from nearby fabric onto adjacent skin at contact areas
+妝容,makeup,底妝與膚質,無妝感底妝,barely-there no-makeup makeup with natural skin texture
+妝容,makeup,底妝與膚質,透明感水光底妝,translucent dewy base with controlled glass-skin luminosity
+妝容,makeup,底妝與膚質,柔霧底妝,soft-matte complexion with velvety diffused texture
+妝容,makeup,底妝與膚質,絲緞光底妝,satin-finish complexion with a subtle natural sheen
+妝容,makeup,底妝與膚質,奶油肌,creamy luminous complexion with smooth tonal transitions
+妝容,makeup,底妝與膚質,陶瓷肌,porcelain-like complexion with refined even tone
+妝容,makeup,底妝與膚質,自然雀斑底妝,sheer foundation preserving natural freckles and skin variation
+妝容,makeup,底妝與膚質,局部遮瑕,spot-concealed complexion with most natural skin texture preserved
+妝容,makeup,底妝與膚質,冷調蒼白底妝,cool pale complexion with subtle gray-lilac undertones
+妝容,makeup,底妝與膚質,暖金健康底妝,warm golden complexion with sun-kissed vitality
+妝容,makeup,底妝與膚質,自然修容,subtle facial contour following the natural bone structure
+妝容,makeup,底妝與膚質,顴骨高光,restrained highlight placed along the upper cheekbones
+妝容,makeup,底妝與膚質,鼻樑高光,fine controlled highlight along the bridge and tip of the nose
+妝容,makeup,眼妝,自然內眼線,fine tightlined eyes with an almost invisible lash-line definition
+妝容,makeup,眼妝,細長眼線,thin elongated eyeliner extending subtly beyond the outer corners
+妝容,makeup,眼妝,貓眼眼線,sharp winged cat-eye eyeliner
+妝容,makeup,眼妝,下垂眼線,soft puppy eyeliner angled gently downward
+妝容,makeup,眼妝,柔煙燻眼妝,softly diffused smoky eye makeup with feathered edges
+妝容,makeup,眼妝,濃煙燻眼妝,intense charcoal smoky eyes with deep blended shadow
+妝容,makeup,眼妝,暈染下眼影,soft shadow diffused beneath the lower lash line
+妝容,makeup,眼妝,臥蠶提亮,subtle luminous accent along the natural aegyo-sal
+妝容,makeup,眼妝,截斷式眼妝,precise cut-crease eye makeup with a clearly defined lid fold
+妝容,makeup,眼妝,光環眼妝,halo eye makeup with a luminous center and deeper inner and outer corners
+妝容,makeup,眼妝,圖形眼線,graphic eyeliner with clean geometric shapes
+妝容,makeup,眼妝,濕潤眼皮,wet-look eyelids with restrained glossy highlights
+妝容,makeup,眼妝,金屬眼影,metallic eyeshadow with controlled reflective shimmer
+妝容,makeup,眼妝,酒紅眼妝,burgundy eye makeup softly blended around the eyes
+妝容,makeup,眼妝,暈開的黑色眼線,deliberately smudged black kohl around the eyes
+妝容,makeup,眼妝,亮片淚妝,fine glitter tears descending beneath the eyes
+妝容,makeup,唇頰與細節,霧面漸層唇,softly blurred gradient lips with deeper color at the center
+妝容,makeup,唇頰與細節,咬唇妝,subtle bitten-lip stain concentrated at the inner lips
+妝容,makeup,唇頰與細節,水光唇,glossy hydrated lips with controlled wet highlights
+妝容,makeup,唇頰與細節,絲絨霧唇,velvet-matte lips with softly diffused edges
+妝容,makeup,唇頰與細節,裸米色唇,muted nude-beige lips
+妝容,makeup,唇頰與細節,玫瑰棕唇,muted rose-brown lips
+妝容,makeup,唇頰與細節,珊瑚唇,soft coral lips
+妝容,makeup,唇頰與細節,莓果唇,deep berry-stained lips
+妝容,makeup,唇頰與細節,黑櫻桃唇,black-cherry lips with deep wine undertones
+妝容,makeup,唇頰與細節,眼下腮紅,soft blush placed high beneath the eyes
+妝容,makeup,唇頰與細節,曬傷腮紅,sun-kissed blush sweeping across cheeks and nose
+妝容,makeup,唇頰與細節,顴骨斜向腮紅,draped blush lifted along the cheekbones toward the temples
+妝容,makeup,唇頰與細節,自然耳尖紅潤,subtle matching flush across the cheeks and ears
+妝容,makeup,地域與流行妝容,韓系裸妝,"refined Korean no-makeup makeup, sheer satin base, straight soft brows, muted eyes and blurred natural lips"
+妝容,makeup,地域與流行妝容,韓系水光妝,"Korean glass-skin makeup, translucent dewy base, delicate aegyo-sal, soft gradient glossy lips"
+妝容,makeup,地域與流行妝容,韓系柔霧妝,"Korean soft-matte makeup, velvety base, taupe shading, softly defined brows and muted rose lips"
+妝容,makeup,地域與流行妝容,韓系偶像舞台妝,"K-pop idol stage makeup, luminous base, defined sparkling eyes, precise liner and glossy gradient lips"
+妝容,makeup,地域與流行妝容,日系透明感妝,"Japanese translucent makeup, sheer skin, softly flushed cheeks, delicate lashes and lightly tinted lips"
+妝容,makeup,地域與流行妝容,日系宿醉妝,"Igari-style makeup with diffused under-eye blush, moist eyes and soft berry lips"
+妝容,makeup,地域與流行妝容,新中式妝,"modern Chinese-inspired makeup, refined porcelain-satin base, slender elongated liner, restrained red accents and elegant sculpting"
+妝容,makeup,地域與流行妝容,中式古典妝,"classical Chinese-inspired makeup with delicate brows, restrained rouge, softly stained red lips and period-appropriate ornament"
+妝容,makeup,地域與流行妝容,港風復古妝,"vintage Hong Kong cinema makeup, softly matte skin, defined brows, warm contour and deep red-brown lips"
+妝容,makeup,地域與流行妝容,泰式濃顏妝,"Thai-style glamorous makeup, sculpted luminous complexion, defined arched brows, dramatic lashes and rich lip color"
+妝容,makeup,地域與流行妝容,歐美柔華麗妝,"Western soft-glam makeup, seamless warm neutral eyeshadow, sculpted complexion, full lashes and nude lips"
+妝容,makeup,地域與流行妝容,乾淨女孩妝,"clean-girl makeup, fresh natural skin, brushed-up brows, minimal mascara and glossy neutral lips"
+妝容,makeup,地域與流行妝容,法式低調妝,"understated French makeup, natural skin texture, softly smudged liner and effortless red-tinted lips"
+妝容,makeup,地域與流行妝容,編輯彩妝,high-fashion editorial makeup with one controlled graphic focal element
+妝容,makeup,哥德、次文化與年代,經典哥德妝,"classic gothic makeup, pale matte complexion, charcoal eyes, sharply defined brows and deep wine lips"
+妝容,makeup,哥德、次文化與年代,浪漫哥德妝,"romantic gothic makeup, softly pale skin, burgundy smoky eyes, delicate black liner and black-cherry lips"
+妝容,makeup,哥德、次文化與年代,維多利亞哥德妝,"Victorian gothic makeup with restrained pallor, fine period brows, shadowed eyes and muted oxblood lips"
+妝容,makeup,哥德、次文化與年代,吸血鬼妝,"elegant vampire makeup, cool pallor, subtly reddened eyes, sculpted cheekbones and dark blood-red lips"
+妝容,makeup,哥德、次文化與年代,垃圾搖滾妝,"grunge makeup, deliberately smudged kohl, lived-in skin and muted brown-burgundy lips"
+妝容,makeup,哥德、次文化與年代,龐克妝,"punk makeup with graphic black liner, strong asymmetry, metallic accents and defiant expression"
+妝容,makeup,哥德、次文化與年代,華麗搖滾妝,"glam-rock makeup with metallic eyelids, dramatic liner, sculpted cheeks and theatrical shine"
+妝容,makeup,哥德、次文化與年代,視覺系妝,"visual-kei-inspired makeup, porcelain base, elongated dark eyes, precise contour and dramatic lip accents"
+妝容,makeup,哥德、次文化與年代,粉彩哥德妝,"pastel-goth makeup combining pale lavender-pink tones, black graphic liner and cool iridescent accents"
+妝容,makeup,哥德、次文化與年代,Y2K 鉻光妝,"Y2K chrome makeup with frosted lids, silver graphic accents, glossy lips and cool flash-era highlights"
+妝容,makeup,哥德、次文化與年代,賽博霓虹妝,"cyberpunk neon makeup with controlled luminous liner, metallic pigments and colored environmental reflections"
+妝容,makeup,哥德、次文化與年代,小丑藝術妝,avant-garde harlequin makeup with precise geometric tear and cheek motifs
+妝容,makeup,哥德、次文化與年代,人偶妝,"doll-like makeup with porcelain-satin skin, precise lashes, softly rounded blush and small defined lips"
+妝容,makeup,哥德、次文化與年代,一九二〇年代妝,"1920s makeup with thin arched brows, smoky rounded eyes and deep cupid's-bow lips"
+妝容,makeup,哥德、次文化與年代,一九六〇年代 Mod 妝,"1960s mod makeup with graphic cut crease, bold lashes and pale neutral lips"
+妝容,makeup,哥德、次文化與年代,一九七〇年代迪斯可妝,"1970s disco makeup with metallic lids, luminous skin and glossy warm lips"
+妝容,makeup,哥德、次文化與年代,一九八〇年代華麗妝,"1980s glam makeup with strong draped blush, saturated eyeshadow and glossy statement lips"
+妝容,makeup,哥德、次文化與年代,一九九〇年代棕唇妝,"1990s makeup with matte skin, softly smoky eyes and brown-lined neutral lips"
+妝容,makeup,舞台、奇幻與完整包,芭蕾舞台妝,"ballet stage makeup with refined sculpting, defined eyes, long lashes and rose-toned lips readable under stage light"
+妝容,makeup,舞台、奇幻與完整包,歌劇舞台妝,theatrical opera makeup with amplified facial planes and high-contrast features designed for distant viewing
+妝容,makeup,舞台、奇幻與完整包,精靈妝,"ethereal elven makeup with luminous skin, elongated eye accents and delicate mineral shimmer"
+妝容,makeup,舞台、奇幻與完整包,天體星月妝,"celestial makeup with restrained constellation details, moonlit shimmer and tiny star-like accents"
+妝容,makeup,舞台、奇幻與完整包,人魚妝,"mermaid-inspired makeup with wet-look skin accents, pearlescent lids and subtle iridescent scale details"
+妝容,makeup,舞台、奇幻與完整包,妖精虹彩妝,"fae makeup with translucent skin, delicate iridescent pigments and organic floral accents"
+妝容,makeup,舞台、奇幻與完整包,金屬仿生人妝,"android-inspired makeup with precise metallic inlays, controlled chrome accents and human skin still visible"
+妝容,makeup,舞台、奇幻與完整包,自然電影妝完整包,"natural cinematic makeup, satin-finish complexion, subtle bone-following contour, fine tightlined eyes, softly defined brows and muted rose-brown lips"
+妝容,makeup,舞台、奇幻與完整包,韓系精緻妝完整包,"refined Korean makeup, translucent satin base, softly feathered straight brows, muted taupe eye shading, subtle aegyo-sal and blurred rose-brown gradient lips"
+妝容,makeup,舞台、奇幻與完整包,浪漫哥德妝完整包,"romantic gothic makeup, cool pale soft-matte base, defined high cheekbone contour, burgundy smoky eyes, fine elongated liner and black-cherry velvet lips"
+表情,expr,中性與微表情,自然中性,a natural neutral expression with relaxed facial muscles
+表情,expr,中性與微表情,克制微笑,a restrained subtle smile barely lifting the corners of the lips
+表情,expr,中性與微表情,似笑非笑,an ambiguous almost-smile
+表情,expr,中性與微表情,若有所思,a thoughtful distant expression
+表情,expr,中性與微表情,安靜專注,quiet focused concentration
+表情,expr,中性與微表情,疲憊平靜,calm exhaustion with softened eyes
+表情,expr,中性與微表情,冷淡疏離,a cool detached expression
+表情,expr,中性與微表情,懷疑,a skeptical expression with one brow subtly raised
+表情,expr,中性與微表情,不耐煩,restrained impatience with a faintly tightened jaw
+表情,expr,中性與微表情,恍神,a softly unfocused absent-minded expression
+表情,expr,喜悅、親密與搞笑,真心微笑,a genuine warm smile reaching the eyes
+表情,expr,喜悅、親密與搞笑,忍笑,trying unsuccessfully to suppress a laugh
+表情,expr,喜悅、親密與搞笑,笑出聲,laughing naturally with an unguarded expression
+表情,expr,喜悅、親密與搞笑,壞笑,a playful mischievous grin
+表情,expr,喜悅、親密與搞笑,得意,a smug satisfied expression
+表情,expr,喜悅、親密與搞笑,寵溺,a tender indulgent expression directed at the other character
+表情,expr,喜悅、親密與搞笑,害羞開心,a shy pleased smile with softened eye contact
+表情,expr,喜悅、親密與搞笑,被抓包,a caught-in-the-act expression
+表情,expr,喜悅、親密與搞笑,一臉無辜,an exaggeratedly innocent expression after obvious mischief
+表情,expr,喜悅、親密與搞笑,翻白眼,a subtle eye-roll with restrained annoyance
+表情,expr,喜悅、親密與搞笑,尷尬乾笑,an awkward forced chuckle
+表情,expr,喜悅、親密與搞笑,目瞪口呆,stunned speechless disbelief
+表情,expr,悲傷與脆弱,安靜憂鬱,quiet melancholy with emotionally present eyes
+表情,expr,悲傷與脆弱,忍住眼淚,holding back tears with a tense lower eyelid
+表情,expr,悲傷與脆弱,哭過之後,post-cry expression with faintly reddened eyelids
+表情,expr,悲傷與脆弱,失望,a quietly disappointed expression
+表情,expr,悲傷與脆弱,心碎克制,restrained heartbreak beneath a composed face
+表情,expr,悲傷與脆弱,孤單,a lonely withdrawn expression
+表情,expr,悲傷與脆弱,茫然,a lost and uncertain expression
+表情,expr,悲傷與脆弱,疲憊求助,a weary vulnerable look asking for help without words
+表情,expr,悲傷與脆弱,悲喜交錯,a bittersweet smile through lingering sadness
+表情,expr,悲傷與脆弱,麻木,emotionally numb expression with reduced facial tension
+表情,expr,憤怒、恐懼與驚訝,壓抑怒氣,controlled anger with a tightened jaw and steady gaze
+表情,expr,憤怒、恐懼與驚訝,冷怒,cold anger without shouting
+表情,expr,憤怒、恐懼與驚訝,惱火,visibly irritated expression
+表情,expr,憤怒、恐懼與驚訝,輕蔑,a subtle contemptuous expression
+表情,expr,憤怒、恐懼與驚訝,警戒,alert guarded expression scanning the surroundings
+表情,expr,憤怒、恐懼與驚訝,突然受驚,a startled reaction caught at the first instant
+表情,expr,憤怒、恐懼與驚訝,恐懼僵住,frozen fear with shallow breath and widened attention
+表情,expr,憤怒、恐懼與驚訝,驚訝睜眼,genuine surprise with widened eyes and parted lips
+表情,expr,憤怒、恐懼與驚訝,困惑,confused expression with subtly knitted brows
+表情,expr,憤怒、恐懼與驚訝,不可置信,disbelieving reaction with a searching gaze
+表情,expr,迷幻與非現實狀態,入神,mesmerized expression with dilated attention
+表情,expr,迷幻與非現實狀態,恍惚,dreamlike trance expression
+表情,expr,迷幻與非現實狀態,感官過載,overwhelmed expression under sensory overload
+表情,expr,迷幻與非現實狀態,時間停滯感,a suspended expression as if time has slowed
+表情,expr,迷幻與非現實狀態,陌生的平靜,uncannily serene expression amid impossible surroundings
+表情,expr,迷幻與非現實狀態,欣快,euphoric expression immersed in light and motion
+表情,expr,迷幻與非現實狀態,夢遊,sleepwalking expression with half-aware eyes
+表情,expr,迷幻與非現實狀態,雙重情緒,two conflicting emotions visible in the same restrained expression
+姿勢/手勢/腳部,pose,自然站姿與重心,自然站立,standing naturally with relaxed posture
+姿勢/手勢/腳部,pose,自然站姿與重心,單腳承重,weight resting naturally on one leg
+姿勢/手勢/腳部,pose,自然站姿與重心,重心前移,leaning slightly forward with weight over the front foot
+姿勢/手勢/腳部,pose,自然站姿與重心,重心後移,weight shifted subtly backward
+姿勢/手勢/腳部,pose,自然站姿與重心,轉身回望,turning the torso while looking back over one shoulder
+姿勢/手勢/腳部,pose,自然站姿與重心,側身站立,standing in a relaxed three-quarter stance
+姿勢/手勢/腳部,pose,自然站姿與重心,背對觀者,standing with the back toward the viewer
+姿勢/手勢/腳部,pose,自然站姿與重心,倚牆,leaning naturally against a wall
+姿勢/手勢/腳部,pose,自然站姿與重心,倚欄杆,resting the forearms naturally on a railing
+姿勢/手勢/腳部,pose,自然站姿與重心,微彎腰,bending slightly at the waist
+姿勢/手勢/腳部,pose,自然站姿與重心,蹲下,balanced full squat with both feet grounded
+姿勢/手勢/腳部,pose,自然站姿與重心,單膝跪地,kneeling on one knee with natural weight distribution
+姿勢/手勢/腳部,pose,坐姿與躺姿,端坐,sitting upright with a composed posture
+姿勢/手勢/腳部,pose,坐姿與躺姿,放鬆坐姿,sitting casually with relaxed shoulders
+姿勢/手勢/腳部,pose,坐姿與躺姿,坐在椅子邊緣,sitting on the edge of the chair
+姿勢/手勢/腳部,pose,坐姿與躺姿,側坐,sitting sideways with the torso gently turned
+姿勢/手勢/腳部,pose,坐姿與躺姿,盤腿坐,sitting cross-legged with relaxed balance
+姿勢/手勢/腳部,pose,坐姿與躺姿,抱膝坐,sitting with the knees drawn close to the chest
+姿勢/手勢/腳部,pose,坐姿與躺姿,跪坐,kneeling upright with the hips resting near the heels
+姿勢/手勢/腳部,pose,坐姿與躺姿,坐地伸腿,sitting on the ground with the legs extended naturally
+姿勢/手勢/腳部,pose,坐姿與躺姿,仰躺,lying on the back in a natural resting pose
+姿勢/手勢/腳部,pose,坐姿與躺姿,側躺,lying on one side with a naturally curved posture
+姿勢/手勢/腳部,pose,坐姿與躺姿,趴臥支頰,lying on the stomach with the chin resting on one hand
+姿勢/手勢/腳部,pose,坐姿與躺姿,蜷縮休息,curled into a compact resting pose
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,正面形象照,formal front-facing portrait pose
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,四分之三擺拍,three-quarter portrait pose with subtle body rotation
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,下巴微收,"chin slightly lowered, eyes lifted toward the camera"
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,微抬下巴,chin subtly raised with an elegant neck line
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,肩膀前後錯落,one shoulder subtly closer to the camera
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,手扶腰,one hand resting lightly at the waist
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,雙手叉腰,both hands placed firmly on the hips
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,手插口袋,"one hand in a pocket, the other relaxed"
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,整理袖口,adjusting a cuff in a composed editorial pose
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,整理領口,lightly adjusting the collar
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,手撫頸側,fingertips resting lightly along the side of the neck
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,手托下巴,chin resting lightly on the knuckles
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,交叉手臂,arms crossed naturally without stiff shoulders
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,手臂形成框架,arms creating an elegant frame around the face
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,靠椅背反坐,sitting backward on a chair with arms resting on the backrest
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,椅上側身回望,"seated sideways, looking back over the chair"
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,腿部交叉站姿,standing with the ankles crossed lightly
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,一腳踏高處,one foot placed on a low step
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,寬站姿,wide confident stance with grounded balance
+姿勢/手勢/腳部,pose,肖像與時尚擺拍,服裝動態擺拍,editorial pose designed to display the garment silhouette
+姿勢/手勢/腳部,pose,日常與情緒手勢,自然垂手,hands resting naturally at the sides
+姿勢/手勢/腳部,pose,日常與情緒手勢,張開手掌,open palm gesture
+姿勢/手勢/腳部,pose,日常與情緒手勢,掌心向上,one palm facing upward in a presenting gesture
+姿勢/手勢/腳部,pose,日常與情緒手勢,伸手邀請,reaching one hand gently toward the viewer
+姿勢/手勢/腳部,pose,日常與情緒手勢,伸手阻止,one hand raised in a clear stop gesture
+姿勢/手勢/腳部,pose,日常與情緒手勢,揮手,waving with a relaxed open hand
+姿勢/手勢/腳部,pose,日常與情緒手勢,比讚,natural thumbs-up gesture
+姿勢/手勢/腳部,pose,日常與情緒手勢,比V手勢,casual V-sign near the face
+姿勢/手勢/腳部,pose,日常與情緒手勢,指向遠方,pointing toward a distant landmark
+姿勢/手勢/腳部,pose,日常與情緒手勢,食指抵唇,index finger resting lightly before the lips
+姿勢/手勢/腳部,pose,日常與情緒手勢,掩嘴輕笑,covering a restrained smile with one hand
+姿勢/手勢/腳部,pose,日常與情緒手勢,扶額,one hand resting against the forehead
+姿勢/手勢/腳部,pose,日常與情緒手勢,揉眼睛,rubbing one eye sleepily
+姿勢/手勢/腳部,pose,日常與情緒手勢,撥開頭髮,brushing loose hair away from the face
+姿勢/手勢/腳部,pose,日常與情緒手勢,手指穿過髮絲,fingers running gently through the hair
+姿勢/手勢/腳部,pose,日常與情緒手勢,握住衣角,fingers lightly gripping the edge of the garment
+姿勢/手勢/腳部,pose,日常與情緒手勢,雙手相扣,hands loosely clasped together
+姿勢/手勢/腳部,pose,日常與情緒手勢,十指交扣,fingers interlaced naturally
+姿勢/手勢/腳部,pose,日常與情緒手勢,雙手合十,palms pressed together in a respectful gesture
+姿勢/手勢/腳部,pose,日常與情緒手勢,握拳,one hand clenched into a restrained fist
+姿勢/手勢/腳部,pose,日常與情緒手勢,手指輕觸玻璃,fingertips touching the glass surface
+姿勢/手勢/腳部,pose,日常與情緒手勢,雙手捧物,holding an object carefully with both hands
+姿勢/手勢/腳部,pose,日常與情緒手勢,雙手環抱自己,arms wrapped loosely around the torso
+姿勢/手勢/腳部,pose,日常與情緒手勢,手搭對方肩膀,one hand resting naturally on the other person's shoulder
+姿勢/手勢/腳部,pose,日常與情緒手勢,牽手,hands naturally joined with believable finger contact
+姿勢/手勢/腳部,pose,日常與情緒手勢,輕托對方臉側,one hand gently cupping the other person's cheek
+姿勢/手勢/腳部,pose,站立與移動,雙腳平行站立,both feet planted parallel on the ground
+姿勢/手勢/腳部,pose,站立與移動,一前一後站姿,staggered stance with one foot slightly forward
+姿勢/手勢/腳部,pose,站立與移動,腳尖朝外,feet turned slightly outward in a relaxed stance
+姿勢/手勢/腳部,pose,站立與移動,腳尖內收,toes turned subtly inward
+姿勢/手勢/腳部,pose,站立與移動,踮腳,rising lightly onto the balls of the feet
+姿勢/手勢/腳部,pose,站立與移動,腳跟離地,one heel lifted naturally during a step
+姿勢/手勢/腳部,pose,站立與移動,跨步,taking a long purposeful stride
+姿勢/手勢/腳部,pose,站立與移動,小跑步伐,light jogging step with one foot airborne
+姿勢/手勢/腳部,pose,站立與移動,奔跑蹬地,powerful running push-off with the rear foot
+姿勢/手勢/腳部,pose,站立與移動,急停,abrupt stop with one foot braced forward
+姿勢/手勢/腳部,pose,站立與移動,轉身樞軸,pivoting on the ball of one foot
+姿勢/手勢/腳部,pose,站立與移動,向後退步,stepping backward cautiously
+姿勢/手勢/腳部,pose,站立與移動,跨過障礙,stepping carefully over a low obstacle
+姿勢/手勢/腳部,pose,站立與移動,踏上階梯,one foot landing firmly on the next stair
+姿勢/手勢/腳部,pose,站立與移動,懸空擺腿,seated with the lower legs swinging freely
+姿勢/手勢/腳部,pose,站立與移動,雙腿自然交叉,legs crossed naturally at the knees
+姿勢/手勢/腳部,pose,站立與移動,腳踝交叉,ankles crossed lightly while seated
+姿勢/手勢/腳部,pose,站立與移動,一腿伸直一腿彎曲,one leg extended while the other remains bent
+姿勢/手勢/腳部,pose,站立與移動,跪姿腳背貼地,kneeling with the tops of the feet resting on the ground
+姿勢/手勢/腳部,pose,站立與移動,赤腳抓地,bare toes subtly gripping the ground
+運動/舞蹈/互動,motion,跑跳與球類,短跑起跑,explosive sprint start from starting blocks
+運動/舞蹈/互動,motion,跑跳與球類,全速衝刺,mid-sprint at full speed with realistic running mechanics
+運動/舞蹈/互動,motion,跑跳與球類,慢跑,relaxed jogging with a natural gait cycle
+運動/舞蹈/互動,motion,跑跳與球類,跨欄,clearing a hurdle with accurate athletic form
+運動/舞蹈/互動,motion,跑跳與球類,跳遠騰空,airborne during a long jump
+運動/舞蹈/互動,motion,跑跳與球類,跳躍落地,absorbing impact in a balanced landing
+運動/舞蹈/互動,motion,跑跳與球類,籃球運球,dribbling a basketball with a low athletic stance
+運動/舞蹈/互動,motion,跑跳與球類,籃球跳投,releasing a basketball at the peak of a jump shot
+運動/舞蹈/互動,motion,跑跳與球類,足球帶球,dribbling a football while running
+運動/舞蹈/互動,motion,跑跳與球類,足球射門,striking a football with the instep
+運動/舞蹈/互動,motion,跑跳與球類,網球發球,tennis serve at full extension
+運動/舞蹈/互動,motion,跑跳與球類,排球扣球,volleyball spike at the peak of the jump
+運動/舞蹈/互動,motion,跑跳與球類,游泳划水,freestyle swimming stroke with accurate body alignment
+運動/舞蹈/互動,motion,跑跳與球類,自由車過彎,cyclist leaning through a fast corner
+運動/舞蹈/互動,motion,力量、武術與戶外,拳擊直拳,throwing a technically grounded straight punch
+運動/舞蹈/互動,motion,力量、武術與戶外,拳擊閃避,slipping an incoming punch with compact footwork
+運動/舞蹈/互動,motion,力量、武術與戶外,高踢,controlled high kick with grounded supporting foot
+運動/舞蹈/互動,motion,力量、武術與戶外,低掃腿,low sweeping kick with rotational momentum
+運動/舞蹈/互動,motion,力量、武術與戶外,劍術突刺,controlled sword lunge with the blade aligned to the movement
+運動/舞蹈/互動,motion,力量、武術與戶外,拉弓,drawing a bow with correct shoulder alignment
+運動/舞蹈/互動,motion,力量、武術與戶外,攀岩,climbing a rock face with three points of contact
+運動/舞蹈/互動,motion,力量、武術與戶外,登山跨步,stepping upward on a steep trail with trekking posture
+運動/舞蹈/互動,motion,力量、武術與戶外,衝浪轉向,carving across a wave on a surfboard
+運動/舞蹈/互動,motion,力量、武術與戶外,滑板騰空,airborne skateboard trick with the board aligned under the feet
+運動/舞蹈/互動,motion,力量、武術與戶外,瑜伽樹式,balanced yoga tree pose
+運動/舞蹈/互動,motion,力量、武術與戶外,重量訓練深蹲,barbell back squat with correct bracing and knee alignment
+運動/舞蹈/互動,motion,力量、武術與戶外,划船,rowing with synchronized leg drive and arm pull
+運動/舞蹈/互動,motion,力量、武術與戶外,騎馬疾馳,galloping on horseback with the rider balanced in the saddle
+運動/舞蹈/互動,motion,通用舞蹈語彙,預備姿勢,dance preparation pose with poised stillness
+運動/舞蹈/互動,motion,通用舞蹈語彙,延伸線條,elongated dance line through the arms and torso
+運動/舞蹈/互動,motion,通用舞蹈語彙,轉圈,mid-turn with fabric and hair following the rotation
+運動/舞蹈/互動,motion,通用舞蹈語彙,跳躍,dance leap captured at the apex
+運動/舞蹈/互動,motion,通用舞蹈語彙,落地緩衝,soft dance landing with bent knees
+運動/舞蹈/互動,motion,通用舞蹈語彙,身體波浪,fluid body wave traveling through the spine
+運動/舞蹈/互動,motion,通用舞蹈語彙,地板動作,controlled floorwork with clear points of contact
+運動/舞蹈/互動,motion,通用舞蹈語彙,雙人鏡像,two dancers mirroring each other's movement
+運動/舞蹈/互動,motion,通用舞蹈語彙,雙人引導,one dancer visibly leading the partner through the movement
+運動/舞蹈/互動,motion,通用舞蹈語彙,托舉,partner dance lift with believable support and counterbalance
+運動/舞蹈/互動,motion,舞種與代表動作,芭蕾阿拉貝斯克,classical ballet arabesque with a long clean line
+運動/舞蹈/互動,motion,舞種與代表動作,芭蕾旋轉,ballet pirouette with precise spotting
+運動/舞蹈/互動,motion,舞種與代表動作,當代舞收縮,contemporary dance contraction through the torso
+運動/舞蹈/互動,motion,舞種與代表動作,現代舞釋放,release-based contemporary dance movement
+運動/舞蹈/互動,motion,舞種與代表動作,華爾滋閉式舞姿,waltz closed position with elegant frame
+運動/舞蹈/互動,motion,舞種與代表動作,華爾滋旋轉步,sweeping waltz turn with trailing garments
+運動/舞蹈/互動,motion,舞種與代表動作,探戈弓步,dramatic tango lunge with close partner connection
+運動/舞蹈/互動,motion,舞種與代表動作,探戈勾腿,controlled tango gancho leg hook
+運動/舞蹈/互動,motion,舞種與代表動作,爵士舞踢腿,sharp jazz kick with strong arm lines
+運動/舞蹈/互動,motion,舞種與代表動作,街舞定格,hip-hop freeze with grounded asymmetrical balance
+運動/舞蹈/互動,motion,舞種與代表動作,霹靂舞倒立定格,breakdance handstand freeze with accurate weight support
+運動/舞蹈/互動,motion,舞種與代表動作,鎖舞指向,locking dance point with crisp angular arms
+運動/舞蹈/互動,motion,舞種與代表動作,甩舞手臂弧線,waacking arm circles with expressive rhythm
+運動/舞蹈/互動,motion,舞種與代表動作,佛朗明哥踏步,flamenco marking step with proud upper-body posture
+運動/舞蹈/互動,motion,舞種與代表動作,肚皮舞髖部動作,belly dance hip articulation with poised upper body
+運動/舞蹈/互動,motion,舞種與代表動作,中國古典舞水袖,Chinese classical dance with flowing water sleeves
+運動/舞蹈/互動,motion,舞種與代表動作,中國古典舞擰傾圓曲,"Chinese classical dance spiral, tilt and rounded body line"
+運動/舞蹈/互動,motion,舞種與代表動作,民族舞踏歌,rhythmic folk dance stepping with grounded communal energy
+運動/舞蹈/互動,motion,舞種與代表動作,扇舞開扇,fan dance with the fan opening along the arm line
+運動/舞蹈/互動,motion,舞種與代表動作,自由即興舞,improvised expressive dance caught mid-motion
+運動/舞蹈/互動,motion,情侶與親密互動,額頭相抵,resting their foreheads gently together
+運動/舞蹈/互動,motion,情侶與親密互動,鼻尖輕碰,their noses brushing lightly in a playful intimate moment
+運動/舞蹈/互動,motion,情侶與親密互動,牽手散步,walking hand in hand with naturally synchronized steps
+運動/舞蹈/互動,motion,情侶與親密互動,從背後擁抱,a natural back hug with believable arm placement
+運動/舞蹈/互動,motion,情侶與親密互動,側面相擁,standing in a loose side embrace
+運動/舞蹈/互動,motion,情侶與親密互動,互相整理衣領,gently adjusting each other's collar
+運動/舞蹈/互動,motion,情侶與親密互動,替對方撥髮,brushing loose hair away from the other person's face
+運動/舞蹈/互動,motion,情侶與親密互動,共享耳機,sharing one pair of earphones while sitting close
+運動/舞蹈/互動,motion,情侶與親密互動,同撐一把傘,sharing one umbrella while walking close together
+運動/舞蹈/互動,motion,情侶與親密互動,靠肩睡著,one person asleep against the other's shoulder
+運動/舞蹈/互動,motion,情侶與親密互動,交換眼神,exchanging a private knowing glance
+運動/舞蹈/互動,motion,情侶與親密互動,笑著追逐,playfully chasing each other with mutual laughter
+運動/舞蹈/互動,motion,情侶與親密互動,手掌隔玻璃相對,their palms aligned on opposite sides of the glass
+運動/舞蹈/互動,motion,情侶與親密互動,互相取暖,huddling close together for warmth
+運動/舞蹈/互動,motion,日常生活互動,一起做飯,cooking together while naturally sharing the workspace
+運動/舞蹈/互動,motion,日常生活互動,搶同一口食物,both reaching for the same bite of food at once
+運動/舞蹈/互動,motion,日常生活互動,替對方擦臉,wiping a small stain from the other person's cheek
+運動/舞蹈/互動,motion,日常生活互動,幫忙吹頭髮,drying the other person's hair with casual familiarity
+運動/舞蹈/互動,motion,日常生活互動,一起折衣服,folding laundry together while talking
+運動/舞蹈/互動,motion,日常生活互動,窩在沙發看電影,sharing a sofa while reacting differently to a movie
+運動/舞蹈/互動,motion,日常生活互動,一起看手機,leaning toward the same phone screen with visible reactions
+運動/舞蹈/互動,motion,日常生活互動,幫忙綁鞋帶,kneeling to help tie the other person's shoelace
+運動/舞蹈/互動,motion,日常生活互動,互相遞咖啡,passing a cup of coffee from one hand to another
+運動/舞蹈/互動,motion,日常生活互動,並肩做自己的事,"sitting side by side, each absorbed in a different quiet activity"
+運動/舞蹈/互動,motion,日常生活互動,一起搬東西,carrying a bulky object together with coordinated effort
+運動/舞蹈/互動,motion,日常生活互動,從對方盤子偷吃,stealing a bite from the other person's plate while being noticed
+運動/舞蹈/互動,motion,日常生活互動,互相拍照,one person photographing the other in a candid moment
+運動/舞蹈/互動,motion,日常生活互動,一起收拾殘局,cleaning up a small mess together after an accident
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,擊掌,a natural high-five at the moment of contact
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,碰拳,casual fist bump between teammates
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,勾肩搭背,walking with arms loosely around each other's shoulders
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,背靠背警戒,standing back to back while watching opposite directions
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,互相拉起,one person pulling the other up from the ground
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,交換工具,passing a tool while continuing the shared task
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,一起偷看,peeking around the same corner at different heights
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,互相吐槽,reacting to each other with playful exasperation
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,同步前進,moving forward in coordinated formation
+運動/舞蹈/互動,motion,朋友、夥伴與團隊,交換勝利眼神,sharing a brief victorious glance after completing the task
+運動/舞蹈/互動,motion,舞蹈與表演互動,華爾滋共舞,waltzing together with a stable ballroom frame and synchronized steps
+運動/舞蹈/互動,motion,舞蹈與表演互動,一方引導旋轉,one partner leading the other into a turn by the hand
+運動/舞蹈/互動,motion,舞蹈與表演互動,交錯換位,crossing past each other and exchanging positions mid-dance
+運動/舞蹈/互動,motion,舞蹈與表演互動,背對背同步舞步,back-to-back synchronized dance movement
+運動/舞蹈/互動,motion,舞蹈與表演互動,托舉旋轉,rotating partner lift with believable support and counterbalance
+運動/舞蹈/互動,motion,舞蹈與表演互動,手臂纏繞動作,interwoven arm choreography without tangled anatomy
+運動/舞蹈/互動,motion,舞蹈與表演互動,雙人鏡像動作,two dancers mirroring each other with subtle individual variation
+運動/舞蹈/互動,motion,舞蹈與表演互動,即興回應,improvised call-and-response movement between two dancers
+運動/舞蹈/互動,motion,舞蹈與表演互動,舞後扶住對方,catching and steadying the partner after a final turn
+運動/舞蹈/互動,motion,舞蹈與表演互動,同時謝幕,bowing together after the performance
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,近距離對峙,standing face to face in a tense close standoff
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,抓住手腕阻止,grabbing the other person's wrist to stop the motion
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,推開保護,pushing the other person behind oneself for protection
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,背離爭吵,turning away from each other after an argument
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,遞出證據,placing evidence between them during a confrontation
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,一方伸手另一方退縮,one person reaches out while the other recoils
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,共同看向威脅,both characters suddenly turning toward the same unseen threat
+運動/舞蹈/互動,motion,衝突、對峙與戲劇,戰後互相攙扶,supporting each other's weight after the conflict
+運動/舞蹈/互動,motion,人與動物／非人夥伴,額頭貼著動物額頭,resting the forehead gently against the animal's forehead
+運動/舞蹈/互動,motion,人與動物／非人夥伴,動物主動蹭手,the animal actively nuzzling into the person's hand
+運動/舞蹈/互動,motion,人與動物／非人夥伴,動物含住手玩耍,the animal playfully holding the person's hand in its mouth without biting
+運動/舞蹈/互動,motion,人與動物／非人夥伴,一起奔跑,running side by side with synchronized direction and mutual awareness
+運動/舞蹈/互動,motion,人與動物／非人夥伴,人物伏在動物背上休息,resting safely against the large animal's back
+運動/舞蹈/互動,motion,人與動物／非人夥伴,動物替人物遮雨,the large animal sheltering the person from the rain with its body
+運動/舞蹈/互動,motion,人與動物／非人夥伴,互相搶物件,playfully tugging the same object from opposite sides
+運動/舞蹈/互動,motion,人與動物／非人夥伴,人物替動物整理毛髮,grooming the animal while it visibly relaxes
+運動/舞蹈/互動,motion,人與動物／非人夥伴,動物把頭枕在人腿上,the animal resting its head heavily across the person's lap
+運動/舞蹈/互動,motion,人與動物／非人夥伴,並肩看遠方,the person and animal companion watching the distant landscape together
+情境,situation,畫面事件,生活抓拍,candid everyday moment
+情境,situation,畫面事件,正在進行的動作,caught mid-action
+情境,situation,畫面事件,動作前一刻,the moment just before the action
+情境,situation,畫面事件,動作後餘韻,quiet aftermath of an event
+情境,situation,畫面事件,私密日常,unguarded private moment
+情境,situation,畫面事件,偶然被看見,as if accidentally observed
+情境,situation,畫面事件,環境互動,actively interacting with the surroundings
+情境,situation,畫面事件,雙向互動,mutual interaction with visible reactions
+情境,situation,畫面事件,安靜對峙,silent standoff
+情境,situation,畫面事件,低聲交談,quiet conversation in progress
+情境,situation,畫面事件,等待,waiting in stillness
+情境,situation,畫面事件,獨自工作,absorbed in solitary work
+情境,situation,畫面事件,漫無目的散步,wandering without urgency
+情境,situation,畫面事件,疲憊休息,resting after a long day
+情境,situation,畫面事件,意外轉身,turning in response to an unseen sound
+情境,situation,畫面事件,情緒克制,restrained emotion beneath a calm exterior
+燈光/環境光/特效,light,光質與方向,柔光,soft diffused light
+燈光/環境光/特效,light,光質與方向,硬光,hard directional light
+燈光/環境光/特效,light,光質與方向,側光,side lighting
+燈光/環境光/特效,light,光質與方向,逆光,backlighting
+燈光/環境光/特效,light,光質與方向,輪廓光,subtle rim light
+燈光/環境光/特效,light,光質與方向,頂光,overhead lighting
+燈光/環境光/特效,light,光質與方向,底光,underlighting
+燈光/環境光/特效,light,光質與方向,正面柔光,soft frontal fill light
+燈光/環境光/特效,light,光質與方向,窗光,natural window light
+燈光/環境光/特效,light,光質與方向,斑駁光,dappled light
+燈光/環境光/特效,light,光質與方向,光束,volumetric light rays
+燈光/環境光/特效,light,光質與方向,薄霧散射光,soft light diffused through haze
+燈光/環境光/特效,light,光質與方向,明暗對照,chiaroscuro lighting
+燈光/環境光/特效,light,光質與方向,低調光,low-key lighting
+燈光/環境光/特效,light,光質與方向,高調光,high-key lighting
+燈光/環境光/特效,light,光質與方向,實景光源,motivated practical lighting
+燈光/環境光/特效,light,光質與方向,反射補光,natural bounce light
+燈光/環境光/特效,light,光質與方向,接觸陰影,natural contact shadows
+燈光/環境光/特效,light,光質與方向,環境遮蔽,subtle ambient occlusion
+燈光/環境光/特效,light,光質與方向,黃金時刻,golden-hour lighting
+燈光/環境光/特效,light,光質與方向,藍色時刻,blue-hour lighting
+燈光/環境光/特效,light,光質與方向,月光,soft natural moonlight
+燈光/環境光/特效,light,光質與方向,燭光,flickering candlelight
+燈光/環境光/特效,light,光質與方向,螢幕光,soft monitor light as the primary light source
+燈光/環境光/特效,light,光質與方向,霓虹環境光,diffused neon ambient light
+燈光/環境光/特效,light,電影布光與光源角色,主光,a clearly motivated key light shaping the subject
+燈光/環境光/特效,light,電影布光與光源角色,補光,restrained fill light preserving detail without flattening the shadows
+燈光/環境光/特效,light,電影布光與光源角色,背光,controlled backlight separating the subject from the environment
+燈光/環境光/特效,light,電影布光與光源角色,三點布光,"cinematic three-point lighting with motivated key, restrained fill and subtle backlight"
+燈光/環境光/特效,light,電影布光與光源角色,負補光,negative fill deepening the shadow side of the face
+燈光/環境光/特效,light,電影布光與光源角色,踢光,subtle kicker light grazing the far cheek and shoulder
+燈光/環境光/特效,light,電影布光與光源角色,髮光,soft hair light revealing texture and separating dark hair from the background
+燈光/環境光/特效,light,電影布光與光源角色,眼神光,small natural catchlights motivated by the visible light sources
+燈光/環境光/特效,light,電影布光與光源角色,交叉布光,cross lighting from opposite diagonal directions
+燈光/環境光/特效,light,電影布光與光源角色,包圍式柔光,large soft wraparound key light with gentle tonal falloff
+燈光/環境光/特效,light,電影布光與光源角色,側逆光,three-quarter backlight grazing the subject from behind and to one side
+燈光/環境光/特效,light,電影布光與光源角色,低亮度實景布光,low-level motivated lighting from practical sources visible within the scene
+燈光/環境光/特效,light,人像經典光型,林布蘭光,Rembrandt lighting with a small triangular highlight on the shadow cheek
+燈光/環境光/特效,light,人像經典光型,蝴蝶光,butterfly lighting with a small centered shadow beneath the nose
+燈光/環境光/特效,light,人像經典光型,迴圈光,loop lighting with a soft nose shadow angled toward the cheek
+燈光/環境光/特效,light,人像經典光型,分割光,split lighting dividing the face into illuminated and shadowed halves
+燈光/環境光/特效,light,人像經典光型,寬面光,broad lighting illuminating the side of the face turned toward the camera
+燈光/環境光/特效,light,人像經典光型,窄面光,short lighting illuminating the side of the face turned away from the camera
+燈光/環境光/特效,light,人像經典光型,貝殼光,clamshell beauty lighting with soft frontal key and gentle lower fill
+燈光/環境光/特效,light,人像經典光型,書頁反射光,book light producing an exceptionally soft directional source with natural falloff
+燈光/環境光/特效,light,人像經典光型,窗邊半面光,soft window light illuminating only the near side of the face while the room falls into shadow
+燈光/環境光/特效,light,人像經典光型,美容盤光,focused beauty-dish lighting with crisp facial definition and controlled softness
+燈光/環境光/特效,light,聚光燈與舞台燈,單一聚光燈,a single theatrical spotlight isolating the subject within surrounding darkness
+燈光/環境光/特效,light,聚光燈與舞台燈,柔邊聚光燈,soft-edged spotlight with gradual falloff around the subject
+燈光/環境光/特效,light,聚光燈與舞台燈,硬邊聚光燈,hard-edged spotlight forming a precise circle of light
+燈光/環境光/特效,light,聚光燈與舞台燈,頂部聚光燈,narrow overhead spotlight falling vertically onto the subject
+燈光/環境光/特效,light,聚光燈與舞台燈,追蹤聚光燈,a moving follow spot tracking the performer across a dark stage
+燈光/環境光/特效,light,聚光燈與舞台燈,光池,a localized pool of warm light surrounded by deep shadow
+燈光/環境光/特效,light,聚光燈與舞台燈,腳燈,low theatrical footlights casting upward stage illumination
+燈光/環境光/特效,light,聚光燈與舞台燈,舞台面光,even theatrical front wash lighting across the performance area
+燈光/環境光/特效,light,聚光燈與舞台燈,移動頭燈束,multiple moving-head stage beams cutting through atmospheric haze
+燈光/環境光/特效,light,聚光燈與舞台燈,舞台背幕光,soft cyclorama lighting creating a luminous gradient behind the performers
+燈光/環境光/特效,light,聚光燈與舞台燈,孤立舞者聚光,one dancer held inside a narrow spotlight while the empty stage disappears into darkness
+燈光/環境光/特效,light,聚光燈與舞台燈,雙人交會聚光,two overlapping spotlights meeting where the performers make contact
+燈光/環境光/特效,light,逆光、剪影與透光,正逆光,strong frontal backlight directly behind the subject
+燈光/環境光/特效,light,逆光、剪影與透光,逆光剪影,silhouette against a luminous backlit background with minimal frontal fill
+燈光/環境光/特效,light,逆光、剪影與透光,保留臉部的逆光,strong environmental backlight with restrained reflected fill keeping the face readable
+燈光/環境光/特效,light,逆光、剪影與透光,霧中逆光,diffused backlight blooming through mist and outlining the subject softly
+燈光/環境光/特效,light,逆光、剪影與透光,雨中逆光,backlight catching individual rain streaks and wet edges around the subject
+燈光/環境光/特效,light,逆光、剪影與透光,門框逆光,bright doorway backlight framing the figure against a darker interior
+燈光/環境光/特效,light,逆光、剪影與透光,窗簾透光,backlight filtering through translucent curtains and wrapping softly into the room
+燈光/環境光/特效,light,逆光、剪影與透光,薄紗透光,transmitted backlight revealing the layered translucency of fabric and veil
+燈光/環境光/特效,light,逆光、剪影與透光,葉片透光,"sunlight transmitted through leaves, revealing luminous veins and colored translucency"
+燈光/環境光/特效,light,逆光、剪影與透光,邊緣濕亮,wet surfaces catching narrow backlit highlights without forming a neon outline
+燈光/環境光/特效,light,逆光、剪影與透光,反日照輪廓,contre-jour lighting with restrained flare and deep atmospheric separation
+燈光/環境光/特效,light,遮光、圖案與特殊投影,百葉窗光影,venetian-blind shadows casting controlled horizontal bands across the scene
+燈光/環境光/特效,light,遮光、圖案與特殊投影,窗格投影,window-frame shadows projected across the floor and subject
+燈光/環境光/特效,light,遮光、圖案與特殊投影,樹影投射,organic branch and leaf shadows projected across the subject
+燈光/環境光/特效,light,遮光、圖案與特殊投影,圖案遮光片,gobo-projected patterns shaping the background and selectively crossing the subject
+燈光/環境光/特效,light,遮光、圖案與特殊投影,不規則遮光,cookie lighting creating irregular broken patches of illumination
+燈光/環境光/特效,light,遮光、圖案與特殊投影,狹縫光,a narrow blade of light cutting diagonally through darkness
+燈光/環境光/特效,light,遮光、圖案與特殊投影,投影機光,projector light casting moving imagery and colored patterns across the subject
+燈光/環境光/特效,light,遮光、圖案與特殊投影,水波反射光,"moving water-reflected caustic light rippling across skin, fabric and architecture"
+燈光/環境光/特效,light,遮光、圖案與特殊投影,水下焦散光,underwater caustic light patterns refracting across submerged forms
+燈光/環境光/特效,light,遮光、圖案與特殊投影,彩色玻璃光,"colored stained-glass light projected across the floor, clothing and skin"
+燈光/環境光/特效,light,自然與實景動態光源,車頭燈逆光,vehicle headlights backlighting the figures through rain and road mist
+燈光/環境光/特效,light,自然與實景動態光源,街燈光池,isolated pools of sodium-vapor streetlight along a dark street
+燈光/環境光/特效,light,自然與實景動態光源,壁爐跳光,warm firelight flickering unevenly across the face and surrounding room
+燈光/環境光/特效,light,自然與實景動態光源,電視閃光,changing television light softly flickering across the subject in a dark room
+燈光/環境光/特效,light,自然與實景動態光源,冰箱門光,cool refrigerator light spilling onto the subject in an otherwise dark kitchen
+燈光/環境光/特效,light,自然與實景動態光源,手機螢幕光,dim phone-screen light illuminating the face from below at close range
+燈光/環境光/特效,light,自然與實景動態光源,閃電瞬間,a brief lightning flash revealing sharp forms inside deep storm darkness
+燈光/環境光/特效,light,自然與實景動態光源,霓虹招牌實景光,motivated neon-sign light spilling naturally across nearby wet surfaces and skin
+燈光/環境光/特效,light,自然與實景動態光源,日光反射入室,soft daylight bounced from an exterior wall into the interior
+燈光/環境光/特效,light,自然與實景動態光源,多光源混合,coherent mixed lighting from practical sources with distinct color temperatures and physically consistent shadows
+燈光/環境光/特效,light,完整燈光 Prompt ,電影人物光包,"cinematic motivated lighting, a soft directional key shaping the face, restrained fill preserving shadow detail, subtle three-quarter backlight separating the hair and shoulders, natural catchlights, physically consistent falloff and contact shadows"
+燈光/環境光/特效,light,完整燈光 Prompt ,昏暗環境融合包,"low-key practical lighting from visible sources within the scene, no separate studio light on the character, soft reflected fill keeping the face readable, unified exposure and white balance, deep shadows with preserved detail"
+燈光/環境光/特效,light,完整燈光 Prompt ,聚光舞台包,"a single soft-edged theatrical spotlight isolating the performer, subtle atmospheric haze revealing the light cone, controlled falloff into deep stage darkness, delicate reflected fill preserving facial expression"
+燈光/環境光/特效,light,完整燈光 Prompt ,夕陽逆光包,"strong golden-hour backlight, translucent hair and fabric edges catching warm light, restrained natural bounce light preserving the face, gentle lens bloom, long coherent shadows and unified environmental exposure"
+燈光/環境光/特效,light,完整燈光 Prompt ,雨夜霓虹包,"motivated neon and street lighting diffused through rain, colored reflections wrapping naturally across wet skin and clothing, backlight catching individual rain streaks, unified cinematic exposure, no artificial neon body outline"
+燈光/環境光/特效,light,完整燈光 Prompt ,柔窗光肖像包,"large soft window light from one side, gentle wraparound illumination, subtle negative fill on the far cheek, natural catchlights, smooth tonal falloff and quiet shadow detail"
+燈光/環境光/特效,light,人物與場景融合,統一光照系統,the character and environment exist under one unified lighting system
+燈光/環境光/特效,light,人物與場景融合,環境光自然影響,the character is naturally illuminated by the surrounding environment
+燈光/環境光/特效,light,人物與場景融合,材質接收環境光,"skin, hair and clothing naturally receive the surrounding light"
+燈光/環境光/特效,light,人物與場景融合,自然環境反射,subtle environmental reflections across the subject
+燈光/環境光/特效,light,人物與場景融合,一致曝光,consistent exposure between subject and background
+燈光/環境光/特效,light,人物與場景融合,一致白平衡,unified white balance across the entire scene
+燈光/環境光/特效,light,人物與場景融合,一致色彩分級,unified cinematic color grading
+燈光/環境光/特效,light,人物與場景融合,光線包覆,natural light wrapping around the face and body
+燈光/環境光/特效,light,人物與場景融合,陰影內反射色,subtle reflected light remaining within the shadows
+燈光/環境光/特效,light,人物與場景融合,光源方向一致,all cast shadows follow the visible light sources
+燈光/環境光/特效,light,人物與場景融合,眼中實景反光,eyes reflecting the actual lights present in the scene
+燈光/環境光/特效,light,人物與場景融合,自然明暗融入,the face remains readable without being separately spotlighted
+燈光/環境光/特效,light,人物與場景融合,共同顆粒質感,matching texture and film grain across subject and background
+燈光/環境光/特效,light,人物與場景融合,空氣透視一致,unified atmospheric perspective
+燈光/環境光/特效,light,人物與場景融合,物理存在感,the character is physically present within the scene
+燈光/環境光/特效,light,人物與場景融合,無獨立棚燈,no separate studio lighting on the character
+燈光/環境光/特效,light,光學與光線特效,丁達爾效應,visible Tyndall light scattering through airborne particles
+燈光/環境光/特效,light,光學與光線特效,神光,volumetric god rays
+燈光/環境光/特效,light,光學與光線特效,體積光,volumetric lighting
+燈光/環境光/特效,light,光學與光線特效,光污染,urban light pollution glowing across the night sky
+燈光/環境光/特效,light,光學與光線特效,天空輝光,diffuse skyglow above the city
+燈光/環境光/特效,light,光學與光線特效,泛光,restrained bloom around bright light sources
+燈光/環境光/特效,light,光學與光線特效,光暈,soft luminous glow
+燈光/環境光/特效,light,光學與光線特效,鹵化光暈,subtle film halation around highlights
+燈光/環境光/特效,light,光學與光線特效,鏡頭光斑,subtle cinematic lens flare
+燈光/環境光/特效,light,光學與光線特效,變形寬銀幕光斑,horizontal anamorphic lens flare
+燈光/環境光/特效,light,光學與光線特效,星芒,diffraction starburst around point lights
+燈光/環境光/特效,light,光學與光線特效,稜鏡折射,prismatic light refraction
+燈光/環境光/特效,light,光學與光線特效,色散,subtle chromatic aberration along high-contrast edges
+燈光/環境光/特效,light,光學與光線特效,焦散光,moving caustic light patterns
+燈光/環境光/特效,light,光學與光線特效,漏光,analog film light leak
+燈光/環境光/特效,light,光學與光線特效,雙重曝光,artistic double exposure
+燈光/環境光/特效,light,光學與光線特效,重影,subtle ghosting and temporal echo
+燈光/環境光/特效,light,光學與光線特效,鏡面碎裂反射,fragmented reflections across broken glass
+燈光/環境光/特效,light,空氣與環境特效,薄霧,thin atmospheric mist
+燈光/環境光/特效,light,空氣與環境特效,濃霧,dense rolling fog
+燈光/環境光/特效,light,空氣與環境特效,煙霧,layered drifting smoke
+燈光/環境光/特效,light,空氣與環境特效,塵埃微粒,fine dust motes suspended in the light
+燈光/環境光/特效,light,空氣與環境特效,漂浮粒子,subtle floating particles
+燈光/環境光/特效,light,空氣與環境特效,火星,flying sparks
+燈光/環境光/特效,light,空氣與環境特效,餘燼,slowly drifting embers
+燈光/環境光/特效,light,空氣與環境特效,細雨軌跡,fine rain streaks caught by the light
+燈光/環境光/特效,light,空氣與環境特效,玻璃水珠,condensation and droplets on foreground glass
+燈光/環境光/特效,light,空氣與環境特效,雪霧,windblown snow haze
+燈光/環境光/特效,light,空氣與環境特效,熱浪扭曲,heat-haze distortion
+燈光/環境光/特效,light,空氣與環境特效,水下漂浮物,suspended particles drifting underwater
+燈光/環境光/特效,light,數位與復古影像特效,類比雜訊,fine analog video noise
+燈光/環境光/特效,light,數位與復古影像特效,掃描線,subtle CRT scanlines
+燈光/環境光/特效,light,數位與復古影像特效,VHS追蹤錯誤,VHS tracking distortion
+燈光/環境光/特效,light,數位與復古影像特效,數位故障,controlled digital glitch artifacts
+燈光/環境光/特效,light,數位與復古影像特效,資料破碎,datamosh compression artifacts
+燈光/環境光/特效,light,數位與復古影像特效,半色調網點,halftone dot texture
+燈光/環境光/特效,light,數位與復古影像特效,網版錯位,misregistered screen-print colors
+燈光/環境光/特效,light,數位與復古影像特效,底片燒灼,film-burn transition effect
+燈光/環境光/特效,light,數位與復古影像特效,暗角,subtle optical vignetting
+氛圍/情緒敘事/抽象,mood,情緒氣質,親密,intimate and emotionally close
+氛圍/情緒敘事/抽象,mood,情緒氣質,孤寂,quiet solitude
+氛圍/情緒敘事/抽象,mood,情緒氣質,蒼涼,desolate and windswept
+氛圍/情緒敘事/抽象,mood,情緒氣質,憂鬱,melancholic
+氛圍/情緒敘事/抽象,mood,情緒氣質,壓抑,oppressive and emotionally restrained
+氛圍/情緒敘事/抽象,mood,情緒氣質,不祥,quietly ominous
+氛圍/情緒敘事/抽象,mood,情緒氣質,夢幻,luminous dreamlike atmosphere
+氛圍/情緒敘事/抽象,mood,情緒氣質,空靈,ethereal and weightless
+氛圍/情緒敘事/抽象,mood,情緒氣質,神聖,sacred and reverent
+氛圍/情緒敘事/抽象,mood,情緒氣質,奢華,restrained luxury
+氛圍/情緒敘事/抽象,mood,情緒氣質,危險誘惑,dangerously alluring
+氛圍/情緒敘事/抽象,mood,情緒氣質,慵懶,languid and unhurried
+氛圍/情緒敘事/抽象,mood,情緒氣質,生活感,lived-in everyday warmth
+氛圍/情緒敘事/抽象,mood,情緒氣質,荒謬幽默,subtle absurdist humor
+氛圍/情緒敘事/抽象,mood,情緒氣質,懷舊,nostalgic and timeworn
+氛圍/情緒敘事/抽象,mood,情緒氣質,迷幻,hypnotic and surreal
+氛圍/情緒敘事/抽象,mood,情緒氣質,寧靜,serene and contemplative
+氛圍/情緒敘事/抽象,mood,情緒氣質,緊繃,tense restrained atmosphere
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,屏息的瞬間,"an emotionally suspended moment, as if the entire scene is holding its breath"
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,話語之前,the fragile silence just before someone finally speaks
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,話語之後,the heavy stillness after something irreversible has just been said
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,音樂散場後,the lingering quiet after the music has stopped and the room has begun to empty
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,雨剛停,the damp reflective stillness immediately after the rain
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,黎明之前,the sleepless blue stillness shortly before dawn
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,黃昏將盡,the fading warmth of the final minutes before daylight disappears
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,災後寂靜,an eerie aftermath where the danger has passed but the environment still remembers it
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,夢醒前,the unstable hush of a dream moments before waking
+氛圍/情緒敘事/抽象,mood,時間停駐與事件餘韻,錯過之後,the quiet emotional residue of arriving one moment too late
+氛圍/情緒敘事/抽象,mood,空間承載情緒,房間屏息,the room feels as though it is quietly holding its breath around the subject
+氛圍/情緒敘事/抽象,mood,空間承載情緒,黑暗聚攏,soft darkness gathering around the subject without swallowing important detail
+氛圍/情緒敘事/抽象,mood,空間承載情緒,沉默落下,silence settling over the furniture and empty spaces like fine dust
+氛圍/情緒敘事/抽象,mood,空間承載情緒,空間過於寬大,an emotionally oversized space making the solitary figure feel small and unprotected
+氛圍/情緒敘事/抽象,mood,空間承載情緒,天花板壓低,"the architecture feels subtly oppressive, as though the ceiling is pressing downward"
+氛圍/情緒敘事/抽象,mood,空間承載情緒,門口猶豫,the threshold carries the tension of someone unsure whether to enter or leave
+氛圍/情緒敘事/抽象,mood,空間承載情緒,窗外遙遠,the world beyond the window feels emotionally distant and unreachable
+氛圍/情緒敘事/抽象,mood,空間承載情緒,生活痕跡仍在,"ordinary traces of recent human presence remain, making the absence feel more intimate"
+氛圍/情緒敘事/抽象,mood,空間承載情緒,環境保持禮貌距離,"the environment remains visually quiet, giving the emotion room to exist"
+氛圍/情緒敘事/抽象,mood,空間承載情緒,景物共同沉默,every object in the scene appears to participate in the same restrained silence
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,未說破的親密,unspoken intimacy held in restrained eye contact and the small distance between them
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,尚未和解,the unresolved tenderness of two people who have not yet forgiven each other
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,害怕失去,quiet attachment shadowed by the fear that this moment will not last
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,熟悉卻疏遠,the ache of familiarity between people who now feel emotionally far apart
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,信任剛萌生,fragile trust beginning to form through cautious proximity and softened posture
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,單方面察覺,one person has understood the emotional truth while the other remains unaware
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,共同隱瞞,a shared secret quietly shaping the space between the characters
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,照顧中的疲憊,tender care carried out through visible exhaustion rather than idealized sweetness
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,危險的吸引,"mutual attraction complicated by restraint, suspicion and latent danger"
+氛圍/情緒敘事/抽象,mood,關係暗流與未說出口,只差一步,a charged distance of one unfinished gesture between the characters
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,潮濕寂靜,humid nocturnal stillness with damp surfaces and softened distant sound
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,乾冷疏離,dry cold air with crisp shadows and emotionally distant clarity
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,悶熱不安,heavy stagnant heat making the air feel difficult to breathe
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,帶灰塵的暖意,dusty amber warmth carrying the tenderness of an old memory
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,電流般緊張,"an electrically charged atmosphere, as if the air itself anticipates impact"
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,天鵝絨般黑暗,velvet-soft darkness with luminous detail emerging gradually from shadow
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,玻璃般脆弱,a crystalline fragile atmosphere where every sound seems capable of breaking the moment
+氛圍/情緒敘事/抽象,mood,感官氣候與材質,煙霧般記憶,memory-like haze softening spatial boundaries without erasing the focal subject
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,意外撞見,"the scene feels accidentally witnessed rather than deliberately posed, preserving an intimate sense of privacy"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,視覺沉默,"subtle visual silence, restrained composition and unresolved emotional tension"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,深夜屏息包,"an emotionally suspended late-night atmosphere, as if the room is quietly holding its breath; soft darkness gathers around the subject while the visible practical lights preserve intimate facial detail"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,雨夜疏離包,a rain-muted atmosphere filled with wet reflections and distant city glow; the subject feels physically present yet emotionally separated from the world beyond the glass
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,散場餘韻包,"the exhausted quiet after a performance has ended, with abandoned light, disturbed fabric and fading reflections preserving the memory of movement"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,溫柔日常包,"lived-in warmth shaped by small imperfections, shared routines and unguarded gestures; the moment feels emotionally truthful rather than staged"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,宏大孤獨包,"a tiny solitary figure surrounded by an immense indifferent landscape, with deep atmospheric perspective turning physical distance into emotional silence"
+氛圍/情緒敘事/抽象,mood,可直接使用的氛圍片段,危險曖昧包,"restrained sensual tension beneath formal composure, mutual awareness concealed behind controlled posture, with danger remaining quiet but unmistakably present"
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,孤獨,loneliness visualized as a small figure surrounded by excessive negative space and unreachable pools of light
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,依附,attachment visualized through two forms connected by a fragile luminous thread that tightens with distance
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,失去,absence represented by a precisely preserved empty space where someone should have been
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,哀傷,grief behaving like dark water slowly rising through an ordinary room
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,焦慮,anxiety visualized as repeating almost-identical doorways narrowing toward the subject
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,壓抑,suppressed emotion appearing as dense shadow trapped beneath a calm translucent surface
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,信任,trust visualized as one figure leaning backward into another's unseen support
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,疏離,alienation expressed through aligned bodies separated by incompatible lighting and reflections
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,自我分裂,a single identity divided across reflections that each reveal a different emotional truth
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,情緒麻木,"emotional numbness represented by muted color, delayed reflections and gestures that stop halfway"
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,渴望被看見,the desire to be seen visualized as a softly illuminated face behind layers of translucent obstruction
+氛圍/情緒敘事/抽象,mood,情緒、關係與心理,矛盾依戀,conflicted attachment shown through bodies moving closer while their shadows pull apart
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,時間流逝,the passage of time visualized through shifting light and accumulating traces across one continuous space
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,記憶褪色,"memory fading unevenly, with peripheral details dissolving before the emotional focal point"
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,記憶重疊,multiple moments occupying the same space as translucent temporal layers
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,無常,"impermanence expressed through beautiful structures quietly eroding into wind, water or light"
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,熵增,entropy visualized as an ordered environment gradually becoming irreversible organic disorder
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,循環,cyclical existence represented by a path returning to its beginning with subtle accumulated differences
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,命運,fate visualized as converging paths shaped by forces outside the characters' awareness
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,自由意志,free will visualized as one deliberate deviation breaking an otherwise perfect repeated pattern
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,存在的荒謬,existential absurdity presented with solemn cinematic seriousness inside an impossible ordinary situation
+氛圍/情緒敘事/抽象,mood,時間、記憶與存在,界線狀態,"a liminal state between arrival and departure, waking and dreaming, belonging and exile"
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,秩序與混亂,"order and chaos sharing one composition, with a precise system slowly invaded by organic irregularity"
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,控制與臣服,"control and surrender expressed through opposing body tension, height and spatial dominance"
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,監視,surveillance visualized through repeated distant viewpoints and architecture that appears to be watching
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,勞動異化,alienated labor represented by a human figure repeating a beautiful but meaningless task inside an endless system
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,制度壓力,institutional pressure visualized as immaculate structures compressing irregular human forms
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,選擇過載,too many equally illuminated paths producing paralysis rather than freedom
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,表面和諧,perfect visual symmetry concealing small signs of emotional or structural collapse
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,個體與群體,one irregular figure resisting the synchronized direction of a visually unified crowd
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,權力失衡,"unequal power expressed through scale, elevation, access to light and control of negative space"
+氛圍/情緒敘事/抽象,mood,秩序、權力與社會,失控,a carefully controlled composition beginning to fail at its edges
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,情緒成為物質,"treat the emotion as a physical material that changes weight, texture, gravity and space"
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,缺席成為空間,"represent absence through composition, preserved negative space and environmental traces rather than a literal missing-person symbol"
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,關係成為距離,"translate the relationship into measurable distance, orientation, overlap and unequal access to light"
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,時間成為變化,"show time through transformation across surfaces, light, growth, decay and accumulated use"
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,概念主體化,one clear visual metaphor dominates the image while all secondary details reinforce the same idea
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,避免直白符號,avoid literal icons and cliché symbols; express the concept through spatial behavior and material transformation
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,抽象但可讀,"abstract yet emotionally legible, with one recognizable subject anchoring the visual metaphor"
+氛圍/情緒敘事/抽象,mood,視覺轉譯方法與句型,詩意現實,poetic realism where one impossible element behaves naturally inside an otherwise believable world
+景別/占比/宏大,shot,景別與裁切,大特寫,extreme close-up
+景別/占比/宏大,shot,景別與裁切,特寫,close-up shot
+景別/占比/宏大,shot,景別與裁切,頭肩肖像,head-and-shoulders portrait
+景別/占比/宏大,shot,景別與裁切,胸像,bust shot
+景別/占比/宏大,shot,景別與裁切,半身,waist-up shot
+景別/占比/宏大,shot,景別與裁切,七分身,three-quarter body shot
+景別/占比/宏大,shot,景別與裁切,全身,"full-body shot, entire figure visible"
+景別/占比/宏大,shot,景別與裁切,遠景,long shot
+景別/占比/宏大,shot,景別與裁切,大遠景,extreme long shot
+景別/占比/宏大,shot,景別與裁切,自然裁切,natural imperfect crop
+景別/占比/宏大,shot,肖像類型,頭部肖像,tight headshot portrait
+景別/占比/宏大,shot,肖像類型,頭肩肖像,head-and-shoulders portrait
+景別/占比/宏大,shot,肖像類型,胸像肖像,bust portrait
+景別/占比/宏大,shot,肖像類型,半身肖像,waist-up portrait
+景別/占比/宏大,shot,肖像類型,四分之三身肖像,three-quarter-length portrait
+景別/占比/宏大,shot,肖像類型,全身肖像,"full-length portrait, entire figure visible"
+景別/占比/宏大,shot,肖像類型,側面肖像,strict profile portrait
+景別/占比/宏大,shot,肖像類型,四分之三肖像,three-quarter-view portrait
+景別/占比/宏大,shot,肖像類型,正式肖像,formal posed portrait
+景別/占比/宏大,shot,肖像類型,環境肖像,environmental portrait
+景別/占比/宏大,shot,肖像類型,生活肖像,candid lifestyle portrait
+景別/占比/宏大,shot,肖像類型,編輯肖像,editorial portrait photography
+景別/占比/宏大,shot,肖像類型,概念肖像,conceptual portrait
+景別/占比/宏大,shot,肖像類型,古典肖像畫,classical painted portrait
+景別/占比/宏大,shot,肖像類型,親密肖像,intimate close portrait
+景別/占比/宏大,shot,肖像類型,群體肖像,group portrait with clearly separated figures
+景別/占比/宏大,shot,遠近景,極端特寫,extreme close-up shot
+景別/占比/宏大,shot,遠近景,特寫,close-up shot
+景別/占比/宏大,shot,遠近景,中特寫,medium close-up shot
+景別/占比/宏大,shot,遠近景,中景,medium shot
+景別/占比/宏大,shot,遠近景,牛仔景,"cowboy shot, framed from mid-thigh upward"
+景別/占比/宏大,shot,遠近景,中全景,medium full shot
+景別/占比/宏大,shot,遠近景,全景,full shot
+景別/占比/宏大,shot,遠近景,遠景,long shot
+景別/占比/宏大,shot,遠近景,大遠景,extreme long shot
+景別/占比/宏大,shot,遠近景,建立鏡頭,establishing shot
+景別/占比/宏大,shot,遠近景,廣域全景,wide panoramic establishing view
+景別/占比/宏大,shot,遠近景,人物很小的環境景,small figure within a vast environment
+景別/占比/宏大,shot,人物與環境比例,人物占畫面80%,the figure occupies roughly 80% of the frame
+景別/占比/宏大,shot,人物與環境比例,人物占畫面60%,the figure occupies roughly 60% of the frame
+景別/占比/宏大,shot,人物與環境比例,人物占畫面40%,the figure occupies roughly 40% of the frame
+景別/占比/宏大,shot,人物與環境比例,人物占畫面25%,the figure occupies roughly 25% of the frame
+景別/占比/宏大,shot,人物與環境比例,人物占畫面10%,the figure occupies only about 10% of the frame
+景別/占比/宏大,shot,人物與環境比例,人物占畫面5%,the tiny figure occupies less than 5% of the frame
+景別/占比/宏大,shot,人物與環境比例,環境占九成,approximately 90% environment and 10% character
+景別/占比/宏大,shot,人物與環境比例,人物與環境各半,balanced 50:50 emphasis between character and environment
+景別/占比/宏大,shot,人物與環境比例,前景占三成,foreground elements occupy roughly the lower third of the frame
+景別/占比/宏大,shot,人物與環境比例,天空占三分之二,sky occupies roughly two-thirds of the composition
+景別/占比/宏大,shot,人物與環境比例,地景占三分之二,landscape occupies roughly two-thirds of the composition
+景別/占比/宏大,shot,人物與環境比例,主體靠近邊緣,small subject placed near the edge of the frame
+景別/占比/宏大,shot,人物與環境比例,主體居於下方,tiny figure positioned in the lower portion of the frame
+景別/占比/宏大,shot,人物與環境比例,主體完全可辨識但很小,the full figure remains clearly recognizable despite the distant scale
+景別/占比/宏大,shot,自然與建築尺度,人物如尺度標記,a tiny human figure used as a scale reference
+景別/占比/宏大,shot,自然與建築尺度,人物被大自然包圍,a solitary figure dwarfed by monumental nature
+景別/占比/宏大,shot,自然與建築尺度,環境主導構圖,"environment-dominant composition, the landscape is the primary subject"
+景別/占比/宏大,shot,自然與建築尺度,巨大山脈尺度,colossal mountain range extending beyond the frame
+景別/占比/宏大,shot,自然與建築尺度,無垠荒野,vast open wilderness stretching to the horizon
+景別/占比/宏大,shot,自然與建築尺度,高聳森林,towering ancient forest canopy with a tiny figure below
+景別/占比/宏大,shot,自然與建築尺度,巨型瀑布,monumental waterfall dominating the composition
+景別/占比/宏大,shot,自然與建築尺度,巨型洞穴,immense cavern interior with distant human scale
+景別/占比/宏大,shot,自然與建築尺度,巨大建築立面,monumental architecture towering over a small figure
+景別/占比/宏大,shot,自然與建築尺度,巨物局部入鏡,only a fragment of a colossal object fits within the frame
+景別/占比/宏大,shot,自然與建築尺度,遙遠人物剪影,distant human silhouette near the horizon
+景別/占比/宏大,shot,自然與建築尺度,天空占比極大,expansive sky occupying most of the frame
+景別/占比/宏大,shot,自然與建築尺度,深遠空氣透視,deep atmospheric perspective with multiple receding layers
+景別/占比/宏大,shot,自然與建築尺度,全景接圖感,sweeping panoramic vista
+景別/占比/宏大,shot,自然與建築尺度,史詩尺度建立鏡頭,epic-scale establishing shot
+景別/占比/宏大,shot,自然與建築尺度,靜默崇高感,sublime stillness before overwhelming nature
+視角/FOV/敘事視角,angle,高度與方向,平視,eye-level view
+視角/FOV/敘事視角,angle,高度與方向,高視角,high-angle view
+視角/FOV/敘事視角,angle,高度與方向,俯瞰,bird's-eye view
+視角/FOV/敘事視角,angle,高度與方向,頂視角,top-down view
+視角/FOV/敘事視角,angle,高度與方向,低視角,low-angle view
+視角/FOV/敘事視角,angle,高度與方向,蟲視角,worm's-eye view
+視角/FOV/敘事視角,angle,高度與方向,正面視角,front view
+視角/FOV/敘事視角,angle,高度與方向,正側面,strict profile view
+視角/FOV/敘事視角,angle,高度與方向,四分之三正面,three-quarter front view
+視角/FOV/敘事視角,angle,高度與方向,四分之三背面,three-quarter rear view
+視角/FOV/敘事視角,angle,高度與方向,背面視角,back view
+視角/FOV/敘事視角,angle,高度與方向,肩後視角,over-the-shoulder shot
+視角/FOV/敘事視角,angle,高度與方向,主觀視角,first-person point of view
+視角/FOV/敘事視角,angle,高度與方向,荷蘭角,Dutch angle
+視角/FOV/敘事視角,angle,高度與方向,傾斜視角,subtle tilted camera angle
+視角/FOV/敘事視角,angle,高度與方向,鏡面視角,view through a mirror
+視角/FOV/敘事視角,angle,高度與方向,隔窗視角,viewed through glass
+視角/FOV/敘事視角,angle,高度與方向,門框窺視,framed through a doorway
+視角/FOV/敘事視角,angle,視野範圍 FOV,極窄視野,"very narrow field of view, approximately 15–20 degrees"
+視角/FOV/敘事視角,angle,視野範圍 FOV,窄視野,"narrow field of view, approximately 25–35 degrees"
+視角/FOV/敘事視角,angle,視野範圍 FOV,自然視野,"natural field of view, approximately 40–50 degrees"
+視角/FOV/敘事視角,angle,視野範圍 FOV,寬視野,"wide field of view, approximately 60–75 degrees"
+視角/FOV/敘事視角,angle,視野範圍 FOV,超寬視野,"ultra-wide field of view, approximately 90–110 degrees"
+視角/FOV/敘事視角,angle,視野範圍 FOV,極端超寬視野,extreme field of view exceeding 120 degrees
+視角/FOV/敘事視角,angle,視野範圍 FOV,180度魚眼,180-degree fisheye field of view
+視角/FOV/敘事視角,angle,視野範圍 FOV,360度全景,360-degree equirectangular panoramic view
+視角/FOV/敘事視角,angle,視野範圍 FOV,周邊視野感,expanded peripheral vision with the subject centered
+視角/FOV/敘事視角,angle,視野範圍 FOV,望遠鏡視野,compressed telescopic view
+視角/FOV/敘事視角,angle,觀看高度與視線方向,地面高度視野,camera at ground level looking forward
+視角/FOV/敘事視角,angle,觀看高度與視線方向,膝蓋高度視野,camera positioned around knee height
+視角/FOV/敘事視角,angle,觀看高度與視線方向,腰部高度視野,camera positioned around waist height
+視角/FOV/敘事視角,angle,觀看高度與視線方向,胸口高度視野,camera positioned around chest height
+視角/FOV/敘事視角,angle,觀看高度與視線方向,眼睛高度視野,camera aligned precisely with the subject's eye line
+視角/FOV/敘事視角,angle,觀看高度與視線方向,頭頂上方視野,camera positioned above head height looking downward
+視角/FOV/敘事視角,angle,觀看高度與視線方向,垂直向下視野,camera looking straight down at a 90-degree angle
+視角/FOV/敘事視角,angle,觀看高度與視線方向,垂直向上視野,camera looking straight upward from below
+視角/FOV/敘事視角,angle,觀看高度與視線方向,沿地平線觀看,view aligned along the distant horizon
+視角/FOV/敘事視角,angle,觀看高度與視線方向,向畫外觀看,subject looking beyond the edge of the frame
+視角/FOV/敘事視角,angle,觀看高度與視線方向,視線穿過前景,camera sightline passing through foreground objects
+視角/FOV/敘事視角,angle,觀看高度與視線方向,視線沿長廊延伸,long axial sightline through the architecture
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱主觀鏡頭,"first-person point-of-view shot, the camera is the viewer's eyes"
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱伸手,first-person POV with one hand reaching into the frame
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱牽手,"first-person POV, being led forward by the hand"
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱低頭看,first-person POV looking down at one's own hands and body
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱奔跑,first-person running POV with peripheral motion blur
+視角/FOV/敘事視角,angle,第一人稱 POV,第一人稱隔窗觀看,first-person POV observing the subject through glass
+視角/FOV/敘事視角,angle,第二人稱直視與互動,第二人稱直視,"second-person visual address, the subject looks directly at you"
+視角/FOV/敘事視角,angle,第二人稱直視與互動,向觀者說話,the subject is speaking directly to the viewer
+視角/FOV/敘事視角,angle,第二人稱直視與互動,向觀者遞物,the subject offers an object directly toward the viewer
+視角/FOV/敘事視角,angle,第二人稱直視與互動,拉住觀者,the subject grabs the viewer's hand and pulls them forward
+視角/FOV/敘事視角,angle,第二人稱直視與互動,阻擋觀者,the subject raises a hand to stop the viewer from approaching
+視角/FOV/敘事視角,angle,第二人稱直視與互動,邀請觀者靠近,the subject gestures for the viewer to come closer
+視角/FOV/敘事視角,angle,第三人稱與觀察者,第三人稱客觀鏡頭,third-person objective camera observing the scene
+視角/FOV/敘事視角,angle,第三人稱與觀察者,第三人稱跟隨,third-person follow shot behind the protagonist
+視角/FOV/敘事視角,angle,第三人稱與觀察者,第三人稱側面觀察,third-person side view observing the full interaction
+視角/FOV/敘事視角,angle,第三人稱與觀察者,肩後第三人稱,third-person over-the-shoulder perspective
+視角/FOV/敘事視角,angle,第三人稱與觀察者,旁觀者視角,detached observer perspective from a respectful distance
+視角/FOV/敘事視角,angle,第三人稱與觀察者,窺視者視角,voyeuristic observer perspective through partial obstruction
+視角/FOV/敘事視角,angle,第三人稱與觀察者,全知遠觀,omniscient distant perspective revealing multiple spatial relationships
+視角/FOV/敘事視角,angle,第三人稱與觀察者,監視器視角,fixed surveillance-camera perspective from a high corner
+構圖,comp,主體配置,中央構圖,centered composition
+構圖,comp,主體配置,偏心構圖,off-center composition
+構圖,comp,主體配置,三分法,rule-of-thirds composition
+構圖,comp,主體配置,對稱構圖,symmetrical composition
+構圖,comp,主體配置,非對稱平衡,asymmetrical balance
+構圖,comp,主體配置,黃金比例,golden-ratio composition
+構圖,comp,主體配置,三角構圖,triangular composition
+構圖,comp,主體配置,對角線構圖,diagonal composition
+構圖,comp,主體配置,S形構圖,S-curve composition
+構圖,comp,主體配置,L形構圖,L-shaped composition
+構圖,comp,主體配置,放射狀構圖,radial composition
+構圖,comp,主體配置,框中框,frame-within-a-frame composition
+構圖,comp,主體配置,引導線,leading lines toward the subject
+構圖,comp,主體配置,負空間,generous negative space
+構圖,comp,主體配置,滿版構圖,frame-filling composition
+構圖,comp,主體配置,前景遮擋,foreground occlusion
+構圖,comp,主體配置,前中後景,"distinct foreground, midground and background"
+構圖,comp,主體配置,深層構圖,deep staging
+構圖,comp,主體配置,平面化構圖,flat graphic composition
+構圖,comp,主體配置,封閉式構圖,closed composition
+構圖,comp,主體配置,開放式構圖,open composition
+構圖,comp,主體配置,呼吸感構圖,spacious composition with visual breathing room
+畫布比例尺寸,ratio,常用畫面比例,正方形 1:1,square 1:1 canvas
+畫布比例尺寸,ratio,常用畫面比例,直式 4:5,vertical 4:5 canvas
+畫布比例尺寸,ratio,常用畫面比例,直式 3:4,vertical 3:4 canvas
+畫布比例尺寸,ratio,常用畫面比例,直式 2:3,vertical 2:3 canvas
+畫布比例尺寸,ratio,常用畫面比例,直式 5:7,vertical 5:7 canvas
+畫布比例尺寸,ratio,常用畫面比例,手機直式 9:16,vertical 9:16 mobile canvas
+畫布比例尺寸,ratio,常用畫面比例,橫式 4:3,horizontal 4:3 canvas
+畫布比例尺寸,ratio,常用畫面比例,橫式 3:2,horizontal 3:2 canvas
+畫布比例尺寸,ratio,常用畫面比例,橫式 16:9,cinematic horizontal 16:9 canvas
+畫布比例尺寸,ratio,常用畫面比例,社群連結 1.91:1,wide 1.91:1 social preview canvas
+畫布比例尺寸,ratio,常用畫面比例,超寬 21:9,ultrawide 21:9 canvas
+畫布比例尺寸,ratio,常用畫面比例,電影銀幕 2.39:1,anamorphic cinematic 2.39:1 widescreen canvas
+畫布比例尺寸,ratio,常用畫面比例,橫幅 3:1,panoramic 3:1 banner canvas
+畫布比例尺寸,ratio,常用像素尺寸,方形標準,"square 1:1 composition, target output 1024 by 1024 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,方形高解析,"square 1:1 composition, target output 2048 by 2048 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,社群直式,"vertical 4:5 composition, target output 1080 by 1350 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,手機滿版,"vertical 9:16 composition, target output 1080 by 1920 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,直式角色圖,"vertical 2:3 composition, target output 1024 by 1536 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,直式高解析,"vertical 3:4 composition, target output 1536 by 2048 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,橫式 4:3,"horizontal 4:3 composition, target output 1536 by 1152 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,橫式 3:2,"horizontal 3:2 composition, target output 1536 by 1024 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,Full HD,"cinematic 16:9 composition, target output 1920 by 1080 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,2K QHD,"cinematic 16:9 composition, target output 2560 by 1440 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,4K UHD,"cinematic 16:9 composition, target output 3840 by 2160 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,社群分享橫圖,"wide 1.91:1 composition, target output 1200 by 628 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,超寬桌布,"ultrawide composition, target output 3440 by 1440 pixels"
+畫布比例尺寸,ratio,常用像素尺寸,A4 直式印刷,"A4 portrait layout, target output 2480 by 3508 pixels at 300 ppi"
+畫布比例尺寸,ratio,常用像素尺寸,A4 橫式印刷,"A4 landscape layout, target output 3508 by 2480 pixels at 300 ppi"
+畫布比例尺寸,ratio,常用像素尺寸,A3 直式印刷,"A3 portrait layout, target output 3508 by 4961 pixels at 300 ppi"
+畫布比例尺寸,ratio,平台設定語法,通用比例描述,compose the image for a 16:9 horizontal canvas
+畫布比例尺寸,ratio,平台設定語法,Midjourney／Niji 橫式,--ar 16:9
+畫布比例尺寸,ratio,平台設定語法,Midjourney／Niji 直式,--ar 4:5
+畫布比例尺寸,ratio,平台設定語法,Stable Diffusion 尺寸,set width to 1024 and height to 1536 in the generation interface
+畫布比例尺寸,ratio,平台設定語法,比例先行構圖,composition designed specifically for the selected aspect ratio
+鏡頭/景深/特效,lens,焦段與透視,超廣角鏡頭,14mm ultra-wide-angle lens
+鏡頭/景深/特效,lens,焦段與透視,廣角鏡頭,24mm wide-angle lens
+鏡頭/景深/特效,lens,焦段與透視,敘事廣角,28mm cinematic wide-angle lens
+鏡頭/景深/特效,lens,焦段與透視,自然廣角,35mm lens
+鏡頭/景深/特效,lens,焦段與透視,標準鏡頭,50mm standard lens
+鏡頭/景深/特效,lens,焦段與透視,人像鏡頭,85mm portrait lens
+鏡頭/景深/特效,lens,焦段與透視,長焦人像,105mm portrait lens
+鏡頭/景深/特效,lens,焦段與透視,遠攝鏡頭,200mm telephoto lens
+鏡頭/景深/特效,lens,焦段與透視,微距鏡頭,macro lens
+鏡頭/景深/特效,lens,焦段與透視,魚眼鏡頭,fisheye lens
+鏡頭/景深/特效,lens,焦段與透視,移軸鏡頭,tilt-shift lens
+鏡頭/景深/特效,lens,焦段與透視,變形寬銀幕,anamorphic lens
+鏡頭/景深/特效,lens,光學與快門效果,分割焦點鏡,split-diopter shot with foreground and background both sharply focused
+鏡頭/景深/特效,lens,光學與快門效果,長曝光光軌,long-exposure light trails around a sharp subject
+鏡頭/景深/特效,lens,光學與快門效果,慢速快門拖影,slow-shutter motion trails with a partially sharp subject
+鏡頭/景深/特效,lens,光學與快門效果,後簾同步感,rear-curtain flash effect with motion trails behind the subject
+鏡頭/景深/特效,lens,光學與快門效果,變焦爆炸,zoom-burst exposure radiating from the subject
+鏡頭/景深/特效,lens,光學與快門效果,鏡頭呼吸,subtle lens-breathing effect during a focus shift
+鏡頭/景深/特效,lens,光學與快門效果,桶狀變形,barrel lens distortion with curved frame edges
+鏡頭/景深/特效,lens,光學與快門效果,枕狀變形,pincushion lens distortion
+鏡頭/景深/特效,lens,光學與快門效果,滾動快門傾斜,subtle rolling-shutter skew during fast motion
+鏡頭/景深/特效,lens,光學與快門效果,鏡頭髒污散射,light scattering through a slightly smudged lens
+鏡頭/景深/特效,lens,光學與快門效果,雨滴附著鏡頭,raindrops clinging to the camera lens
+鏡頭/景深/特效,lens,光學與快門效果,水下半水面鏡頭,split-level over-under water shot
+鏡頭/景深/特效,lens,光學與快門效果,鏡內反射,subtle internal lens reflections
+鏡頭/景深/特效,lens,焦點與攝影質感,淺景深,shallow depth of field
+鏡頭/景深/特效,lens,焦點與攝影質感,極淺景深,razor-thin depth of field
+鏡頭/景深/特效,lens,焦點與攝影質感,深景深,deep depth of field
+鏡頭/景深/特效,lens,焦點與攝影質感,選擇性對焦,selective focus on the eyes
+鏡頭/景深/特效,lens,焦點與攝影質感,前景失焦,soft out-of-focus foreground
+鏡頭/景深/特效,lens,焦點與攝影質感,背景散景,creamy background bokeh
+鏡頭/景深/特效,lens,焦點與攝影質感,手持攝影,subtle handheld camera feel
+鏡頭/景深/特效,lens,焦點與攝影質感,穩定器運鏡感,smooth gimbal-like framing
+鏡頭/景深/特效,lens,焦點與攝影質感,快門凝結,"high-speed shutter, frozen motion"
+鏡頭/景深/特效,lens,焦點與攝影質感,動態模糊,controlled motion blur
+鏡頭/景深/特效,lens,焦點與攝影質感,拖影,long-exposure light trails
+鏡頭/景深/特效,lens,焦點與攝影質感,底片顆粒,subtle organic film grain
+鏡頭/景深/特效,lens,焦點與散景,淺景深,shallow depth of field
+鏡頭/景深/特效,lens,焦點與散景,極淺景深,razor-thin depth of field
+鏡頭/景深/特效,lens,焦點與散景,深景深,deep depth of field
+鏡頭/景深/特效,lens,焦點與散景,背景失焦,softly defocused background
+鏡頭/景深/特效,lens,焦點與散景,前景失焦,soft out-of-focus foreground
+鏡頭/景深/特效,lens,焦點與散景,奶油散景,creamy smooth bokeh
+鏡頭/景深/特效,lens,焦點與散景,圓形散景,soft circular bokeh highlights
+鏡頭/景深/特效,lens,焦點與散景,橢圓散景,oval anamorphic bokeh
+鏡頭/景深/特效,lens,焦點與散景,貓眼散景,cat-eye bokeh near the frame edges
+鏡頭/景深/特效,lens,焦點與散景,焦外旋轉,swirly bokeh
+鏡頭/景深/特效,lens,焦點與散景,柔焦,soft-focus diffusion
+鏡頭/景深/特效,lens,焦點與散景,高斯模糊,subtle Gaussian blur
+鏡頭/景深/特效,lens,焦點與散景,鏡頭模糊,natural optical lens blur
+鏡頭/景深/特效,lens,焦點與散景,方向性動態模糊,directional motion blur
+鏡頭/景深/特效,lens,焦點與散景,徑向模糊,radial blur centered on the subject
+鏡頭/景深/特效,lens,焦點與散景,縮放模糊,zoom-burst blur
+鏡頭/景深/特效,lens,焦點與散景,移軸模糊,tilt-shift selective focus
+鏡頭/景深/特效,lens,焦點與散景,邊緣柔化,subtly softened frame edges
+鏡頭/景深/特效,lens,焦點與散景,夢境模糊,dreamlike diffused blur while preserving facial focus
+鏡頭運鏡,move,攝影機運動與對焦,拉焦,cinematic rack focus from the foreground to the subject
+鏡頭運鏡,move,攝影機運動與對焦,反向拉焦,rack focus from the subject to a distant background event
+鏡頭運鏡,move,攝影機運動與對焦,推鏡,slow cinematic push-in toward the subject
+鏡頭運鏡,move,攝影機運動與對焦,拉鏡,slow pull-back revealing the surrounding environment
+鏡頭運鏡,move,攝影機運動與對焦,急推鏡,dramatic crash zoom toward the subject
+鏡頭運鏡,move,攝影機運動與對焦,推拉變焦,dolly zoom with opposing camera movement and focal change
+鏡頭運鏡,move,攝影機運動與對焦,甩鏡,whip pan with directional motion streaks
+鏡頭運鏡,move,攝影機運動與對焦,跟拍,dynamic tracking shot moving alongside the subject
+鏡頭運鏡,move,攝影機運動與對焦,手持攝影,subtle handheld camera movement
+鏡頭運鏡,move,攝影機運動與對焦,穩定器跟拍,smooth gimbal tracking shot
+鏡頭運鏡,move,攝影機運動與對焦,環繞鏡頭,camera orbiting around the subject
+鏡頭運鏡,move,攝影機運動與對焦,升降鏡頭,crane shot rising above the scene
+鏡頭運鏡,move,持機與穩定方式,自然手持鏡,natural handheld camera movement with restrained micro-shake
+鏡頭運鏡,move,持機與穩定方式,強烈手持鏡,intense shaky handheld camera movement
+鏡頭運鏡,move,持機與穩定方式,肩扛攝影,shoulder-mounted camera movement with grounded documentary weight
+鏡頭運鏡,move,持機與穩定方式,穩定手持,stabilized handheld camera movement with subtle organic drift
+鏡頭運鏡,move,持機與穩定方式,斯坦尼康運鏡,Steadicam-style stabilized tracking shot
+鏡頭運鏡,move,持機與穩定方式,三軸穩定器運鏡,smooth three-axis gimbal camera movement
+鏡頭運鏡,move,持機與穩定方式,固定機位,locked-off tripod shot with no camera movement
+鏡頭運鏡,move,持機與穩定方式,單腳架移動,monopod-supported camera movement with controlled vertical sway
+鏡頭運鏡,move,持機與穩定方式,身體固定鏡,"body-mounted SnorriCam-style shot, the subject remains centered while the background moves"
+鏡頭運鏡,move,持機與穩定方式,頭盔主觀鏡,helmet-mounted first-person camera movement
+鏡頭運鏡,move,持機與穩定方式,車載固定鏡,vehicle-mounted camera shot with the environment streaming past
+鏡頭運鏡,move,基本軸向運動,水平搖鏡,slow pan across the scene from left to right
+鏡頭運鏡,move,基本軸向運動,垂直搖鏡,slow tilt upward from the subject to the sky
+鏡頭運鏡,move,基本軸向運動,機位垂直升降,pedestal camera movement rising vertically while keeping the viewing angle level
+鏡頭運鏡,move,基本軸向運動,橫向移鏡,lateral truck shot moving from left to right
+鏡頭運鏡,move,基本軸向運動,軌道推進,slow dolly-in toward the subject
+鏡頭運鏡,move,基本軸向運動,軌道後退,slow dolly-out away from the subject
+鏡頭運鏡,move,基本軸向運動,滑軌移動,short smooth camera slider move with gentle parallax
+鏡頭運鏡,move,基本軸向運動,鏡頭滾轉,camera rolling around the optical axis
+鏡頭運鏡,move,基本軸向運動,斜向移動,diagonal camera move forward and sideways through the scene
+鏡頭運鏡,move,跟隨與主體關係,後方跟拍,follow shot tracking behind the moving subject
+鏡頭運鏡,move,跟隨與主體關係,前導跟拍,leading shot moving backward in front of the subject
+鏡頭運鏡,move,跟隨與主體關係,側向跟拍,side-tracking shot moving parallel to the subject
+鏡頭運鏡,move,跟隨與主體關係,越肩跟隨,over-the-shoulder follow shot moving with the subject
+鏡頭運鏡,move,跟隨與主體關係,半圓環繞,180-degree arc shot circling halfway around the subjects
+鏡頭運鏡,move,跟隨與主體關係,全環繞鏡頭,full 360-degree orbit around the subjects
+鏡頭運鏡,move,跟隨與主體關係,視差橫移,lateral parallax move with foreground objects sliding faster than the background
+鏡頭運鏡,move,跟隨與主體關係,遮擋揭示,camera sliding out from behind a foreground object to reveal the subject
+鏡頭運鏡,move,跟隨與主體關係,掠過鏡頭,pass-by camera move as the subject crosses close to the lens
+鏡頭運鏡,move,升降、空拍與機械運鏡,搖臂上升,jib shot rising from foreground level to reveal the full scene
+鏡頭運鏡,move,升降、空拍與機械運鏡,吊臂下降,crane shot descending from a wide overview toward the subjects
+鏡頭運鏡,move,升降、空拍與機械運鏡,吊臂後拉揭示,crane pull-back rising and retreating to reveal the vast environment
+鏡頭運鏡,move,升降、空拍與機械運鏡,空拍建立鏡頭,high-altitude drone establishing shot gliding over the landscape
+鏡頭運鏡,move,升降、空拍與機械運鏡,無人機上升,drone ascending vertically from the subject to a vast aerial view
+鏡頭運鏡,move,升降、空拍與機械運鏡,無人機下降,drone descending smoothly from an aerial view toward the subject
+鏡頭運鏡,move,升降、空拍與機械運鏡,無人機穿越,drone fly-through moving forward between environmental structures
+鏡頭運鏡,move,升降、空拍與機械運鏡,纜索攝影,cable-cam shot gliding smoothly above the action
+鏡頭運鏡,move,升降、空拍與機械運鏡,頂視下降,overhead camera descending straight down toward the subject
+鏡頭運鏡,move,升降、空拍與機械運鏡,貼地升空,camera rising from ground level into a broad elevated reveal
+鏡頭運鏡,move,主觀動態與情緒節奏,步行主觀鏡,first-person walking camera with gentle rhythmic bobbing
+鏡頭運鏡,move,主觀動態與情緒節奏,奔跑主觀鏡,first-person running camera with urgent rhythmic shake
+鏡頭運鏡,move,主觀動態與情緒節奏,呼吸式手持,intimate handheld camera with subtle breathing-like drift
+鏡頭運鏡,move,主觀動態與情緒節奏,觀察式手持,observational documentary handheld camera maintaining a respectful distance
+鏡頭運鏡,move,主觀動態與情緒節奏,緩慢潛近,slow creeping camera movement toward the unaware subject
+鏡頭運鏡,move,主觀動態與情緒節奏,漂浮夢境鏡,slow floating camera movement with weightless dreamlike drift
+鏡頭運鏡,move,主觀動態與情緒節奏,反應式重構圖,reactive handheld reframing that quickly follows sudden action
+鏡頭運鏡,move,複合運鏡片段,手持緩推,slow push-in with subtle natural handheld drift
+鏡頭運鏡,move,複合運鏡片段,側跟視差,smooth side-tracking movement with strong foreground parallax
+鏡頭運鏡,move,複合運鏡片段,環繞雙人舞,smooth 360-degree orbit around two dancers while keeping both bodies fully readable
+鏡頭運鏡,move,複合運鏡片段,低角度穩定器跟拍,low-angle gimbal follow shot moving behind the subject
+鏡頭運鏡,move,複合運鏡片段,升高後拉收尾,"crane up and pull back, ending on an extreme wide shot"
+鏡頭運鏡,move,複合運鏡片段,下降靠近開場,"high-angle descending push-in, ending on a medium shot of the subject"
+去背/透明PNG/海報,output,基礎透明背景,透明背景,isolated subject on a fully transparent background
+去背/透明PNG/海報,output,基礎透明背景,真實 Alpha 通道,true alpha-channel transparency outside the subject silhouette
+去背/透明PNG/海報,output,基礎透明背景,透明 PNG 輸出,exported as a transparent-background PNG with a clean alpha channel
+去背/透明PNG/海報,output,基礎透明背景,單一隔離主體,"exactly one isolated subject, no environment or background objects"
+去背/透明PNG/海報,output,基礎透明背景,完整去背輪廓,background completely removed outside the complete subject silhouette
+去背/透明PNG/海報,output,基礎透明背景,乾淨剪影素材,clean cutout asset with a clearly readable silhouette
+去背/透明PNG/海報,output,基礎透明背景,無地板無地平線,"no floor plane, no horizon line, transparency continues behind and beneath the subject"
+去背/透明PNG/海報,output,基礎透明背景,無投影去背,"no cast shadow, transparent pixels surrounding the subject"
+去背/透明PNG/海報,output,基礎透明背景,保留接觸陰影,isolated subject with a subtle natural contact shadow preserved on transparent alpha
+去背/透明PNG/海報,output,邊緣與半透明材質,抗鋸齒邊緣,clean antialiased cutout edges
+去背/透明PNG/海報,output,邊緣與半透明材質,無白邊,clean edge matte with no white fringe or color halo
+去背/透明PNG/海報,output,邊緣與半透明材質,保留髮絲,fine individual hair strands preserved against transparency
+去背/透明PNG/海報,output,邊緣與半透明材質,保留毛髮,fine fur edges preserved with soft alpha transparency
+去背/透明PNG/海報,output,邊緣與半透明材質,保留薄紗,semi-transparent fabric and veil edges preserved in the alpha channel
+去背/透明PNG/海報,output,邊緣與半透明材質,保留玻璃,transparent glass material preserved with partial alpha and clean highlights
+去背/透明PNG/海報,output,邊緣與半透明材質,保留煙霧,soft smoke and translucent effects preserved with graduated alpha
+去背/透明PNG/海報,output,邊緣與半透明材質,邊緣無殘景,no background-color contamination between fine edge details
+去背/透明PNG/海報,output,素材構圖與用途,透明留白,centered subject with even transparent padding on all sides
+去背/透明PNG/海報,output,素材構圖與用途,全身透明立繪,"full-body character completely visible from head to feet, centered on a transparent background with generous margins"
+去背/透明PNG/海報,output,素材構圖與用途,透明商品去背,"commercial product cutout isolated on a transparent background, clean silhouette, accurate contact edges"
+去背/透明PNG/海報,output,素材構圖與用途,透明圖示,"single icon-like object isolated on transparent alpha, centered and clearly readable at small size"
+去背/透明PNG/海報,output,素材構圖與用途,透明貼圖素材,sticker-ready character cutout on transparent alpha with a clean outer contour
+去背/透明PNG/海報,output,素材構圖與用途,透明遊戲精靈,"game sprite asset isolated on transparent alpha, complete silhouette, consistent scale and centered pivot"
+去背/透明PNG/海報,output,完整 Prompt 包,通用透明 PNG 包,"exactly one isolated subject on a fully transparent background, true alpha-channel transparency outside the complete silhouette, exported as PNG, clean antialiased edges, no white fringe, centered with even transparent padding"
+去背/透明PNG/海報,output,完整 Prompt 包,人物立繪透明包,"full-body character completely visible from head to feet, isolated on a fully transparent background, true alpha channel, fine hair strands preserved, clean edge matte, generous transparent margins, no floor and no cast shadow"
+去背/透明PNG/海報,output,完整 Prompt 包,商品透明包,"single commercial product isolated on true transparent alpha, accurate product silhouette, clean contact edges, physically coherent highlights, subtle contact shadow preserved, exported as a transparent PNG"
+去背/透明PNG/海報,output,完整 Prompt 包,毛髮透明包,"single furry subject isolated on a fully transparent background, individual fur strands preserved with soft alpha, no hard clipped fur edge, no color contamination, clean transparent PNG output"
+去背/透明PNG/海報,output,完整 Prompt 包,薄紗特效透明包,"isolated subject on transparent alpha, semi-transparent fabric, veil, glow and soft atmospheric effects preserved with graduated transparency, clean high-quality PNG matte"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免假透明格紋,"checkerboard pattern, fake transparency grid, transparency checkerboard rendered as pixels"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免實色背景,"white background, black background, gray background, colored backdrop, gradient backdrop"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免殘留場景,"background remnants, studio wall, floor plane, horizon line, scenery behind the subject"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免粗糙邊緣,"jagged cutout edges, hard clipped hair, rough mask, pixelated alpha edge"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免邊緣光暈,"white halo, dark halo, colored fringe, background color spill"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免裁切主體,"cropped subject, clipped hair, cropped hands, cropped feet, object touching canvas edges"
+去背/透明PNG/海報,output,透明背景錯誤排除,避免不透明材質,"opaque veil, opaque glass, solid smoke, lost semi-transparent details"
+去背/透明PNG/海報,output,網格與版面結構,瑞士網格,"Swiss International Style poster layout, strict modular grid"
+去背/透明PNG/海報,output,網格與版面結構,模組網格,modular editorial grid layout
+去背/透明PNG/海報,output,網格與版面結構,非對稱網格,asymmetrical editorial grid
+去背/透明PNG/海報,output,網格與版面結構,中央軸線,centered axial poster composition
+去背/透明PNG/海報,output,網格與版面結構,對角線版面,dynamic diagonal poster layout
+去背/透明PNG/海報,output,網格與版面結構,上下分割,clean horizontal split layout
+去背/透明PNG/海報,output,網格與版面結構,左右分割,vertical split-screen poster layout
+去背/透明PNG/海報,output,網格與版面結構,滿版主視覺,full-bleed hero image with restrained typography
+去背/透明PNG/海報,output,網格與版面結構,圖像視窗,image-window layout surrounded by generous margins
+去背/透明PNG/海報,output,網格與版面結構,大留白,large negative space reserved for typography
+去背/透明PNG/海報,output,網格與版面結構,邊框版面,thin framing border with aligned margin typography
+去背/透明PNG/海報,output,標題與文字配置,超大標題,oversized headline typography dominating the composition
+去背/透明PNG/海報,output,標題與文字配置,垂直標題,vertical title typography along one edge
+去背/透明PNG/海報,output,標題與文字配置,人物後方文字,large typography layered behind the subject
+去背/透明PNG/海報,output,標題與文字配置,人物前方文字,selective typography layered in front of the subject
+去背/透明PNG/海報,output,標題與文字配置,輪廓環繞文字,typography wrapping around the subject silhouette
+去背/透明PNG/海報,output,標題與文字配置,透明疊字,translucent typographic overlays
+去背/透明PNG/海報,output,標題與文字配置,窄體無襯線,condensed sans-serif display typography
+去背/透明PNG/海報,output,標題與文字配置,高對比襯線,high-contrast editorial serif typography
+去背/透明PNG/海報,output,標題與文字配置,粗黑體,bold geometric sans-serif headline
+去背/透明PNG/海報,output,標題與文字配置,手寫標題,expressive handwritten title lettering
+去背/透明PNG/海報,output,標題與文字配置,字級層級,"clear typographic hierarchy with headline, subhead and small details"
+去背/透明PNG/海報,output,標題與文字配置,小字資訊列,small aligned metadata and billing text
+去背/透明PNG/海報,output,海報類型與完整片段,電影海報,"cinematic film-poster composition, one dominant hero image, clear title area, restrained billing block along the bottom"
+去背/透明PNG/海報,output,海報類型與完整片段,角色主視覺,"premium character key-visual poster, full-bleed character art, dramatic negative space for the title, small restrained credits"
+去背/透明PNG/海報,output,海報類型與完整片段,雜誌封面,"editorial magazine-cover layout, masthead at the top, layered cover lines around the subject, clear visual hierarchy"
+去背/透明PNG/海報,output,海報類型與完整片段,藝術展海報,"contemporary exhibition poster, generous margins, asymmetric grid, one conceptual image and refined typographic hierarchy"
+去背/透明PNG/海報,output,海報類型與完整片段,音樂專輯海報,"experimental music-poster layout, bold typography, layered textures and rhythmic visual repetition"
+去背/透明PNG/海報,output,海報類型與完整片段,精品海報,"minimal luxury campaign layout, abundant negative space, elegant serif title and restrained brand placement"
+去背/透明PNG/海報,output,海報類型與完整片段,產品主視覺,"commercial product hero poster, centered product, controlled reflections, concise headline area and clean feature callouts"
+去背/透明PNG/海報,output,海報類型與完整片段,拼貼海報,"editorial collage poster with torn-paper layers, overlapping photographs and controlled typography"
+去背/透明PNG/海報,output,海報類型與完整片段,粗獷主義海報,"Brutalist poster design, oversized type, raw alignment, stark contrast and intentionally awkward spacing"
+去背/透明PNG/海報,output,海報類型與完整片段,包浩斯海報,"Bauhaus poster layout, geometric forms, primary-color accents and functional sans-serif typography"
+去背/透明PNG/海報,output,海報類型與完整片段,構成主義海報,"Constructivist poster layout, red-black palette, diagonal type and radiating geometric forms"
+去背/透明PNG/海報,output,海報類型與完整片段,裝飾藝術海報,"Art Deco poster layout, symmetrical geometry, metallic accents and elegant display typography"
+畫質優化,quality,品質與自然度,精緻解剖,refined believable anatomy
+畫質優化,quality,品質與自然度,自然重量分配,natural weight distribution
+畫質優化,quality,品質與自然度,可信的接觸關係,believable physical contact between subjects and objects
+畫質優化,quality,品質與自然度,自然重心,realistic center of gravity
+畫質優化,quality,品質與自然度,正確透視縮短,accurate anatomical foreshortening
+畫質優化,quality,品質與自然度,一致角色設計,consistent character identity and facial structure
+畫質優化,quality,品質與自然度,自然微表情,subtle natural micro-expression
+畫質優化,quality,品質與自然度,非擺拍姿勢,unguarded natural posture rather than a posed stance
+畫質優化,quality,品質與自然度,材質區分,clearly differentiated material response
+畫質優化,quality,品質與自然度,保留暗部細節,rich shadow detail without crushed blacks
+畫質優化,quality,品質與自然度,高光克制,restrained specular highlights
+畫質優化,quality,品質與自然度,自然皮膚漸層,delicate painterly transitions across the skin
+畫質優化,quality,品質與自然度,精緻髮絲,fine individually rendered hair strands
+畫質優化,quality,品質與自然度,場景比例可信,believable architectural scale
+畫質優化,quality,品質與自然度,深度層次,deep atmospheric perspective
+畫質優化,quality,品質與自然度,敘事性構圖,sophisticated visual storytelling
+畫質優化,quality,畫質、清晰度與細節,高解析細節,high-resolution detail with coherent fine structure
+畫質優化,quality,畫質、清晰度與細節,焦點清晰,crisp focal details with controlled sharpness
+畫質優化,quality,畫質、清晰度與細節,自然微細節,refined natural micro-details without artificial oversharpening
+畫質優化,quality,畫質、清晰度與細節,邊緣乾淨,clean well-defined edges around the primary subject
+畫質優化,quality,畫質、清晰度與細節,柔硬邊控制,intentional balance of sharp and soft edges
+畫質優化,quality,畫質、清晰度與細節,細節一致,"consistent detail density across the face, hands, clothing and environment"
+畫質優化,quality,畫質、清晰度與細節,結構清楚,clear large forms before fine surface detail
+畫質優化,quality,畫質、清晰度與細節,微對比克制,controlled microcontrast with smooth tonal transitions
+畫質優化,quality,畫質、清晰度與細節,高光不爆白,protected highlight detail without clipping
+畫質優化,quality,畫質、清晰度與細節,暗部有細節,clean shadow detail without crushed blacks
+畫質優化,quality,畫質、清晰度與細節,漸層平滑,smooth color gradients without banding
+畫質優化,quality,畫質、清晰度與細節,無壓縮瑕疵,artifact-free image without compression noise or blocky textures
+畫質優化,quality,畫質、清晰度與細節,無過度降噪,preserved organic texture without waxy denoising
+畫質優化,quality,畫質、清晰度與細節,髮絲分束,cleanly separated hair clumps with selective individual strands
+畫質優化,quality,畫質、清晰度與細節,布料細節,"coherent fabric weave, folds and material response"
+畫質優化,quality,畫質、清晰度與細節,金屬細節,clean metallic reflections with controlled specular highlights
+畫質優化,quality,畫質、清晰度與細節,毛髮層次,layered fur detail with realistic strand direction
+畫質優化,quality,畫質、清晰度與細節,眼睛焦點,precisely focused eyes with natural catchlights and iris detail
+畫質優化,quality,畫質、清晰度與細節,遠景不碎裂,coherent distant scenery with simplified but stable detail
+畫質優化,quality,畫質、清晰度與細節,動態仍可讀,readable anatomy and silhouette despite fast motion
+畫質優化,quality,畫質、清晰度與細節,景深過渡自然,natural focus falloff with believable depth transitions
+畫質優化,quality,畫質、清晰度與細節,色彩不溢出,clean color separation without bleeding across edges
+畫質優化,quality,畫質、清晰度與細節,最終精修感,polished final-pass rendering with coherent finishing detail
+畫質優化,quality,畫質、清晰度與細節,原生畫質優先,"native-resolution clarity, followed by restrained upscale refinement"
+畫質優化,quality,可直接複製的 Posit,通用精修包,"high-resolution detail, coherent forms, clean edges, controlled sharpness, smooth tonal transitions, consistent material rendering, artifact-free final image"
+畫質優化,quality,可直接複製的 Posit,半寫實人物包,"premium semi-realistic rendering, refined facial anatomy, natural skin texture, precise eyes, coherent hair strands, believable hands, controlled microcontrast, polished painterly transitions"
+畫質優化,quality,可直接複製的 Posit,寫實攝影包,"premium photographic detail, natural optical sharpness, realistic skin and fabric texture, protected highlights, clean shadow detail, subtle filmic grain, physically coherent reflections"
+畫質優化,quality,可直接複製的 Posit,電影劇照包,"cinematic production quality, coherent production design, precise focal hierarchy, natural lens rendering, atmospheric depth, controlled highlight roll-off, detailed but restrained filmic texture"
+畫質優化,quality,可直接複製的 Posit,肖像特寫包,"exquisite portrait detail, both eyes structurally coherent, natural catchlights, refined eyelids and lips, realistic skin microtexture, clean hairline, shallow depth of field with precise facial focus"
+畫質優化,quality,可直接複製的 Posit,全身人物包,"coherent full-body anatomy, natural weight distribution, accurate hands and feet, complete uncropped figure, readable clothing construction, stable silhouette, consistent detail from head to toe"
+畫質優化,quality,可直接複製的 Posit,雙人互動包,"two clearly separated adult figures, coherent individual anatomy, believable eye lines, natural mutual reactions, accurate hand contact, realistic weight transfer, consistent lighting across both characters"
+畫質優化,quality,可直接複製的 Posit,人獸互動包,"clear separation between human and animal anatomy, species-accurate structure, believable physical contact, natural weight and scale relationship, coherent fur detail, mutual attention and responsive interaction"
+畫質優化,quality,可直接複製的 Posit,動態運動包,"readable action silhouette, accurate kinetic anatomy, realistic center of gravity, coherent limb motion, natural fabric and hair momentum, controlled directional motion blur, sharp primary action point"
+畫質優化,quality,可直接複製的 Posit,宏大場景包,"epic environmental detail, stable large-scale forms, deep atmospheric perspective, coherent distant scenery, layered foreground midground and background, restrained micro-detail, monumental sense of scale"
+畫質優化,quality,可直接複製的 Posit,低光夜景包,"clean low-light rendering, preserved shadow detail, protected neon highlights, natural color noise, realistic reflective surfaces, coherent environmental light spill, sharp focal subject without artificial studio glow"
+畫質優化,quality,可直接複製的 Posit,油畫插畫包,"museum-quality painterly finish, coherent underpainting, deliberate brush hierarchy, refined focal details, lost-and-found edges, controlled impasto accents, harmonious color transitions"
+畫質優化,quality,可直接複製的 Posit,動漫彩圖包,"premium illustration finish, clean confident linework, coherent cel and soft shading, refined facial features, controlled highlights, detailed costume construction, polished background integration"
+畫質優化,quality,可直接複製的 Posit,產品材質包,"commercial product-image clarity, precise silhouette, physically coherent materials, controlled reflections, clean surface detail, accurate contact shadows, polished premium finish"
+畫質優化,quality,可直接複製的 Posit,海報印刷包,"print-ready visual clarity, strong shape separation, controlled fine detail, clean color fields, crisp focal typography zones, balanced negative space, coherent high-resolution poster finish"
+畫質優化,quality,可直接複製的 Posit,柔霧夢幻包,"refined dreamlike softness, precise facial focus, smooth luminous gradients, restrained bloom, delicate atmospheric particles, preserved edge hierarchy, clean details beneath the diffusion"
+負面提示詞,neg,可直接複製的 Negat,通用基礎包,"low quality, low resolution, blurry focal subject, compression artifacts, incoherent details, malformed anatomy, duplicated elements, unwanted text, watermark, logo"
+負面提示詞,neg,可直接複製的 Negat,半寫實人物包,"photorealistic skin, plastic 3D render, waxy skin, uncanny valley, doll-like face, flat facial structure, asymmetrical eyes, malformed hands, stiff mannequin pose"
+負面提示詞,neg,可直接複製的 Negat,寫實人像包,"waxy skin, excessive skin smoothing, overprocessed HDR, artificial sharpening halos, dead eyes, mismatched catchlights, distorted facial features, painted-on hair, fake studio glow"
+負面提示詞,neg,可直接複製的 Negat,全身人物包,"cropped head, cropped feet, incomplete body, malformed hands, malformed feet, extra fingers, fused limbs, twisted joints, impossible balance, floating feet, stiff pose"
+負面提示詞,neg,可直接複製的 Negat,雙人互動包,"duplicate person, merged bodies, fused hands, mismatched eye lines, impossible embrace, extra arms, overlapping faces, disconnected interaction, identical mirrored poses"
+負面提示詞,neg,可直接複製的 Negat,人獸互動包,"human-animal hybrid anatomy, animal limbs on the human, human hands on the animal, fused bodies, duplicated animal, incorrect species anatomy, aggressive biting, disconnected interaction"
+負面提示詞,neg,可直接複製的 Negat,運動舞蹈包,"frozen mannequin pose, incorrect gait cycle, same-side arm and leg movement, broken joints, weightless jump, impossible landing, tangled limbs, unreadable action silhouette"
+負面提示詞,neg,可直接複製的 Negat,夜景燈光包,"crushed blacks, blown highlights, glowing white skin, isolated studio lighting, mismatched color temperature, neon color bleeding, muddy shadows, excessive bloom"
+負面提示詞,neg,可直接複製的 Negat,宏大遠景包,"oversized foreground character, portrait framing, empty flat background, miniature-looking mountains, repeated landscape fragments, incoherent architecture, no atmospheric perspective"
+負面提示詞,neg,可直接複製的 Negat,室內空間包,"impossible room geometry, floating furniture, warped walls, incorrect reflections, body intersecting furniture, inconsistent scale, empty showroom background"
+負面提示詞,neg,可直接複製的 Negat,海報排版包,"illegible text, random letters, misspelled words, duplicated title, cluttered typography, weak hierarchy, watermark, logo, camera interface, accidental collage panels"
+負面提示詞,neg,可直接複製的 Negat,動漫插畫包,"photorealistic face, muddy linework, inconsistent cel shading, flat eyes, tangled hair, costume detail noise, unfinished background, 3D plastic render"
+負面提示詞,neg,可直接複製的 Negat,油畫包,"digital airbrush look, plastic smooth surface, uniform brush size, oversharpened edges, flat underpainting, random texture overlay, unfinished hands"
+負面提示詞,neg,可直接複製的 Negat,產品包,"warped product shape, incorrect logo, floating object, inconsistent reflections, dirty surface, blown metallic highlights, weak contact shadow, cluttered background"
+負面提示詞,neg,可直接複製的 Negat,搞笑場景包,"horror expression, grotesque anatomy, excessive slapstick distortion, random meme text, unrelated props, chaotic composition, duplicated punchline"
+負面提示詞,neg,可直接複製的 Negat,迷幻場景包,"muddy rainbow colors, uncontrolled saturation, unreadable focal point, random glitch noise, melted facial identity, chaotic geometry without hierarchy, excessive chromatic aberration"
+負面提示詞,neg,人物與品質,避免真人照片,"photorealistic, live-action photograph, real person"
+負面提示詞,neg,人物與品質,避免塑膠3D,"plastic 3D render, wax figure, uncanny valley"
+負面提示詞,neg,人物與品質,避免粗糙皮膚,"rough skin, excessive pores, greasy skin"
+負面提示詞,neg,人物與品質,避免發光白皮,"self-illuminated skin, glowing white skin, overexposed face"
+負面提示詞,neg,人物與品質,避免錯誤打光,"isolated studio lighting, frontal flash, mismatched lighting"
+負面提示詞,neg,人物與品質,避免貼圖感,"pasted-on character, cutout appearance, floating subject"
+負面提示詞,neg,人物與品質,避免霓虹描邊,"excessive rim light, neon body outline"
+負面提示詞,neg,人物與品質,避免僵硬擺拍,"stiff pose, staged fashion pose, mannequin posture"
+負面提示詞,neg,人物與品質,避免空洞背景,"empty background, plain backdrop, generic studio"
+負面提示詞,neg,人物與品質,避免多重角色,"duplicate character, multiple versions of the same person"
+負面提示詞,neg,人物與品質,避免拼貼,"collage, split screen, multiple panels, contact sheet"
+負面提示詞,neg,人物與品質,避免文字介面,"text, captions, watermark, logo, camera interface"
+負面提示詞,neg,人物與品質,避免解剖錯誤,"bad anatomy, distorted body, broken limbs, dislocated joints"
+負面提示詞,neg,人物與品質,避免手部錯誤,"malformed hands, extra fingers, missing fingers, fused fingers"
+負面提示詞,neg,人物與品質,避免臉部扭曲,"distorted face, asymmetrical eyes, misplaced facial features"
+負面提示詞,neg,人物與品質,避免裁腳,"cropped feet, feet outside the frame"
+負面提示詞,neg,人物與品質,避免多餘肢體,"extra arms, extra legs, duplicated limbs"
+負面提示詞,neg,人物與品質,避免模糊主體,"blurry face, unfocused eyes, low-detail subject"
+負面提示詞,neg,人物與品質,避免過度銳化,"oversharpened details, crunchy texture, excessive clarity"
+負面提示詞,neg,人物與品質,避免過度磨皮,"featureless airbrushed face, erased facial structure"
+負面提示詞,neg,人物與品質,避免過飽和,"oversaturated colors, neon color overload"
+負面提示詞,neg,人物與品質,避免死黑,"crushed blacks, featureless shadows"
+負面提示詞,neg,人物與品質,避免平光,"flat lighting, shadowless face"
+負面提示詞,neg,人物與品質,避免魚眼變形,"fisheye distortion, stretched facial proportions"
+負面提示詞,neg,人物與品質,避免幼態,"childlike face, underage appearance, chibi proportions"
+負面提示詞,neg,人物與品質,避免過度肌肉,"bodybuilder physique, exaggerated muscles, massive chest"
+負面提示詞,neg,人物與品質,避免鬍渣,"beard, stubble, visible facial hair"
+負面提示詞,neg,人物與品質,避免誇張妝容,"heavy makeup, bright red lips, exaggerated eyeliner"
+負面提示詞,neg,人物與品質,避免大笑,"exaggerated grin, overly wide smile"
+負面提示詞,neg,人物與品質,避免錯誤倒影,"incorrect reflection, duplicated body in mirror, impossible reflection"
+負面提示詞,neg,人物與品質,避免環境穿模,"body intersecting furniture, objects clipping through the body"
+負面提示詞,neg,人物與品質,避免錯誤接觸,"floating hands, hovering feet, impossible physical contact"
+負面提示詞,neg,人物與品質,避免獸化過度,"animal muzzle, furry human face, full animal transformation"
+負面提示詞,neg,人物與品質,避免多耳,"extra ears, duplicated ears, malformed animal ears"
+負面提示詞,neg,人物與品質,避免面具底妝,"mask-like foundation, cakey makeup, thick foundation texture"
+負面提示詞,neg,人物與品質,避免塑膠皮膚,"plastic skin, waxy complexion, uniformly glossy face"
+負面提示詞,neg,人物與品質,避免眼妝暈髒,"accidentally smeared eyeliner, muddy eyeshadow, uneven eye makeup"
+負面提示詞,neg,人物與品質,避免妝容錯位,"asymmetrical makeup, mismatched eyeliner, misplaced blush"
+負面提示詞,neg,人物與品質,避免唇彩溢出,"lipstick bleeding outside the lip line, malformed lip makeup"
+負面提示詞,neg,人物與品質,避免亮片過量,"excessive glitter covering the entire face, random facial sequins"
+負面提示詞,neg,人物與品質,避免瞳孔缺失,"missing pupils, pupil-less eyes, blank irises"
+負面提示詞,neg,人物與品質,避免多餘瞳孔,"duplicated pupils, extra pupils, floating pupils"
+負面提示詞,neg,人物與品質,避免瞳孔偏位,"off-center pupils, pupils outside the irises, misaligned gaze"
+負面提示詞,neg,人物與品質,避免瞳孔形狀不一致,"mismatched pupil shapes, one round pupil and one slit pupil"
+負面提示詞,neg,人物與品質,避免無故大小眼,"unintended anisocoria, inconsistent pupil sizes under the same light"
+負面提示詞,neg,人物與品質,避免虹膜融化,"melted irises, smeared iris texture, pupil bleeding into the iris"
+負面提示詞,neg,人物與品質,避免虹膜純色色塊,"flat solid-color irises, featureless irises, contact-lens look"
+負面提示詞,neg,人物與品質,避免反光方向錯誤,"inconsistent catchlight direction, duplicated catchlights, random eye reflections"
+負面提示詞,neg,人物與品質,避免異色瞳左右交換,"swapped heterochromia colors, inconsistent left and right iris assignment"
+負面提示詞,neg,人物與品質,避免全眼爆光,"overexposed glowing eyes, glow covering the entire sclera, lost pupil and iris detail"
+負面提示詞,neg,人物與品質,避免人眼意外獸化,"unwanted animal pupils, unintended vertical slit pupils, reptilian eyes"
+負面提示詞,neg,人物與品質,避免雙眼融合,"fused eyes, merged eyeballs, malformed eye sockets, extra eyes"
+負面提示詞,neg,人物與品質,避免材質同質化,"every surface made of the same material, uniformly shiny surfaces"
+負面提示詞,neg,人物與品質,避免錯誤材質反應,"incorrect material response, incoherent roughness, texture without surface depth"
+負面提示詞,neg,人物與品質,避免塑膠金屬,"plastic-looking metal, gray plastic mistaken for metal, white-painted metal"
+負面提示詞,neg,人物與品質,避免金屬爆白,"blown metallic highlights, clipped chrome reflections, featureless white glare"
+負面提示詞,neg,人物與品質,避免反射混亂,"incoherent reflections, impossible reflected environment, duplicated reflection"
+負面提示詞,neg,人物與品質,避免材質熔合,"melted material boundaries, fused fabric and skin, merged metal and clothing"
+負面提示詞,neg,人物與品質,避免身型同質化,"generic identical body type, same physique for every character"
+負面提示詞,neg,人物與品質,避免健美化,"unwanted bodybuilder physique, excessive muscle hypertrophy, oversized trapezius and deltoids"
+負面提示詞,neg,人物與品質,避免肌肉貼圖,"painted-on muscles, random muscle grooves, anatomy lines unrelated to movement"
+負面提示詞,neg,人物與品質,避免腹肌數量錯誤,"misaligned abs, duplicated abdominal blocks, excessive abdominal segments"
+負面提示詞,neg,人物與品質,避免永遠繃緊,"all muscles flexed at rest, unnaturally tense relaxed body"
+負面提示詞,neg,人物與品質,避免紙片身體,"paper-thin torso, collapsed ribcage, physically impossible waist depth"
+負面提示詞,neg,人物與品質,避免極端蜂腰,"impossibly tiny waist, corset-thin torso, missing ribcage"
+負面提示詞,neg,人物與品質,避免比例幼化,"childlike body proportions, oversized head, undeveloped adult torso"
+負面提示詞,neg,人物與品質,避免腿部過長,"impossibly long legs, misplaced knees, stretched thighs"
+負面提示詞,neg,人物與品質,避免雙人縮放錯誤,"one adult scaled like a child, inconsistent head scale, feet on different ground planes"
+負面提示詞,neg,人物與品質,避免膚色漂白,"washed-out dark skin, ashy skin, gray highlights, skin-tone bleaching"
+負面提示詞,neg,人物與品質,避免臉身不同色,"mismatched face and body skin tone, different-colored neck, hands or chest"
+負面提示詞,neg,人物與品質,避免膚色髒灰,"muddy skin color, lifeless gray complexion, dirty color transitions"
+負面提示詞,neg,人物與品質,避免油亮身體,"uniformly oily body, plastic body highlights, full-body wet gloss"
+負面提示詞,neg,人物與品質,避免身體特徵花紋化,"symmetrical vitiligo pattern, decorative scars, evenly repeated stretch marks"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,沙漠適應,"desert-adapted anatomy with heat-dissipating structures, protected eyes and water-conserving surfaces"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,極地適應,"polar adaptation with compact extremities, layered insulation and reduced exposed surface area"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,高山適應,"high-altitude adaptation with efficient respiration, powerful circulation and stable climbing anatomy"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,洞穴適應,"cave-adapted morphology with reduced pigmentation, enhanced nonvisual senses and protected delicate skin"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,深海適應,"deep-sea adaptation with pressure-resistant anatomy, low-energy movement and controlled bioluminescent organs"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,半水棲適應,"amphibious anatomy with sealed nostrils, streamlined surfaces and limbs functional on both land and water"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,樹棲適應,"arboreal anatomy with grasping extremities, flexible joints and a low stable center of mass"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,草原奔跑適應,"cursorial anatomy with elongated distal limbs, elastic tendons and efficient forward-facing joints"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,沼澤適應,"wetland adaptation with broad weight-distributing feet, water-resistant covering and sensory organs positioned above the waterline"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,火山環境適應,"volcanic-environment adaptation with heat-resistant integument, protected airways and mineral-tolerant metabolism"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,都市適應,"urban-adapted behavior and morphology shaped by artificial light, vertical structures, noise and fragmented habitats"
+生物演化/迷幻/喜劇,creature,棲地與環境適應,夜行適應,"nocturnal adaptation with enlarged light-sensitive eyes, directional hearing and muted low-reflectance coloration"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,骨架先行,anatomy derived from a coherent load-bearing skeleton rather than decorative surface features
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,關節方向一致,all joints bend along anatomically consistent axes suited to the creature's locomotion
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,肌肉附著合理,visible musculature follows plausible attachment points and supports the depicted movement
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,重心可信,"a believable center of mass supported by the stance, limb placement and tail position"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,尾巴平衡,a muscular tail functioning as a dynamic counterbalance during turns and leaps
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,翅膀承重,"functional wings with sufficient surface area, reinforced leading edges and musculature capable of supporting body mass"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,翅根連接,wings structurally connected to an expanded pectoral girdle with visible supporting musculature
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,四足步態,"coherent quadrupedal gait with coordinated spine, shoulder and pelvic movement"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,多足協調,multi-limbed locomotion organized into a repeatable coordinated gait pattern
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,抓握功能,"hands, paws or talons shaped around a clear gripping function and believable range of motion"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,水中推進,"streamlined aquatic propulsion driven by coherent tail, fin or body undulation"
+生物演化/迷幻/喜劇,creature,骨骼、肌肉與運動功能,起飛落地邏輯,"plausible takeoff and landing anatomy with sufficient clearance, impact absorption and wing positioning"
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,眼睛位置,eye placement consistent with ecological role: forward-facing for depth judgment or lateral for panoramic vigilance
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,耳朵方向性,mobile directional ears shaped to localize sound within the creature's habitat
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,嗅覺構造,expanded scent-detection anatomy integrated naturally into the muzzle and airway
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,鬍鬚感知,sensory whiskers positioned to measure nearby surfaces and air movement
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,保護色,habitat-specific camouflage that breaks up the body silhouette rather than forming a decorative print
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,警戒色,high-contrast warning coloration concentrated on visible defensive structures
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,擬態,morphology and texture convincingly mimicking a specific element of the habitat
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,生物發光,"controlled bioluminescent organs with a plausible communication, hunting or camouflage function"
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,體溫調節,"visible thermoregulatory adaptations such as vascular membranes, insulating layers or heat-dissipating crests"
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,防禦構造,"defensive armor, spines or horns concentrated where attacks are most likely and compatible with movement"
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,進食構造,"jaw, teeth, tongue and digestive adaptations consistent with a clearly defined diet"
+生物演化/迷幻/喜劇,creature,感官、體表與生態功能,換羽換皮,"seasonal molting or shedding patterns consistent with growth, climate and life stage"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,自然選擇痕跡,traits shaped by a clearly implied environmental pressure and survival advantage
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,性擇特徵,"sexually selected ornamentation that is costly, visible and separate from survival structures"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,性別二型,"subtle sexual dimorphism expressed through scale, coloration or display structures without changing the species' core anatomy"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,年齡差異,"life-stage variation in proportions, surface texture and display structures"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,島嶼演化,"island evolution producing unusual scale, reduced fear responses or specialized feeding structures"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,趨同演化,convergent evolution producing similar functional forms from visibly different ancestral body plans
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,退化器官,small vestigial structures preserved as evidence of an ancestral lifestyle
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,共生關係,"mutualistic anatomy and behavior showing two species exchanging protection, nutrition or sensory information"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,寄生適應,"specialized attachment, camouflage and feeding structures reflecting a parasitic life cycle"
+生物演化/迷幻/喜劇,creature,演化壓力與物種差異,族群變異,"natural within-species variation in markings, proportions and minor traits while preserving a shared anatomical identity"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,單一祖型,"a hybrid creature built from one coherent ancestral body plan, with secondary traits transformed rather than pasted on"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,人獸過渡,"gradual anatomical transitions between human and animal regions through bone, muscle, skin and fur"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,毛皮鱗片過渡,"a biologically coherent transition zone between fur, skin, feathers or scales"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,角連接顱骨,horns emerging from reinforced skull structures with believable growth direction and weight support
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,獸耳整合,"animal ears integrated into the skull with matching musculature, hair flow and directional mobility"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,多器官取捨,"additional limbs or sensory organs accompanied by corresponding skeletal, muscular, neural and metabolic support"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,巨大化限制,"gigantism supported by columnar limbs, reinforced joints, slower acceleration and plausible heat management"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,微型化限制,"miniaturized anatomy with delicate mass, rapid movement and proportionally adjusted sensory organs"
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,魔法作為生態因素,magic treated as a consistent environmental energy source that still imposes anatomical costs and ecological limits
+生物演化/迷幻/喜劇,creature,奇幻混合生物整合,演化邏輯完整包,"evolutionarily coherent creature design, habitat-driven adaptations, functional load-bearing anatomy, plausible joints and musculature, ecologically meaningful coloration and sensory organs, every major trait serving survival, communication or reproduction rather than decoration alone"
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,一本正經做荒謬事,deadpan characters treating an absurd situation as completely normal
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,動作做到一半被抓包,caught mid-mischief with an immediate guilty reaction
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,連鎖小意外,a chain reaction of small everyday accidents
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,尺寸反差笑點,comedic scale mismatch between a tiny character and an oversized object
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,錯拿物品,confidently using the wrong object for the task
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,表情反差,one character remains deadpan while everyone else overreacts
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,背景偷偷發生笑點,a subtle comedic incident unfolding in the background
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,尷尬停頓,an awkward frozen pause after something goes wrong
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,失敗的帥氣登場,a dramatic entrance immediately undermined by a small mishap
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,過度隆重的小事,epic cinematic treatment of a completely trivial everyday task
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,物件像有脾氣,ordinary objects behaving as if they have stubborn personalities
+生物演化/迷幻/喜劇,creature,生活喜劇與視覺笑點,安靜黑色幽默,quiet dark comedy with restrained reactions
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,廣角近距離喜劇,close wide-angle comedy framing with mild perspective exaggeration
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,對稱荒謬構圖,perfectly symmetrical composition containing one absurd disruption
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,突然急推鏡,comedic crash zoom toward the reaction
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,反應鏡頭,reaction shot held a beat longer than expected
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,魚眼荒誕感,playful fisheye distortion with the subject near the center
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,偽紀錄片喜劇,mockumentary-style candid framing
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,低成本舞台感,deliberately theatrical low-budget set used for comic effect
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,童話邏輯錯位,storybook logic colliding with mundane adult reality
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,視覺雙關,visual pun built from two objects sharing a similar shape
+生物演化/迷幻/喜劇,creature,喜劇鏡頭與風格,乾式幽默,dry understated visual humor
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,萬花筒空間,kaleidoscopic spatial repetition surrounding the subject
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,液態空間,liquid architecture melting into flowing color
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,無限鏡面,infinite mirrored reflections receding into the distance
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,色彩漂移,slow chromatic color drift across forms and shadows
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,彩虹油膜,iridescent oil-slick color transitions
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,紫外線夢境,ultraviolet dreamscape with fluorescent accents
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,互補色震動,vibrating complementary color contrasts
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,虹彩霧氣,iridescent fog diffusing colored light
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,空間摺疊,folded impossible space with multiple conflicting horizons
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,重力錯亂,gravity-defying objects drifting in different directions
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,循環走廊,an impossible corridor looping back into itself
+生物演化/迷幻/喜劇,creature,迷幻色彩與空間,巨大月亮夢境,an impossibly enormous moon dominating the sky
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,視覺殘像,layered perceptual afterimages trailing behind movement
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,時間多重曝光,multiple moments of the same action visible in one frame
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,臉部局部溶解,the portrait softly dissolving into color and texture while preserving identity
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,聲音可視化,visible waveforms and rhythmic color fields emerging from sound
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,聯覺色彩,synesthetic color sensations responding to touch and movement
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,夢中夢,nested dream imagery with one scene opening into another
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,曼陀羅構圖,radiating mandala-like composition behind the subject
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,歐普藝術震動,Op Art optical vibration and rhythmic geometric repetition
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,迷幻搖滾海報,1960s psychedelic rock poster aesthetics with warped lettering zones
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,夢核,dreamcore atmosphere with familiar spaces made emotionally uncanny
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,怪核,weirdcore visual language with unsettling ordinary objects and empty spaces
+生物演化/迷幻/喜劇,creature,感知、影像與藝術語彙,欣快迷幻,euphoric psychedelic atmosphere filled with luminous motion

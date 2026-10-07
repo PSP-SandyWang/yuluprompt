@@ -1,0 +1,61 @@
+﻿子分類,中文名稱,English Prompt
+高度與方向,平視,eye-level view
+高度與方向,高視角,high-angle view
+高度與方向,俯瞰,bird's-eye view
+高度與方向,頂視角,top-down view
+高度與方向,低視角,low-angle view
+高度與方向,蟲視角,worm's-eye view
+高度與方向,正面視角,front view
+高度與方向,正側面,strict profile view
+高度與方向,四分之三正面,three-quarter front view
+高度與方向,四分之三背面,three-quarter rear view
+高度與方向,背面視角,back view
+高度與方向,肩後視角,over-the-shoulder shot
+高度與方向,主觀視角,first-person point of view
+高度與方向,荷蘭角,Dutch angle
+高度與方向,傾斜視角,subtle tilted camera angle
+高度與方向,鏡面視角,view through a mirror
+高度與方向,隔窗視角,viewed through glass
+高度與方向,門框窺視,framed through a doorway
+視野範圍 FOV,極窄視野,"very narrow field of view, approximately 15–20 degrees"
+視野範圍 FOV,窄視野,"narrow field of view, approximately 25–35 degrees"
+視野範圍 FOV,自然視野,"natural field of view, approximately 40–50 degrees"
+視野範圍 FOV,寬視野,"wide field of view, approximately 60–75 degrees"
+視野範圍 FOV,超寬視野,"ultra-wide field of view, approximately 90–110 degrees"
+視野範圍 FOV,極端超寬視野,extreme field of view exceeding 120 degrees
+視野範圍 FOV,180度魚眼,180-degree fisheye field of view
+視野範圍 FOV,360度全景,360-degree equirectangular panoramic view
+視野範圍 FOV,周邊視野感,expanded peripheral vision with the subject centered
+視野範圍 FOV,望遠鏡視野,compressed telescopic view
+觀看高度與視線方向,地面高度視野,camera at ground level looking forward
+觀看高度與視線方向,膝蓋高度視野,camera positioned around knee height
+觀看高度與視線方向,腰部高度視野,camera positioned around waist height
+觀看高度與視線方向,胸口高度視野,camera positioned around chest height
+觀看高度與視線方向,眼睛高度視野,camera aligned precisely with the subject's eye line
+觀看高度與視線方向,頭頂上方視野,camera positioned above head height looking downward
+觀看高度與視線方向,垂直向下視野,camera looking straight down at a 90-degree angle
+觀看高度與視線方向,垂直向上視野,camera looking straight upward from below
+觀看高度與視線方向,沿地平線觀看,view aligned along the distant horizon
+觀看高度與視線方向,向畫外觀看,subject looking beyond the edge of the frame
+觀看高度與視線方向,視線穿過前景,camera sightline passing through foreground objects
+觀看高度與視線方向,視線沿長廊延伸,long axial sightline through the architecture
+第一人稱 POV,第一人稱主觀鏡頭,"first-person point-of-view shot, the camera is the viewer's eyes"
+第一人稱 POV,第一人稱伸手,first-person POV with one hand reaching into the frame
+第一人稱 POV,第一人稱牽手,"first-person POV, being led forward by the hand"
+第一人稱 POV,第一人稱低頭看,first-person POV looking down at one's own hands and body
+第一人稱 POV,第一人稱奔跑,first-person running POV with peripheral motion blur
+第一人稱 POV,第一人稱隔窗觀看,first-person POV observing the subject through glass
+第二人稱直視與互動,第二人稱直視,"second-person visual address, the subject looks directly at you"
+第二人稱直視與互動,向觀者說話,the subject is speaking directly to the viewer
+第二人稱直視與互動,向觀者遞物,the subject offers an object directly toward the viewer
+第二人稱直視與互動,拉住觀者,the subject grabs the viewer's hand and pulls them forward
+第二人稱直視與互動,阻擋觀者,the subject raises a hand to stop the viewer from approaching
+第二人稱直視與互動,邀請觀者靠近,the subject gestures for the viewer to come closer
+第三人稱與觀察者,第三人稱客觀鏡頭,third-person objective camera observing the scene
+第三人稱與觀察者,第三人稱跟隨,third-person follow shot behind the protagonist
+第三人稱與觀察者,第三人稱側面觀察,third-person side view observing the full interaction
+第三人稱與觀察者,肩後第三人稱,third-person over-the-shoulder perspective
+第三人稱與觀察者,旁觀者視角,detached observer perspective from a respectful distance
+第三人稱與觀察者,窺視者視角,voyeuristic observer perspective through partial obstruction
+第三人稱與觀察者,全知遠觀,omniscient distant perspective revealing multiple spatial relationships
+第三人稱與觀察者,監視器視角,fixed surveillance-camera perspective from a high corner

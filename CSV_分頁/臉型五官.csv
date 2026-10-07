@@ -1,0 +1,250 @@
+﻿子分類,中文名稱,English Prompt
+臉型,橢圓臉,oval face
+臉型,長橢圓臉,elongated oval face
+臉型,圓臉,round face
+臉型,方臉,square face
+臉型,長方臉,oblong face
+臉型,心形臉,heart-shaped face
+臉型,菱形臉,diamond-shaped face
+臉型,倒三角臉,inverted-triangle face
+臉型,梨形臉,pear-shaped face
+臉型,窄臉,narrow face
+臉型,柔和臉部輪廓,soft facial contours
+臉型,稜角分明,angular facial structure
+額頭與顴骨,高額頭,high forehead
+額頭與顴骨,低額頭,low forehead
+額頭與顴骨,寬額頭,broad forehead
+額頭與顴骨,圓潤額頭,gently rounded forehead
+額頭與顴骨,高顴骨,high cheekbones
+額頭與顴骨,柔和顴骨,softly sculpted cheekbones
+額頭與顴骨,寬顴骨,broad cheekbones
+額頭與顴骨,飽滿蘋果肌,subtle fullness in the upper cheeks
+額頭與顴骨,凹陷臉頰,slightly hollow cheeks
+眉骨與眼窩,高眉骨,high-set brow bones
+眉骨與眼窩,低眉骨,low-set brow bones
+眉骨與眼窩,眉骨突出,prominent brow ridge
+眉骨與眼窩,眉骨柔和,subtle smooth brow ridge
+眉骨與眼窩,眉骨稜線清楚,clearly defined supraorbital ridge
+眉骨與眼窩,深眼窩,deep orbital sockets
+眉骨與眼窩,淺眼窩,shallow orbital sockets
+眉骨與眼窩,眼窩輪廓清楚,well-defined orbital structure around the eyes
+眉骨與眼窩,高位顴骨,high-set cheekbones positioned close beneath the eyes
+眉骨與眼窩,低位顴骨,low-set cheekbones with fullness concentrated toward the mid-cheek
+眉骨與眼窩,顴骨前突,forward-projecting cheekbones
+眉骨與眼窩,顴弓外擴,prominent outward zygomatic arches
+眉骨與眼窩,窄顴弓,narrow zygomatic width
+眉骨與眼窩,平坦中臉,subtly flat midface projection
+眉骨與眼窩,立體中臉,forward-projecting midface with clear cheek and nasal support
+眉骨與眼窩,長中庭,slightly elongated midface proportions
+眉骨與眼窩,短中庭,compact midface proportions
+眉骨與眼窩,太陽穴微凹,subtly hollow temples
+眉骨與眼窩,太陽穴飽滿,smooth full temples
+眉毛,平眉,straight eyebrows
+眉毛,柔和拱眉,softly arched eyebrows
+眉毛,高挑眉,high-arched eyebrows
+眉毛,劍眉,straight sword-shaped eyebrows
+眉毛,上揚眉,upward-slanting eyebrows
+眉毛,下垂眉,gently downturned eyebrows
+眉毛,濃眉,thick full eyebrows
+眉毛,細眉,thin refined eyebrows
+眉毛,淡眉,soft low-contrast eyebrows
+眉毛,自然雜毛眉,naturally textured eyebrows
+眉毛細節,圓弧眉,rounded arched eyebrows
+眉毛細節,柔角眉,soft-angled eyebrows
+眉毛細節,銳角眉,sharply angled eyebrows
+眉毛細節,S形眉,subtle S-shaped eyebrows
+眉毛細節,低位眉,low-set eyebrows close to the eyes
+眉毛細節,高位眉,high-set eyebrows with generous brow-to-eye spacing
+眉毛細節,眉距寬,wide-spaced eyebrows
+眉毛細節,眉距窄,close-set eyebrows
+眉毛細節,長眉,long eyebrows extending beyond the outer eye corners
+眉毛細節,短眉,short compact eyebrows
+眉毛細節,細長眉尾,finely tapered eyebrow tails
+眉毛細節,濃眉頭淡眉尾,dense inner brows gradually tapering toward the tails
+眉毛細節,羽毛眉,soft feathered eyebrows with individually visible hairs
+眉毛細節,向上梳眉,brushed-up eyebrows with lifted hair direction
+眉毛細節,眉膠定型感,laminated brows with sleek upward-set hairs
+眉毛細節,雕塑眉,clean sculpted eyebrows with precise edges
+眉毛細節,漸層眉,"soft gradient eyebrows, lighter at the inner corners and defined at the tails"
+眉毛細節,稀疏眉,naturally sparse eyebrows with visible skin between hairs
+眉毛細節,漂色眉,bleached low-contrast eyebrows
+眉毛細節,斷眉,a subtle shaved eyebrow slit
+眉毛細節,自然不對稱眉,subtly asymmetrical natural eyebrows
+眼型,杏眼,almond-shaped eyes
+眼型,狹長杏眼,narrow almond-shaped eyes
+眼型,鳳眼,elongated phoenix eyes
+眼型,丹鳳眼,slender upturned danfeng eyes
+眼型,桃花眼,soft elongated eyes with subtly curved lower lids
+眼型,圓眼,large round eyes
+眼型,細長眼,slender elongated eyes
+眼型,深邃眼,deep-set eyes
+眼型,突出眼,slightly prominent eyes
+眼型,眼尾上揚,upturned outer eye corners
+眼型,眼尾下垂,gently downturned outer eye corners
+眼型,內眼角尖,sharp inner eye corners
+眼型,眼距較寬,wide-set eyes
+眼型,眼距較近,close-set eyes
+眼型,半瞇眼,half-lidded eyes
+眼型,微瞇眼,gently narrowed eyes
+眼型,內雙,subtle inner double eyelids
+眼型,外雙,clearly defined double eyelids
+眼型,單眼皮,monolid eyes
+眼型,平行雙眼皮,parallel double-eyelid creases
+眼型,扇形雙眼皮,tapered double-eyelid creases
+眼型,臥蠶,subtle natural aegyo-sal beneath the eyes
+眼神與眼部細節,直視鏡頭,direct eye contact with the viewer
+眼神與眼部細節,視線偏離,gaze directed away from the camera
+眼神與眼部細節,低垂視線,downcast gaze
+眼神與眼部細節,仰望視線,eyes looking upward
+眼神與眼部細節,警戒眼神,watchful guarded gaze
+眼神與眼部細節,溫柔眼神,soft affectionate gaze
+眼神與眼部細節,空洞眼神,distant unfocused gaze
+眼神與眼部細節,濕潤眼眸,faint moisture gathered in the eyes
+眼神與眼部細節,虹膜細節,intricately detailed irises
+眼神與眼部細節,自然眼中反光,small natural catchlights
+眼神與眼部細節,長睫毛,long fine eyelashes growing naturally from the eyelids
+眼神與眼部細節,濃密睫毛,dense dark eyelashes
+眼神與眼部細節,淺色睫毛,fine pale eyelashes
+眼神與眼部細節,柔和下眼瞼,softly defined lower eyelids
+瞳孔大小與對光反應,自然圓形瞳孔,natural round pupils
+瞳孔大小與對光反應,正常大小瞳孔,medium-sized pupils appropriate to the ambient light
+瞳孔大小與對光反應,微縮瞳孔,slightly constricted pupils
+瞳孔大小與對光反應,針尖瞳孔,pinpoint pupils
+瞳孔大小與對光反應,微放大瞳孔,slightly dilated pupils
+瞳孔大小與對光反應,低光放大瞳孔,naturally dilated pupils responding to the dim environment
+瞳孔大小與對光反應,強光收縮瞳孔,naturally constricted pupils responding to the bright key light
+瞳孔大小與對光反應,雙眼一致對光,both pupils responding consistently to the same light source
+瞳孔大小與對光反應,瞳孔大小不等,"intentional anisocoria, one pupil subtly larger than the other"
+瞳孔大小與對光反應,瞳孔邊緣清楚,clean well-defined pupil edges within the irises
+瞳孔形狀,圓形瞳孔,circular pupils centered naturally within the irises
+瞳孔形狀,貓科豎瞳,vertical slit pupils with feline anatomy
+瞳孔形狀,蛇類豎瞳,narrow vertical slit pupils with reptilian anatomy
+瞳孔形狀,豎橢圓瞳孔,vertical oval pupils
+瞳孔形狀,橫橢圓瞳孔,horizontal oval pupils
+瞳孔形狀,羊類橫瞳,horizontal rectangular pupils with caprine anatomy
+瞳孔形狀,烏賊W形瞳孔,W-shaped cuttlefish pupils
+瞳孔形狀,壁虎多裂瞳孔,multiple narrow pinhole slits forming a gecko-like pupil
+瞳孔形狀,菱形瞳孔,diamond-shaped pupils
+瞳孔形狀,新月瞳孔,crescent-shaped pupils
+瞳孔形狀,星形瞳孔,small star-shaped pupils
+瞳孔形狀,心形瞳孔,small heart-shaped pupils
+瞳孔形狀,十字瞳孔,cross-shaped pupils
+瞳孔形狀,環形瞳孔,hollow ring-shaped pupils
+瞳孔形狀,鎖孔瞳孔,keyhole-shaped pupils
+瞳孔形狀,多重瞳孔,multiple distinct pupils arranged coherently within each iris
+瞳孔形狀,機械光圈瞳孔,mechanical aperture pupils with interlocking iris blades
+虹膜顏色,深棕虹膜,deep brown irises with subtle tonal variation
+虹膜顏色,暖棕虹膜,warm chestnut-brown irises
+虹膜顏色,琥珀虹膜,amber irises with golden-brown depth
+虹膜顏色,榛果虹膜,hazel irises blending green and warm brown
+虹膜顏色,橄欖綠虹膜,muted olive-green irises
+虹膜顏色,翠綠虹膜,clear emerald-green irises
+虹膜顏色,灰綠虹膜,muted gray-green irises
+虹膜顏色,純灰虹膜,soft gray irises with layered tonal detail
+虹膜顏色,灰藍虹膜,desaturated blue-gray irises
+虹膜顏色,冰藍虹膜,pale ice-blue irises with a darker limbal ring
+虹膜顏色,深藍虹膜,deep sapphire-blue irises
+虹膜顏色,紫羅蘭虹膜,violet irises with natural layered pigmentation
+虹膜顏色,玫紅虹膜,muted rose-magenta irises
+虹膜顏色,猩紅虹膜,deep crimson irises surrounding dark pupils
+虹膜顏色,金色虹膜,luminous-looking golden irises with non-emissive metallic depth
+虹膜顏色,銀色虹膜,pale silver-gray irises with fine radial detail
+虹膜顏色,近黑虹膜,near-black irises with visible dark-brown tonal separation from the pupils
+虹膜顏色,白化淡色虹膜,very pale translucent blue-gray irises with low pigmentation
+虹膜紋理與結構,放射纖維,fine radial iris fibers extending outward from the pupils
+虹膜紋理與結構,虹膜隱窩,subtle natural iris crypts and irregular pigment openings
+虹膜紋理與結構,深色角膜緣環,a subtle dark limbal ring around each iris
+虹膜紋理與結構,柔和角膜緣環,a soft low-contrast limbal ring
+虹膜紋理與結構,中央星芒紋,a delicate starburst pattern radiating around the pupils
+虹膜紋理與結構,同心環紋,fine concentric rings layered through the irises
+虹膜紋理與結構,雙色漸層虹膜,two-tone irises with a smooth inner-to-outer color gradient
+虹膜紋理與結構,大理石虹膜,marbled iris pigmentation with controlled organic veining
+虹膜紋理與結構,花瓣虹膜,petal-like iris fibers arranged organically around the pupils
+虹膜紋理與結構,晶體虹膜,crystalline irises with faceted internal reflections
+虹膜紋理與結構,珠光虹膜,pearlescent irises with soft opalescent color shifts
+虹膜紋理與結構,虹彩虹膜,iridescent irises shifting hue subtly with the viewing angle
+虹膜紋理與結構,銀河虹膜,galaxy-like irises containing restrained nebular color and tiny star-like specks
+虹膜紋理與結構,熔金虹膜,molten-gold iris texture flowing around dark pupils
+虹膜紋理與結構,裂紋虹膜,fine cracked-glass pattern contained within the irises
+虹膜紋理與結構,電路虹膜,microcircuit patterns embedded concentrically within the irises
+異色瞳與多色,完全異色瞳,"complete heterochromia, the character's left iris is blue and the right iris is amber"
+異色瞳與多色,中央異色虹膜,"central heterochromia, a warm amber ring surrounding each pupil within green irises"
+異色瞳與多色,扇區異色虹膜,"sectoral heterochromia, a distinct wedge of a second color within one iris"
+異色瞳與多色,雙眼反向配色,intentional mirrored heterochromia with clearly specified left and right iris colors
+異色瞳與多色,內暖外冷虹膜,warm-colored inner irises transitioning to cool-colored outer rings
+異色瞳與多色,半月雙色虹膜,each iris divided into two clean crescent-shaped color regions
+異色瞳與多色,不對稱虹膜紋理,subtly different natural iris patterns in the two eyes while preserving matching anatomy
+眼白、反光與發光,自然暖白眼白,natural slightly warm sclera with subtle veins and no pure-white glow
+眼白、反光與發光,清澈眼白,clear healthy sclera with restrained natural shading
+眼白、反光與發光,深色眼白,dark charcoal sclera surrounding luminous irises
+眼白、反光與發光,純黑眼白,matte black sclera with clearly separated irises and pupils
+眼白、反光與發光,紅色眼白,blood-red sclera with darker irises and clearly defined pupils
+眼白、反光與發光,瞬膜,a translucent nictitating membrane partially crossing the eye
+眼白、反光與發光,單一自然反光,one restrained catchlight per eye matching the key-light direction
+眼白、反光與發光,螢幕矩形反光,subtle rectangular monitor catchlights reflected consistently in both eyes
+眼白、反光與發光,窗戶反光,soft window-shaped catchlights aligned with the visible daylight source
+眼白、反光與發光,瞳孔微光,a restrained inner glow limited precisely to the pupils
+眼白、反光與發光,虹膜微光,"a restrained emissive glow contained within the irises, with natural falloff onto the eyelids"
+眼白、反光與發光,整眼發光,fully luminous eyes with soft light spilling onto the eyelids and upper cheeks
+眼白、反光與發光,光源一致的眼部反射,"eye reflections, pupil size and iris highlights all consistent with the scene lighting"
+非人與幻想完整包,自然人眼完整包,"natural round pupils, nuanced gray-green irises with fine radial fibers, subtle dark limbal rings, restrained catchlights and both pupils responding consistently to the ambient light"
+非人與幻想完整包,夜間螢幕眼完整包,"muted gray-green irises with fine radial fibers, naturally dilated round pupils responding to the dim monitor light, subtle rectangular catchlights aligned in both eyes"
+非人與幻想完整包,完整異色瞳包,"complete heterochromia, the character's left iris is desaturated blue-gray and the right iris is warm amber, matching round pupils, consistent limbal rings and catchlights"
+非人與幻想完整包,貓系夜行眼包,"vertical slit pupils with feline anatomy, luminous amber irises, dark limbal rings and low-light reflections consistent with the environment"
+非人與幻想完整包,山羊牧神眼包,"horizontal rectangular caprine pupils, muted golden-olive irises and wide peripheral-looking gaze"
+非人與幻想完整包,深海烏賊眼包,"W-shaped cuttlefish pupils, pearlescent blue-violet irises, dark sclera and subtle underwater caustic reflections"
+非人與幻想完整包,龍族熔金眼包,"narrow reptilian slit pupils surrounded by molten-gold irises, dark sclera and restrained heat-like inner luminance"
+非人與幻想完整包,仿生機械眼包,"mechanical aperture pupils, concentric silver irises embedded with microcircuit patterns, precise low-intensity cyan indicators and physically coherent reflections"
+非人與幻想完整包,星雲神眼包,"small round pupils suspended within galaxy-like irises, restrained nebular color, tiny star-like specks and a soft iris-only glow"
+非人與幻想完整包,詛咒裂紋眼包,"pinpoint pupils, pale silver irises containing fine cracked-glass patterns, darkened sclera and faint internal light leaking through the cracks"
+鼻型,直鼻,straight nose
+鼻型,細直鼻,delicate straight nose with a narrow bridge
+鼻型,高鼻樑,high nasal bridge
+鼻型,低鼻樑,low nasal bridge
+鼻型,寬鼻樑,broad nasal bridge
+鼻型,窄鼻樑,narrow nasal bridge
+鼻型,希臘鼻,Greek nose with a straight forehead-to-bridge line
+鼻型,羅馬鼻,aquiline Roman nose
+鼻型,鷹鉤鼻,hooked nose
+鼻型,翹鼻,slightly upturned nose
+鼻型,圓鼻頭,soft rounded nose tip
+鼻型,尖鼻頭,refined pointed nose tip
+鼻型,鼻翼窄,narrow delicate nostrils
+鼻型,鼻翼寬,naturally broad nostrils
+鼻型,短鼻,short nose
+鼻型,長鼻,long refined nose
+嘴唇與嘴型,薄唇,thin refined lips
+嘴唇與嘴型,厚唇,full plush lips
+嘴唇與嘴型,上薄下厚,a thinner upper lip and fuller lower lip
+嘴唇與嘴型,上下均衡,balanced upper and lower lips
+嘴唇與嘴型,丘比特唇峰,a clearly defined cupid's bow
+嘴唇與嘴型,柔和唇峰,a softly defined cupid's bow
+嘴唇與嘴型,嘴角上揚,naturally upturned mouth corners
+嘴唇與嘴型,嘴角下垂,subtly downturned mouth corners
+嘴唇與嘴型,寬嘴,wide expressive mouth
+嘴唇與嘴型,小嘴,small delicate mouth
+嘴唇與嘴型,微張嘴唇,softly parted lips
+嘴唇與嘴型,緊閉嘴唇,firmly closed lips
+嘴唇與嘴型,不對稱微笑,subtle asymmetric smile
+嘴唇與嘴型,抿嘴,gently pursed lips
+嘴唇與嘴型,自然唇紋,subtle natural lip texture
+嘴唇與嘴型,濕潤下唇,restrained moisture highlight on the lower lip
+下顎與下巴,俐落下顎線,clean defined jawline
+下顎與下巴,柔和下顎線,soft gently tapered jawline
+下顎與下巴,方下顎,broad square jaw
+下顎與下巴,窄下顎,narrow lower jaw
+下顎與下巴,V形下顎,V-shaped jawline
+下顎與下巴,圓下巴,soft rounded chin
+下顎與下巴,尖下巴,elegant pointed chin
+下顎與下巴,方下巴,broad squared chin
+下顎與下巴,短下巴,short chin
+下顎與下巴,長下巴,slightly elongated chin
+下顎與下巴,下巴凹溝,subtle cleft chin
+耳朵與其他特徵,貼耳,ears lying close to the head
+耳朵與其他特徵,招風耳,prominent outward-facing ears
+耳朵與其他特徵,小耳朵,small refined ears
+耳朵與其他特徵,長耳垂,elongated earlobes
+耳朵與其他特徵,尖耳,subtly pointed ears
+耳朵與其他特徵,長精靈耳,long elegant elf ears
+耳朵與其他特徵,酒窩,subtle dimples when smiling
+耳朵與其他特徵,虎牙,a small visible canine tooth

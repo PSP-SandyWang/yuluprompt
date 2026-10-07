@@ -1,0 +1,103 @@
+﻿子分類,中文名稱,English Prompt
+棲地與環境適應,沙漠適應,"desert-adapted anatomy with heat-dissipating structures, protected eyes and water-conserving surfaces"
+棲地與環境適應,極地適應,"polar adaptation with compact extremities, layered insulation and reduced exposed surface area"
+棲地與環境適應,高山適應,"high-altitude adaptation with efficient respiration, powerful circulation and stable climbing anatomy"
+棲地與環境適應,洞穴適應,"cave-adapted morphology with reduced pigmentation, enhanced nonvisual senses and protected delicate skin"
+棲地與環境適應,深海適應,"deep-sea adaptation with pressure-resistant anatomy, low-energy movement and controlled bioluminescent organs"
+棲地與環境適應,半水棲適應,"amphibious anatomy with sealed nostrils, streamlined surfaces and limbs functional on both land and water"
+棲地與環境適應,樹棲適應,"arboreal anatomy with grasping extremities, flexible joints and a low stable center of mass"
+棲地與環境適應,草原奔跑適應,"cursorial anatomy with elongated distal limbs, elastic tendons and efficient forward-facing joints"
+棲地與環境適應,沼澤適應,"wetland adaptation with broad weight-distributing feet, water-resistant covering and sensory organs positioned above the waterline"
+棲地與環境適應,火山環境適應,"volcanic-environment adaptation with heat-resistant integument, protected airways and mineral-tolerant metabolism"
+棲地與環境適應,都市適應,"urban-adapted behavior and morphology shaped by artificial light, vertical structures, noise and fragmented habitats"
+棲地與環境適應,夜行適應,"nocturnal adaptation with enlarged light-sensitive eyes, directional hearing and muted low-reflectance coloration"
+骨骼、肌肉與運動功能,骨架先行,anatomy derived from a coherent load-bearing skeleton rather than decorative surface features
+骨骼、肌肉與運動功能,關節方向一致,all joints bend along anatomically consistent axes suited to the creature's locomotion
+骨骼、肌肉與運動功能,肌肉附著合理,visible musculature follows plausible attachment points and supports the depicted movement
+骨骼、肌肉與運動功能,重心可信,"a believable center of mass supported by the stance, limb placement and tail position"
+骨骼、肌肉與運動功能,尾巴平衡,a muscular tail functioning as a dynamic counterbalance during turns and leaps
+骨骼、肌肉與運動功能,翅膀承重,"functional wings with sufficient surface area, reinforced leading edges and musculature capable of supporting body mass"
+骨骼、肌肉與運動功能,翅根連接,wings structurally connected to an expanded pectoral girdle with visible supporting musculature
+骨骼、肌肉與運動功能,四足步態,"coherent quadrupedal gait with coordinated spine, shoulder and pelvic movement"
+骨骼、肌肉與運動功能,多足協調,multi-limbed locomotion organized into a repeatable coordinated gait pattern
+骨骼、肌肉與運動功能,抓握功能,"hands, paws or talons shaped around a clear gripping function and believable range of motion"
+骨骼、肌肉與運動功能,水中推進,"streamlined aquatic propulsion driven by coherent tail, fin or body undulation"
+骨骼、肌肉與運動功能,起飛落地邏輯,"plausible takeoff and landing anatomy with sufficient clearance, impact absorption and wing positioning"
+感官、體表與生態功能,眼睛位置,eye placement consistent with ecological role: forward-facing for depth judgment or lateral for panoramic vigilance
+感官、體表與生態功能,耳朵方向性,mobile directional ears shaped to localize sound within the creature's habitat
+感官、體表與生態功能,嗅覺構造,expanded scent-detection anatomy integrated naturally into the muzzle and airway
+感官、體表與生態功能,鬍鬚感知,sensory whiskers positioned to measure nearby surfaces and air movement
+感官、體表與生態功能,保護色,habitat-specific camouflage that breaks up the body silhouette rather than forming a decorative print
+感官、體表與生態功能,警戒色,high-contrast warning coloration concentrated on visible defensive structures
+感官、體表與生態功能,擬態,morphology and texture convincingly mimicking a specific element of the habitat
+感官、體表與生態功能,生物發光,"controlled bioluminescent organs with a plausible communication, hunting or camouflage function"
+感官、體表與生態功能,體溫調節,"visible thermoregulatory adaptations such as vascular membranes, insulating layers or heat-dissipating crests"
+感官、體表與生態功能,防禦構造,"defensive armor, spines or horns concentrated where attacks are most likely and compatible with movement"
+感官、體表與生態功能,進食構造,"jaw, teeth, tongue and digestive adaptations consistent with a clearly defined diet"
+感官、體表與生態功能,換羽換皮,"seasonal molting or shedding patterns consistent with growth, climate and life stage"
+演化壓力與物種差異,自然選擇痕跡,traits shaped by a clearly implied environmental pressure and survival advantage
+演化壓力與物種差異,性擇特徵,"sexually selected ornamentation that is costly, visible and separate from survival structures"
+演化壓力與物種差異,性別二型,"subtle sexual dimorphism expressed through scale, coloration or display structures without changing the species' core anatomy"
+演化壓力與物種差異,年齡差異,"life-stage variation in proportions, surface texture and display structures"
+演化壓力與物種差異,島嶼演化,"island evolution producing unusual scale, reduced fear responses or specialized feeding structures"
+演化壓力與物種差異,趨同演化,convergent evolution producing similar functional forms from visibly different ancestral body plans
+演化壓力與物種差異,退化器官,small vestigial structures preserved as evidence of an ancestral lifestyle
+演化壓力與物種差異,共生關係,"mutualistic anatomy and behavior showing two species exchanging protection, nutrition or sensory information"
+演化壓力與物種差異,寄生適應,"specialized attachment, camouflage and feeding structures reflecting a parasitic life cycle"
+演化壓力與物種差異,族群變異,"natural within-species variation in markings, proportions and minor traits while preserving a shared anatomical identity"
+奇幻混合生物整合,單一祖型,"a hybrid creature built from one coherent ancestral body plan, with secondary traits transformed rather than pasted on"
+奇幻混合生物整合,人獸過渡,"gradual anatomical transitions between human and animal regions through bone, muscle, skin and fur"
+奇幻混合生物整合,毛皮鱗片過渡,"a biologically coherent transition zone between fur, skin, feathers or scales"
+奇幻混合生物整合,角連接顱骨,horns emerging from reinforced skull structures with believable growth direction and weight support
+奇幻混合生物整合,獸耳整合,"animal ears integrated into the skull with matching musculature, hair flow and directional mobility"
+奇幻混合生物整合,多器官取捨,"additional limbs or sensory organs accompanied by corresponding skeletal, muscular, neural and metabolic support"
+奇幻混合生物整合,巨大化限制,"gigantism supported by columnar limbs, reinforced joints, slower acceleration and plausible heat management"
+奇幻混合生物整合,微型化限制,"miniaturized anatomy with delicate mass, rapid movement and proportionally adjusted sensory organs"
+奇幻混合生物整合,魔法作為生態因素,magic treated as a consistent environmental energy source that still imposes anatomical costs and ecological limits
+奇幻混合生物整合,演化邏輯完整包,"evolutionarily coherent creature design, habitat-driven adaptations, functional load-bearing anatomy, plausible joints and musculature, ecologically meaningful coloration and sensory organs, every major trait serving survival, communication or reproduction rather than decoration alone"
+生活喜劇與視覺笑點,一本正經做荒謬事,deadpan characters treating an absurd situation as completely normal
+生活喜劇與視覺笑點,動作做到一半被抓包,caught mid-mischief with an immediate guilty reaction
+生活喜劇與視覺笑點,連鎖小意外,a chain reaction of small everyday accidents
+生活喜劇與視覺笑點,尺寸反差笑點,comedic scale mismatch between a tiny character and an oversized object
+生活喜劇與視覺笑點,錯拿物品,confidently using the wrong object for the task
+生活喜劇與視覺笑點,表情反差,one character remains deadpan while everyone else overreacts
+生活喜劇與視覺笑點,背景偷偷發生笑點,a subtle comedic incident unfolding in the background
+生活喜劇與視覺笑點,尷尬停頓,an awkward frozen pause after something goes wrong
+生活喜劇與視覺笑點,失敗的帥氣登場,a dramatic entrance immediately undermined by a small mishap
+生活喜劇與視覺笑點,過度隆重的小事,epic cinematic treatment of a completely trivial everyday task
+生活喜劇與視覺笑點,物件像有脾氣,ordinary objects behaving as if they have stubborn personalities
+生活喜劇與視覺笑點,安靜黑色幽默,quiet dark comedy with restrained reactions
+喜劇鏡頭與風格,廣角近距離喜劇,close wide-angle comedy framing with mild perspective exaggeration
+喜劇鏡頭與風格,對稱荒謬構圖,perfectly symmetrical composition containing one absurd disruption
+喜劇鏡頭與風格,突然急推鏡,comedic crash zoom toward the reaction
+喜劇鏡頭與風格,反應鏡頭,reaction shot held a beat longer than expected
+喜劇鏡頭與風格,魚眼荒誕感,playful fisheye distortion with the subject near the center
+喜劇鏡頭與風格,偽紀錄片喜劇,mockumentary-style candid framing
+喜劇鏡頭與風格,低成本舞台感,deliberately theatrical low-budget set used for comic effect
+喜劇鏡頭與風格,童話邏輯錯位,storybook logic colliding with mundane adult reality
+喜劇鏡頭與風格,視覺雙關,visual pun built from two objects sharing a similar shape
+喜劇鏡頭與風格,乾式幽默,dry understated visual humor
+迷幻色彩與空間,萬花筒空間,kaleidoscopic spatial repetition surrounding the subject
+迷幻色彩與空間,液態空間,liquid architecture melting into flowing color
+迷幻色彩與空間,無限鏡面,infinite mirrored reflections receding into the distance
+迷幻色彩與空間,色彩漂移,slow chromatic color drift across forms and shadows
+迷幻色彩與空間,彩虹油膜,iridescent oil-slick color transitions
+迷幻色彩與空間,紫外線夢境,ultraviolet dreamscape with fluorescent accents
+迷幻色彩與空間,互補色震動,vibrating complementary color contrasts
+迷幻色彩與空間,虹彩霧氣,iridescent fog diffusing colored light
+迷幻色彩與空間,空間摺疊,folded impossible space with multiple conflicting horizons
+迷幻色彩與空間,重力錯亂,gravity-defying objects drifting in different directions
+迷幻色彩與空間,循環走廊,an impossible corridor looping back into itself
+迷幻色彩與空間,巨大月亮夢境,an impossibly enormous moon dominating the sky
+感知、影像與藝術語彙,視覺殘像,layered perceptual afterimages trailing behind movement
+感知、影像與藝術語彙,時間多重曝光,multiple moments of the same action visible in one frame
+感知、影像與藝術語彙,臉部局部溶解,the portrait softly dissolving into color and texture while preserving identity
+感知、影像與藝術語彙,聲音可視化,visible waveforms and rhythmic color fields emerging from sound
+感知、影像與藝術語彙,聯覺色彩,synesthetic color sensations responding to touch and movement
+感知、影像與藝術語彙,夢中夢,nested dream imagery with one scene opening into another
+感知、影像與藝術語彙,曼陀羅構圖,radiating mandala-like composition behind the subject
+感知、影像與藝術語彙,歐普藝術震動,Op Art optical vibration and rhythmic geometric repetition
+感知、影像與藝術語彙,迷幻搖滾海報,1960s psychedelic rock poster aesthetics with warped lettering zones
+感知、影像與藝術語彙,夢核,dreamcore atmosphere with familiar spaces made emotionally uncanny
+感知、影像與藝術語彙,怪核,weirdcore visual language with unsettling ordinary objects and empty spaces
+感知、影像與藝術語彙,欣快迷幻,euphoric psychedelic atmosphere filled with luminous motion

@@ -1,0 +1,57 @@
+﻿子分類,中文名稱,English Prompt
+品質與自然度,精緻解剖,refined believable anatomy
+品質與自然度,自然重量分配,natural weight distribution
+品質與自然度,可信的接觸關係,believable physical contact between subjects and objects
+品質與自然度,自然重心,realistic center of gravity
+品質與自然度,正確透視縮短,accurate anatomical foreshortening
+品質與自然度,一致角色設計,consistent character identity and facial structure
+品質與自然度,自然微表情,subtle natural micro-expression
+品質與自然度,非擺拍姿勢,unguarded natural posture rather than a posed stance
+品質與自然度,材質區分,clearly differentiated material response
+品質與自然度,保留暗部細節,rich shadow detail without crushed blacks
+品質與自然度,高光克制,restrained specular highlights
+品質與自然度,自然皮膚漸層,delicate painterly transitions across the skin
+品質與自然度,精緻髮絲,fine individually rendered hair strands
+品質與自然度,場景比例可信,believable architectural scale
+品質與自然度,深度層次,deep atmospheric perspective
+品質與自然度,敘事性構圖,sophisticated visual storytelling
+畫質、清晰度與細節,高解析細節,high-resolution detail with coherent fine structure
+畫質、清晰度與細節,焦點清晰,crisp focal details with controlled sharpness
+畫質、清晰度與細節,自然微細節,refined natural micro-details without artificial oversharpening
+畫質、清晰度與細節,邊緣乾淨,clean well-defined edges around the primary subject
+畫質、清晰度與細節,柔硬邊控制,intentional balance of sharp and soft edges
+畫質、清晰度與細節,細節一致,"consistent detail density across the face, hands, clothing and environment"
+畫質、清晰度與細節,結構清楚,clear large forms before fine surface detail
+畫質、清晰度與細節,微對比克制,controlled microcontrast with smooth tonal transitions
+畫質、清晰度與細節,高光不爆白,protected highlight detail without clipping
+畫質、清晰度與細節,暗部有細節,clean shadow detail without crushed blacks
+畫質、清晰度與細節,漸層平滑,smooth color gradients without banding
+畫質、清晰度與細節,無壓縮瑕疵,artifact-free image without compression noise or blocky textures
+畫質、清晰度與細節,無過度降噪,preserved organic texture without waxy denoising
+畫質、清晰度與細節,髮絲分束,cleanly separated hair clumps with selective individual strands
+畫質、清晰度與細節,布料細節,"coherent fabric weave, folds and material response"
+畫質、清晰度與細節,金屬細節,clean metallic reflections with controlled specular highlights
+畫質、清晰度與細節,毛髮層次,layered fur detail with realistic strand direction
+畫質、清晰度與細節,眼睛焦點,precisely focused eyes with natural catchlights and iris detail
+畫質、清晰度與細節,遠景不碎裂,coherent distant scenery with simplified but stable detail
+畫質、清晰度與細節,動態仍可讀,readable anatomy and silhouette despite fast motion
+畫質、清晰度與細節,景深過渡自然,natural focus falloff with believable depth transitions
+畫質、清晰度與細節,色彩不溢出,clean color separation without bleeding across edges
+畫質、清晰度與細節,最終精修感,polished final-pass rendering with coherent finishing detail
+畫質、清晰度與細節,原生畫質優先,"native-resolution clarity, followed by restrained upscale refinement"
+可直接複製的 Posit,通用精修包,"high-resolution detail, coherent forms, clean edges, controlled sharpness, smooth tonal transitions, consistent material rendering, artifact-free final image"
+可直接複製的 Posit,半寫實人物包,"premium semi-realistic rendering, refined facial anatomy, natural skin texture, precise eyes, coherent hair strands, believable hands, controlled microcontrast, polished painterly transitions"
+可直接複製的 Posit,寫實攝影包,"premium photographic detail, natural optical sharpness, realistic skin and fabric texture, protected highlights, clean shadow detail, subtle filmic grain, physically coherent reflections"
+可直接複製的 Posit,電影劇照包,"cinematic production quality, coherent production design, precise focal hierarchy, natural lens rendering, atmospheric depth, controlled highlight roll-off, detailed but restrained filmic texture"
+可直接複製的 Posit,肖像特寫包,"exquisite portrait detail, both eyes structurally coherent, natural catchlights, refined eyelids and lips, realistic skin microtexture, clean hairline, shallow depth of field with precise facial focus"
+可直接複製的 Posit,全身人物包,"coherent full-body anatomy, natural weight distribution, accurate hands and feet, complete uncropped figure, readable clothing construction, stable silhouette, consistent detail from head to toe"
+可直接複製的 Posit,雙人互動包,"two clearly separated adult figures, coherent individual anatomy, believable eye lines, natural mutual reactions, accurate hand contact, realistic weight transfer, consistent lighting across both characters"
+可直接複製的 Posit,人獸互動包,"clear separation between human and animal anatomy, species-accurate structure, believable physical contact, natural weight and scale relationship, coherent fur detail, mutual attention and responsive interaction"
+可直接複製的 Posit,動態運動包,"readable action silhouette, accurate kinetic anatomy, realistic center of gravity, coherent limb motion, natural fabric and hair momentum, controlled directional motion blur, sharp primary action point"
+可直接複製的 Posit,宏大場景包,"epic environmental detail, stable large-scale forms, deep atmospheric perspective, coherent distant scenery, layered foreground midground and background, restrained micro-detail, monumental sense of scale"
+可直接複製的 Posit,低光夜景包,"clean low-light rendering, preserved shadow detail, protected neon highlights, natural color noise, realistic reflective surfaces, coherent environmental light spill, sharp focal subject without artificial studio glow"
+可直接複製的 Posit,油畫插畫包,"museum-quality painterly finish, coherent underpainting, deliberate brush hierarchy, refined focal details, lost-and-found edges, controlled impasto accents, harmonious color transitions"
+可直接複製的 Posit,動漫彩圖包,"premium illustration finish, clean confident linework, coherent cel and soft shading, refined facial features, controlled highlights, detailed costume construction, polished background integration"
+可直接複製的 Posit,產品材質包,"commercial product-image clarity, precise silhouette, physically coherent materials, controlled reflections, clean surface detail, accurate contact shadows, polished premium finish"
+可直接複製的 Posit,海報印刷包,"print-ready visual clarity, strong shape separation, controlled fine detail, clean color fields, crisp focal typography zones, balanced negative space, coherent high-resolution poster finish"
+可直接複製的 Posit,柔霧夢幻包,"refined dreamlike softness, precise facial focus, smooth luminous gradients, restrained bloom, delicate atmospheric particles, preserved edge hierarchy, clean details beneath the diffusion"

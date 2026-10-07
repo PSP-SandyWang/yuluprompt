@@ -1,0 +1,35 @@
+﻿子分類,中文名稱,English Prompt
+常用畫面比例,正方形 1:1,square 1:1 canvas
+常用畫面比例,直式 4:5,vertical 4:5 canvas
+常用畫面比例,直式 3:4,vertical 3:4 canvas
+常用畫面比例,直式 2:3,vertical 2:3 canvas
+常用畫面比例,直式 5:7,vertical 5:7 canvas
+常用畫面比例,手機直式 9:16,vertical 9:16 mobile canvas
+常用畫面比例,橫式 4:3,horizontal 4:3 canvas
+常用畫面比例,橫式 3:2,horizontal 3:2 canvas
+常用畫面比例,橫式 16:9,cinematic horizontal 16:9 canvas
+常用畫面比例,社群連結 1.91:1,wide 1.91:1 social preview canvas
+常用畫面比例,超寬 21:9,ultrawide 21:9 canvas
+常用畫面比例,電影銀幕 2.39:1,anamorphic cinematic 2.39:1 widescreen canvas
+常用畫面比例,橫幅 3:1,panoramic 3:1 banner canvas
+常用像素尺寸,方形標準,"square 1:1 composition, target output 1024 by 1024 pixels"
+常用像素尺寸,方形高解析,"square 1:1 composition, target output 2048 by 2048 pixels"
+常用像素尺寸,社群直式,"vertical 4:5 composition, target output 1080 by 1350 pixels"
+常用像素尺寸,手機滿版,"vertical 9:16 composition, target output 1080 by 1920 pixels"
+常用像素尺寸,直式角色圖,"vertical 2:3 composition, target output 1024 by 1536 pixels"
+常用像素尺寸,直式高解析,"vertical 3:4 composition, target output 1536 by 2048 pixels"
+常用像素尺寸,橫式 4:3,"horizontal 4:3 composition, target output 1536 by 1152 pixels"
+常用像素尺寸,橫式 3:2,"horizontal 3:2 composition, target output 1536 by 1024 pixels"
+常用像素尺寸,Full HD,"cinematic 16:9 composition, target output 1920 by 1080 pixels"
+常用像素尺寸,2K QHD,"cinematic 16:9 composition, target output 2560 by 1440 pixels"
+常用像素尺寸,4K UHD,"cinematic 16:9 composition, target output 3840 by 2160 pixels"
+常用像素尺寸,社群分享橫圖,"wide 1.91:1 composition, target output 1200 by 628 pixels"
+常用像素尺寸,超寬桌布,"ultrawide composition, target output 3440 by 1440 pixels"
+常用像素尺寸,A4 直式印刷,"A4 portrait layout, target output 2480 by 3508 pixels at 300 ppi"
+常用像素尺寸,A4 橫式印刷,"A4 landscape layout, target output 3508 by 2480 pixels at 300 ppi"
+常用像素尺寸,A3 直式印刷,"A3 portrait layout, target output 3508 by 4961 pixels at 300 ppi"
+平台設定語法,通用比例描述,compose the image for a 16:9 horizontal canvas
+平台設定語法,Midjourney／Niji 橫式,--ar 16:9
+平台設定語法,Midjourney／Niji 直式,--ar 4:5
+平台設定語法,Stable Diffusion 尺寸,set width to 1024 and height to 1536 in the generation interface
+平台設定語法,比例先行構圖,composition designed specifically for the selected aspect ratio

@@ -123,6 +123,18 @@ td:first-child{color:var(--ink);font-weight:500}
 
 footer{padding:42px 0 64px;color:var(--faint);font-size:12.5px}
 footer a{color:var(--muted)}
+
+.dxbar{margin-top:22px}
+#dxq{width:100%;max-width:420px;background:var(--surface);border:1px solid var(--line-2);border-radius:999px;padding:10px 16px;color:var(--ink);font-family:var(--sans);font-size:14px;outline:none}
+#dxq:focus{border-color:var(--img);box-shadow:0 0 0 3px color-mix(in srgb,var(--img) 15%,transparent)}
+.dxchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.dxchip{font-family:var(--mono);font-size:11.5px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.dxchip:hover{border-color:var(--img);color:var(--img)}
+.dxchip.on{background:var(--img);border-color:var(--img);color:#fff}
+#dxtable .dxs{color:var(--ink);font-weight:700}
+#dxtable .dxc{color:var(--muted)}
+#dxtable tr[hidden]{display:none}
+.dxcount{font-size:12px;color:var(--faint);margin-top:10px}
 :focus-visible{outline:2px solid var(--img);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -448,25 +460,58 @@ footer a{color:var(--muted)}
 <!-- ============ 05 ============ -->
 <section id="fix">
   <div class="chap"><span class="tag">05</span></div>
-  <h2>疑難排解：症狀 → 改哪裡</h2>
-  <p class="sub">生出來不對的時候，先對照症狀，不要整串重寫。</p>
+  <h2>失敗診斷表：症狀 → 真正原因 → 怎麼改</h2>
+  <p class="sub">生出來不對的時候，先查症狀，不要整串重寫。共 39 組，可直接搜尋關鍵字。</p>
+
+  <div class="dxbar">
+    <input id="dxq" placeholder="搜尋症狀…例如：手、文字、閃爍、去背">
+    <div class="dxchips"><button class="dxchip on" data-c="">全部</button><button class="dxchip" data-c="構圖">構圖</button><button class="dxchip" data-c="光線">光線</button><button class="dxchip" data-c="人物">人物</button><button class="dxchip" data-c="文字">文字</button><button class="dxchip" data-c="材質">材質</button><button class="dxchip" data-c="風格">風格</button><button class="dxchip" data-c="影片">影片</button><button class="dxchip" data-c="改圖">改圖</button><button class="dxchip" data-c="技術">技術</button></div>
+  </div>
   <div class="tbl-wrap">
-    <table>
-      <thead><tr><th>症狀</th><th>真正的原因</th><th>怎麼改</th></tr></thead>
-      <tbody>
-        <tr><td>風格每次都不一樣</td><td>沒指定媒材</td><td>媒材寫在最前面；Krea 2 改用 moodboard 丟 3–5 張參考圖</td></tr>
-        <tr><td>構圖不是我要的</td><td>沒寫景別與視角</td><td>補「中景、低角度、主體偏左」這類具體指示</td></tr>
-        <tr><td>畫面很平、沒氣氛</td><td>完全沒寫光</td><td>補上光的<strong>方向＋質地＋色溫</strong>三件事</td></tr>
-        <tr><td>手、臉、細節崩壞</td><td>主體太遠或同畫面元素太雜</td><td>拉近景別、減少畫面中的元素數量</td></tr>
-        <tr><td>影片動作很亂</td><td>一次塞太多動作</td><td>只留 1–2 個動作；主體與鏡頭分句寫</td></tr>
-        <tr><td>鏡頭亂飛</td><td>運鏡詞堆在句尾當標籤</td><td>把運鏡寫成「鏡頭緩緩推近◯◯」這種句子</td></tr>
-        <tr><td>同一角色換張就變人</td><td>只靠文字描述長相</td><td>用參考圖／moodboard；另外固定一段「外觀描述句」每次原封不動貼上</td></tr>
-        <tr><td>加了字反而更糟</td><td>前後描述互相矛盾</td><td>檢查是否同時要了衝突的東西（如「柔和晨光」＋「高對比霓虹」）</td></tr>
-        <tr><td>圖裡的字拼錯、重複、變亂碼</td><td>用錯工具了</td><td>有字的視覺改用 <strong>GPT Image 2</strong>；文字用引號照抄、加「不要多餘文字、不要重複文字」、字數壓短</td></tr>
-        <tr><td>改圖後連不該動的也變了</td><td>沒說要保留什麼</td><td>明寫「<strong>保持◯◯不變</strong>」，把「要改／要鎖／要跟著合理變動」分三行寫</td></tr>
-      </tbody>
+    <table id="dxtable">
+      <thead><tr><th style="width:26%">症狀</th><th style="width:30%">真正的原因</th><th>怎麼改</th></tr></thead>
+      <tbody><tr data-c="構圖"><td class="dxs">構圖不是我要的</td><td class="dxc">沒寫景別與視角，模型自己決定</td><td class="dxf">補上具體指示：中景、低角度、主體偏左、大量負空間</td></tr>
+<tr data-c="構圖"><td class="dxs">主體太小、看不清楚</td><td class="dxc">只寫了場景沒交代占比</td><td class="dxf">先定景別，再補「人物約占畫面 40%」這種比例描述</td></tr>
+<tr data-c="構圖"><td class="dxs">畫面邊緣被切掉</td><td class="dxc">比例與構圖沒對齊</td><td class="dxf">指定輸出比例，並加「完整收入畫面、不裁切主體」</td></tr>
+<tr data-c="構圖"><td class="dxs">背景太雜、搶走主體</td><td class="dxc">完全沒描述背景</td><td class="dxf">寫「乾淨背景、淺景深虛化、前景不要雜物」</td></tr>
+<tr data-c="光線"><td class="dxs">畫面很平、沒有氣氛</td><td class="dxc">完全沒寫光</td><td class="dxf">補上光的「方向＋質地＋色溫」三件事，缺一不可</td></tr>
+<tr data-c="光線"><td class="dxs">逆光後臉太暗看不清</td><td class="dxc">只寫了逆光，沒給補光</td><td class="dxf">加「受控的反射補光，保留臉部可辨識度」</td></tr>
+<tr data-c="光線"><td class="dxs">光源方向前後矛盾</td><td class="dxc">同時寫了好幾種主光</td><td class="dxf">只留一個主光，其他改寫成補光或環境光</td></tr>
+<tr data-c="光線"><td class="dxs">光束沒出現（丁達爾）</td><td class="dxc">沒有給介質</td><td class="dxf">補「空氣中有霧氣、塵埃或水氣」，光才有東西可以散射</td></tr>
+<tr data-c="人物"><td class="dxs">手指變形、多指</td><td class="dxc">手在畫面中太小或動作太雜</td><td class="dxf">拉近景別、簡化手部動作；負面加 deformed hands, extra fingers</td></tr>
+<tr data-c="人物"><td class="dxs">臉崩壞、五官糊掉</td><td class="dxc">景別太遠，臉的像素不夠</td><td class="dxf">改用胸上以上景別；或先生全身，再單獨放大修臉</td></tr>
+<tr data-c="人物"><td class="dxs">多跑出不該有的人</td><td class="dxc">沒有限定人數</td><td class="dxf">寫 exactly one adult woman ＋ no additional background figures</td></tr>
+<tr data-c="人物"><td class="dxs">兩人身高比例很怪</td><td class="dxc">沒給共同基準</td><td class="dxf">加「兩人頭身比例一致、雙腳站在同一地平面」</td></tr>
+<tr data-c="人物"><td class="dxs">同角色換一張就變人</td><td class="dxc">只靠文字描述長相</td><td class="dxf">做三視圖當參考圖；並固定一段外觀描述句，每次原樣貼上</td></tr>
+<tr data-c="人物"><td class="dxs">身材描述互相打架</td><td class="dxc">同時貼了沙漏、直筒、梨形</td><td class="dxf">只選一個整體輪廓＋脂肪分布＋一個局部特徵</td></tr>
+<tr data-c="人物"><td class="dxs">肌肉看起來很假</td><td class="dxc">只寫了 muscular</td><td class="dxf">寫肌肉量＋主要分布＋功能；靜態場景補 muscles relaxed at rest</td></tr>
+<tr data-c="人物"><td class="dxs">深膚色被打成白皮膚</td><td class="dxc">環境光壓過膚色設定</td><td class="dxf">膚色拆成深淺＋底調＋光線反應，並寫「保留陰影細節的受控高光」</td></tr>
+<tr data-c="人物"><td class="dxs">兩眼瞳孔大小不一</td><td class="dxc">沒指定一致性</td><td class="dxf">寫「同一光線下兩眼瞳孔大小與反光方向一致」</td></tr>
+<tr data-c="人物"><td class="dxs">臉與身體膚色不同</td><td class="dxc">只描述了臉</td><td class="dxf">寫「臉、頸、胸、手共享同一膚色底調」</td></tr>
+<tr data-c="文字"><td class="dxs">圖裡的字拼錯、重複、亂碼</td><td class="dxc">用錯工具了</td><td class="dxf">有字的視覺改用 GPT Image 2；文字用引號照抄、加「不要重複文字」、字數壓短</td></tr>
+<tr data-c="文字"><td class="dxs">出現多餘的英文字</td><td class="dxc">沒加限制</td><td class="dxf">加「不要多餘文字、不要浮水印」，但限制最多 2–4 條</td></tr>
+<tr data-c="文字"><td class="dxs">長句文字糊掉</td><td class="dxc">一次要求太多字</td><td class="dxf">圖上只放標題式短句，長內容在設計軟體後製</td></tr>
+<tr data-c="材質"><td class="dxs">所有材質看起來都一樣</td><td class="dxc">都用了同樣亮度與銳利反射</td><td class="dxf">用粗糙度、透射、折射、纖維與磨耗分布去區分</td></tr>
+<tr data-c="材質"><td class="dxs">金屬看起來像塑膠</td><td class="dxc">只有白色亮斑、沒有環境反射</td><td class="dxf">寫明「反射回應周圍環境與光源」，槍色是帶冷石墨灰反射的深色金屬</td></tr>
+<tr data-c="材質"><td class="dxs">虹彩變成整片彩虹</td><td class="dxc">沒指定基材</td><td class="dxf">先寫基材再寫光學效果，一次只選一種主要光學機制</td></tr>
+<tr data-c="風格"><td class="dxs">風格每次都不一樣</td><td class="dxc">沒指定媒材</td><td class="dxf">媒材寫在最前面；Krea 2 改用 moodboard 丟 3–5 張參考圖</td></tr>
+<tr data-c="風格"><td class="dxs">加了風格詞卻沒效果</td><td class="dxc">詞太籠統</td><td class="dxf">把「電影感」換成具體參照：1990 年代港片、1970s Kodachrome</td></tr>
+<tr data-c="風格"><td class="dxs">風格蓋過了內容</td><td class="dxc">風格詞堆太多</td><td class="dxf">每個目的只留 1–2 個最準的詞，同義詞堆疊不會更精準</td></tr>
+<tr data-c="影片"><td class="dxs">動作很亂、糊成一團</td><td class="dxc">一次塞太多動作</td><td class="dxf">只留 1–2 個主要動作；主體動作與運鏡分成不同句子</td></tr>
+<tr data-c="影片"><td class="dxs">鏡頭亂飛</td><td class="dxc">運鏡詞全堆在句尾當標籤</td><td class="dxf">改寫成「鏡頭緩緩推近她手中的手錶」這種句子</td></tr>
+<tr data-c="影片"><td class="dxs">人物中途變形</td><td class="dxc">動作幅度太大或時長太長</td><td class="dxf">縮短時長、減小動作幅度，複雜動作拆成兩顆鏡頭</td></tr>
+<tr data-c="影片"><td class="dxs">畫面閃爍、細節跳動</td><td class="dxc">細節太多，模型撐不住</td><td class="dxf">簡化背景、降低紋理密度，背景交給淺景深</td></tr>
+<tr data-c="影片"><td class="dxs">想推近卻變成變焦</td><td class="dxc">Zoom 與 Push 混用</td><td class="dxf">Zoom＝原地改變焦距；Push＝攝影機實際前進。擇一寫清楚</td></tr>
+<tr data-c="影片"><td class="dxs">多顆鏡頭接不起來</td><td class="dxc">一個提示詞裡塞了好幾顆鏡頭</td><td class="dxf">一鏡一個提示詞分開生成，共用設定每顆重複貼</td></tr>
+<tr data-c="影片"><td class="dxs">接戲跳掉、視線不連貫</td><td class="dxc">沒管視線與光源方向</td><td class="dxf">相鄰鏡頭維持視線方向與光源方向一致，景別要有差異</td></tr>
+<tr data-c="改圖"><td class="dxs">改圖後連不該動的也變了</td><td class="dxc">沒說要保留什麼</td><td class="dxf">明寫「保持◯◯不變」，分三行：要改 / 要鎖 / 要跟著合理變動</td></tr>
+<tr data-c="改圖"><td class="dxs">換了天空但光影不合</td><td class="dxc">只改了天空沒管連動</td><td class="dxf">補「光影與反射一併合理調整以符合新環境」</td></tr>
+<tr data-c="技術"><td class="dxs">設成 4K 反而更差</td><td class="dxc">超過 2K 屬於實驗性</td><td class="dxf">先用較低解析度生成，再用專門的放大工具升頻</td></tr>
+<tr data-c="技術"><td class="dxs">去背出現灰白格紋</td><td class="dxc">模型把透明預覽格畫進像素裡</td><td class="dxf">負面加 fake transparency grid, checkerboard pattern，並改用平台的去背輸出功能</td></tr>
+<tr data-c="技術"><td class="dxs">加了字反而更糟</td><td class="dxc">前後描述互相矛盾</td><td class="dxf">檢查是否同時要了衝突的東西，例如柔和晨光＋高對比霓虹</td></tr></tbody>
     </table>
   </div>
+  <p id="dxcount" class="dxcount"></p>
 
   <div class="note i"><span class="lbl">最後提醒</span><p>這份手冊給的是<strong>起點</strong>，不是標準答案。真正讓妳跟別人拉開距離的，是用「一次只改一個變數」跑出來、只有妳自己知道的那本字典。開始記錄哪個字造成什麼效果吧。</p></div>
 </section>
@@ -493,4 +538,24 @@ document.querySelectorAll('.copy').forEach(btn=>{
     setTimeout(()=>{btn.textContent='複製';},1900);
   });
 });
+
+const dxRows=[...document.querySelectorAll('#dxtable tbody tr')];
+let dxCat='';
+function dxFilter(){
+  const q=(document.getElementById('dxq').value||'').trim().toLowerCase();
+  let n=0;
+  dxRows.forEach(r=>{
+    const okC=!dxCat||r.dataset.c===dxCat;
+    const okQ=!q||r.textContent.toLowerCase().includes(q);
+    const show=okC&&okQ; r.hidden=!show; if(show)n++;
+  });
+  document.getElementById('dxcount').textContent=`顯示 ${n} / ${dxRows.length} 組`;
+}
+document.getElementById('dxq').addEventListener('input',dxFilter);
+document.querySelectorAll('.dxchip').forEach(b=>b.addEventListener('click',()=>{
+  dxCat=b.dataset.c;
+  document.querySelectorAll('.dxchip').forEach(x=>x.classList.toggle('on',x===b));
+  dxFilter();
+}));
+dxFilter();
 </script>

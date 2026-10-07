@@ -1,0 +1,65 @@
+﻿子分類,中文名稱,English Prompt
+攝影機運動與對焦,拉焦,cinematic rack focus from the foreground to the subject
+攝影機運動與對焦,反向拉焦,rack focus from the subject to a distant background event
+攝影機運動與對焦,推鏡,slow cinematic push-in toward the subject
+攝影機運動與對焦,拉鏡,slow pull-back revealing the surrounding environment
+攝影機運動與對焦,急推鏡,dramatic crash zoom toward the subject
+攝影機運動與對焦,推拉變焦,dolly zoom with opposing camera movement and focal change
+攝影機運動與對焦,甩鏡,whip pan with directional motion streaks
+攝影機運動與對焦,跟拍,dynamic tracking shot moving alongside the subject
+攝影機運動與對焦,手持攝影,subtle handheld camera movement
+攝影機運動與對焦,穩定器跟拍,smooth gimbal tracking shot
+攝影機運動與對焦,環繞鏡頭,camera orbiting around the subject
+攝影機運動與對焦,升降鏡頭,crane shot rising above the scene
+持機與穩定方式,自然手持鏡,natural handheld camera movement with restrained micro-shake
+持機與穩定方式,強烈手持鏡,intense shaky handheld camera movement
+持機與穩定方式,肩扛攝影,shoulder-mounted camera movement with grounded documentary weight
+持機與穩定方式,穩定手持,stabilized handheld camera movement with subtle organic drift
+持機與穩定方式,斯坦尼康運鏡,Steadicam-style stabilized tracking shot
+持機與穩定方式,三軸穩定器運鏡,smooth three-axis gimbal camera movement
+持機與穩定方式,固定機位,locked-off tripod shot with no camera movement
+持機與穩定方式,單腳架移動,monopod-supported camera movement with controlled vertical sway
+持機與穩定方式,身體固定鏡,"body-mounted SnorriCam-style shot, the subject remains centered while the background moves"
+持機與穩定方式,頭盔主觀鏡,helmet-mounted first-person camera movement
+持機與穩定方式,車載固定鏡,vehicle-mounted camera shot with the environment streaming past
+基本軸向運動,水平搖鏡,slow pan across the scene from left to right
+基本軸向運動,垂直搖鏡,slow tilt upward from the subject to the sky
+基本軸向運動,機位垂直升降,pedestal camera movement rising vertically while keeping the viewing angle level
+基本軸向運動,橫向移鏡,lateral truck shot moving from left to right
+基本軸向運動,軌道推進,slow dolly-in toward the subject
+基本軸向運動,軌道後退,slow dolly-out away from the subject
+基本軸向運動,滑軌移動,short smooth camera slider move with gentle parallax
+基本軸向運動,鏡頭滾轉,camera rolling around the optical axis
+基本軸向運動,斜向移動,diagonal camera move forward and sideways through the scene
+跟隨與主體關係,後方跟拍,follow shot tracking behind the moving subject
+跟隨與主體關係,前導跟拍,leading shot moving backward in front of the subject
+跟隨與主體關係,側向跟拍,side-tracking shot moving parallel to the subject
+跟隨與主體關係,越肩跟隨,over-the-shoulder follow shot moving with the subject
+跟隨與主體關係,半圓環繞,180-degree arc shot circling halfway around the subjects
+跟隨與主體關係,全環繞鏡頭,full 360-degree orbit around the subjects
+跟隨與主體關係,視差橫移,lateral parallax move with foreground objects sliding faster than the background
+跟隨與主體關係,遮擋揭示,camera sliding out from behind a foreground object to reveal the subject
+跟隨與主體關係,掠過鏡頭,pass-by camera move as the subject crosses close to the lens
+升降、空拍與機械運鏡,搖臂上升,jib shot rising from foreground level to reveal the full scene
+升降、空拍與機械運鏡,吊臂下降,crane shot descending from a wide overview toward the subjects
+升降、空拍與機械運鏡,吊臂後拉揭示,crane pull-back rising and retreating to reveal the vast environment
+升降、空拍與機械運鏡,空拍建立鏡頭,high-altitude drone establishing shot gliding over the landscape
+升降、空拍與機械運鏡,無人機上升,drone ascending vertically from the subject to a vast aerial view
+升降、空拍與機械運鏡,無人機下降,drone descending smoothly from an aerial view toward the subject
+升降、空拍與機械運鏡,無人機穿越,drone fly-through moving forward between environmental structures
+升降、空拍與機械運鏡,纜索攝影,cable-cam shot gliding smoothly above the action
+升降、空拍與機械運鏡,頂視下降,overhead camera descending straight down toward the subject
+升降、空拍與機械運鏡,貼地升空,camera rising from ground level into a broad elevated reveal
+主觀動態與情緒節奏,步行主觀鏡,first-person walking camera with gentle rhythmic bobbing
+主觀動態與情緒節奏,奔跑主觀鏡,first-person running camera with urgent rhythmic shake
+主觀動態與情緒節奏,呼吸式手持,intimate handheld camera with subtle breathing-like drift
+主觀動態與情緒節奏,觀察式手持,observational documentary handheld camera maintaining a respectful distance
+主觀動態與情緒節奏,緩慢潛近,slow creeping camera movement toward the unaware subject
+主觀動態與情緒節奏,漂浮夢境鏡,slow floating camera movement with weightless dreamlike drift
+主觀動態與情緒節奏,反應式重構圖,reactive handheld reframing that quickly follows sudden action
+複合運鏡片段,手持緩推,slow push-in with subtle natural handheld drift
+複合運鏡片段,側跟視差,smooth side-tracking movement with strong foreground parallax
+複合運鏡片段,環繞雙人舞,smooth 360-degree orbit around two dancers while keeping both bodies fully readable
+複合運鏡片段,低角度穩定器跟拍,low-angle gimbal follow shot moving behind the subject
+複合運鏡片段,升高後拉收尾,"crane up and pull back, ending on an extreme wide shot"
+複合運鏡片段,下降靠近開場,"high-angle descending push-in, ending on a medium shot of the subject"

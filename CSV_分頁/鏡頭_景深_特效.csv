@@ -1,0 +1,57 @@
+﻿子分類,中文名稱,English Prompt
+焦段與透視,超廣角鏡頭,14mm ultra-wide-angle lens
+焦段與透視,廣角鏡頭,24mm wide-angle lens
+焦段與透視,敘事廣角,28mm cinematic wide-angle lens
+焦段與透視,自然廣角,35mm lens
+焦段與透視,標準鏡頭,50mm standard lens
+焦段與透視,人像鏡頭,85mm portrait lens
+焦段與透視,長焦人像,105mm portrait lens
+焦段與透視,遠攝鏡頭,200mm telephoto lens
+焦段與透視,微距鏡頭,macro lens
+焦段與透視,魚眼鏡頭,fisheye lens
+焦段與透視,移軸鏡頭,tilt-shift lens
+焦段與透視,變形寬銀幕,anamorphic lens
+光學與快門效果,分割焦點鏡,split-diopter shot with foreground and background both sharply focused
+光學與快門效果,長曝光光軌,long-exposure light trails around a sharp subject
+光學與快門效果,慢速快門拖影,slow-shutter motion trails with a partially sharp subject
+光學與快門效果,後簾同步感,rear-curtain flash effect with motion trails behind the subject
+光學與快門效果,變焦爆炸,zoom-burst exposure radiating from the subject
+光學與快門效果,鏡頭呼吸,subtle lens-breathing effect during a focus shift
+光學與快門效果,桶狀變形,barrel lens distortion with curved frame edges
+光學與快門效果,枕狀變形,pincushion lens distortion
+光學與快門效果,滾動快門傾斜,subtle rolling-shutter skew during fast motion
+光學與快門效果,鏡頭髒污散射,light scattering through a slightly smudged lens
+光學與快門效果,雨滴附著鏡頭,raindrops clinging to the camera lens
+光學與快門效果,水下半水面鏡頭,split-level over-under water shot
+光學與快門效果,鏡內反射,subtle internal lens reflections
+焦點與攝影質感,淺景深,shallow depth of field
+焦點與攝影質感,極淺景深,razor-thin depth of field
+焦點與攝影質感,深景深,deep depth of field
+焦點與攝影質感,選擇性對焦,selective focus on the eyes
+焦點與攝影質感,前景失焦,soft out-of-focus foreground
+焦點與攝影質感,背景散景,creamy background bokeh
+焦點與攝影質感,手持攝影,subtle handheld camera feel
+焦點與攝影質感,穩定器運鏡感,smooth gimbal-like framing
+焦點與攝影質感,快門凝結,"high-speed shutter, frozen motion"
+焦點與攝影質感,動態模糊,controlled motion blur
+焦點與攝影質感,拖影,long-exposure light trails
+焦點與攝影質感,底片顆粒,subtle organic film grain
+焦點與散景,淺景深,shallow depth of field
+焦點與散景,極淺景深,razor-thin depth of field
+焦點與散景,深景深,deep depth of field
+焦點與散景,背景失焦,softly defocused background
+焦點與散景,前景失焦,soft out-of-focus foreground
+焦點與散景,奶油散景,creamy smooth bokeh
+焦點與散景,圓形散景,soft circular bokeh highlights
+焦點與散景,橢圓散景,oval anamorphic bokeh
+焦點與散景,貓眼散景,cat-eye bokeh near the frame edges
+焦點與散景,焦外旋轉,swirly bokeh
+焦點與散景,柔焦,soft-focus diffusion
+焦點與散景,高斯模糊,subtle Gaussian blur
+焦點與散景,鏡頭模糊,natural optical lens blur
+焦點與散景,方向性動態模糊,directional motion blur
+焦點與散景,徑向模糊,radial blur centered on the subject
+焦點與散景,縮放模糊,zoom-burst blur
+焦點與散景,移軸模糊,tilt-shift selective focus
+焦點與散景,邊緣柔化,subtly softened frame edges
+焦點與散景,夢境模糊,dreamlike diffused blur while preserving facial focus
