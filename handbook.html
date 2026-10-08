@@ -141,12 +141,14 @@ footer a{color:var(--muted)}
 
 <nav class="nav">
   <div class="nav-in">
+    <a id="home" href="index.html" style="font-family:var(--mono);font-size:11.5px;text-decoration:none;color:var(--muted);border:1px solid var(--line-2);padding:5px 11px;border-radius:999px;margin-right:4px">← 目錄</a>
     <a href="#core">00 核心心法</a>
     <a href="#krea" class="i">01 Krea 2 · 圖</a>
     <a href="#gpt" class="i">02 GPT Image 2 · 圖</a>
     <a href="#h3" class="v">03 MiniMax H3 · 影</a>
     <a href="#tag">04 標籤式 · SD</a>
     <a href="#fix">05 疑難排解</a>
+    <a href="#qa">06 出圖驗收</a>
   </div>
 </nav>
 
@@ -515,6 +517,78 @@ footer a{color:var(--muted)}
 
   <div class="note i"><span class="lbl">最後提醒</span><p>這份手冊給的是<strong>起點</strong>，不是標準答案。真正讓妳跟別人拉開距離的，是用「一次只改一個變數」跑出來、只有妳自己知道的那本字典。開始記錄哪個字造成什麼效果吧。</p></div>
 </section>
+<!-- ============ 06 ============ -->
+<section id="qa">
+  <div class="chap"><span class="tag">06</span></div>
+  <h2>電商／廣告出圖驗收清單</h2>
+  <p class="sub">圖看起來漂亮不代表能上架。下面這幾項全部是「看起來沒問題、實際上不能用」的地雷，交件前逐項掃一次。</p>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">① 文字與標誌（最常崩，先看這個）</span><span class="kind">must</span></div>
+    <div class="card-b">
+      <ul>
+        <li><b>Logo</b> — 形狀、比例、顏色、位置有沒有被改掉？字母有沒有少一筆？</li>
+        <li><b>包裝上的字</b> — 品名、口味名、色號、容量、成分表，有沒有被重新「畫」成相似但錯的字？</li>
+        <li><b>認證與法規標示</b> — 檢驗標章、回收標誌、警語，有沒有被糊掉或憑空發明？</li>
+        <li><b>條碼</b> — 有沒有變成假條碼？</li>
+        <li><b>圖上文案</b> — 有沒有多出你沒要的字、重複的字、半個字？</li>
+      </ul>
+      <p class="note">修法：回到「鎖定」欄位把該保留的講死，並把 <code>changed logo, distorted text, duplicate text</code> 放進負面提示詞。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">② 材質有沒有被糊成「通用塑膠感」</span><span class="kind">check</span></div>
+    <div class="card-b">
+      <p>玻璃、金屬、針織、皮革、紙、布——AI 很容易把它們全部渲染成同一種半光塑膠。逐一確認：</p>
+      <ul>
+        <li>玻璃有沒有折射與透光，還是變成不透明白塑膠？</li>
+        <li>金屬有沒有方向性反光，還是變成灰色貼圖？</li>
+        <li>針織／布料看得出纖維與織紋嗎？</li>
+        <li>紙有沒有纖維與邊緣厚度？</li>
+      </ul>
+      <p class="note">修法：在「產品材質」把基材＋表面處理＋反射分開寫，例如「霧面鋁、細磨砂、低反射、邊緣有一道高光」。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">③ 比例對不對</span><span class="kind">check</span></div>
+    <div class="card-b">
+      <p>拿畫面裡的參照物比一比：<b>手、架子、模特、周邊道具</b>。最常見的錯是產品被放大成兩倍，或小得像玩具。</p>
+      <p class="note">修法：「鎖定」欄位加「與手部比例正確」「與周邊物件比例正確」。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">④ AI 有沒有自己發明東西</span><span class="kind">must</span></div>
+    <div class="card-b">
+      <p>這類錯誤特別危險，因為畫面會很合理，但產品是假的——上架等於不實標示。檢查有沒有憑空長出：</p>
+      <ul>
+        <li>按鈕、旋鈕、接孔</li>
+        <li>縫線、拉鍊、標籤布</li>
+        <li>瓶蓋、內蓋、吸管</li>
+        <li>沒有在賣的配件、沒有在賣的顏色或口味</li>
+        <li>多出一件（本來一件變兩件）</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">⑤ 版位裁切後還成立嗎</span><span class="kind">check</span></div>
+    <div class="card-b">
+      <p>同一張圖會被塞進方形、直式、橫幅。把圖縮成 <b>縮圖大小</b>再看一次：主標還讀得到嗎？產品還認得出來嗎？重要資訊有沒有落在會被裁掉的角落？</p>
+      <p class="note">修法：「版面」欄位加安全區詞；或一開始就分版位各生一張，不要一張硬套。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><span class="dot"></span><span class="name">⑥ 一次只改一個變數</span><span class="kind">habit</span></div>
+    <div class="card-b">
+      <p>不滿意的時候最忌整串重寫。同一個概念先跑 <b>5–10 張</b>，然後每次只動一個欄位（只換光、只換背景、只換字體），你才知道是哪句話在起作用。這份提示詞之後就能存成你自己的模板重複用。</p>
+    </div>
+  </div>
+</section>
+
 
 <footer>
   資料來源：Krea 2 與 MiniMax H3 官方／社群提示詞指南（2026）。模型版本更新後語法可能微調，以各工具當下文件為準。
@@ -523,6 +597,8 @@ footer a{color:var(--muted)}
 </div>
 
 <script>
+if(location.hostname.includes('claude.ai')||location.protocol==='blob:'){const hm=document.getElementById('home');if(hm)hm.style.display='none';}
+
 document.querySelectorAll('.copy').forEach(btn=>{
   btn.addEventListener('click', async ()=>{
     const el=document.getElementById(btn.dataset.t);

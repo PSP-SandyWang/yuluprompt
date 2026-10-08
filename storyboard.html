@@ -102,6 +102,7 @@ button,input,textarea,select{font-family:inherit;font-size:inherit}
   <div class="top-in">
     <div class="brand"><span class="mk"></span>
       <div><h1>分鏡台</h1><div class="sub">one prompt per shot</div></div></div>
+    <a id="home" href="index.html" style="font-family:var(--mono);font-size:11.5px;text-decoration:none;color:var(--muted);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px">← 目錄</a>
     <div class="spacer"></div>
     <div class="seg" id="viewTabs" role="group" aria-label="輸出模式">
       <button data-v="shots" aria-pressed="true">逐鏡提示詞</button>
@@ -300,7 +301,10 @@ document.querySelectorAll('#viewTabs button').forEach(b=>b.addEventListener('cli
 document.querySelectorAll('#langTabs button').forEach(b=>b.addEventListener('click',()=>{
   lang=b.dataset.l;document.querySelectorAll('#langTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));renderOut();}));
 document.querySelectorAll('.chips').forEach(box=>box.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
-  const el=$(box.dataset.for);el.value=el.value.trim()?(el.value.trim().replace(/[、,]$/,'')+'、'+c.textContent):c.textContent;renderOut();save();})));
+  const el=$(box.dataset.for),val=c.textContent;
+  if(el.value.includes(val)){el.value=el.value.split(val).join('').replace(/、\s*、/g,'、').replace(/^[、,\s]+/,'').replace(/[、,\s]+$/,'');}
+  else{el.value=el.value.trim()?(el.value.trim().replace(/[、,]$/,'')+'、'+val):val;}
+  renderOut();save();})));
 ['g_char','g_scene','g_light','g_style','g_filter','g_mood'].forEach(i=>$(i).addEventListener('input',()=>{renderOut();save();}));
 $('add').addEventListener('click',()=>{shots.push(newShot());render();});
 $('copyAll').addEventListener('click',e=>cp(allText(),e.target));
@@ -328,6 +332,7 @@ DL.innerHTML=`<datalist id="dl-len">${SHOTLEN.map(x=>`<option value="${x}">`).jo
 <datalist id="dl-trans">${TRANS.map(x=>`<option value="${x[0]}">`).join('')}</datalist>`;
 document.body.appendChild(DL);
 
+if(location.hostname.includes('claude.ai')||location.protocol==='blob:'){const hm=document.getElementById('home');if(hm)hm.style.display='none';}
 load(); if(!shots.length)shots=[newShot()];
 render();
 </script>
