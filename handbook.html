@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>圖影提示詞手冊</title>
 <meta name="description" content="給設計師的 AI 圖片與影片提示詞教學，含 Krea 2、MiniMax H3、標籤式模型的填空模板卡。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -137,7 +143,27 @@ footer a{color:var(--muted)}
 .dxcount{font-size:12px;color:var(--faint);margin-top:10px}
 :focus-visible{outline:2px solid var(--img);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ══ 手機版閱讀優化 ══ */
+@media(max-width:720px){
+  .wrap,.main{padding-left:16px;padding-right:16px}
+  h2{font-size:21px;line-height:1.35}
+  p,li{font-size:15px;line-height:1.85}
+  pre{font-size:12.5px;line-height:1.8;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .card-b{padding:14px}
+  .card-f{flex-wrap:wrap;gap:8px}
+  .copy{min-height:44px;padding:11px 18px;font-size:14px;flex:1 0 100%}
+  .tbl-wrap{-webkit-overflow-scrolling:touch}
+  table{min-width:460px;font-size:13px}
+  .dxbar{position:sticky;top:0;z-index:20;background:var(--paper);padding:10px 0}
+  #dxq{font-size:16px;padding:11px 12px;width:100%}
+  .dxchips{display:flex;gap:7px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  .dxchip{white-space:nowrap;min-height:38px;padding:8px 13px;font-size:13px}
+  nav a{min-height:40px;display:inline-flex;align-items:center}
+}
 </style>
+</head>
+<body>
 
 <nav class="nav">
   <div class="nav-in">
@@ -635,3 +661,6 @@ document.querySelectorAll('.dxchip').forEach(b=>b.addEventListener('click',()=>{
 }));
 dxFilter();
 </script>
+
+</body>
+</html>

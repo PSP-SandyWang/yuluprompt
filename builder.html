@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>提示詞組裝台</title>
 <meta name="description" content="分層詞庫 × 自訂詞彙，填一次欄位自動組裝成 Krea 2、GPT Image 2、MiniMax H3、標籤式模型各自正確的提示詞。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,7 +120,105 @@ button,input,textarea{font-family:inherit;font-size:inherit}
 .guide p{font-size:12.5px;color:var(--muted);line-height:1.65}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ══ 手機版：提示詞＝浮動視窗（bottom sheet），不黏頂 ══ */
+@media(max-width:979px){
+  .top{position:static}
+  .top-in{padding:10px 14px;gap:8px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .top-in::-webkit-scrollbar{display:none}
+  .brand{flex:0 0 auto}.brand .sub{display:none}.brand h1{font-size:14px}
+  .spacer{display:none}
+  .seg,.tabs,#tabs,#langTabs{flex:0 0 auto;flex-wrap:nowrap}
+  #home{flex:0 0 auto}
+  .seg button{padding:8px 13px}
+  .main{display:block;padding:14px 14px 96px}
+
+  /* 浮動視窗 */
+  .out-wrap{position:fixed;left:0;right:0;bottom:0;top:auto;z-index:66;margin:0;
+    display:flex;flex-direction:column;max-height:84vh;
+    transform:translateY(102%);transition:transform .24s ease;pointer-events:none}
+  .out-wrap.open{transform:translateY(0);pointer-events:auto}
+  .out{display:flex;flex-direction:column;min-height:0;border-radius:18px 18px 0 0;border-bottom:0;
+    box-shadow:0 -12px 34px rgba(0,0,0,.3)}
+  .out::before{content:'';display:block;width:40px;height:4px;border-radius:2px;
+    background:var(--line-2);margin:9px auto 2px;flex:none}
+  .out-h{padding:10px 16px 12px;cursor:pointer;-webkit-user-select:none;user-select:none;flex:none}
+  .out-h .name{font-size:15px}
+  .out-h::after{content:'✕';margin-left:10px;color:var(--faint);font-size:15px;line-height:1}
+  .out-b{flex:1 1 auto;min-height:0;max-height:none;padding:14px 16px;overflow:auto}
+  #result{font-size:14.5px;line-height:1.82}
+  .shotout pre{font-size:13px;line-height:1.75}
+  .shotout .sh .cp{font-size:12px;padding:8px 14px;min-height:36px}
+  #tableout{font-size:12px}
+  .out-f{flex:none;padding:12px 16px calc(14px + env(safe-area-inset-bottom));gap:8px;flex-wrap:wrap}
+  .out-f .btn{flex:1;min-width:0;padding:13px 8px;font-size:14.5px;min-height:46px}
+  .out-f .btn.pri{flex:1 0 100%;order:-1;font-size:15.5px;min-height:50px}
+  .sheetbd{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:65;
+    opacity:0;pointer-events:none;transition:opacity .24s}
+  .sheetbd.on{opacity:1;pointer-events:auto}
+  .guide{margin:14px 0 0}
+
+  /* 欄位標題與說明改成上下排，標題才不會被擠成好幾行 */
+  .f label{display:block}
+  .f label .tip{display:block;margin-top:3px;line-height:1.5;font-size:11.5px}
+  .gnote{line-height:1.6}
+  /* 欄位：手機一律用會自動長高的文字框，長內容不會被切掉 */
+  .f input,.f textarea{font-size:16px;padding:11px 12px;line-height:1.6}
+  .f textarea{min-height:46px;resize:none;overflow:hidden}
+
+  /* 詞彙改成單列往右滑 */
+  .brow{align-items:center}
+  .brow .chips,.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:3px}
+  .brow .chips::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
+  .chips > *{flex:0 0 auto}
+  .chip{font-size:12.5px;padding:8px 11px;line-height:1.35}
+  .chip::after,.w::after{display:none!important}
+  .bankToggle{padding:7px 12px;font-size:11.5px}
+}
+@media(max-width:420px){
+  .out-f .btn{font-size:13.5px;padding:12px 6px}
+  .out-f .btn:not(.pri){flex:1 0 calc(50% - 4px)}  /* 窄螢幕兩顆一列，字不折行 */
+  .chip{font-size:12px;padding:7px 9px}
+}
+
+
+
+/* ── 浮動動作按鈕（參考 web.dev FAB pattern，套本站色票） ── */
+.fabs{position:fixed;inset-block-end:calc(16px + env(safe-area-inset-bottom));
+  inset-inline-end:14px;z-index:60;display:none;flex-direction:column-reverse;gap:10px}
+.fab{inline-size:52px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;
+  position:relative;border:1px solid var(--line-2);background:var(--surface);color:var(--muted);
+  font-family:var(--sans);font-size:17px;font-weight:900;line-height:1;cursor:pointer;
+  box-shadow:0 4px 6px rgba(0,0,0,.10),0 10px 22px rgba(0,0,0,.16);
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.fab.primary{background:var(--accent);border-color:var(--accent);color:#fff;
+  box-shadow:0 4px 6px rgba(0,0,0,.12),0 12px 26px color-mix(in srgb,var(--accent) 34%,transparent)}
+.fab:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.fab:active{transform:translateY(2%)}
+.fabs.off .fab.scrollonly{opacity:0;pointer-events:none}
+.fbadge{position:absolute;inset-block-start:-4px;inset-inline-end:-4px;min-inline-size:21px;
+  block-size:21px;padding:0 6px;border-radius:999px;background:var(--ink);color:var(--paper);
+  font-family:var(--mono);font-size:10px;font-weight:700;display:grid;place-items:center;
+  box-shadow:0 2px 6px rgba(0,0,0,.3)}
+@media (prefers-reduced-motion:no-preference){
+  .fab{transition:transform .14s ease,opacity .2s ease,box-shadow .2s ease}
+  .fabs.off .fab.scrollonly{transform:scale(.8)}
+  .out-wrap{transition:transform .26s cubic-bezier(.32,.72,0,1)}
+  .sheetbd{transition:opacity .26s ease}
+}
+
+.toast{position:fixed;inset-inline-start:50%;transform:translateX(-50%) translateY(14px);
+  inset-block-end:calc(92px + env(safe-area-inset-bottom));z-index:70;
+  background:var(--ink);color:var(--paper);font-size:13.5px;font-weight:700;
+  padding:11px 18px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.3);
+  opacity:0;pointer-events:none;max-inline-size:84vw;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (prefers-reduced-motion:no-preference){.toast{transition:opacity .18s,transform .18s}}
+@media(max-width:979px){.fabs{display:flex}}
 </style>
+</head>
+<body>
 
 <div class="top">
   <div class="top-in">
@@ -345,7 +449,7 @@ function renderForm(){
         const fcls = f.only ? ('f only '+f.only) : 'f';
         return `<div class="${fcls}">
           <label>${esc(f.label)}${f.tip?`<span class="tip">${esc(f.tip)}</span>`:''}</label>
-          <input id="${f.id}" placeholder="${esc(f.ph||'')}">
+          ${MOB()?`<textarea id="${f.id}" rows="1" placeholder="${esc(f.ph||'')}"></textarea>`:`<input id="${f.id}" placeholder="${esc(f.ph||'')}">`}
           ${f.banks?banksHTML(f.id,f.banks):''}
         </div>`;
       }).join('')}
@@ -363,8 +467,9 @@ function chipHTML(w,isMine){
 function banksHTML(fid,banks){
   const total=banks.reduce((n,b)=>n+b.w.length,0);
   const big=total>28;
-  return `<div class="bank${big?' col':''}" data-open="${big?'0':'1'}">
-    ${big?`<button class="bankToggle" type="button">詞庫 · ${total} 詞 ▾</button>`:''}
+  const open=MOB()?false:!big;   // 手機一律收合
+  return `<div class="bank col" data-open="${open?'1':'0'}">
+    ${`<button class="bankToggle" type="button">詞庫 · ${total} 詞 ${open?'▴':'▾'}</button>`}
     <div class="brows">${banks.map(b=>bankRow(fid,b)).join('')}</div>
   </div>`;
 }
@@ -379,6 +484,7 @@ function bankRow(fid,b){
 }
 function bindForm(){
   IDS.forEach(i=>$(i)?.addEventListener('input',render));
+  if(MOB())IDS.forEach(i=>{const e=$(i); if(e&&e.tagName==='TEXTAREA')e.addEventListener('input',()=>grow(e));});
   document.querySelectorAll('.gtoggle').forEach(b=>b.addEventListener('click',()=>{
     const g=b.closest('.group'); g.dataset.open=g.dataset.open==='1'?'0':'1';
   }));
@@ -393,12 +499,12 @@ function bindForm(){
       if(del){
         const key=box.dataset.key, w=del.dataset.del;
         mine[key]=(mine[key]||[]).filter(x=>x!==w);
-        save(); renderForm(); restore(); setTool(tool); return;
+        save(); renderForm(); restore(); growAll(); setTool(tool); return;
       }
       const add=e.target.closest('[data-add]');
       if(add){
         const w=prompt('加一個自己的詞到「'+box.dataset.key.split('::')[1]+'」：');
-        if(w&&w.trim()){const key=box.dataset.key;mine[key]=[...(mine[key]||[]),w.trim()];save();renderForm();indexWords();restore();setTool(tool);}
+        if(w&&w.trim()){const key=box.dataset.key;mine[key]=[...(mine[key]||[]),w.trim()];save();renderForm();indexWords();restore();setTool(tool);growAll();}
         return;
       }
       const chip=e.target.closest('.chip');
@@ -406,13 +512,18 @@ function bindForm(){
       const el=$(box.dataset.for); if(!el)return;
     const val=(lang==='en'&&chip.dataset.en)?chip.dataset.en:chip.dataset.cn;
     const sepc=lang==='en'?', ':'、';
+    var added;
     if(el.value.includes(val)){
       el.value=el.value.split(val).join('').replace(/、\s*、/g,'、').replace(/,\s*,/g,', ')
         .replace(/^[、,\s]+/,'').replace(/[、,\s]+$/,'');
+      added=false;
     }else{
       el.value=el.value.trim()?el.value.trim().replace(/[、,]$/,'')+sepc+val:val;
+      added=true;
     }
-    render(); el.focus();
+    render(); grow(el);
+    toast((added?'已加入「':'已移除「')+val+'」');
+    if(!MOB())el.focus();
     });
   });
 }
@@ -603,12 +714,7 @@ document.querySelectorAll('#langTabs button').forEach(b=>b.addEventListener('cli
   convertFields(lang);
   render();
 }));
-$('copy').addEventListener('click',async e=>{
-  const t=$('result').textContent,b=e.target;
-  try{await navigator.clipboard.writeText(t);b.textContent='已複製 ✓';}
-  catch(err){const r=document.createRange();r.selectNodeContents($('result'));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='請按 ⌘/Ctrl + C';}
-  setTimeout(()=>b.textContent='複製提示詞',1800);
-});
+$('copy').addEventListener('click',e=>copyText($('result').textContent,e.target,'複製提示詞'));
 
 function pickR(a){return a[Math.floor(Math.random()*a.length)];}
 $('rand').addEventListener('click',()=>{
@@ -662,5 +768,109 @@ $('bkLoad').addEventListener('click',e=>{
 });
 
 if(location.hostname.includes('claude.ai')||location.protocol==='blob:'){const hm=document.getElementById('home');if(hm)hm.style.display='none';}
-renderForm(); indexWords(); restore(); setTool('krea');
+renderForm(); indexWords(); restore(); setTool('krea'); growAll();
+
+
+/* 跨裝置複製：clipboard API → 暫存 textarea → 選取提示 */
+async function copyText(t,btn,label){
+  var ok=false;
+  try{ await navigator.clipboard.writeText(t); ok=true; }catch(e){}
+  if(!ok){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=t; ta.setAttribute('readonly','');
+      ta.style.cssText='position:fixed;top:0;left:0;width:1px;height:1px;opacity:0';
+      document.body.appendChild(ta);
+      ta.focus(); ta.select(); ta.setSelectionRange(0,t.length);
+      ok=document.execCommand('copy');
+      document.body.removeChild(ta);
+    }catch(e){}
+  }
+  if(btn){
+    btn.textContent = ok ? '已複製 ✓' : '長按選取後複製';
+    if(!ok){try{var r=document.createRange();r.selectNodeContents(document.getElementById('result'));var s=getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}}
+    setTimeout(function(){btn.textContent=label;},1800);
+  }
+  return ok;
+}
+
+/* 手機：把說明卡移到表單最後，提示詞卡才能單獨吸頂 */
+(function(){
+  var mq=matchMedia('(max-width:979 px)'.replace(' ','')), wrap=document.querySelector('.out-wrap'),
+      main=document.querySelector('.main');
+  if(!wrap||!main)return;
+  var guides=[].slice.call(wrap.querySelectorAll('.guide'));
+  if(!guides.length)return;
+  var home=guides.map(function(g){return {el:g,parent:g.parentNode,next:g.nextSibling};});
+  function apply(){
+    if(mq.matches){ guides.forEach(function(g){ if(g.parentNode!==main) main.appendChild(g); }); }
+    else{ home.forEach(function(r){ if(r.el.parentNode!==r.parent) r.parent.insertBefore(r.el,r.next); }); }
+  }
+  apply();
+  (mq.addEventListener?mq.addEventListener('change',apply):mq.addListener(apply));
+})();
+
+/* ── 手機：浮動按鈕、toast ── */
+function MOB(){return matchMedia('(max-width:979px)').matches;}
+var _toastEl,_toastT;
+function toast(msg){
+  if(!MOB())return;
+  if(!_toastEl){_toastEl=document.createElement('div');_toastEl.className='toast';document.body.appendChild(_toastEl);}
+  _toastEl.textContent=msg;
+  _toastEl.classList.add('on');
+  clearTimeout(_toastT);
+  _toastT=setTimeout(function(){_toastEl.classList.remove('on');},1500);
+  if(window.__fabBadge)window.__fabBadge();
+}
+/* ── 手機：提示詞浮動視窗 + 浮動動作按鈕 ── */
+(function(){
+  var wrap=document.querySelector('.out-wrap'); if(!wrap)return;
+  wrap.id=wrap.id||'outSheet';
+  var bd=document.createElement('div'); bd.className='sheetbd'; document.body.appendChild(bd);
+  var fabs=document.createElement('div');
+  fabs.className='fabs off'; fabs.setAttribute('role','group'); fabs.setAttribute('aria-label','快速操作');
+  fabs.innerHTML=
+    '<button class="fab primary" id="fabOut" type="button" aria-label="打開提示詞"'
+    +' aria-expanded="false" aria-controls="'+wrap.id+'">詞<span class="fbadge" hidden></span></button>'
+    +'<button class="fab scrollonly" id="fabTop" type="button" aria-label="回到頂部">↑</button>';
+  document.body.appendChild(fabs);
+  var btnOut=document.getElementById('fabOut');
+
+  function open(){ wrap.classList.add('open'); bd.classList.add('on');
+    btnOut.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
+  function close(){ wrap.classList.remove('open'); bd.classList.remove('on');
+    btnOut.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+  window.__sheetOpen=open; window.__sheetClose=close;
+
+  btnOut.addEventListener('click',open);
+  document.getElementById('fabTop').addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+  bd.addEventListener('click',close);
+  var hd=wrap.querySelector('.out-h');
+  if(hd)hd.addEventListener('click',function(e){ if(!e.target.closest('button'))close(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape')close(); });
+
+  function onScroll(){ fabs.classList.toggle('off', window.scrollY<240); }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  var badge=fabs.querySelector('.fbadge');
+  function upd(){
+    var r=document.getElementById('result'), n;
+    if(r) n=r.classList.contains('empty')?0:(r.textContent||'').length;
+    else { var b=document.querySelector('.out-b'); n=b?(b.textContent||'').trim().length:0; }
+    badge.textContent=n>999?'999+':n; badge.hidden=!n;
+  }
+  window.__fabBadge=upd;
+  document.addEventListener('input',upd,true); setTimeout(upd,80);
+})();
+
+function grow(t){ if(!t||t.tagName!=='TEXTAREA')return; t.style.height='auto';
+  var border=t.offsetHeight-t.clientHeight;   // border-box 要補回上下框線
+  t.style.height=(t.scrollHeight+border)+'px'; }
+var _growRAF;
+function growAll(){ if(!MOB())return; cancelAnimationFrame(_growRAF);
+  _growRAF=requestAnimationFrame(function(){ document.querySelectorAll('.f textarea').forEach(grow); }); }
+setTimeout(growAll,80);
 </script>
+
+</body>
+</html>
