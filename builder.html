@@ -68,8 +68,9 @@ button,input,textarea{font-family:inherit;font-size:inherit}
 .f{margin-top:16px}
 .f label{display:flex;align-items:baseline;gap:8px;font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px}
 .f label .tip{font-weight:400;font-size:11.5px;color:var(--faint)}
-.f input{width:100%;background:var(--field);border:1px solid var(--line-2);border-radius:8px;padding:9px 12px;color:var(--ink);outline:none}
-.f input:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 15%,transparent)}
+.f input,.f textarea{width:100%;background:var(--field);border:1px solid var(--line-2);border-radius:8px;padding:9px 12px;color:var(--ink);outline:none;
+  font:inherit;font-size:14px;line-height:1.65;resize:none;overflow:hidden;display:block}
+.f input:focus,.f textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 15%,transparent)}
 
 /* nested banks */
 .bank{margin-top:8px}
@@ -449,7 +450,7 @@ function renderForm(){
         const fcls = f.only ? ('f only '+f.only) : 'f';
         return `<div class="${fcls}">
           <label>${esc(f.label)}${f.tip?`<span class="tip">${esc(f.tip)}</span>`:''}</label>
-          ${MOB()?`<textarea id="${f.id}" rows="1" placeholder="${esc(f.ph||'')}"></textarea>`:`<input id="${f.id}" placeholder="${esc(f.ph||'')}">`}
+          <textarea id="${f.id}" rows="1" placeholder="${esc(f.ph||'')}"></textarea>
           ${f.banks?banksHTML(f.id,f.banks):''}
         </div>`;
       }).join('')}
@@ -484,7 +485,7 @@ function bankRow(fid,b){
 }
 function bindForm(){
   IDS.forEach(i=>$(i)?.addEventListener('input',render));
-  if(MOB())IDS.forEach(i=>{const e=$(i); if(e&&e.tagName==='TEXTAREA')e.addEventListener('input',()=>grow(e));});
+  IDS.forEach(i=>{const e=$(i); if(e&&e.tagName==='TEXTAREA')e.addEventListener('input',()=>grow(e));});
   document.querySelectorAll('.gtoggle').forEach(b=>b.addEventListener('click',()=>{
     const g=b.closest('.group'); g.dataset.open=g.dataset.open==='1'?'0':'1';
   }));
@@ -510,7 +511,10 @@ function bindForm(){
       const chip=e.target.closest('.chip');
       if(!chip)return;
       const el=$(box.dataset.for); if(!el)return;
-    const val=(lang==='en'&&chip.dataset.en)?chip.dataset.en:chip.dataset.cn;
+    /* 負面/畫質/Pony/去背 是模型層的 token，沒有中文版，一律塞英文內容 */
+    const EN_ALWAYS=['neg','quality','pony','output'];
+    const val=(lang==='en'||EN_ALWAYS.indexOf(box.dataset.for||'')>-1)&&chip.dataset.en
+      ?chip.dataset.en:chip.dataset.cn;
     const sepc=lang==='en'?', ':'、';
     var added;
     if(el.value.includes(val)){
@@ -717,15 +721,45 @@ document.querySelectorAll('#langTabs button').forEach(b=>b.addEventListener('cli
 $('copy').addEventListener('click',e=>copyText($('result').textContent,e.target,'複製提示詞'));
 
 function pickR(a){return a[Math.floor(Math.random()*a.length)];}
+
+/* 隨機不該骰到的分類：整句組合包、寫法教學句、技術一致性指令、會改寫整個構圖的視角 */
+const RAND_SKIP={
+  count:['一致性'],
+  light:['完整燈光 Prompt '],
+  mood:['視覺轉譯方法與句型'],
+  angle:['第一人稱 POV','第二人稱直視與互動']
+};
+/* 攤平成單一詞陣列：每個詞等機率，不讓小分類被放大 */
+const _flatCache={};
+function flatWords(f){
+  if(_flatCache[f.id])return _flatCache[f.id];
+  const skip=RAND_SKIP[f.id]||[];
+  const out=[];
+  const rows=(typeof f.banks==='string')?(BANK2[f.banks]||[]):(f.banks||[]);
+  rows.forEach(row=>{
+    if(!row||!row.w)return;
+    if(skip.indexOf(row.l)>-1)return;
+    row.w.forEach(w=>{
+      /* 「◯◯包」是一整段句子的組合包，骰到會蓋掉同類其他描述，隨機時跳過（手動還是選得到） */
+      if(/包$/.test(w.cn)&&w.en.split(/\s+/).length>=10)return;
+      out.push(w);
+    });
+  });
+  return (_flatCache[f.id]=out);
+}
+const _lastRand={};
 $('rand').addEventListener('click',()=>{
-  const RF=['medium','count','look','situation','scene','light','mood','tone','shot','angle','comp','lens','material','style','brush','photo','expr','pose'];
+  /* count 不隨機：人數會跟主體打架 */
+  const RF=['medium','look','situation','scene','light','mood','tone','shot','angle','comp','lens','material','style','brush','photo','expr','pose'];
   CFG.forEach(g=>g.fields.forEach(f=>{
     if(!RF.includes(f.id)||!f.banks||!$(f.id))return;
-    const row=pickR(f.banks); if(!row||!row.w||!row.w.length)return;
-    const w=norm(pickR(row.w));
+    const pool=flatWords(f); if(!pool.length)return;
+    let w=norm(pickR(pool));
+    /* 連兩次同一個就再骰一次，避免看起來像固定詞 */
+    if(pool.length>3&&_lastRand[f.id]===w.cn)w=norm(pickR(pool));
+    _lastRand[f.id]=w.cn;
     $(f.id).value=(lang==='en'?w.en:w.cn);
   }));
-  if($('subject')&&!$('subject').value)$('subject').value=lang==='en'?'a person':'一名人物';
   render();
 });
 $('clear').addEventListener('click',()=>{IDS.forEach(i=>{if($(i))$(i).value='';});render();});
@@ -768,6 +802,17 @@ $('bkLoad').addEventListener('click',e=>{
 });
 
 if(location.hostname.includes('claude.ai')||location.protocol==='blob:'){const hm=document.getElementById('home');if(hm)hm.style.display='none';}
+
+/* 擴充詞庫：媒材與場景原本只有十幾個詞，隨機會一直抽到同幾個 */
+const EXTRA_BANKS={"medium":[{"l":"寫實程度","m":"add","w":[{"cn":"超寫實","en":"hyperrealistic"},{"cn":"寫實","en":"photorealistic"},{"cn":"半寫實","en":"semi-realistic, painterly realism"},{"cn":"風格化寫實","en":"stylised realism"},{"cn":"二次元","en":"anime style"},{"cn":"Q版三頭身","en":"chibi, three-head proportions"},{"cn":"扁平化","en":"flat illustration"},{"cn":"寫意","en":"loose expressive rendering"}]},{"l":"攝影","m":"add","w":[{"cn":"35mm 底片攝影","en":"35mm film photography"},{"cn":"數位單眼寫實攝影","en":"DSLR photography"},{"cn":"中片幅攝影","en":"medium format photography"},{"cn":"大畫幅攝影","en":"large format photography"},{"cn":"拍立得","en":"instant film photo"},{"cn":"黑白紀實攝影","en":"black and white documentary photography"},{"cn":"手機隨手拍","en":"casual phone snapshot"},{"cn":"棚拍商業攝影","en":"studio commercial photography"}]},{"l":"3D / 2.5D","m":"add","w":[{"cn":"3D 渲染","en":"3D render"},{"cn":"2.5D 插畫","en":"2.5D illustration with painted depth"},{"cn":"等角 3D","en":"isometric 3D"},{"cn":"次世代遊戲 CG","en":"next-gen game cinematic CG"},{"cn":"圓潤風格化 3D 動畫","en":"rounded stylised 3D animation"},{"cn":"黏土渲染","en":"clay render"},{"cn":"公仔玩具感","en":"collectible figure look"},{"cn":"低多邊形","en":"low poly"},{"cn":"體素","en":"voxel art"},{"cn":"寫實 3D 材質","en":"physically based 3D materials"}]},{"l":"地域動畫 / 漫畫","m":"add","w":[{"cn":"日系賽璐璐","en":"Japanese cel-shaded anime"},{"cn":"日系厚塗","en":"Japanese painterly anime illustration"},{"cn":"日系水彩動畫","en":"Japanese watercolour animation look"},{"cn":"韓系網漫","en":"Korean webtoon style"},{"cn":"韓系乙女 CG","en":"Korean otome game CG"},{"cn":"韓系寫真感插畫","en":"Korean soft photographic illustration"},{"cn":"歐美卡通","en":"Western cartoon style"},{"cn":"美式漫畫","en":"American comic book style"},{"cn":"歐式繪本","en":"European picture book illustration"},{"cn":"法式漫畫","en":"bande dessinée style"},{"cn":"中國動畫","en":"Chinese animation style"},{"cn":"國風插畫","en":"Chinese traditional-modern illustration"}]},{"l":"繪畫","m":"add","w":[{"cn":"水彩插畫","en":"watercolour illustration"},{"cn":"厚塗油畫","en":"thick impasto oil painting"},{"cn":"鉛筆素描","en":"pencil sketch"},{"cn":"炭筆速寫","en":"charcoal sketch"},{"cn":"版畫","en":"printmaking"},{"cn":"水墨","en":"ink wash painting"},{"cn":"膠彩","en":"nihonga mineral pigment"},{"cn":"絹印","en":"screen print"},{"cn":"麥克筆","en":"marker illustration"},{"cn":"色鉛筆","en":"coloured pencil"},{"cn":"蠟筆","en":"crayon drawing"}]},{"l":"數位 / 向量","m":"add","w":[{"cn":"平面向量插畫","en":"flat vector illustration"},{"cn":"像素藝術","en":"pixel art"},{"cn":"等角視圖","en":"isometric view"},{"cn":"漸層網格插畫","en":"gradient mesh illustration"},{"cn":"噪點質感插畫","en":"grainy textured illustration"}]},{"l":"手作 / 實體","m":"add","w":[{"cn":"黏土定格動畫","en":"clay stop-motion"},{"cn":"毛氈","en":"needle-felted wool"},{"cn":"針織","en":"knitted yarn"},{"cn":"剪紙","en":"paper cut-out"},{"cn":"紙雕層疊","en":"layered paper craft"},{"cn":"拼貼","en":"mixed-media collage"},{"cn":"微縮模型","en":"miniature diorama"},{"cn":"刺繡","en":"embroidery"}]}],"scene":[{"l":"室內 · 居家","m":"add","w":[{"cn":"臥室","en":"a bedroom"},{"cn":"客廳","en":"a living room"},{"cn":"廚房","en":"a kitchen"},{"cn":"浴室","en":"a bathroom"},{"cn":"陽台","en":"a balcony"},{"cn":"閣樓","en":"an attic room"},{"cn":"書房","en":"a study"},{"cn":"玄關","en":"an entryway"},{"cn":"衣帽間","en":"a walk-in closet"},{"cn":"和室","en":"a Japanese tatami room"},{"cn":"老公寓","en":"an old apartment"},{"cn":"極簡北歐宅","en":"a minimal Scandinavian home"}]},{"l":"室內 · 店鋪","m":"add","w":[{"cn":"咖啡館","en":"a cafe"},{"cn":"老式咖啡館","en":"an old-fashioned coffee house"},{"cn":"書店","en":"a bookstore"},{"cn":"唱片行","en":"a record shop"},{"cn":"花店","en":"a flower shop"},{"cn":"便利商店","en":"a convenience store"},{"cn":"超市","en":"a supermarket"},{"cn":"餐廳","en":"a restaurant"},{"cn":"居酒屋","en":"an izakaya"},{"cn":"酒吧","en":"a bar"},{"cn":"夜店","en":"a nightclub"},{"cn":"理髮廳","en":"a barbershop"},{"cn":"古著店","en":"a vintage clothing store"},{"cn":"甜點店","en":"a patisserie"}]},{"l":"室內 · 公共","m":"add","w":[{"cn":"圖書館","en":"a library"},{"cn":"美術館","en":"an art museum"},{"cn":"教室","en":"a classroom"},{"cn":"辦公室","en":"an office"},{"cn":"會議室","en":"a meeting room"},{"cn":"健身房","en":"a gym"},{"cn":"醫院走廊","en":"a hospital corridor"},{"cn":"電影院","en":"a cinema"},{"cn":"車站大廳","en":"a station concourse"},{"cn":"機場航廈","en":"an airport terminal"},{"cn":"飯店大廳","en":"a hotel lobby"},{"cn":"地下鐵月台","en":"a subway platform"},{"cn":"溫室","en":"a greenhouse"},{"cn":"實驗室","en":"a laboratory"},{"cn":"錄音室","en":"a recording studio"},{"cn":"藝術家工作室","en":"an artist's studio"},{"cn":"極簡白色攝影棚","en":"a seamless white studio"},{"cn":"劇場後台","en":"a theatre backstage"}]},{"l":"戶外 · 城市","m":"add","w":[{"cn":"雨後街頭","en":"a street after rain"},{"cn":"霓虹巷弄","en":"a neon-lit alley"},{"cn":"天橋","en":"a pedestrian overpass"},{"cn":"屋頂天台","en":"a rooftop"},{"cn":"停車場","en":"a parking lot"},{"cn":"地下停車場","en":"an underground car park"},{"cn":"公園","en":"a park"},{"cn":"廣場","en":"a public square"},{"cn":"橋下","en":"under a bridge"},{"cn":"夜市","en":"a night market"},{"cn":"傳統市場","en":"a traditional market"},{"cn":"廢墟工廠","en":"an abandoned factory"},{"cn":"鐵道旁","en":"beside railway tracks"},{"cn":"海港碼頭","en":"a harbour dock"},{"cn":"加油站","en":"a petrol station"},{"cn":"電話亭旁","en":"beside a phone booth"},{"cn":"老街騎樓","en":"an old arcade street"},{"cn":"十字路口","en":"a busy intersection"},{"cn":"公車站","en":"a bus stop"},{"cn":"高架橋下","en":"beneath an elevated highway"}]},{"l":"戶外 · 自然","m":"add","w":[{"cn":"森林小徑","en":"a forest path"},{"cn":"竹林","en":"a bamboo grove"},{"cn":"草原","en":"open grassland"},{"cn":"沙漠","en":"a desert"},{"cn":"雪原","en":"a snowfield"},{"cn":"高山稜線","en":"a mountain ridge"},{"cn":"溪流","en":"a stream"},{"cn":"瀑布","en":"a waterfall"},{"cn":"湖畔","en":"a lakeside"},{"cn":"海灘","en":"a beach"},{"cn":"海邊懸崖","en":"a sea cliff"},{"cn":"洞穴","en":"a cave"},{"cn":"花田","en":"a flower field"},{"cn":"稻田","en":"rice paddies"},{"cn":"濕地","en":"wetlands"},{"cn":"火山口","en":"a volcanic crater"},{"cn":"楓紅山徑","en":"a trail under autumn maples"},{"cn":"向日葵田","en":"a sunflower field"},{"cn":"礁岩海岸","en":"a rocky coastline"},{"cn":"沙丘","en":"sand dunes"}]},{"l":"特殊 / 幻想","m":"add","w":[{"cn":"太空站內部","en":"a space station interior"},{"cn":"異世界遺跡","en":"otherworldly ruins"},{"cn":"水下","en":"underwater"},{"cn":"雲端之上","en":"above the clouds"},{"cn":"古代神殿","en":"an ancient temple"},{"cn":"墓地","en":"a graveyard"},{"cn":"魔法圖書館","en":"a magical library"},{"cn":"浮空島","en":"a floating island"},{"cn":"賽博城市","en":"a cyberpunk cityscape"},{"cn":"末日廢土","en":"a post-apocalyptic wasteland"},{"cn":"夢境空間","en":"a dreamlike space"},{"cn":"鏡面迷宮","en":"a mirror maze"}]},{"l":"時間","m":"add","w":[{"cn":"清晨","en":"early morning"},{"cn":"上午","en":"late morning"},{"cn":"正午","en":"midday"},{"cn":"午後","en":"afternoon"},{"cn":"黃昏","en":"golden hour dusk"},{"cn":"藍調時刻","en":"blue hour"},{"cn":"入夜","en":"nightfall"},{"cn":"深夜","en":"late night"},{"cn":"黎明前","en":"before dawn"}]},{"l":"天氣","m":"add","w":[{"cn":"晴朗無雲","en":"clear cloudless sky"},{"cn":"多雲","en":"overcast"},{"cn":"陰天","en":"grey cloudy day"},{"cn":"雨天","en":"rainy"},{"cn":"傾盆大雨","en":"heavy downpour"},{"cn":"雨後初晴","en":"clearing after rain"},{"cn":"下雪","en":"snowing"},{"cn":"起霧","en":"foggy"},{"cn":"薄霧","en":"light mist"},{"cn":"強風","en":"strong wind"},{"cn":"雷雨","en":"thunderstorm"},{"cn":"沙塵","en":"dusty air"}]}]};
+CFG.forEach(g=>g.fields.forEach(f=>{
+  const ex=EXTRA_BANKS[f.id]; if(!ex||typeof f.banks==='string'||!Array.isArray(f.banks))return;
+  ex.forEach(row=>{
+    const cur=f.banks.find(r=>r.l===row.l);
+    if(cur){const have=new Set(cur.w.map(w=>w.cn));row.w.forEach(w=>{if(!have.has(w.cn))cur.w.push(w);});}
+    else f.banks.push({l:row.l,m:row.m||'set',w:row.w});
+  });
+}));
 renderForm(); indexWords(); restore(); setTool('krea'); growAll();
 
 
@@ -863,11 +908,13 @@ function toast(msg){
   document.addEventListener('input',upd,true); setTimeout(upd,80);
 })();
 
-function grow(t){ if(!t||t.tagName!=='TEXTAREA')return; t.style.height='auto';
+function grow(t){ if(!t||t.tagName!=='TEXTAREA')return;
+  if(!t.offsetParent&&t.offsetHeight===0)return;   // 還藏著就先不要量，等展開再算
+  t.style.height='auto';
   var border=t.offsetHeight-t.clientHeight;   // border-box 要補回上下框線
   t.style.height=(t.scrollHeight+border)+'px'; }
 var _growRAF;
-function growAll(){ if(!MOB())return; cancelAnimationFrame(_growRAF);
+function growAll(){ cancelAnimationFrame(_growRAF);
   _growRAF=requestAnimationFrame(function(){ document.querySelectorAll('.f textarea').forEach(grow); }); }
 setTimeout(growAll,80);
 </script>

@@ -13,10 +13,15 @@
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:14px}
 h1{margin:0;font-size:clamp(30px,6vw,44px);font-weight:900;color:var(--ink);letter-spacing:-.02em}
 .lede{margin:16px 0 0;font-size:16px;max-width:56ch}
-.cards{margin-top:42px;display:grid;gap:14px}
+.cards{margin-top:18px;display:grid;gap:14px}
+.gh{margin-top:40px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.gh h3{margin:0;font-size:16px;font-weight:900;color:var(--ink)}
+.gh span{font-size:12.5px;color:var(--faint)}
+a.card .lv{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--faint);
+  border:1px solid var(--line);padding:2px 7px;border-radius:4px;margin-left:auto}
 a.card{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--c);border-radius:14px;padding:20px 22px;transition:.15s}
 a.card:hover{border-color:var(--c);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
-a.card h2{margin:0;font-size:19px;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:9px}
+a.card h2{margin:0;font-size:19px;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:9px;flex-wrap:wrap}
 a.card .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--c);border:1px solid var(--c);padding:2px 7px;border-radius:4px}
 a.card p{margin:9px 0 0;font-size:13.5px;color:var(--muted)}
 .c1{--c:var(--img)}.c2{--c:var(--vid)}.c3{--c:var(--neu)}.c4{--c:#8711AA}
@@ -24,10 +29,19 @@ footer{margin-top:52px;font-size:12px;color:var(--faint);border-top:1px solid va
 </style></head><body><div class="wrap">
 <div class="eyebrow">Prompt Workbench</div>
 <h1>AI 提示詞工作台</h1>
-<p class="lede">一整套給設計師的 AI 生圖／生影工具：學原理、組提示詞、做廣告視覺、排分鏡、查診斷。共 4,500＋ 組中英對照詞庫，全部離線可用，不需安裝。</p>
+<p class="lede">一整套給設計師的 AI 生圖／生影工具：學原理、組提示詞、做廣告視覺、排分鏡、查診斷。共 3,856 組中英對照詞庫，三個組裝台共用同一份。全部離線可用，不需安裝。</p>
+<div class="gh"><h3>三個組裝台</h3><span>同一份詞庫，三種填法，挑順手的用</span></div>
 <div class="cards">
-  <a class="card c1" href="builder.html"><h2>提示詞組裝台 <span class="k">tool</span></h2>
-    <p>填一次欄位，自動組裝成 Krea 2、GPT Image 2、MiniMax H3、標籤式 SD、標籤分區版與人物設定表六種語法。49 個欄位、2,900＋ 組中英對照詞庫，含人物外觀、服裝風格、氣質神態與非人類詞彙，可自訂詞彙。</p></a>
+  <a class="card c3" href="wizard.html"><h2>提示詞引導台 <span class="k">tool</span><span class="lv">新手 / 想學</span></h2>
+    <p>一步一題帶你走，每一步都說明為什麼要填。先定骨架再加光線風格，六步走完（影片首幀七步）。第一步選類型，後面整份跟著變：選人物就問「畫面裡有誰」並逐一設定每個角色，選商品就直接問「主角是什麼物件」，選風景則改問背景人群。多人是 1＋1＋1 的分頁設定，避免特徵混在一起。每步有 🎲 隨機，輸出可選自然語言或標籤式 BREAK。</p></a>
+  <a class="card c4" href="nest.html"><h2>提示詞組裝台 · 巢狀版 <span class="k">tool</span><span class="lv">組一張完整的</span></h2>
+    <p>八個章節收合式結構，打開只看到八行，要哪章點哪章。最上面有起手式：8 組用途一鍵填多欄、8 組負面起手包。正面與負面分兩個框各自複製。</p></a>
+  <a class="card c1" href="builder.html"><h2>提示詞組裝台 · 原版 <span class="k">tool</span><span class="lv">已經知道要填什麼</span></h2>
+    <p>49 個欄位全部平鋪，適合快速微調。自動組裝成 Krea 2、GPT Image 2、MiniMax H3、標籤式 SD、標籤分區版與人物設定表六種語法，可自訂詞彙。🎲 隨機是等機率抽樣，不會一直跳出同幾個詞。</p></a>
+</div>
+
+<div class="gh"><h3>專用工具</h3><span>特定用途</span></div>
+<div class="cards">
   <a class="card c4" href="ad.html"><h2>廣告視覺台 <span class="k">tool</span></h2>
     <p>產品視覺與 banner 專用：31 個欄位涵蓋版位檔期、產品呈現與相機規格、實景／平面背景、字體語言、賣點標示、去背輸出，以及電商最關鍵的「鎖定不可更動細節」與負面提示詞。支援 GPT Image 2、Nano Banana 2 與首幀轉影片 I2V。</p></a>
   <a class="card c2" href="storyboard.html"><h2>分鏡台 <span class="k">tool</span></h2>
